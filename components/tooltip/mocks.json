@@ -1,0 +1,148 @@
+{
+  "mocks": [
+    {
+      "name": "On a button",
+      "props": {
+        "text": "Helpful tip"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Hover me"
+          }
+        }
+      }
+    },
+    {
+      "name": "Open by default",
+      "props": {
+        "text": "Helpful tip",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Trigger"
+          }
+        }
+      }
+    },
+    {
+      "name": "Placement bottom",
+      "props": {
+        "text": "Helpful tip",
+        "placement": "bottom",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Trigger"
+          }
+        }
+      }
+    },
+    {
+      "name": "Placement left",
+      "props": {
+        "text": "Helpful tip",
+        "placement": "left",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Trigger"
+          }
+        }
+      }
+    },
+    {
+      "name": "Placement right",
+      "props": {
+        "text": "Helpful tip",
+        "placement": "right",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Trigger"
+          }
+        }
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "text": "Helpful tip",
+        "color": "primary",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Trigger"
+          }
+        }
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "text": "Helpful tip",
+        "color": "error",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Trigger"
+          }
+        }
+      }
+    }
+  ]
+}

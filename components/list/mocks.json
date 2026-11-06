@@ -1,0 +1,118 @@
+{
+  "mocks": [
+    {
+      "name": "Three rows",
+      "slots": {
+        "rows": [
+          "list-row-1",
+          "list-row-2",
+          "list-row-3"
+        ]
+      },
+      "elements": {
+        "list-row-1": {
+          "type": "list-row",
+          "props": {
+            "title": "Song 1",
+            "description": "An artist name",
+            "image": {
+              "src": "https://picsum.photos/seed/cover-1/100/100",
+              "alt": "Cover 1",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "slots": {
+            "actions": [
+              "button-1"
+            ]
+          }
+        },
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Play",
+            "size": "sm",
+            "variant": "ghost"
+          }
+        },
+        "list-row-2": {
+          "type": "list-row",
+          "props": {
+            "title": "Song 2",
+            "description": "An artist name",
+            "image": {
+              "src": "https://picsum.photos/seed/cover-2/100/100",
+              "alt": "Cover 2",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "slots": {
+            "actions": [
+              "button-2"
+            ]
+          }
+        },
+        "button-2": {
+          "type": "button",
+          "props": {
+            "text": "Play",
+            "size": "sm",
+            "variant": "ghost"
+          }
+        },
+        "list-row-3": {
+          "type": "list-row",
+          "props": {
+            "title": "Song 3",
+            "description": "An artist name",
+            "image": {
+              "src": "https://picsum.photos/seed/cover-3/100/100",
+              "alt": "Cover 3",
+              "width": 100,
+              "height": 100
+            }
+          },
+          "slots": {
+            "actions": [
+              "button-3"
+            ]
+          }
+        },
+        "button-3": {
+          "type": "button",
+          "props": {
+            "text": "Play",
+            "size": "sm",
+            "variant": "ghost"
+          }
+        }
+      }
+    },
+    {
+      "name": "Text only",
+      "slots": {
+        "rows": [
+          "list-row-1",
+          "list-row-2"
+        ]
+      },
+      "elements": {
+        "list-row-1": {
+          "type": "list-row",
+          "props": {
+            "title": "First"
+          }
+        },
+        "list-row-2": {
+          "type": "list-row",
+          "props": {
+            "title": "Second",
+            "description": "With a description"
+          }
+        }
+      }
+    }
+  ]
+}

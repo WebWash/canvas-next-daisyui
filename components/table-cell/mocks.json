@@ -1,0 +1,47 @@
+{
+  "mocks": [
+    {
+      "name": "Header cell",
+      "props": {
+        "text": "<p>Header</p>",
+        "isHeader": true
+      }
+    },
+    {
+      "name": "Inside a table",
+      "root": "table-1",
+      "elements": {
+        "table-1": {
+          "type": "table",
+          "slots": {
+            "rows": [
+              "table-row-1"
+            ]
+          }
+        },
+        "table-row-1": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Header",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "<p>Rich <strong>text</strong> cell</p>"
+          }
+        }
+      }
+    }
+  ]
+}

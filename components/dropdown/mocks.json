@@ -1,0 +1,422 @@
+{
+  "mocks": [
+    {
+      "name": "Open by default",
+      "props": {
+        "buttonText": "Account",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "menu-1"
+        ]
+      },
+      "elements": {
+        "menu-1": {
+          "type": "menu",
+          "slots": {
+            "items": [
+              "menu-1-item-1",
+              "menu-1-item-2",
+              "menu-1-item-3"
+            ]
+          }
+        },
+        "menu-1-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Profile",
+            "link": "/profile",
+            "icon": "user"
+          }
+        },
+        "menu-1-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Settings",
+            "link": "/settings",
+            "icon": "settings"
+          }
+        },
+        "menu-1-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Sign out",
+            "link": "/sign-out",
+            "icon": "arrow_right"
+          }
+        }
+      }
+    },
+    {
+      "name": "Primary",
+      "props": {
+        "buttonText": "Account",
+        "color": "primary",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "menu-1"
+        ]
+      },
+      "elements": {
+        "menu-1": {
+          "type": "menu",
+          "slots": {
+            "items": [
+              "menu-1-item-1",
+              "menu-1-item-2",
+              "menu-1-item-3"
+            ]
+          }
+        },
+        "menu-1-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Profile",
+            "link": "/profile",
+            "icon": "user"
+          }
+        },
+        "menu-1-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Settings",
+            "link": "/settings",
+            "icon": "settings"
+          }
+        },
+        "menu-1-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Sign out",
+            "link": "/sign-out",
+            "icon": "arrow_right"
+          }
+        }
+      }
+    },
+    {
+      "name": "Placement top",
+      "root": "section-1",
+      "elements": {
+        "menu-1": {
+          "type": "menu",
+          "slots": {
+            "items": [
+              "menu-1-item-1",
+              "menu-1-item-2",
+              "menu-1-item-3"
+            ]
+          }
+        },
+        "menu-1-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Profile",
+            "link": "/profile",
+            "icon": "user"
+          }
+        },
+        "menu-1-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Settings",
+            "link": "/settings",
+            "icon": "settings"
+          }
+        },
+        "menu-1-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Sign out",
+            "link": "/sign-out",
+            "icon": "arrow_right"
+          }
+        },
+        "spacer-1": {
+          "type": "spacer",
+          "props": {
+            "height": "extra_large"
+          }
+        },
+        "spacer-2": {
+          "type": "spacer",
+          "props": {
+            "height": "large"
+          }
+        },
+        "dropdown-1": {
+          "type": "dropdown",
+          "props": {
+            "buttonText": "Account",
+            "placement": "top",
+            "openByDefault": true
+          },
+          "slots": {
+            "content": [
+              "menu-1"
+            ]
+          }
+        },
+        "section-1": {
+          "type": "section",
+          "slots": {
+            "content": [
+              "spacer-1",
+              "spacer-2",
+              "dropdown-1"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Placement left",
+      "root": "navbar-1",
+      "elements": {
+        "menu-1": {
+          "type": "menu",
+          "slots": {
+            "items": [
+              "menu-1-item-1",
+              "menu-1-item-2",
+              "menu-1-item-3"
+            ]
+          }
+        },
+        "menu-1-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Profile",
+            "link": "/profile",
+            "icon": "user"
+          }
+        },
+        "menu-1-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Settings",
+            "link": "/settings",
+            "icon": "settings"
+          }
+        },
+        "menu-1-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Sign out",
+            "link": "/sign-out",
+            "icon": "arrow_right"
+          }
+        },
+        "brand-1": {
+          "type": "button",
+          "props": {
+            "text": "Company",
+            "variant": "ghost",
+            "link": "/"
+          }
+        },
+        "dropdown-1": {
+          "type": "dropdown",
+          "props": {
+            "buttonText": "Account",
+            "openByDefault": true,
+            "placement": "left"
+          },
+          "slots": {
+            "content": [
+              "menu-1"
+            ]
+          }
+        },
+        "navbar-1": {
+          "type": "navbar",
+          "props": {
+            "links": []
+          },
+          "slots": {
+            "start": [
+              "brand-1"
+            ],
+            "end": [
+              "dropdown-1"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Placement right",
+      "props": {
+        "buttonText": "Account",
+        "placement": "right",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "menu-1"
+        ]
+      },
+      "elements": {
+        "menu-1": {
+          "type": "menu",
+          "slots": {
+            "items": [
+              "menu-1-item-1",
+              "menu-1-item-2",
+              "menu-1-item-3"
+            ]
+          }
+        },
+        "menu-1-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Profile",
+            "link": "/profile",
+            "icon": "user"
+          }
+        },
+        "menu-1-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Settings",
+            "link": "/settings",
+            "icon": "settings"
+          }
+        },
+        "menu-1-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Sign out",
+            "link": "/sign-out",
+            "icon": "arrow_right"
+          }
+        }
+      }
+    },
+    {
+      "name": "Align end",
+      "root": "navbar-1",
+      "elements": {
+        "menu-1": {
+          "type": "menu",
+          "slots": {
+            "items": [
+              "menu-1-item-1",
+              "menu-1-item-2",
+              "menu-1-item-3"
+            ]
+          }
+        },
+        "menu-1-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Profile",
+            "link": "/profile",
+            "icon": "user"
+          }
+        },
+        "menu-1-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Settings",
+            "link": "/settings",
+            "icon": "settings"
+          }
+        },
+        "menu-1-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Sign out",
+            "link": "/sign-out",
+            "icon": "arrow_right"
+          }
+        },
+        "brand-1": {
+          "type": "button",
+          "props": {
+            "text": "Company",
+            "variant": "ghost",
+            "link": "/"
+          }
+        },
+        "dropdown-1": {
+          "type": "dropdown",
+          "props": {
+            "buttonText": "Account",
+            "openByDefault": true,
+            "alignment": "end"
+          },
+          "slots": {
+            "content": [
+              "menu-1"
+            ]
+          }
+        },
+        "navbar-1": {
+          "type": "navbar",
+          "props": {
+            "links": []
+          },
+          "slots": {
+            "start": [
+              "brand-1"
+            ],
+            "end": [
+              "dropdown-1"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Closed",
+      "props": {
+        "buttonText": "Account"
+      },
+      "slots": {
+        "content": [
+          "menu-1"
+        ]
+      },
+      "elements": {
+        "menu-1": {
+          "type": "menu",
+          "slots": {
+            "items": [
+              "menu-1-item-1",
+              "menu-1-item-2",
+              "menu-1-item-3"
+            ]
+          }
+        },
+        "menu-1-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Profile",
+            "link": "/profile",
+            "icon": "user"
+          }
+        },
+        "menu-1-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Settings",
+            "link": "/settings",
+            "icon": "settings"
+          }
+        },
+        "menu-1-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Sign out",
+            "link": "/sign-out",
+            "icon": "arrow_right"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+name: Hover Gallery Item (child of Hover Gallery)
+machineName: hover-gallery-item
+status: true
+required:
+  - image
+props:
+  properties:
+    image:
+      title: Image
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      examples:
+        - src: https://picsum.photos/seed/gallery-placeholder/400/400
+          alt: Gallery placeholder
+          width: 400
+          height: 400
+slots: {}

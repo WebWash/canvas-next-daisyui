@@ -1,0 +1,32 @@
+{
+  "mocks": [
+    {
+      "name": "Rotate",
+      "props": {
+        "variant": "rotate",
+        "onIcon": "sun",
+        "offIcon": "moon",
+        "label": "Toggle"
+      }
+    },
+    {
+      "name": "Flip",
+      "props": {
+        "variant": "flip",
+        "onIcon": "heart",
+        "offIcon": "star",
+        "label": "Toggle"
+      }
+    },
+    {
+      "name": "Text",
+      "props": {
+        "onText": "ON",
+        "offText": "OFF",
+        "onIcon": "none",
+        "offIcon": "none",
+        "label": "Toggle"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "mocks": [
+    {
+      "name": "Preselected",
+      "props": {
+        "label": "T-shirt size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "value": "Medium"
+      }
+    },
+    {
+      "name": "Description",
+      "props": {
+        "label": "T-shirt size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "description": "A short description of this field that is long enough to show that it wraps onto another line."
+      }
+    },
+    {
+      "name": "Hidden label",
+      "props": {
+        "label": "T-shirt size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "hideLabel": true
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "T-shirt size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "disabled": true
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "label": "T-shirt size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "label": "T-shirt size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "color": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "label": "T-shirt size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "label": "T-shirt size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "size": "lg"
+      }
+    }
+  ]
+}

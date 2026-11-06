@@ -1,0 +1,1037 @@
+{
+  "title": "Style guide: Tabs",
+  "path": "/style-guide/tabs",
+  "description": "Each variant, size and placement, with one panel open by default in each.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "section-2",
+          "section-3",
+          "section-4",
+          "section-5",
+          "heading-3",
+          "section-6",
+          "section-7",
+          "section-8",
+          "section-9",
+          "section-10",
+          "heading-4",
+          "section-11",
+          "section-12"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Tabs",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each variant, size and placement, with one panel open by default in each.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variants",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-2",
+          "tabs-1"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Default</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-1": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "default",
+        "label": "default tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      }
+    },
+    "tab-panel-1": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-3"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-2": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-4"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-3": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-5"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-6",
+          "tabs-2"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Box</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-2": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "box",
+        "label": "box tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-4",
+          "tab-panel-5",
+          "tab-panel-6"
+        ]
+      }
+    },
+    "tab-panel-4": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-7"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-5": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-8"
+        ]
+      }
+    },
+    "text-8": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-6": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-9"
+        ]
+      }
+    },
+    "text-9": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-10",
+          "tabs-3"
+        ]
+      }
+    },
+    "text-10": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Border</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-3": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "border",
+        "label": "border tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-7",
+          "tab-panel-8",
+          "tab-panel-9"
+        ]
+      }
+    },
+    "tab-panel-7": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-11"
+        ]
+      }
+    },
+    "text-11": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-8": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-12"
+        ]
+      }
+    },
+    "text-12": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-9": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-13"
+        ]
+      }
+    },
+    "text-13": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-14",
+          "tabs-4"
+        ]
+      }
+    },
+    "text-14": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Lift</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-4": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "lift",
+        "label": "lift tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-10",
+          "tab-panel-11",
+          "tab-panel-12"
+        ]
+      }
+    },
+    "tab-panel-10": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-15"
+        ]
+      }
+    },
+    "text-15": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-11": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-16"
+        ]
+      }
+    },
+    "text-16": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-12": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-17"
+        ]
+      }
+    },
+    "text-17": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-18",
+          "tabs-5"
+        ]
+      }
+    },
+    "text-18": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xs</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-5": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "lift",
+        "size": "xs",
+        "label": "Size xs tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-13",
+          "tab-panel-14",
+          "tab-panel-15"
+        ]
+      }
+    },
+    "tab-panel-13": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-19"
+        ]
+      }
+    },
+    "text-19": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-14": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-20"
+        ]
+      }
+    },
+    "text-20": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-15": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-21"
+        ]
+      }
+    },
+    "text-21": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-22",
+          "tabs-6"
+        ]
+      }
+    },
+    "text-22": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size sm</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-6": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "lift",
+        "size": "sm",
+        "label": "Size sm tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-16",
+          "tab-panel-17",
+          "tab-panel-18"
+        ]
+      }
+    },
+    "tab-panel-16": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-23"
+        ]
+      }
+    },
+    "text-23": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-17": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-24"
+        ]
+      }
+    },
+    "text-24": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-18": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-25"
+        ]
+      }
+    },
+    "text-25": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-26",
+          "tabs-7"
+        ]
+      }
+    },
+    "text-26": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size md</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-7": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "lift",
+        "size": "md",
+        "label": "Size md tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-19",
+          "tab-panel-20",
+          "tab-panel-21"
+        ]
+      }
+    },
+    "tab-panel-19": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-27"
+        ]
+      }
+    },
+    "text-27": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-20": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-28"
+        ]
+      }
+    },
+    "text-28": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-21": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-29"
+        ]
+      }
+    },
+    "text-29": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "section-9": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-30",
+          "tabs-8"
+        ]
+      }
+    },
+    "text-30": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size lg</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-8": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "lift",
+        "size": "lg",
+        "label": "Size lg tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-22",
+          "tab-panel-23",
+          "tab-panel-24"
+        ]
+      }
+    },
+    "tab-panel-22": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-31"
+        ]
+      }
+    },
+    "text-31": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-23": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-32"
+        ]
+      }
+    },
+    "text-32": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-24": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-33"
+        ]
+      }
+    },
+    "text-33": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "section-10": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-34",
+          "tabs-9"
+        ]
+      }
+    },
+    "text-34": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xl</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-9": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "lift",
+        "size": "xl",
+        "label": "Size xl tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-25",
+          "tab-panel-26",
+          "tab-panel-27"
+        ]
+      }
+    },
+    "tab-panel-25": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-35"
+        ]
+      }
+    },
+    "text-35": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-26": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-36"
+        ]
+      }
+    },
+    "text-36": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-27": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-37"
+        ]
+      }
+    },
+    "text-37": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Placements",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-11": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-38",
+          "tabs-10"
+        ]
+      }
+    },
+    "text-38": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Top</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-10": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "lift",
+        "placement": "top",
+        "label": "top tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-28",
+          "tab-panel-29",
+          "tab-panel-30"
+        ]
+      }
+    },
+    "tab-panel-28": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-39"
+        ]
+      }
+    },
+    "text-39": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-29": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-40"
+        ]
+      }
+    },
+    "text-40": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-30": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-41"
+        ]
+      }
+    },
+    "text-41": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "section-12": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-42",
+          "tabs-11"
+        ]
+      }
+    },
+    "text-42": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Bottom</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tabs-11": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "lift",
+        "placement": "bottom",
+        "label": "bottom tabs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-31",
+          "tab-panel-32",
+          "tab-panel-33"
+        ]
+      }
+    },
+    "tab-panel-31": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-43"
+        ]
+      }
+    },
+    "text-43": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-32": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-44"
+        ]
+      }
+    },
+    "text-44": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-33": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-45"
+        ]
+      }
+    },
+    "text-45": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    }
+  }
+}

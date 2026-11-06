@@ -1,0 +1,384 @@
+{
+  "title": "Components: Layout",
+  "path": "/components/layout",
+  "description": "Components that arrange other components.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "section-2",
+          "section-3",
+          "section-4",
+          "section-5",
+          "grid-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Layout",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Components that arrange other components.</p>"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-2",
+          "aura-1"
+        ]
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Aura",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "aura-1": {
+      "type": "js.aura",
+      "props": {
+        "variant": "rainbow"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "The one important button",
+        "color": "primary"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-3",
+          "text-2",
+          "divider-1",
+          "text-3"
+        ]
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Divider",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Above</p>"
+      }
+    },
+    "divider-1": {
+      "type": "js.divider",
+      "props": {
+        "text": "OR"
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Below</p>"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-4",
+          "drawer-1"
+        ]
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Drawer",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "drawer-1": {
+      "type": "js.drawer",
+      "props": {
+        "buttonText": "Open drawer"
+      },
+      "slots": {
+        "content": [
+          "text-4"
+        ],
+        "sidebar": [
+          "text-5"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Main content beside the drawer.</p>"
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Sidebar</strong></p>"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-5",
+          "hero-1"
+        ]
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Hero",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "hero-1": {
+      "type": "js.hero",
+      "props": {
+        "heading": "Hero heading",
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "headingElement": "h2"
+      },
+      "slots": {
+        "actions": [
+          "button-2"
+        ]
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "Get started",
+        "color": "primary"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-6",
+          "section-7",
+          "section-8"
+        ]
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-6",
+          "indicator-1"
+        ]
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Indicator",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "indicator-1": {
+      "type": "js.indicator",
+      "props": {
+        "text": "12",
+        "color": "primary"
+      },
+      "slots": {
+        "content": [
+          "button-3"
+        ]
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "Inbox"
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-7",
+          "join-1"
+        ]
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Join",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "join-1": {
+      "type": "js.join",
+      "slots": {
+        "items": [
+          "button-4",
+          "button-5",
+          "button-6"
+        ]
+      }
+    },
+    "button-4": {
+      "type": "js.button",
+      "props": {
+        "text": "One"
+      }
+    },
+    "button-5": {
+      "type": "js.button",
+      "props": {
+        "text": "Two"
+      }
+    },
+    "button-6": {
+      "type": "js.button",
+      "props": {
+        "text": "Three"
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-8",
+          "stack-1"
+        ]
+      }
+    },
+    "heading-8": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Stack",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "stack-1": {
+      "type": "js.stack",
+      "slots": {
+        "items": [
+          "image-1",
+          "image-2",
+          "image-3"
+        ]
+      }
+    },
+    "image-1": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/stacked-1/400/300",
+          "alt": "Stacked 1",
+          "width": 400,
+          "height": 300
+        },
+        "shape": "rounded"
+      }
+    },
+    "image-2": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/stacked-2/400/300",
+          "alt": "Stacked 2",
+          "width": 400,
+          "height": 300
+        },
+        "shape": "rounded"
+      }
+    },
+    "image-3": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/stacked-3/400/300",
+          "alt": "Stacked 3",
+          "width": 400,
+          "height": 300
+        },
+        "shape": "rounded"
+      }
+    }
+  }
+}

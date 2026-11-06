@@ -1,0 +1,110 @@
+{
+  "mocks": [
+    {
+      "name": "Colour info",
+      "props": {
+        "text": "Your changes were saved.",
+        "color": "info",
+        "icon": "info"
+      }
+    },
+    {
+      "name": "Colour success",
+      "props": {
+        "text": "Your changes were saved.",
+        "color": "success",
+        "icon": "success"
+      }
+    },
+    {
+      "name": "Colour warning",
+      "props": {
+        "text": "Your changes were saved.",
+        "color": "warning",
+        "icon": "warning"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "text": "Your changes were saved.",
+        "color": "error",
+        "icon": "error"
+      }
+    },
+    {
+      "name": "Variant outline",
+      "props": {
+        "variant": "outline",
+        "text": "Your changes were saved.",
+        "color": "info",
+        "icon": "info"
+      }
+    },
+    {
+      "name": "Variant dash",
+      "props": {
+        "variant": "dash",
+        "text": "Your changes were saved.",
+        "color": "info",
+        "icon": "info"
+      }
+    },
+    {
+      "name": "Variant soft",
+      "props": {
+        "variant": "soft",
+        "text": "Your changes were saved.",
+        "color": "info",
+        "icon": "info"
+      }
+    },
+    {
+      "name": "With heading",
+      "props": {
+        "heading": "New update",
+        "text": "A new version is available.",
+        "icon": "info"
+      }
+    },
+    {
+      "name": "With actions",
+      "props": {
+        "text": "Your changes were saved.",
+        "icon": "info",
+        "direction": "responsive"
+      },
+      "slots": {
+        "actions": [
+          "button-1",
+          "button-2"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Undo",
+            "size": "sm"
+          }
+        },
+        "button-2": {
+          "type": "button",
+          "props": {
+            "text": "Close",
+            "size": "sm",
+            "variant": "ghost"
+          }
+        }
+      }
+    },
+    {
+      "name": "Vertical",
+      "props": {
+        "text": "Your changes were saved.",
+        "icon": "info",
+        "direction": "vertical"
+      }
+    }
+  ]
+}

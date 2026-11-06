@@ -1,0 +1,42 @@
+name: Menu
+machineName: menu
+status: true
+required: []
+props:
+  properties:
+    direction:
+      title: Direction
+      type: string
+      enum:
+        - vertical
+        - horizontal
+        - responsive
+      meta:enum:
+        vertical: Vertical
+        horizontal: Horizontal
+        responsive: Responsive
+      examples:
+        - vertical
+    title:
+      title: Title
+      type: string
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+slots:
+  items:
+    title: Items

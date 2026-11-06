@@ -1,52 +1,41 @@
 import { cva } from 'class-variance-authority';
 import { cn } from 'drupal-canvas';
 
-const containerVariants = cva('dark flex w-full flex-col', {
+const containerVariants = cva('flex w-full flex-col', {
   variants: {
     layout: {
       left_aligned: 'items-start text-left',
       center_aligned: 'items-center text-center',
       right_aligned: 'items-end text-right',
     },
+    textColor: {
+      default: '',
+      muted: 'opacity-70',
+      primary: 'text-primary',
+      secondary: 'text-secondary',
+      accent: 'text-accent',
+    },
   },
 });
 
-const preHeadingVariants = cva('mb-4 text-lg font-bold', {
+const preHeadingVariants = cva('mb-2 font-bold opacity-70', {
   variants: {
-    textColor: {
-      dark: 'text-primary-dark',
-      light: 'text-primary-light',
-    },
     headingSize: {
       extra_large: 'text-lg',
       large: 'text-base',
       medium: 'text-sm',
       small: 'text-xs',
     },
-    textShadow: {
-      light: 'text-shadow-sm',
-      medium: 'text-shadow-md',
-      heavy: 'text-shadow-lg',
-    },
   },
 });
 
-const headingVariants = cva('leading-[normal] font-bold text-balance', {
+const headingVariants = cva('leading-tight font-bold text-balance', {
   variants: {
-    textColor: {
-      dark: 'text-black',
-      light: 'text-white',
-    },
     headingSize: {
-      extra_large: 'text-6xl',
+      extra_large: 'text-5xl lg:text-6xl',
       large: 'text-4xl',
       medium: 'text-2xl',
       small: 'text-lg',
-    },
-    textShadow: {
-      light: 'text-shadow-sm',
-      medium: 'text-shadow-md',
-      heavy: 'text-shadow-lg',
     },
   },
 });
@@ -55,28 +44,19 @@ const Heading = ({
   className,
   heading,
   headingElement = 'h2',
-  headingSize = 'extra_large',
+  headingSize = 'large',
   layout = 'left_aligned',
   preHeading,
-  textColor = 'dark',
-  textShadow,
+  textColor = 'default',
 }) => {
-  const Heading = headingElement;
+  const Element = headingElement;
   return preHeading || heading ? (
-    <div className={cn(containerVariants({ layout }), className)}>
+    <div className={cn(containerVariants({ layout, textColor }), className)}>
       {preHeading && (
-        <div
-          className={preHeadingVariants({ textColor, headingSize, textShadow })}
-        >
-          {preHeading}
-        </div>
+        <div className={preHeadingVariants({ headingSize })}>{preHeading}</div>
       )}
       {heading && (
-        <Heading
-          className={headingVariants({ textColor, headingSize, textShadow })}
-        >
-          {heading}
-        </Heading>
+        <Element className={headingVariants({ headingSize })}>{heading}</Element>
       )}
     </div>
   ) : null;

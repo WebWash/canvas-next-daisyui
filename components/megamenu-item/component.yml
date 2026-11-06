@@ -1,0 +1,15 @@
+name: Megamenu Item (child of Megamenu)
+machineName: megamenu-item
+status: true
+required:
+  - label
+props:
+  properties:
+    label:
+      title: Label
+      type: string
+      examples:
+        - Products
+slots:
+  content:
+    title: Content

@@ -1,0 +1,174 @@
+{
+  "title": "Components: Data input",
+  "path": "/components/data-input",
+  "description": "Form fields. All of them are visual only.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "fieldset-1",
+          "grid-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Data input",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Form fields. All of them are visual only.</p>"
+      }
+    },
+    "fieldset-1": {
+      "type": "js.fieldset",
+      "props": {
+        "legend": "Fieldset",
+        "description": "A fieldset groups related fields."
+      },
+      "slots": {
+        "content": [
+          "input-1",
+          "input-2"
+        ]
+      }
+    },
+    "input-1": {
+      "type": "js.input",
+      "props": {
+        "label": "First name"
+      }
+    },
+    "input-2": {
+      "type": "js.input",
+      "props": {
+        "label": "Last name"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "checkbox-1",
+          "toggle-1",
+          "file-input-1",
+          "filter-1",
+          "input-3",
+          "otp-1",
+          "radio-1",
+          "range-1",
+          "rating-1",
+          "select-1",
+          "textarea-1"
+        ]
+      }
+    },
+    "checkbox-1": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Checkbox"
+      }
+    },
+    "toggle-1": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Toggle"
+      }
+    },
+    "file-input-1": {
+      "type": "js.file-input",
+      "props": {
+        "label": "File input"
+      }
+    },
+    "filter-1": {
+      "type": "js.filter",
+      "props": {
+        "label": "Filter",
+        "options": [
+          "Svelte",
+          "Vue",
+          "React"
+        ]
+      }
+    },
+    "input-3": {
+      "type": "js.input",
+      "props": {
+        "label": "Input",
+        "placeholder": "Type here"
+      }
+    },
+    "otp-1": {
+      "type": "js.otp",
+      "props": {
+        "label": "OTP",
+        "length": 6
+      }
+    },
+    "radio-1": {
+      "type": "js.radio",
+      "props": {
+        "label": "Radio",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "value": "Medium"
+      }
+    },
+    "range-1": {
+      "type": "js.range",
+      "props": {
+        "label": "Range",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "rating-1": {
+      "type": "js.rating",
+      "props": {
+        "label": "Rating",
+        "value": 3
+      }
+    },
+    "select-1": {
+      "type": "js.select",
+      "props": {
+        "label": "Select",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "placeholder": "Choose one"
+      }
+    },
+    "textarea-1": {
+      "type": "js.textarea",
+      "props": {
+        "label": "Textarea",
+        "placeholder": "Type here"
+      }
+    }
+  }
+}

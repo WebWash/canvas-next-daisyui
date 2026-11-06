@@ -1,0 +1,58 @@
+name: Tabs
+machineName: tabs
+status: true
+required:
+  - label
+props:
+  properties:
+    variant:
+      title: Variant
+      type: string
+      enum:
+        - default
+        - box
+        - border
+        - lift
+      meta:enum:
+        default: Default
+        box: Box
+        border: Border
+        lift: Lift
+      examples:
+        - default
+    label:
+      title: Label
+      type: string
+      examples:
+        - Sections
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+    placement:
+      title: Placement
+      type: string
+      enum:
+        - top
+        - bottom
+      meta:enum:
+        top: Top
+        bottom: Bottom
+      examples:
+        - top
+slots:
+  panels:
+    title: Panels

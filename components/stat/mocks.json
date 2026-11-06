@@ -1,0 +1,34 @@
+{
+  "mocks": [
+    {
+      "name": "With actions",
+      "props": {
+        "title": "Balance",
+        "value": "$89,400",
+        "icon": "zap"
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Add funds",
+            "size": "sm",
+            "color": "primary"
+          }
+        }
+      }
+    },
+    {
+      "name": "Value only",
+      "props": {
+        "value": "42",
+        "icon": "none"
+      }
+    }
+  ]
+}

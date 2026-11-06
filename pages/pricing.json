@@ -1,0 +1,443 @@
+{
+  "title": "Pricing",
+  "path": "/pricing",
+  "description": "Three plans, one comparison table and common questions.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "grid-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Pricing",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Start free. Upgrade when your site grows.</p>"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "card-1",
+          "card-2",
+          "card-3"
+        ]
+      }
+    },
+    "card-1": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Starter",
+        "titleElement": "h2"
+      },
+      "slots": {
+        "content": [
+          "text-2"
+        ],
+        "actions": [
+          "button-1"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>$0</strong> per month</p><ul><li>One site</li><li>Community support</li></ul>"
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Choose plan",
+        "link": "/contact",
+        "color": "default",
+        "shape": "block"
+      }
+    },
+    "card-2": {
+      "type": "js.card",
+      "props": {
+        "variant": "default",
+        "title": "Team",
+        "titleElement": "h2"
+      },
+      "slots": {
+        "content": [
+          "badge-1",
+          "text-3"
+        ],
+        "actions": [
+          "button-2"
+        ]
+      }
+    },
+    "badge-1": {
+      "type": "js.badge",
+      "props": {
+        "text": "Most popular",
+        "color": "primary"
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>$29</strong> per month</p><ul><li>Five sites</li><li>Email support</li><li>Shared themes</li></ul>"
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "Choose plan",
+        "link": "/contact",
+        "color": "primary",
+        "shape": "block"
+      }
+    },
+    "card-3": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Business",
+        "titleElement": "h2"
+      },
+      "slots": {
+        "content": [
+          "text-4"
+        ],
+        "actions": [
+          "button-3"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>$99</strong> per month</p><ul><li>Unlimited sites</li><li>Priority support</li><li>Custom themes</li></ul>"
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "Choose plan",
+        "link": "/contact",
+        "color": "default",
+        "shape": "block"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg",
+        "background": "base_200"
+      },
+      "slots": {
+        "content": [
+          "heading-2",
+          "table-1"
+        ]
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Compare plans",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "table-1": {
+      "type": "js.table",
+      "props": {
+        "zebra": true
+      },
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4",
+          "table-row-5"
+        ]
+      }
+    },
+    "table-row-1": {
+      "type": "js.table-row",
+      "slots": {
+        "cells": [
+          "table-cell-1",
+          "table-cell-2",
+          "table-cell-3",
+          "table-cell-4"
+        ]
+      }
+    },
+    "table-cell-1": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Feature",
+        "isHeader": true
+      }
+    },
+    "table-cell-2": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Starter",
+        "isHeader": true
+      }
+    },
+    "table-cell-3": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Team",
+        "isHeader": true
+      }
+    },
+    "table-cell-4": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Business",
+        "isHeader": true
+      }
+    },
+    "table-row-2": {
+      "type": "js.table-row",
+      "slots": {
+        "cells": [
+          "table-cell-5",
+          "table-cell-6",
+          "table-cell-7",
+          "table-cell-8"
+        ]
+      }
+    },
+    "table-cell-5": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Sites",
+        "isHeader": true
+      }
+    },
+    "table-cell-6": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "1"
+      }
+    },
+    "table-cell-7": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "5"
+      }
+    },
+    "table-cell-8": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Unlimited"
+      }
+    },
+    "table-row-3": {
+      "type": "js.table-row",
+      "slots": {
+        "cells": [
+          "table-cell-9",
+          "table-cell-10",
+          "table-cell-11",
+          "table-cell-12"
+        ]
+      }
+    },
+    "table-cell-9": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Support",
+        "isHeader": true
+      }
+    },
+    "table-cell-10": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Community"
+      }
+    },
+    "table-cell-11": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Email"
+      }
+    },
+    "table-cell-12": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Priority"
+      }
+    },
+    "table-row-4": {
+      "type": "js.table-row",
+      "slots": {
+        "cells": [
+          "table-cell-13",
+          "table-cell-14",
+          "table-cell-15",
+          "table-cell-16"
+        ]
+      }
+    },
+    "table-cell-13": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Themes",
+        "isHeader": true
+      }
+    },
+    "table-cell-14": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "4"
+      }
+    },
+    "table-cell-15": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "4 + shared"
+      }
+    },
+    "table-cell-16": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Custom"
+      }
+    },
+    "table-row-5": {
+      "type": "js.table-row",
+      "slots": {
+        "cells": [
+          "table-cell-17",
+          "table-cell-18",
+          "table-cell-19",
+          "table-cell-20"
+        ]
+      }
+    },
+    "table-cell-17": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Style guide",
+        "isHeader": true
+      }
+    },
+    "table-cell-18": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Yes"
+      }
+    },
+    "table-cell-19": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Yes"
+      }
+    },
+    "table-cell-20": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Yes"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "normal",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-3",
+          "accordion-1"
+        ]
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Pricing questions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "accordion-1": {
+      "type": "js.accordion",
+      "props": {
+        "indicator": "plus"
+      },
+      "slots": {
+        "items": [
+          "accordion-item-1",
+          "accordion-item-2"
+        ]
+      }
+    },
+    "accordion-item-1": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Can I change plans later?",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-5"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Yes, at any time.</p>"
+      }
+    },
+    "accordion-item-2": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Is there a contract?"
+      },
+      "slots": {
+        "content": [
+          "text-6"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>No. Plans are monthly.</p>"
+      }
+    }
+  }
+}

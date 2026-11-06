@@ -1,59 +1,40 @@
 'use client';
 
-import { useId } from 'react';
-import { cva } from 'class-variance-authority';
 import { cn } from 'drupal-canvas';
 
-const accordionVariants = cva('w-full', {
-  variants: {
-    borderColor: {
-      gray_200: '',
-      gray_300: '',
-      gray_400: '',
-      primary_200: '',
-      primary_300: '',
-    },
-    variant: {
-      default: '',
-      bordered: '',
-      separated: 'flex flex-col gap-2',
-    },
-  },
-  defaultVariants: {
-    borderColor: 'gray_200',
-    variant: 'default',
-  },
-});
+import { useDomId } from '@/lib/dom-id';
+import { GroupProvider } from '@/lib/group-context';
+import AccordionItem from '@/components/accordion-item';
+import { sample } from '@/lib/sample';
 
-const Accordion = ({
-  borderColor = 'gray_200',
-  className,
-  items,
-  variant = 'default',
-}) => {
-  const groupId = useId().replace(/:/g, '');
-
-  const defaultVariantBorderClassName = {
-    gray_200: 'divide-y divide-gray-200',
-    gray_300: 'divide-y divide-gray-300',
-    gray_400: 'divide-y divide-gray-400',
-    primary_200: 'divide-y divide-primary-200',
-    primary_300: 'divide-y divide-primary-300',
-  };
+/** Shares one <details name> between items, which makes them exclusive. */
+const Accordion = ({ indicator = 'arrow', bordered = false, items, className }) => {
+  const name = useDomId();
 
   return (
-    <div
-      className={cn(
-        accordionVariants({ borderColor, variant }),
-        variant === 'default' && defaultVariantBorderClassName[borderColor],
-        className,
-      )}
-      data-accordion-group
-      data-accordion-group-id={groupId}
-      data-border-color={borderColor}
-      data-variant={variant}
-    >
-      {items}
+    <div className={cn('flex w-full flex-col gap-2', className)}>
+      <GroupProvider
+        name={name}
+        options={{ accordionIndicator: indicator, accordionBordered: bordered }}
+      >
+        {sample(items, () => (
+          <>
+            <AccordionItem
+              title="What is daisyUI?"
+              openByDefault
+              content={<p>A component library for Tailwind CSS.</p>}
+            />
+            <AccordionItem
+              title="Does it need JavaScript?"
+              content={<p>Most components work with CSS alone.</p>}
+            />
+            <AccordionItem
+              title="Can I change the theme?"
+              content={<p>Yes. Pick a theme, or make your own.</p>}
+            />
+          </>
+        ))}
+      </GroupProvider>
     </div>
   );
 };

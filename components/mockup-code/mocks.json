@@ -1,0 +1,26 @@
+{
+  "mocks": [
+    {
+      "name": "Numbers",
+      "props": {
+        "lines": [
+          "npm i daisyui",
+          "installing...",
+          "Done!"
+        ],
+        "prefix": "numbers"
+      }
+    },
+    {
+      "name": "Dollar",
+      "props": {
+        "lines": [
+          "npm i daisyui",
+          "installing...",
+          "Done!"
+        ],
+        "prefix": "dollar"
+      }
+    }
+  ]
+}

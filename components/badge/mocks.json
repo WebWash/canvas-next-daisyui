@@ -1,0 +1,126 @@
+{
+  "mocks": [
+    {
+      "name": "Variant outline",
+      "props": {
+        "variant": "outline",
+        "text": "Badge",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Variant dash",
+      "props": {
+        "variant": "dash",
+        "text": "Badge",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Variant soft",
+      "props": {
+        "variant": "soft",
+        "text": "Badge",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Variant ghost",
+      "props": {
+        "variant": "ghost",
+        "text": "Badge",
+        "color": "default"
+      }
+    },
+    {
+      "name": "Colour neutral",
+      "props": {
+        "text": "Badge",
+        "color": "neutral"
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "text": "Badge",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour secondary",
+      "props": {
+        "text": "Badge",
+        "color": "secondary"
+      }
+    },
+    {
+      "name": "Colour accent",
+      "props": {
+        "text": "Badge",
+        "color": "accent"
+      }
+    },
+    {
+      "name": "Colour info",
+      "props": {
+        "text": "Badge",
+        "color": "info"
+      }
+    },
+    {
+      "name": "Colour success",
+      "props": {
+        "text": "Badge",
+        "color": "success"
+      }
+    },
+    {
+      "name": "Colour warning",
+      "props": {
+        "text": "Badge",
+        "color": "warning"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "text": "Badge",
+        "color": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "text": "Badge",
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "text": "Badge",
+        "size": "sm"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "text": "Badge",
+        "size": "lg"
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "text": "Badge",
+        "size": "xl"
+      }
+    },
+    {
+      "name": "Empty",
+      "props": {
+        "color": "primary"
+      }
+    }
+  ]
+}

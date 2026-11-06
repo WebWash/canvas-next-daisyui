@@ -1,0 +1,127 @@
+{
+  "mocks": [
+    {
+      "name": "Horizontal",
+      "slots": {
+        "items": [
+          "step-1",
+          "step-2",
+          "step-3",
+          "step-4"
+        ]
+      },
+      "elements": {
+        "step-1": {
+          "type": "step",
+          "props": {
+            "label": "Register",
+            "color": "primary"
+          }
+        },
+        "step-2": {
+          "type": "step",
+          "props": {
+            "label": "Choose plan",
+            "color": "primary"
+          }
+        },
+        "step-3": {
+          "type": "step",
+          "props": {
+            "label": "Purchase"
+          }
+        },
+        "step-4": {
+          "type": "step",
+          "props": {
+            "label": "Receive"
+          }
+        }
+      }
+    },
+    {
+      "name": "Vertical",
+      "props": {
+        "direction": "vertical"
+      },
+      "slots": {
+        "items": [
+          "step-1",
+          "step-2",
+          "step-3",
+          "step-4"
+        ]
+      },
+      "elements": {
+        "step-1": {
+          "type": "step",
+          "props": {
+            "label": "Register",
+            "color": "primary"
+          }
+        },
+        "step-2": {
+          "type": "step",
+          "props": {
+            "label": "Choose plan",
+            "color": "primary"
+          }
+        },
+        "step-3": {
+          "type": "step",
+          "props": {
+            "label": "Purchase"
+          }
+        },
+        "step-4": {
+          "type": "step",
+          "props": {
+            "label": "Receive"
+          }
+        }
+      }
+    },
+    {
+      "name": "Responsive",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "step-1",
+          "step-2",
+          "step-3",
+          "step-4"
+        ]
+      },
+      "elements": {
+        "step-1": {
+          "type": "step",
+          "props": {
+            "label": "Register",
+            "color": "primary"
+          }
+        },
+        "step-2": {
+          "type": "step",
+          "props": {
+            "label": "Choose plan",
+            "color": "primary"
+          }
+        },
+        "step-3": {
+          "type": "step",
+          "props": {
+            "label": "Purchase"
+          }
+        },
+        "step-4": {
+          "type": "step",
+          "props": {
+            "label": "Receive"
+          }
+        }
+      }
+    }
+  ]
+}

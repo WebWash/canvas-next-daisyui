@@ -1,0 +1,360 @@
+{
+  "title": "Style guide: Typography",
+  "path": "/style-guide/typography",
+  "description": "Every heading size, element and alignment, and every text size and colour.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "heading-3",
+          "heading-4",
+          "heading-5",
+          "heading-6",
+          "heading-7",
+          "heading-8",
+          "heading-9",
+          "heading-10",
+          "heading-11",
+          "heading-12",
+          "heading-13",
+          "heading-14",
+          "heading-15",
+          "heading-16",
+          "heading-17",
+          "heading-18",
+          "heading-19",
+          "heading-20",
+          "heading-21",
+          "heading-22",
+          "heading-23",
+          "heading-24",
+          "text-2",
+          "text-3",
+          "text-4",
+          "text-5",
+          "text-6",
+          "heading-25",
+          "text-7",
+          "text-8",
+          "text-9",
+          "text-10",
+          "text-11",
+          "heading-26",
+          "text-12"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Typography",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Every heading size, element and alignment, and every text size and colour.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Heading sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Size Small",
+        "headingSize": "small",
+        "headingElement": "h3"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Size Medium",
+        "headingSize": "medium",
+        "headingElement": "h3"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Size Large",
+        "headingSize": "large",
+        "headingElement": "h3"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Size Extra large",
+        "headingSize": "extra_large",
+        "headingElement": "h3"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Heading elements",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "heading-8": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Element h1",
+        "headingElement": "h1",
+        "headingSize": "medium"
+      }
+    },
+    "heading-9": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Element h2",
+        "headingElement": "h2",
+        "headingSize": "medium"
+      }
+    },
+    "heading-10": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Element h3",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "heading-11": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Element h4",
+        "headingElement": "h4",
+        "headingSize": "medium"
+      }
+    },
+    "heading-12": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Element h5",
+        "headingElement": "h5",
+        "headingSize": "medium"
+      }
+    },
+    "heading-13": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Element h6",
+        "headingElement": "h6",
+        "headingSize": "medium"
+      }
+    },
+    "heading-14": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Heading alignment",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "heading-15": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Left aligned",
+        "layout": "left_aligned",
+        "headingSize": "small",
+        "headingElement": "h3"
+      }
+    },
+    "heading-16": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Center aligned",
+        "layout": "center_aligned",
+        "headingSize": "small",
+        "headingElement": "h3"
+      }
+    },
+    "heading-17": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Right aligned",
+        "layout": "right_aligned",
+        "headingSize": "small",
+        "headingElement": "h3"
+      }
+    },
+    "heading-18": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Heading colours and pre-heading",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "heading-19": {
+      "type": "js.heading",
+      "props": {
+        "preHeading": "Pre-heading",
+        "heading": "Colour default",
+        "textColor": "default",
+        "headingSize": "medium",
+        "headingElement": "h3"
+      }
+    },
+    "heading-20": {
+      "type": "js.heading",
+      "props": {
+        "preHeading": "Pre-heading",
+        "heading": "Colour muted",
+        "textColor": "muted",
+        "headingSize": "medium",
+        "headingElement": "h3"
+      }
+    },
+    "heading-21": {
+      "type": "js.heading",
+      "props": {
+        "preHeading": "Pre-heading",
+        "heading": "Colour primary",
+        "textColor": "primary",
+        "headingSize": "medium",
+        "headingElement": "h3"
+      }
+    },
+    "heading-22": {
+      "type": "js.heading",
+      "props": {
+        "preHeading": "Pre-heading",
+        "heading": "Colour secondary",
+        "textColor": "secondary",
+        "headingSize": "medium",
+        "headingElement": "h3"
+      }
+    },
+    "heading-23": {
+      "type": "js.heading",
+      "props": {
+        "preHeading": "Pre-heading",
+        "heading": "Colour accent",
+        "textColor": "accent",
+        "headingSize": "medium",
+        "headingElement": "h3"
+      }
+    },
+    "heading-24": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Text sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text size Extra small. Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "textSize": "extra_small"
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text size Small. Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "textSize": "small"
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text size Normal. Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "textSize": "normal"
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text size Large. Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "textSize": "large"
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text size Extra large. Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "textSize": "extra_large"
+      }
+    },
+    "heading-25": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Text colours",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text colour default. Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "textColor": "default"
+      }
+    },
+    "text-8": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text colour muted. Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "textColor": "muted"
+      }
+    },
+    "text-9": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text colour primary. Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "textColor": "primary"
+      }
+    },
+    "text-10": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text colour secondary. Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "textColor": "secondary"
+      }
+    },
+    "text-11": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text colour accent. Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "textColor": "accent"
+      }
+    },
+    "heading-26": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Rich text",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "text-12": {
+      "type": "js.text",
+      "props": {
+        "text": "<h3>A heading inside rich text</h3><p>Paragraphs can hold <strong>bold</strong>, <em>italic</em>, <a href=\"/pricing\">a link</a> and <code>code</code>.</p><ul><li>A bulleted item</li><li>Another bulleted item</li></ul><ol><li>A numbered item</li><li>Another numbered item</li></ol><blockquote>A short quotation.</blockquote>"
+      }
+    }
+  }
+}

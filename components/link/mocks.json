@@ -1,0 +1,76 @@
+{
+  "mocks": [
+    {
+      "name": "Hover only",
+      "props": {
+        "variant": "hover",
+        "text": "Read more",
+        "link": "/about"
+      }
+    },
+    {
+      "name": "Colour neutral",
+      "props": {
+        "text": "Read more",
+        "link": "/about",
+        "color": "neutral"
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "text": "Read more",
+        "link": "/about",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour secondary",
+      "props": {
+        "text": "Read more",
+        "link": "/about",
+        "color": "secondary"
+      }
+    },
+    {
+      "name": "Colour accent",
+      "props": {
+        "text": "Read more",
+        "link": "/about",
+        "color": "accent"
+      }
+    },
+    {
+      "name": "Colour info",
+      "props": {
+        "text": "Read more",
+        "link": "/about",
+        "color": "info"
+      }
+    },
+    {
+      "name": "Colour success",
+      "props": {
+        "text": "Read more",
+        "link": "/about",
+        "color": "success"
+      }
+    },
+    {
+      "name": "Colour warning",
+      "props": {
+        "text": "Read more",
+        "link": "/about",
+        "color": "warning"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "text": "Read more",
+        "link": "/about",
+        "color": "error"
+      }
+    }
+  ]
+}

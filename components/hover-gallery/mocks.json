@@ -1,0 +1,169 @@
+{
+  "mocks": [
+    {
+      "name": "Four images",
+      "slots": {
+        "images": [
+          "hover-gallery-item-1",
+          "hover-gallery-item-2",
+          "hover-gallery-item-3",
+          "hover-gallery-item-4"
+        ]
+      },
+      "elements": {
+        "hover-gallery-item-1": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-1/400/400",
+              "alt": "Gallery image 1",
+              "width": 400,
+              "height": 400
+            }
+          }
+        },
+        "hover-gallery-item-2": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-2/400/400",
+              "alt": "Gallery image 2",
+              "width": 400,
+              "height": 400
+            }
+          }
+        },
+        "hover-gallery-item-3": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-3/400/400",
+              "alt": "Gallery image 3",
+              "width": 400,
+              "height": 400
+            }
+          }
+        },
+        "hover-gallery-item-4": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-4/400/400",
+              "alt": "Gallery image 4",
+              "width": 400,
+              "height": 400
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Extra small",
+      "props": {
+        "maxWidth": "xs"
+      },
+      "slots": {
+        "images": [
+          "hover-gallery-item-1",
+          "hover-gallery-item-2",
+          "hover-gallery-item-3"
+        ]
+      },
+      "elements": {
+        "hover-gallery-item-1": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-1/400/400",
+              "alt": "Gallery image 1",
+              "width": 400,
+              "height": 400
+            }
+          }
+        },
+        "hover-gallery-item-2": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-2/400/400",
+              "alt": "Gallery image 2",
+              "width": 400,
+              "height": 400
+            }
+          }
+        },
+        "hover-gallery-item-3": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-3/400/400",
+              "alt": "Gallery image 3",
+              "width": 400,
+              "height": 400
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Large",
+      "props": {
+        "maxWidth": "lg"
+      },
+      "slots": {
+        "images": [
+          "hover-gallery-item-1",
+          "hover-gallery-item-2",
+          "hover-gallery-item-3",
+          "hover-gallery-item-4"
+        ]
+      },
+      "elements": {
+        "hover-gallery-item-1": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-1/400/400",
+              "alt": "Gallery image 1",
+              "width": 400,
+              "height": 400
+            }
+          }
+        },
+        "hover-gallery-item-2": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-2/400/400",
+              "alt": "Gallery image 2",
+              "width": 400,
+              "height": 400
+            }
+          }
+        },
+        "hover-gallery-item-3": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-3/400/400",
+              "alt": "Gallery image 3",
+              "width": 400,
+              "height": 400
+            }
+          }
+        },
+        "hover-gallery-item-4": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-4/400/400",
+              "alt": "Gallery image 4",
+              "width": 400,
+              "height": 400
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "mocks": [
+    {
+      "name": "With actions",
+      "props": {
+        "title": "Song title",
+        "description": "An artist name",
+        "image": {
+          "src": "https://picsum.photos/seed/cover/100/100",
+          "alt": "Cover",
+          "width": 100,
+          "height": 100
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Play",
+            "size": "sm",
+            "variant": "ghost"
+          }
+        }
+      }
+    },
+    {
+      "name": "Title only",
+      "props": {
+        "title": "Song title"
+      }
+    }
+  ]
+}

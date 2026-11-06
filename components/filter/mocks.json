@@ -1,0 +1,52 @@
+{
+  "mocks": [
+    {
+      "name": "Four options",
+      "props": {
+        "label": "Frameworks",
+        "options": [
+          "Svelte",
+          "Vue",
+          "React",
+          "Angular"
+        ]
+      }
+    },
+    {
+      "name": "Hidden label",
+      "props": {
+        "label": "Frameworks",
+        "hideLabel": true,
+        "options": [
+          "Svelte",
+          "Vue",
+          "React"
+        ]
+      }
+    },
+    {
+      "name": "Description",
+      "props": {
+        "label": "Frameworks",
+        "description": "Pick one to narrow the list.",
+        "options": [
+          "Svelte",
+          "Vue",
+          "React"
+        ]
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "Frameworks",
+        "disabled": true,
+        "options": [
+          "Svelte",
+          "Vue",
+          "React"
+        ]
+      }
+    }
+  ]
+}

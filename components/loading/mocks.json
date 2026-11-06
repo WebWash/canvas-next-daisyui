@@ -1,0 +1,70 @@
+{
+  "mocks": [
+    {
+      "name": "Variant dots",
+      "props": {
+        "variant": "dots"
+      }
+    },
+    {
+      "name": "Variant ring",
+      "props": {
+        "variant": "ring"
+      }
+    },
+    {
+      "name": "Variant ball",
+      "props": {
+        "variant": "ball"
+      }
+    },
+    {
+      "name": "Variant bars",
+      "props": {
+        "variant": "bars"
+      }
+    },
+    {
+      "name": "Variant infinity",
+      "props": {
+        "variant": "infinity"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "size": "sm"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "size": "lg"
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "size": "xl"
+      }
+    },
+    {
+      "name": "Primary",
+      "props": {
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Error",
+      "props": {
+        "color": "error"
+      }
+    }
+  ]
+}

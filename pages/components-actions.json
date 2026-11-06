@@ -1,0 +1,268 @@
+{
+  "title": "Components: Actions",
+  "path": "/components/actions",
+  "description": "Buttons and the controls that open or switch things.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "grid-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Actions",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Buttons and the controls that open or switch things.</p>"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-2",
+          "section-3",
+          "section-4",
+          "section-5",
+          "section-6"
+        ]
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-2",
+          "button-1",
+          "button-2"
+        ]
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Button",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Primary",
+        "color": "primary",
+        "link": "/pricing"
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "As a button",
+        "variant": "outline"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-3",
+          "dropdown-1"
+        ]
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Dropdown",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "dropdown-1": {
+      "type": "js.dropdown",
+      "props": {
+        "buttonText": "Open dropdown"
+      },
+      "slots": {
+        "content": [
+          "dropdown-1-menu"
+        ]
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-4",
+          "modal-1"
+        ]
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Modal",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "modal-1": {
+      "type": "js.modal",
+      "props": {
+        "buttonText": "Open modal",
+        "heading": "Modal heading"
+      },
+      "slots": {
+        "content": [
+          "text-3"
+        ],
+        "actions": [
+          "button-3"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Modal content.</p>"
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "Confirm",
+        "color": "primary"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-5",
+          "swap-1"
+        ]
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Swap",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "swap-1": {
+      "type": "js.swap",
+      "props": {
+        "variant": "rotate",
+        "onIcon": "sun",
+        "offIcon": "moon",
+        "label": "Toggle icon"
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-6",
+          "theme-controller-1"
+        ]
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Theme controller",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "theme-controller-1": {
+      "type": "js.theme-controller",
+      "props": {
+        "variant": "checkbox",
+        "theme": "synthwave",
+        "label": "Synthwave theme"
+      }
+    },
+    "dropdown-1-menu": {
+      "type": "js.menu",
+      "slots": {
+        "items": [
+          "dropdown-1-menu-item-1",
+          "dropdown-1-menu-item-2",
+          "dropdown-1-menu-item-3"
+        ]
+      }
+    },
+    "dropdown-1-menu-item-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Profile",
+        "link": "/profile",
+        "icon": "user"
+      }
+    },
+    "dropdown-1-menu-item-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Settings",
+        "link": "/settings",
+        "icon": "settings"
+      }
+    },
+    "dropdown-1-menu-item-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Sign out",
+        "link": "/sign-out",
+        "icon": "arrow_right"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+name: Text Rotate
+machineName: text-rotate
+status: true
+required:
+  - lines
+props:
+  properties:
+    lines:
+      title: Lines
+      type: array
+      items:
+        type: string
+      examples:
+        - - DESIGN
+          - DEVELOP
+          - DEPLOY
+    textSize:
+      title: Text Size
+      type: string
+      enum:
+        - base
+        - xl
+        - 3xl
+        - 5xl
+        - 7xl
+      meta:enum:
+        base: Base
+        xl: XL
+        3xl: 3XL
+        5xl: 5XL
+        7xl: 7XL
+      examples:
+        - 3xl
+    duration:
+      title: Duration
+      type: string
+      enum:
+        - slow
+        - normal
+        - fast
+      meta:enum:
+        slow: Slow
+        normal: Normal
+        fast: Fast
+      examples:
+        - normal
+    centered:
+      title: Centered
+      type: boolean
+      examples:
+        - false
+slots: {}

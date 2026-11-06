@@ -1,0 +1,1679 @@
+{
+  "title": "Style guide: Form fields",
+  "path": "/style-guide/form-fields",
+  "description": "Every input type, size and colour, stacked, inline and floating labels, validation, hidden labels, disabled fields, and fields inside a join.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "grid-1",
+          "heading-3",
+          "grid-2",
+          "heading-4",
+          "grid-3",
+          "heading-5",
+          "grid-4",
+          "heading-6",
+          "grid-5",
+          "heading-7",
+          "text-2",
+          "grid-6",
+          "heading-8",
+          "grid-7",
+          "heading-9",
+          "grid-8",
+          "heading-10",
+          "input-33",
+          "heading-11",
+          "grid-9",
+          "heading-12",
+          "grid-10",
+          "heading-13",
+          "grid-11",
+          "grid-12",
+          "heading-14",
+          "grid-13",
+          "grid-14",
+          "heading-15",
+          "grid-15",
+          "grid-16",
+          "heading-16",
+          "grid-17",
+          "grid-18",
+          "heading-17",
+          "grid-19",
+          "heading-18",
+          "grid-20",
+          "heading-19",
+          "filter-1",
+          "heading-20",
+          "grid-21",
+          "heading-21",
+          "fieldset-1",
+          "heading-22",
+          "join-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Form fields",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Every input type, size and colour, stacked, inline and floating labels, validation, hidden labels, disabled fields, and fields inside a join.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Input types",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "input-1",
+          "input-2",
+          "input-3",
+          "input-4",
+          "input-5",
+          "input-6",
+          "input-7",
+          "input-8"
+        ]
+      }
+    },
+    "input-1": {
+      "type": "js.input",
+      "props": {
+        "label": "Type text",
+        "type": "text"
+      }
+    },
+    "input-2": {
+      "type": "js.input",
+      "props": {
+        "label": "Type email",
+        "type": "email"
+      }
+    },
+    "input-3": {
+      "type": "js.input",
+      "props": {
+        "label": "Type password",
+        "type": "password"
+      }
+    },
+    "input-4": {
+      "type": "js.input",
+      "props": {
+        "label": "Type number",
+        "type": "number"
+      }
+    },
+    "input-5": {
+      "type": "js.input",
+      "props": {
+        "label": "Type tel",
+        "type": "tel"
+      }
+    },
+    "input-6": {
+      "type": "js.input",
+      "props": {
+        "label": "Type url",
+        "type": "url"
+      }
+    },
+    "input-7": {
+      "type": "js.input",
+      "props": {
+        "label": "Type search",
+        "type": "search"
+      }
+    },
+    "input-8": {
+      "type": "js.input",
+      "props": {
+        "label": "Type date",
+        "type": "date"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Input sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-2": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "input-9",
+          "input-10",
+          "input-11",
+          "input-12",
+          "input-13"
+        ]
+      }
+    },
+    "input-9": {
+      "type": "js.input",
+      "props": {
+        "label": "Size xs",
+        "size": "xs"
+      }
+    },
+    "input-10": {
+      "type": "js.input",
+      "props": {
+        "label": "Size sm",
+        "size": "sm"
+      }
+    },
+    "input-11": {
+      "type": "js.input",
+      "props": {
+        "label": "Size md",
+        "size": "md"
+      }
+    },
+    "input-12": {
+      "type": "js.input",
+      "props": {
+        "label": "Size lg",
+        "size": "lg"
+      }
+    },
+    "input-13": {
+      "type": "js.input",
+      "props": {
+        "label": "Size xl",
+        "size": "xl"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Input colours",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-3": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "input-14",
+          "input-15",
+          "input-16",
+          "input-17",
+          "input-18",
+          "input-19",
+          "input-20",
+          "input-21",
+          "input-22"
+        ]
+      }
+    },
+    "input-14": {
+      "type": "js.input",
+      "props": {
+        "label": "Default",
+        "color": "default"
+      }
+    },
+    "input-15": {
+      "type": "js.input",
+      "props": {
+        "label": "Neutral",
+        "color": "neutral"
+      }
+    },
+    "input-16": {
+      "type": "js.input",
+      "props": {
+        "label": "Primary",
+        "color": "primary"
+      }
+    },
+    "input-17": {
+      "type": "js.input",
+      "props": {
+        "label": "Secondary",
+        "color": "secondary"
+      }
+    },
+    "input-18": {
+      "type": "js.input",
+      "props": {
+        "label": "Accent",
+        "color": "accent"
+      }
+    },
+    "input-19": {
+      "type": "js.input",
+      "props": {
+        "label": "Info",
+        "color": "info"
+      }
+    },
+    "input-20": {
+      "type": "js.input",
+      "props": {
+        "label": "Success",
+        "color": "success"
+      }
+    },
+    "input-21": {
+      "type": "js.input",
+      "props": {
+        "label": "Warning",
+        "color": "warning"
+      }
+    },
+    "input-22": {
+      "type": "js.input",
+      "props": {
+        "label": "Error",
+        "color": "error"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Input variant",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-4": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "input-23",
+          "input-24"
+        ]
+      }
+    },
+    "input-23": {
+      "type": "js.input",
+      "props": {
+        "label": "Default"
+      }
+    },
+    "input-24": {
+      "type": "js.input",
+      "props": {
+        "label": "Ghost",
+        "variant": "ghost",
+        "placeholder": "Type here"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Label styles",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-5": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "input-25",
+          "input-26",
+          "input-27"
+        ]
+      }
+    },
+    "input-25": {
+      "type": "js.input",
+      "props": {
+        "label": "Stacked"
+      }
+    },
+    "input-26": {
+      "type": "js.input",
+      "props": {
+        "label": "Inline",
+        "labelStyle": "inline"
+      }
+    },
+    "input-27": {
+      "type": "js.input",
+      "props": {
+        "label": "Floating",
+        "labelStyle": "floating"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Validation with each label style",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Type something invalid, then leave the field. The hint and the error border appear.</p>"
+      }
+    },
+    "grid-6": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "input-28",
+          "input-29",
+          "input-30"
+        ]
+      }
+    },
+    "input-28": {
+      "type": "js.input",
+      "props": {
+        "label": "Stacked email",
+        "type": "email",
+        "required": true,
+        "validationMessage": "Enter a valid email address."
+      }
+    },
+    "input-29": {
+      "type": "js.input",
+      "props": {
+        "label": "Inline email",
+        "type": "email",
+        "required": true,
+        "validationMessage": "Enter a valid email address.",
+        "labelStyle": "inline"
+      }
+    },
+    "input-30": {
+      "type": "js.input",
+      "props": {
+        "label": "Floating email",
+        "type": "email",
+        "required": true,
+        "validationMessage": "Enter a valid email address.",
+        "labelStyle": "floating"
+      }
+    },
+    "heading-8": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Hidden labels",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-7": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "input-31",
+          "select-1",
+          "checkbox-1"
+        ]
+      }
+    },
+    "input-31": {
+      "type": "js.input",
+      "props": {
+        "label": "Search the site",
+        "hideLabel": true,
+        "placeholder": "Search the site"
+      }
+    },
+    "select-1": {
+      "type": "js.select",
+      "props": {
+        "label": "Sort order",
+        "hideLabel": true,
+        "options": [
+          "Newest",
+          "Oldest"
+        ]
+      }
+    },
+    "checkbox-1": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Visible only to screen readers",
+        "hideLabel": true
+      }
+    },
+    "heading-9": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Disabled",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-8": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "input-32",
+          "select-2",
+          "textarea-1",
+          "checkbox-2",
+          "toggle-1",
+          "file-input-1"
+        ]
+      }
+    },
+    "input-32": {
+      "type": "js.input",
+      "props": {
+        "label": "Input",
+        "disabled": true
+      }
+    },
+    "select-2": {
+      "type": "js.select",
+      "props": {
+        "label": "Select",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "disabled": true
+      }
+    },
+    "textarea-1": {
+      "type": "js.textarea",
+      "props": {
+        "label": "Textarea",
+        "disabled": true
+      }
+    },
+    "checkbox-2": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Checkbox",
+        "disabled": true
+      }
+    },
+    "toggle-1": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Toggle",
+        "disabled": true
+      }
+    },
+    "file-input-1": {
+      "type": "js.file-input",
+      "props": {
+        "label": "File input",
+        "disabled": true
+      }
+    },
+    "heading-10": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Description",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "input-33": {
+      "type": "js.input",
+      "props": {
+        "label": "With a description",
+        "description": "A description sits below the field, and is long enough here to show that it wraps onto another line rather than running off the page."
+      }
+    },
+    "heading-11": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Select",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-9": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "select-3",
+          "select-4",
+          "select-5",
+          "select-6",
+          "select-7",
+          "select-8"
+        ]
+      }
+    },
+    "select-3": {
+      "type": "js.select",
+      "props": {
+        "label": "Stacked",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ]
+      }
+    },
+    "select-4": {
+      "type": "js.select",
+      "props": {
+        "label": "Inline",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "labelStyle": "inline"
+      }
+    },
+    "select-5": {
+      "type": "js.select",
+      "props": {
+        "label": "Ghost",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "variant": "ghost"
+      }
+    },
+    "select-6": {
+      "type": "js.select",
+      "props": {
+        "label": "Placeholder",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "placeholder": "Choose one"
+      }
+    },
+    "select-7": {
+      "type": "js.select",
+      "props": {
+        "label": "Validation",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "placeholder": "Choose one",
+        "required": true,
+        "validationMessage": "Choose a size."
+      }
+    },
+    "select-8": {
+      "type": "js.select",
+      "props": {
+        "label": "Colour",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "color": "primary"
+      }
+    },
+    "heading-12": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Textarea",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-10": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "textarea-2",
+          "textarea-3",
+          "textarea-4"
+        ]
+      }
+    },
+    "textarea-2": {
+      "type": "js.textarea",
+      "props": {
+        "label": "Stacked"
+      }
+    },
+    "textarea-3": {
+      "type": "js.textarea",
+      "props": {
+        "label": "Floating",
+        "labelStyle": "floating"
+      }
+    },
+    "textarea-4": {
+      "type": "js.textarea",
+      "props": {
+        "label": "Validation",
+        "required": true,
+        "validationMessage": "Write a message."
+      }
+    },
+    "heading-13": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Checkbox",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-11": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "checkbox-3",
+          "checkbox-4",
+          "checkbox-5",
+          "checkbox-6",
+          "checkbox-7",
+          "checkbox-8",
+          "checkbox-9",
+          "checkbox-10",
+          "checkbox-11"
+        ]
+      }
+    },
+    "checkbox-3": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Default",
+        "color": "default",
+        "checked": true
+      }
+    },
+    "checkbox-4": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Neutral",
+        "color": "neutral",
+        "checked": true
+      }
+    },
+    "checkbox-5": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Primary",
+        "color": "primary",
+        "checked": true
+      }
+    },
+    "checkbox-6": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Secondary",
+        "color": "secondary",
+        "checked": true
+      }
+    },
+    "checkbox-7": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Accent",
+        "color": "accent",
+        "checked": true
+      }
+    },
+    "checkbox-8": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Info",
+        "color": "info",
+        "checked": true
+      }
+    },
+    "checkbox-9": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Success",
+        "color": "success",
+        "checked": true
+      }
+    },
+    "checkbox-10": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Warning",
+        "color": "warning",
+        "checked": true
+      }
+    },
+    "checkbox-11": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Error",
+        "color": "error",
+        "checked": true
+      }
+    },
+    "grid-12": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "checkbox-12",
+          "checkbox-13",
+          "checkbox-14",
+          "checkbox-15",
+          "checkbox-16"
+        ]
+      }
+    },
+    "checkbox-12": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Size xs",
+        "size": "xs"
+      }
+    },
+    "checkbox-13": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Size sm",
+        "size": "sm"
+      }
+    },
+    "checkbox-14": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Size md",
+        "size": "md"
+      }
+    },
+    "checkbox-15": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Size lg",
+        "size": "lg"
+      }
+    },
+    "checkbox-16": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Size xl",
+        "size": "xl"
+      }
+    },
+    "heading-14": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Toggle",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-13": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "toggle-2",
+          "toggle-3",
+          "toggle-4",
+          "toggle-5",
+          "toggle-6",
+          "toggle-7",
+          "toggle-8",
+          "toggle-9",
+          "toggle-10"
+        ]
+      }
+    },
+    "toggle-2": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Default",
+        "color": "default",
+        "checked": true
+      }
+    },
+    "toggle-3": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Neutral",
+        "color": "neutral",
+        "checked": true
+      }
+    },
+    "toggle-4": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Primary",
+        "color": "primary",
+        "checked": true
+      }
+    },
+    "toggle-5": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Secondary",
+        "color": "secondary",
+        "checked": true
+      }
+    },
+    "toggle-6": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Accent",
+        "color": "accent",
+        "checked": true
+      }
+    },
+    "toggle-7": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Info",
+        "color": "info",
+        "checked": true
+      }
+    },
+    "toggle-8": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Success",
+        "color": "success",
+        "checked": true
+      }
+    },
+    "toggle-9": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Warning",
+        "color": "warning",
+        "checked": true
+      }
+    },
+    "toggle-10": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Error",
+        "color": "error",
+        "checked": true
+      }
+    },
+    "grid-14": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "toggle-11",
+          "toggle-12",
+          "toggle-13",
+          "toggle-14",
+          "toggle-15"
+        ]
+      }
+    },
+    "toggle-11": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Size xs",
+        "size": "xs"
+      }
+    },
+    "toggle-12": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Size sm",
+        "size": "sm"
+      }
+    },
+    "toggle-13": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Size md",
+        "size": "md"
+      }
+    },
+    "toggle-14": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Size lg",
+        "size": "lg"
+      }
+    },
+    "toggle-15": {
+      "type": "js.toggle",
+      "props": {
+        "label": "Size xl",
+        "size": "xl"
+      }
+    },
+    "heading-15": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Radio",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-15": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "radio-1",
+          "radio-2",
+          "radio-3",
+          "radio-4",
+          "radio-5",
+          "radio-6",
+          "radio-7",
+          "radio-8",
+          "radio-9"
+        ]
+      }
+    },
+    "radio-1": {
+      "type": "js.radio",
+      "props": {
+        "label": "Default",
+        "color": "default",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-2": {
+      "type": "js.radio",
+      "props": {
+        "label": "Neutral",
+        "color": "neutral",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-3": {
+      "type": "js.radio",
+      "props": {
+        "label": "Primary",
+        "color": "primary",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-4": {
+      "type": "js.radio",
+      "props": {
+        "label": "Secondary",
+        "color": "secondary",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-5": {
+      "type": "js.radio",
+      "props": {
+        "label": "Accent",
+        "color": "accent",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-6": {
+      "type": "js.radio",
+      "props": {
+        "label": "Info",
+        "color": "info",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-7": {
+      "type": "js.radio",
+      "props": {
+        "label": "Success",
+        "color": "success",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-8": {
+      "type": "js.radio",
+      "props": {
+        "label": "Warning",
+        "color": "warning",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-9": {
+      "type": "js.radio",
+      "props": {
+        "label": "Error",
+        "color": "error",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "grid-16": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "radio-10",
+          "radio-11",
+          "radio-12",
+          "radio-13",
+          "radio-14"
+        ]
+      }
+    },
+    "radio-10": {
+      "type": "js.radio",
+      "props": {
+        "label": "Size xs",
+        "size": "xs",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-11": {
+      "type": "js.radio",
+      "props": {
+        "label": "Size sm",
+        "size": "sm",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-12": {
+      "type": "js.radio",
+      "props": {
+        "label": "Size md",
+        "size": "md",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-13": {
+      "type": "js.radio",
+      "props": {
+        "label": "Size lg",
+        "size": "lg",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "radio-14": {
+      "type": "js.radio",
+      "props": {
+        "label": "Size xl",
+        "size": "xl",
+        "options": [
+          "One",
+          "Two"
+        ],
+        "value": "One"
+      }
+    },
+    "heading-16": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Range",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-17": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "range-1",
+          "range-2",
+          "range-3",
+          "range-4",
+          "range-5",
+          "range-6",
+          "range-7",
+          "range-8",
+          "range-9"
+        ]
+      }
+    },
+    "range-1": {
+      "type": "js.range",
+      "props": {
+        "label": "Default",
+        "color": "default",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-2": {
+      "type": "js.range",
+      "props": {
+        "label": "Neutral",
+        "color": "neutral",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-3": {
+      "type": "js.range",
+      "props": {
+        "label": "Primary",
+        "color": "primary",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-4": {
+      "type": "js.range",
+      "props": {
+        "label": "Secondary",
+        "color": "secondary",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-5": {
+      "type": "js.range",
+      "props": {
+        "label": "Accent",
+        "color": "accent",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-6": {
+      "type": "js.range",
+      "props": {
+        "label": "Info",
+        "color": "info",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-7": {
+      "type": "js.range",
+      "props": {
+        "label": "Success",
+        "color": "success",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-8": {
+      "type": "js.range",
+      "props": {
+        "label": "Warning",
+        "color": "warning",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-9": {
+      "type": "js.range",
+      "props": {
+        "label": "Error",
+        "color": "error",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "grid-18": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "range-10",
+          "range-11",
+          "range-12",
+          "range-13",
+          "range-14"
+        ]
+      }
+    },
+    "range-10": {
+      "type": "js.range",
+      "props": {
+        "label": "Size xs",
+        "size": "xs",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-11": {
+      "type": "js.range",
+      "props": {
+        "label": "Size sm",
+        "size": "sm",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-12": {
+      "type": "js.range",
+      "props": {
+        "label": "Size md",
+        "size": "md",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-13": {
+      "type": "js.range",
+      "props": {
+        "label": "Size lg",
+        "size": "lg",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "range-14": {
+      "type": "js.range",
+      "props": {
+        "label": "Size xl",
+        "size": "xl",
+        "min": 0,
+        "max": 100,
+        "value": 40
+      }
+    },
+    "heading-17": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Rating",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-19": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "rating-1",
+          "rating-2",
+          "rating-3",
+          "rating-4",
+          "rating-5",
+          "rating-6"
+        ]
+      }
+    },
+    "rating-1": {
+      "type": "js.rating",
+      "props": {
+        "label": "Whole stars",
+        "value": 3
+      }
+    },
+    "rating-2": {
+      "type": "js.rating",
+      "props": {
+        "label": "Half stars",
+        "half": true,
+        "value": 2.5
+      }
+    },
+    "rating-3": {
+      "type": "js.rating",
+      "props": {
+        "label": "Read only",
+        "readOnly": true,
+        "value": 4
+      }
+    },
+    "rating-4": {
+      "type": "js.rating",
+      "props": {
+        "label": "Hearts",
+        "shape": "heart",
+        "color": "error",
+        "value": 3
+      }
+    },
+    "rating-5": {
+      "type": "js.rating",
+      "props": {
+        "label": "Ten stars",
+        "max": 10,
+        "value": 7
+      }
+    },
+    "rating-6": {
+      "type": "js.rating",
+      "props": {
+        "label": "Large",
+        "size": "lg",
+        "color": "warning",
+        "value": 3
+      }
+    },
+    "heading-18": {
+      "type": "js.heading",
+      "props": {
+        "heading": "File input",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-20": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "file-input-2",
+          "file-input-3",
+          "file-input-4"
+        ]
+      }
+    },
+    "file-input-2": {
+      "type": "js.file-input",
+      "props": {
+        "label": "Default"
+      }
+    },
+    "file-input-3": {
+      "type": "js.file-input",
+      "props": {
+        "label": "Ghost",
+        "variant": "ghost"
+      }
+    },
+    "file-input-4": {
+      "type": "js.file-input",
+      "props": {
+        "label": "Colour",
+        "color": "primary"
+      }
+    },
+    "heading-19": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Filter",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "filter-1": {
+      "type": "js.filter",
+      "props": {
+        "label": "Frameworks",
+        "options": [
+          "Svelte",
+          "Vue",
+          "React",
+          "Angular"
+        ]
+      }
+    },
+    "heading-20": {
+      "type": "js.heading",
+      "props": {
+        "heading": "OTP",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-21": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "otp-1",
+          "otp-2",
+          "otp-3"
+        ]
+      }
+    },
+    "otp-1": {
+      "type": "js.otp",
+      "props": {
+        "label": "Four digits",
+        "length": 4
+      }
+    },
+    "otp-2": {
+      "type": "js.otp",
+      "props": {
+        "label": "Six digits",
+        "length": 6
+      }
+    },
+    "otp-3": {
+      "type": "js.otp",
+      "props": {
+        "label": "Joined",
+        "joined": true,
+        "color": "primary"
+      }
+    },
+    "heading-21": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Fieldset",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "fieldset-1": {
+      "type": "js.fieldset",
+      "props": {
+        "legend": "Grouped fields",
+        "description": "Related fields belong together."
+      },
+      "slots": {
+        "content": [
+          "input-34",
+          "input-35"
+        ]
+      }
+    },
+    "input-34": {
+      "type": "js.input",
+      "props": {
+        "label": "First name"
+      }
+    },
+    "input-35": {
+      "type": "js.input",
+      "props": {
+        "label": "Last name"
+      }
+    },
+    "heading-22": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Fields inside a join",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "join-1": {
+      "type": "js.join",
+      "slots": {
+        "items": [
+          "input-36",
+          "select-9",
+          "button-1"
+        ]
+      }
+    },
+    "input-36": {
+      "type": "js.input",
+      "props": {
+        "label": "Email address",
+        "type": "email",
+        "placeholder": "Email address"
+      }
+    },
+    "select-9": {
+      "type": "js.select",
+      "props": {
+        "label": "List",
+        "options": [
+          "News",
+          "Offers"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Subscribe",
+        "color": "primary"
+      }
+    }
+  }
+}

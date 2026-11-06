@@ -1,0 +1,794 @@
+{
+  "title": "Components: Navigation",
+  "path": "/components/navigation",
+  "description": "Components that move people around a site.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "section-2",
+          "section-3",
+          "section-4",
+          "grid-1",
+          "section-7",
+          "section-8"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Navigation",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Components that move people around a site.</p>"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-2",
+          "breadcrumbs-1"
+        ]
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Breadcrumbs",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "breadcrumbs-1": {
+      "type": "js.breadcrumbs",
+      "slots": {
+        "items": [
+          "breadcrumb-item-1",
+          "breadcrumb-item-2",
+          "breadcrumb-item-3"
+        ]
+      }
+    },
+    "breadcrumb-item-1": {
+      "type": "js.breadcrumb-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home"
+      }
+    },
+    "breadcrumb-item-2": {
+      "type": "js.breadcrumb-item",
+      "props": {
+        "label": "Components",
+        "link": "/components/actions"
+      }
+    },
+    "breadcrumb-item-3": {
+      "type": "js.breadcrumb-item",
+      "props": {
+        "label": "Navigation"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-3",
+          "link-1"
+        ]
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Link",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "link-1": {
+      "type": "js.link",
+      "props": {
+        "text": "A normal link",
+        "link": "/pricing",
+        "color": "primary"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-4",
+          "megamenu-1"
+        ]
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Megamenu",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "megamenu-1": {
+      "type": "js.megamenu",
+      "props": {
+        "width": "wide"
+      },
+      "slots": {
+        "items": [
+          "megamenu-item-1",
+          "megamenu-item-2",
+          "megamenu-item-3"
+        ]
+      }
+    },
+    "megamenu-item-1": {
+      "type": "js.megamenu-item",
+      "props": {
+        "label": "Products"
+      },
+      "slots": {
+        "content": [
+          "panel-1-menu"
+        ]
+      }
+    },
+    "megamenu-item-2": {
+      "type": "js.megamenu-item",
+      "props": {
+        "label": "Solutions"
+      },
+      "slots": {
+        "content": [
+          "panel-2-menu"
+        ]
+      }
+    },
+    "megamenu-item-3": {
+      "type": "js.megamenu-item",
+      "props": {
+        "label": "Resources"
+      },
+      "slots": {
+        "content": [
+          "panel-3-menu"
+        ]
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-5",
+          "section-6"
+        ]
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-5",
+          "menu-1"
+        ]
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Menu",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "menu-1": {
+      "type": "js.menu",
+      "props": {
+        "title": "Site"
+      },
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-2",
+          "menu-item-3"
+        ]
+      }
+    },
+    "menu-item-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home",
+        "active": true
+      }
+    },
+    "menu-item-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Pricing",
+        "link": "/pricing"
+      }
+    },
+    "menu-item-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Disabled",
+        "disabled": true
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-6",
+          "pagination-1"
+        ]
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Pagination",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "pagination-1": {
+      "type": "js.pagination",
+      "props": {
+        "currentPage": 2,
+        "totalPages": 5,
+        "baseLink": "/articles"
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-7",
+          "steps-1"
+        ]
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Steps",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "steps-1": {
+      "type": "js.steps",
+      "slots": {
+        "items": [
+          "step-1",
+          "step-2",
+          "step-3",
+          "step-4"
+        ]
+      }
+    },
+    "step-1": {
+      "type": "js.step",
+      "props": {
+        "label": "Register",
+        "color": "primary"
+      }
+    },
+    "step-2": {
+      "type": "js.step",
+      "props": {
+        "label": "Choose plan",
+        "color": "primary"
+      }
+    },
+    "step-3": {
+      "type": "js.step",
+      "props": {
+        "label": "Purchase"
+      }
+    },
+    "step-4": {
+      "type": "js.step",
+      "props": {
+        "label": "Receive"
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-8",
+          "tabs-1"
+        ]
+      }
+    },
+    "heading-8": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Tabs",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "tabs-1": {
+      "type": "js.tabs",
+      "props": {
+        "variant": "lift",
+        "label": "Sections"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      }
+    },
+    "tab-panel-1": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "First",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-5"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First panel.</p>"
+      }
+    },
+    "tab-panel-2": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Second"
+      },
+      "slots": {
+        "content": [
+          "text-6"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second panel.</p>"
+      }
+    },
+    "tab-panel-3": {
+      "type": "js.tab-panel",
+      "props": {
+        "label": "Third"
+      },
+      "slots": {
+        "content": [
+          "text-7"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Third panel.</p>"
+      }
+    },
+    "panel-1-menu": {
+      "type": "js.menu",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "panel-1-col-1",
+          "panel-1-col-2",
+          "panel-1-col-3"
+        ]
+      }
+    },
+    "panel-1-col-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Build",
+        "isTitle": true
+      },
+      "slots": {
+        "submenu": [
+          "panel-1-col-1-link-1",
+          "panel-1-col-1-link-2",
+          "panel-1-col-1-link-3"
+        ]
+      }
+    },
+    "panel-1-col-1-link-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Components",
+        "link": "/components"
+      }
+    },
+    "panel-1-col-1-link-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Themes",
+        "link": "/themes"
+      }
+    },
+    "panel-1-col-1-link-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Templates",
+        "link": "/templates"
+      }
+    },
+    "panel-1-col-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Integrate",
+        "isTitle": true
+      },
+      "slots": {
+        "submenu": [
+          "panel-1-col-2-link-1",
+          "panel-1-col-2-link-2",
+          "panel-1-col-2-link-3"
+        ]
+      }
+    },
+    "panel-1-col-2-link-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Tailwind CSS",
+        "link": "/tailwind-css"
+      }
+    },
+    "panel-1-col-2-link-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "React",
+        "link": "/react"
+      }
+    },
+    "panel-1-col-2-link-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Drupal Canvas",
+        "link": "/drupal-canvas"
+      }
+    },
+    "panel-1-col-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Learn",
+        "isTitle": true
+      },
+      "slots": {
+        "submenu": [
+          "panel-1-col-3-link-1",
+          "panel-1-col-3-link-2",
+          "panel-1-col-3-link-3"
+        ]
+      }
+    },
+    "panel-1-col-3-link-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Docs",
+        "link": "/docs"
+      }
+    },
+    "panel-1-col-3-link-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Examples",
+        "link": "/examples"
+      }
+    },
+    "panel-1-col-3-link-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Changelog",
+        "link": "/changelog"
+      }
+    },
+    "panel-2-menu": {
+      "type": "js.menu",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "panel-2-col-1",
+          "panel-2-col-2",
+          "panel-2-col-3"
+        ]
+      }
+    },
+    "panel-2-col-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "By team",
+        "isTitle": true
+      },
+      "slots": {
+        "submenu": [
+          "panel-2-col-1-link-1",
+          "panel-2-col-1-link-2",
+          "panel-2-col-1-link-3"
+        ]
+      }
+    },
+    "panel-2-col-1-link-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Design",
+        "link": "/design"
+      }
+    },
+    "panel-2-col-1-link-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Engineering",
+        "link": "/engineering"
+      }
+    },
+    "panel-2-col-1-link-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Marketing",
+        "link": "/marketing"
+      }
+    },
+    "panel-2-col-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "By size",
+        "isTitle": true
+      },
+      "slots": {
+        "submenu": [
+          "panel-2-col-2-link-1",
+          "panel-2-col-2-link-2",
+          "panel-2-col-2-link-3"
+        ]
+      }
+    },
+    "panel-2-col-2-link-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Startups",
+        "link": "/startups"
+      }
+    },
+    "panel-2-col-2-link-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Agencies",
+        "link": "/agencies"
+      }
+    },
+    "panel-2-col-2-link-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Enterprise",
+        "link": "/enterprise"
+      }
+    },
+    "panel-2-col-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "By use",
+        "isTitle": true
+      },
+      "slots": {
+        "submenu": [
+          "panel-2-col-3-link-1",
+          "panel-2-col-3-link-2",
+          "panel-2-col-3-link-3"
+        ]
+      }
+    },
+    "panel-2-col-3-link-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Websites",
+        "link": "/websites"
+      }
+    },
+    "panel-2-col-3-link-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Dashboards",
+        "link": "/dashboards"
+      }
+    },
+    "panel-2-col-3-link-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Landing pages",
+        "link": "/landing-pages"
+      }
+    },
+    "panel-3-menu": {
+      "type": "js.menu",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "panel-3-col-1",
+          "panel-3-col-2",
+          "panel-3-col-3"
+        ]
+      }
+    },
+    "panel-3-col-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Support",
+        "isTitle": true
+      },
+      "slots": {
+        "submenu": [
+          "panel-3-col-1-link-1",
+          "panel-3-col-1-link-2",
+          "panel-3-col-1-link-3"
+        ]
+      }
+    },
+    "panel-3-col-1-link-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Help centre",
+        "link": "/help-centre"
+      }
+    },
+    "panel-3-col-1-link-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Community",
+        "link": "/community"
+      }
+    },
+    "panel-3-col-1-link-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Contact",
+        "link": "/contact"
+      }
+    },
+    "panel-3-col-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Company",
+        "isTitle": true
+      },
+      "slots": {
+        "submenu": [
+          "panel-3-col-2-link-1",
+          "panel-3-col-2-link-2",
+          "panel-3-col-2-link-3"
+        ]
+      }
+    },
+    "panel-3-col-2-link-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "About",
+        "link": "/about"
+      }
+    },
+    "panel-3-col-2-link-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Blog",
+        "link": "/blog"
+      }
+    },
+    "panel-3-col-2-link-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Careers",
+        "link": "/careers"
+      }
+    },
+    "panel-3-col-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Legal",
+        "isTitle": true
+      },
+      "slots": {
+        "submenu": [
+          "panel-3-col-3-link-1",
+          "panel-3-col-3-link-2",
+          "panel-3-col-3-link-3"
+        ]
+      }
+    },
+    "panel-3-col-3-link-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Terms",
+        "link": "/terms"
+      }
+    },
+    "panel-3-col-3-link-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Privacy",
+        "link": "/privacy"
+      }
+    },
+    "panel-3-col-3-link-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Licences",
+        "link": "/licences"
+      }
+    }
+  }
+}

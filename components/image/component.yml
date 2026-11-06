@@ -8,11 +8,66 @@ props:
     image:
       title: Image
       type: object
+      $ref: json-schema-definitions://canvas.module/image
       examples:
-        - src: >-
-            https://placehold.co/800x600@2x.png?alternateWidths=https%3A%2F%2Fplacehold.co%2F%7Bwidth%7Dx%7Bheight%7D%402x.png
+        - src: https://picsum.photos/seed/example-image-placeholder/800/600
           alt: Example image placeholder
           width: 800
           height: 600
-      $ref: json-schema-definitions://canvas.module/image
+    shape:
+      title: Shape
+      type: string
+      enum:
+        - none
+        - rounded
+        - squircle
+        - heart
+        - hexagon
+        - hexagon_2
+        - decagon
+        - pentagon
+        - diamond
+        - circle
+        - star
+        - star_2
+        - triangle
+        - triangle_2
+        - triangle_3
+        - triangle_4
+      meta:enum:
+        none: None
+        rounded: Rounded
+        squircle: Squircle
+        heart: Heart
+        hexagon: Hexagon
+        hexagon_2: Hexagon 2
+        decagon: Decagon
+        pentagon: Pentagon
+        diamond: Diamond
+        circle: Circle
+        star: Star
+        star_2: Star 2
+        triangle: Triangle
+        triangle_2: Triangle 2
+        triangle_3: Triangle 3
+        triangle_4: Triangle 4
+      examples:
+        - none
+    maxWidth:
+      title: Max Width
+      type: string
+      enum:
+        - none
+        - xs
+        - sm
+        - md
+        - lg
+      meta:enum:
+        none: None
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+      examples:
+        - none
 slots: {}

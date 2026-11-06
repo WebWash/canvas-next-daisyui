@@ -1,0 +1,230 @@
+{
+  "mocks": [
+    {
+      "name": "Around a button",
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important",
+            "color": "primary"
+          }
+        }
+      }
+    },
+    {
+      "name": "Variant dual",
+      "props": {
+        "variant": "dual"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    },
+    {
+      "name": "Variant rainbow",
+      "props": {
+        "variant": "rainbow"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    },
+    {
+      "name": "Variant holo",
+      "props": {
+        "variant": "holo"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    },
+    {
+      "name": "Variant gold",
+      "props": {
+        "variant": "gold"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    },
+    {
+      "name": "Variant silver",
+      "props": {
+        "variant": "silver"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    },
+    {
+      "name": "Variant glow",
+      "props": {
+        "variant": "glow"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "size": "xs"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "size": "sm"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "size": "lg"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "size": "xl"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    },
+    {
+      "name": "Primary colour",
+      "props": {
+        "color": "primary"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Important"
+          }
+        }
+      }
+    }
+  ]
+}

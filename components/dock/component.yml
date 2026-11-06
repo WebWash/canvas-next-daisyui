@@ -1,0 +1,26 @@
+name: Dock
+machineName: dock
+status: true
+required: []
+props:
+  properties:
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+slots:
+  items:
+    title: Items

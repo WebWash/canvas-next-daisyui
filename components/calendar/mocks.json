@@ -1,0 +1,17 @@
+{
+  "mocks": [
+    {
+      "name": "Single selection",
+      "props": {
+        "selectionMode": "single",
+        "defaultMonth": "2026-11"
+      }
+    },
+    {
+      "name": "Another month",
+      "props": {
+        "defaultMonth": "2027-02"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+name: Timeline
+machineName: timeline
+status: true
+required: []
+props:
+  properties:
+    direction:
+      title: Direction
+      type: string
+      enum:
+        - vertical
+        - horizontal
+      meta:enum:
+        vertical: Vertical
+        horizontal: Horizontal
+      examples:
+        - vertical
+    compact:
+      title: Compact
+      type: boolean
+      examples:
+        - false
+    snapIcon:
+      title: Snap Icon
+      type: boolean
+      examples:
+        - false
+slots:
+  items:
+    title: Items

@@ -1,0 +1,74 @@
+{
+  "mocks": [
+    {
+      "name": "Ghost",
+      "props": {
+        "variant": "ghost",
+        "label": "Upload a file"
+      }
+    },
+    {
+      "name": "Images only",
+      "props": {
+        "label": "Upload an image",
+        "accept": "image/*"
+      }
+    },
+    {
+      "name": "Multiple",
+      "props": {
+        "label": "Upload files",
+        "multiple": true
+      }
+    },
+    {
+      "name": "Description",
+      "props": {
+        "label": "Upload a file",
+        "description": "A short description of this field that is long enough to show that it wraps onto another line."
+      }
+    },
+    {
+      "name": "Hidden label",
+      "props": {
+        "label": "Upload a file",
+        "hideLabel": true
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "Upload a file",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "label": "Upload a file",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "label": "Upload a file",
+        "color": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "label": "Upload a file",
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "label": "Upload a file",
+        "size": "lg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+name: Breadcrumbs
+machineName: breadcrumbs
+status: true
+required: []
+props:
+  properties: {}
+slots:
+  items:
+    title: Items

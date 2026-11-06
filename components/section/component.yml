@@ -1,21 +1,71 @@
 name: Section
 machineName: section
 status: true
-required:
-  - width
+required: []
 props:
   properties:
     width:
       title: Width
       type: string
-      examples:
-        - normal
       enum:
         - normal
         - wide
+        - full
       meta:enum:
         normal: Normal
         wide: Wide
+        full: Full
+      examples:
+        - normal
+    background:
+      title: Background
+      type: string
+      enum:
+        - none
+        - base_100
+        - base_200
+        - base_300
+        - neutral
+        - primary
+      meta:enum:
+        none: None
+        base_100: Base 100
+        base_200: Base 200
+        base_300: Base 300
+        neutral: Neutral
+        primary: Primary
+      examples:
+        - none
+    paddingY:
+      title: Padding Y
+      type: string
+      enum:
+        - none
+        - sm
+        - md
+        - lg
+      meta:enum:
+        none: None
+        sm: SM
+        md: MD
+        lg: LG
+      examples:
+        - md
+    gap:
+      title: Gap
+      type: string
+      enum:
+        - none
+        - sm
+        - md
+        - lg
+      meta:enum:
+        none: None
+        sm: SM
+        md: MD
+        lg: LG
+      examples:
+        - md
 slots:
   content:
     title: Content

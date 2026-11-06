@@ -1,0 +1,117 @@
+name: Select
+machineName: select
+status: true
+required:
+  - label
+  - options
+props:
+  properties:
+    variant:
+      title: Variant
+      type: string
+      enum:
+        - default
+        - ghost
+      meta:enum:
+        default: Default
+        ghost: Ghost
+      examples:
+        - default
+    label:
+      title: Label
+      type: string
+      examples:
+        - Pick a size
+    hideLabel:
+      title: Hide Label
+      type: boolean
+      examples:
+        - false
+    description:
+      title: Description
+      type: string
+    name:
+      title: Name
+      type: string
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    validationMessage:
+      title: Validation Message
+      type: string
+    labelStyle:
+      title: Label Style
+      type: string
+      enum:
+        - stacked
+        - inline
+      meta:enum:
+        stacked: Stacked
+        inline: Inline
+      examples:
+        - stacked
+    options:
+      title: Options
+      type: array
+      items:
+        type: string
+      examples:
+        - - Small
+          - Medium
+          - Large
+    placeholder:
+      title: Placeholder
+      type: string
+    value:
+      title: Value
+      type: string
+    color:
+      title: Color
+      type: string
+      enum:
+        - default
+        - neutral
+        - primary
+        - secondary
+        - accent
+        - info
+        - success
+        - warning
+        - error
+      meta:enum:
+        default: Default
+        neutral: Neutral
+        primary: Primary
+        secondary: Secondary
+        accent: Accent
+        info: Info
+        success: Success
+        warning: Warning
+        error: Error
+      examples:
+        - default
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+slots: {}

@@ -1,0 +1,84 @@
+{
+  "mocks": [
+    {
+      "name": "Open",
+      "props": {
+        "title": "Show more",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-1"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Answer text that explains this item in a sentence or two.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Plus",
+      "props": {
+        "title": "Show more",
+        "indicator": "plus"
+      },
+      "slots": {
+        "content": [
+          "text-1"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Answer text that explains this item in a sentence or two.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "No indicator",
+      "props": {
+        "title": "Show more",
+        "indicator": "none"
+      },
+      "slots": {
+        "content": [
+          "text-1"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Answer text that explains this item in a sentence or two.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Bordered",
+      "props": {
+        "title": "Show more",
+        "bordered": true
+      },
+      "slots": {
+        "content": [
+          "text-1"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Answer text that explains this item in a sentence or two.</p>"
+          }
+        }
+      }
+    }
+  ]
+}

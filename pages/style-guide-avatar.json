@@ -1,0 +1,712 @@
+{
+  "title": "Style guide: Avatar",
+  "path": "/style-guide/avatar",
+  "description": "Each size, shape and status, placeholders, and groups.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "grid-1",
+          "heading-3",
+          "grid-2",
+          "heading-4",
+          "grid-3",
+          "heading-5",
+          "grid-4",
+          "heading-6",
+          "avatar-group-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Avatar",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each size, shape and status, placeholders, and groups.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-2",
+          "section-3",
+          "section-4",
+          "section-5",
+          "section-6"
+        ]
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-2",
+          "avatar-1"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xs</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-1": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "size": "xs"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-3",
+          "avatar-2"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size sm</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-2": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "size": "sm"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-4",
+          "avatar-3"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size md</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-3": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "size": "md"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-5",
+          "avatar-4"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size lg</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-4": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "size": "lg"
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-6",
+          "avatar-5"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xl</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-5": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "size": "xl"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Shapes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-2": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-7",
+          "section-8",
+          "section-9",
+          "section-10",
+          "section-11"
+        ]
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-7",
+          "avatar-6"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Circle</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-6": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "shape": "circle",
+        "size": "lg"
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-8",
+          "avatar-7"
+        ]
+      }
+    },
+    "text-8": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Rounded</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-7": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "shape": "rounded",
+        "size": "lg"
+      }
+    },
+    "section-9": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-9",
+          "avatar-8"
+        ]
+      }
+    },
+    "text-9": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Squircle</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-8": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "shape": "squircle",
+        "size": "lg"
+      }
+    },
+    "section-10": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-10",
+          "avatar-9"
+        ]
+      }
+    },
+    "text-10": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Hexagon</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-9": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "shape": "hexagon",
+        "size": "lg"
+      }
+    },
+    "section-11": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-11",
+          "avatar-10"
+        ]
+      }
+    },
+    "text-11": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Triangle</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-10": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "shape": "triangle",
+        "size": "lg"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Status",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-3": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-12",
+          "section-13",
+          "section-14"
+        ]
+      }
+    },
+    "section-12": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-12",
+          "avatar-11"
+        ]
+      }
+    },
+    "text-12": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>None</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-11": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "status": "none"
+      }
+    },
+    "section-13": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-13",
+          "avatar-12"
+        ]
+      }
+    },
+    "text-13": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Online</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-12": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "status": "online"
+      }
+    },
+    "section-14": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-14",
+          "avatar-13"
+        ]
+      }
+    },
+    "text-14": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Offline</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-13": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "status": "offline"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Placeholder",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-4": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-15",
+          "section-16",
+          "section-17"
+        ]
+      }
+    },
+    "section-15": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-15",
+          "avatar-14"
+        ]
+      }
+    },
+    "text-15": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Initials</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-14": {
+      "type": "js.avatar",
+      "props": {
+        "placeholderText": "AB"
+      }
+    },
+    "section-16": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-16",
+          "avatar-15"
+        ]
+      }
+    },
+    "text-16": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Online</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-15": {
+      "type": "js.avatar",
+      "props": {
+        "placeholderText": "CD",
+        "status": "online"
+      }
+    },
+    "section-17": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-17",
+          "avatar-16"
+        ]
+      }
+    },
+    "text-17": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Large</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "avatar-16": {
+      "type": "js.avatar",
+      "props": {
+        "placeholderText": "EF",
+        "size": "lg"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Group",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "avatar-group-1": {
+      "type": "js.avatar-group",
+      "slots": {
+        "avatars": [
+          "avatar-17",
+          "avatar-18",
+          "avatar-19",
+          "avatar-20"
+        ]
+      }
+    },
+    "avatar-17": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/person-1/200/200",
+          "alt": "Person 1",
+          "width": 200,
+          "height": 200
+        }
+      }
+    },
+    "avatar-18": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/person-2/200/200",
+          "alt": "Person 2",
+          "width": 200,
+          "height": 200
+        }
+      }
+    },
+    "avatar-19": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/person-3/200/200",
+          "alt": "Person 3",
+          "width": 200,
+          "height": 200
+        }
+      }
+    },
+    "avatar-20": {
+      "type": "js.avatar",
+      "props": {
+        "placeholderText": "+9"
+      }
+    }
+  }
+}

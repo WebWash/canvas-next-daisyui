@@ -1,0 +1,20 @@
+name: Tab Panel (child of Tabs)
+machineName: tab-panel
+status: true
+required:
+  - label
+props:
+  properties:
+    label:
+      title: Label
+      type: string
+      examples:
+        - First
+    openByDefault:
+      title: Open By Default
+      type: boolean
+      examples:
+        - true
+slots:
+  content:
+    title: Content

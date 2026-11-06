@@ -3,49 +3,111 @@
     {
       "name": "Extra small",
       "props": {
-        "text": "Enter some text...",
-        "textSize": "extra_small",
-        "textColor": "dark"
+        "text": "<p>Enter some text...</p>",
+        "textSize": "extra_small"
       }
     },
     {
       "name": "Small",
       "props": {
-        "text": "Enter some text...",
-        "textSize": "small",
-        "textColor": "dark"
+        "text": "<p>Enter some text...</p>",
+        "textSize": "small"
       }
     },
     {
       "name": "Large",
       "props": {
-        "text": "Enter some text...",
-        "textSize": "large",
-        "textColor": "dark"
+        "text": "<p>Enter some text...</p>",
+        "textSize": "large"
       }
     },
     {
       "name": "Extra large",
       "props": {
-        "text": "Enter some text...",
-        "textSize": "extra_large",
-        "textColor": "dark"
+        "text": "<p>Enter some text...</p>",
+        "textSize": "extra_large"
       }
     },
     {
-      "name": "Light on dark",
+      "name": "Colour muted",
       "props": {
-        "text": "Enter some text...",
-        "textSize": "normal",
-        "textColor": "light"
+        "text": "<p>Enter some text with <a href=\"/about\">a link</a>.</p>",
+        "textColor": "muted"
       }
     },
     {
-      "name": "With HTML",
+      "name": "Colour primary",
       "props": {
-        "text": "<p>This is a <strong>bold</strong> and <em>italic</em> text with a <a href='#'>link</a>.</p>",
-        "textSize": "normal",
-        "textColor": "dark"
+        "text": "<p>Enter some text with <a href=\"/about\">a link</a>.</p>",
+        "textColor": "primary"
+      }
+    },
+    {
+      "name": "Colour secondary",
+      "props": {
+        "text": "<p>Enter some text with <a href=\"/about\">a link</a>.</p>",
+        "textColor": "secondary"
+      }
+    },
+    {
+      "name": "Colour accent",
+      "props": {
+        "text": "<p>Enter some text with <a href=\"/about\">a link</a>.</p>",
+        "textColor": "accent"
+      }
+    },
+    {
+      "name": "Rich text",
+      "props": {
+        "text": "<h2>A heading</h2><p>This is <strong>bold</strong> and <em>italic</em> text with a <a href=\"/about\">link</a> and <code>code</code>.</p><ul><li>First item</li><li>Second item</li></ul><blockquote>A short quote.</blockquote>"
+      }
+    },
+    {
+      "name": "On neutral",
+      "root": "section-1",
+      "elements": {
+        "section-1": {
+          "type": "section",
+          "props": {
+            "background": "neutral",
+            "paddingY": "md"
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<h3>On neutral</h3><p>Rich text follows the surface, with <a href=\"/about\">a link</a> and <code>code</code>.</p><ul><li>One</li><li>Two</li></ul>"
+          }
+        }
+      }
+    },
+    {
+      "name": "On primary",
+      "root": "section-1",
+      "elements": {
+        "section-1": {
+          "type": "section",
+          "props": {
+            "background": "primary",
+            "paddingY": "md"
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<h3>On primary</h3><p>Rich text follows the surface, with <a href=\"/about\">a link</a> and <code>code</code>.</p><ul><li>One</li><li>Two</li></ul>"
+          }
+        }
       }
     }
   ]

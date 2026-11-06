@@ -1,0 +1,29 @@
+name: List Row (child of List)
+machineName: list-row
+status: true
+required:
+  - title
+props:
+  properties:
+    image:
+      title: Image
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      examples:
+        - src: https://picsum.photos/seed/cover-placeholder/100/100
+          alt: Cover placeholder
+          width: 100
+          height: 100
+    title:
+      title: Title
+      type: string
+      examples:
+        - Song title
+    description:
+      title: Description
+      type: string
+      examples:
+        - An artist name
+slots:
+  actions:
+    title: Actions

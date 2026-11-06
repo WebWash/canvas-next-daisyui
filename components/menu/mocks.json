@@ -1,0 +1,370 @@
+{
+  "mocks": [
+    {
+      "name": "Vertical",
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-2",
+          "menu-item-3"
+        ]
+      },
+      "elements": {
+        "menu-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Home",
+            "link": "/",
+            "icon": "home",
+            "active": true
+          }
+        },
+        "menu-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Pricing",
+            "link": "/pricing"
+          }
+        },
+        "menu-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Disabled",
+            "disabled": true
+          }
+        }
+      }
+    },
+    {
+      "name": "Horizontal",
+      "props": {
+        "direction": "horizontal"
+      },
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-2",
+          "menu-item-3"
+        ]
+      },
+      "elements": {
+        "menu-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Home",
+            "link": "/",
+            "icon": "home",
+            "active": true
+          }
+        },
+        "menu-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Pricing",
+            "link": "/pricing"
+          }
+        },
+        "menu-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Disabled",
+            "disabled": true
+          }
+        }
+      }
+    },
+    {
+      "name": "Responsive",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-2",
+          "menu-item-3"
+        ]
+      },
+      "elements": {
+        "menu-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Home",
+            "link": "/",
+            "icon": "home",
+            "active": true
+          }
+        },
+        "menu-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Pricing",
+            "link": "/pricing"
+          }
+        },
+        "menu-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Disabled",
+            "disabled": true
+          }
+        }
+      }
+    },
+    {
+      "name": "With title",
+      "props": {
+        "title": "Site"
+      },
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-2",
+          "menu-item-3"
+        ]
+      },
+      "elements": {
+        "menu-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Home",
+            "link": "/",
+            "icon": "home",
+            "active": true
+          }
+        },
+        "menu-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Pricing",
+            "link": "/pricing"
+          }
+        },
+        "menu-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Disabled",
+            "disabled": true
+          }
+        }
+      }
+    },
+    {
+      "name": "Submenus",
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-4",
+          "menu-item-6"
+        ]
+      },
+      "elements": {
+        "menu-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Parent",
+            "link": "/parent"
+          },
+          "slots": {
+            "submenu": [
+              "menu-item-2",
+              "menu-item-3"
+            ]
+          }
+        },
+        "menu-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Child one",
+            "link": "/one"
+          }
+        },
+        "menu-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Child two",
+            "link": "/two"
+          }
+        },
+        "menu-item-4": {
+          "type": "menu-item",
+          "props": {
+            "label": "Collapsible",
+            "collapsible": true
+          },
+          "slots": {
+            "submenu": [
+              "menu-item-5"
+            ]
+          }
+        },
+        "menu-item-5": {
+          "type": "menu-item",
+          "props": {
+            "label": "Hidden until opened",
+            "link": "/hidden"
+          }
+        },
+        "menu-item-6": {
+          "type": "menu-item",
+          "props": {
+            "label": "Section",
+            "isTitle": true
+          }
+        }
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "size": "xs"
+      },
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-2",
+          "menu-item-3"
+        ]
+      },
+      "elements": {
+        "menu-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Home",
+            "link": "/",
+            "icon": "home",
+            "active": true
+          }
+        },
+        "menu-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Pricing",
+            "link": "/pricing"
+          }
+        },
+        "menu-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Disabled",
+            "disabled": true
+          }
+        }
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "size": "sm"
+      },
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-2",
+          "menu-item-3"
+        ]
+      },
+      "elements": {
+        "menu-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Home",
+            "link": "/",
+            "icon": "home",
+            "active": true
+          }
+        },
+        "menu-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Pricing",
+            "link": "/pricing"
+          }
+        },
+        "menu-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Disabled",
+            "disabled": true
+          }
+        }
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "size": "lg"
+      },
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-2",
+          "menu-item-3"
+        ]
+      },
+      "elements": {
+        "menu-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Home",
+            "link": "/",
+            "icon": "home",
+            "active": true
+          }
+        },
+        "menu-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Pricing",
+            "link": "/pricing"
+          }
+        },
+        "menu-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Disabled",
+            "disabled": true
+          }
+        }
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "size": "xl"
+      },
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-2",
+          "menu-item-3"
+        ]
+      },
+      "elements": {
+        "menu-item-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Home",
+            "link": "/",
+            "icon": "home",
+            "active": true
+          }
+        },
+        "menu-item-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Pricing",
+            "link": "/pricing"
+          }
+        },
+        "menu-item-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Disabled",
+            "disabled": true
+          }
+        }
+      }
+    }
+  ]
+}

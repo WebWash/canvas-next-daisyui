@@ -1,0 +1,858 @@
+{
+  "title": "Style guide: Menu",
+  "path": "/style-guide/menu",
+  "description": "Each direction and size, submenus, collapsible, active, disabled and title items, plus breadcrumbs and pagination.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "section-2",
+          "section-3",
+          "section-4",
+          "heading-3",
+          "grid-1",
+          "heading-4",
+          "menu-9",
+          "heading-5",
+          "breadcrumbs-1",
+          "heading-6",
+          "section-10",
+          "section-11",
+          "section-12",
+          "section-13",
+          "section-14",
+          "section-15"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Menu",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each direction and size, submenus, collapsible, active, disabled and title items, plus breadcrumbs and pagination.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Directions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-2",
+          "menu-1"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Vertical</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "menu-1": {
+      "type": "js.menu",
+      "props": {
+        "direction": "vertical"
+      },
+      "slots": {
+        "items": [
+          "menu-item-1",
+          "menu-item-2",
+          "menu-item-3"
+        ]
+      }
+    },
+    "menu-item-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home",
+        "active": true
+      }
+    },
+    "menu-item-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Pricing",
+        "link": "/pricing"
+      }
+    },
+    "menu-item-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Disabled",
+        "disabled": true
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-3",
+          "menu-2"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Horizontal</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "menu-2": {
+      "type": "js.menu",
+      "props": {
+        "direction": "horizontal"
+      },
+      "slots": {
+        "items": [
+          "menu-item-4",
+          "menu-item-5",
+          "menu-item-6"
+        ]
+      }
+    },
+    "menu-item-4": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home",
+        "active": true
+      }
+    },
+    "menu-item-5": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Pricing",
+        "link": "/pricing"
+      }
+    },
+    "menu-item-6": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Disabled",
+        "disabled": true
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-4",
+          "menu-3"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Responsive</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "menu-3": {
+      "type": "js.menu",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "menu-item-7",
+          "menu-item-8",
+          "menu-item-9"
+        ]
+      }
+    },
+    "menu-item-7": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home",
+        "active": true
+      }
+    },
+    "menu-item-8": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Pricing",
+        "link": "/pricing"
+      }
+    },
+    "menu-item-9": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Disabled",
+        "disabled": true
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-5",
+          "section-6",
+          "section-7",
+          "section-8",
+          "section-9"
+        ]
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-5",
+          "menu-4"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xs</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "menu-4": {
+      "type": "js.menu",
+      "props": {
+        "size": "xs"
+      },
+      "slots": {
+        "items": [
+          "menu-item-10",
+          "menu-item-11",
+          "menu-item-12"
+        ]
+      }
+    },
+    "menu-item-10": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home",
+        "active": true
+      }
+    },
+    "menu-item-11": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Pricing",
+        "link": "/pricing"
+      }
+    },
+    "menu-item-12": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Disabled",
+        "disabled": true
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-6",
+          "menu-5"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size sm</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "menu-5": {
+      "type": "js.menu",
+      "props": {
+        "size": "sm"
+      },
+      "slots": {
+        "items": [
+          "menu-item-13",
+          "menu-item-14",
+          "menu-item-15"
+        ]
+      }
+    },
+    "menu-item-13": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home",
+        "active": true
+      }
+    },
+    "menu-item-14": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Pricing",
+        "link": "/pricing"
+      }
+    },
+    "menu-item-15": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Disabled",
+        "disabled": true
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-7",
+          "menu-6"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size md</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "menu-6": {
+      "type": "js.menu",
+      "props": {
+        "size": "md"
+      },
+      "slots": {
+        "items": [
+          "menu-item-16",
+          "menu-item-17",
+          "menu-item-18"
+        ]
+      }
+    },
+    "menu-item-16": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home",
+        "active": true
+      }
+    },
+    "menu-item-17": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Pricing",
+        "link": "/pricing"
+      }
+    },
+    "menu-item-18": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Disabled",
+        "disabled": true
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-8",
+          "menu-7"
+        ]
+      }
+    },
+    "text-8": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size lg</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "menu-7": {
+      "type": "js.menu",
+      "props": {
+        "size": "lg"
+      },
+      "slots": {
+        "items": [
+          "menu-item-19",
+          "menu-item-20",
+          "menu-item-21"
+        ]
+      }
+    },
+    "menu-item-19": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home",
+        "active": true
+      }
+    },
+    "menu-item-20": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Pricing",
+        "link": "/pricing"
+      }
+    },
+    "menu-item-21": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Disabled",
+        "disabled": true
+      }
+    },
+    "section-9": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-9",
+          "menu-8"
+        ]
+      }
+    },
+    "text-9": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xl</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "menu-8": {
+      "type": "js.menu",
+      "props": {
+        "size": "xl"
+      },
+      "slots": {
+        "items": [
+          "menu-item-22",
+          "menu-item-23",
+          "menu-item-24"
+        ]
+      }
+    },
+    "menu-item-22": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home",
+        "active": true
+      }
+    },
+    "menu-item-23": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Pricing",
+        "link": "/pricing"
+      }
+    },
+    "menu-item-24": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Disabled",
+        "disabled": true
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Item states",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "menu-9": {
+      "type": "js.menu",
+      "props": {
+        "title": "Menu title"
+      },
+      "slots": {
+        "items": [
+          "menu-item-25",
+          "menu-item-26",
+          "menu-item-27",
+          "menu-item-28",
+          "menu-item-31"
+        ]
+      }
+    },
+    "menu-item-25": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Section title",
+        "isTitle": true
+      }
+    },
+    "menu-item-26": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Active",
+        "link": "/",
+        "active": true,
+        "icon": "home"
+      }
+    },
+    "menu-item-27": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Disabled",
+        "disabled": true
+      }
+    },
+    "menu-item-28": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Parent",
+        "link": "/parent"
+      },
+      "slots": {
+        "submenu": [
+          "menu-item-29",
+          "menu-item-30"
+        ]
+      }
+    },
+    "menu-item-29": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Child one",
+        "link": "/one"
+      }
+    },
+    "menu-item-30": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Child two",
+        "link": "/two"
+      }
+    },
+    "menu-item-31": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Collapsible",
+        "collapsible": true
+      },
+      "slots": {
+        "submenu": [
+          "menu-item-32"
+        ]
+      }
+    },
+    "menu-item-32": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Inside the details",
+        "link": "/inside"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Breadcrumbs",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "breadcrumbs-1": {
+      "type": "js.breadcrumbs",
+      "slots": {
+        "items": [
+          "breadcrumb-item-1",
+          "breadcrumb-item-2",
+          "breadcrumb-item-3"
+        ]
+      }
+    },
+    "breadcrumb-item-1": {
+      "type": "js.breadcrumb-item",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home"
+      }
+    },
+    "breadcrumb-item-2": {
+      "type": "js.breadcrumb-item",
+      "props": {
+        "label": "Documents",
+        "link": "/documents"
+      }
+    },
+    "breadcrumb-item-3": {
+      "type": "js.breadcrumb-item",
+      "props": {
+        "label": "Current page"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Pagination",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-10": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-10",
+          "pagination-1"
+        ]
+      }
+    },
+    "text-10": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xs</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "pagination-1": {
+      "type": "js.pagination",
+      "props": {
+        "currentPage": 2,
+        "totalPages": 5,
+        "baseLink": "/articles",
+        "size": "xs"
+      }
+    },
+    "section-11": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-11",
+          "pagination-2"
+        ]
+      }
+    },
+    "text-11": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size sm</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "pagination-2": {
+      "type": "js.pagination",
+      "props": {
+        "currentPage": 2,
+        "totalPages": 5,
+        "baseLink": "/articles",
+        "size": "sm"
+      }
+    },
+    "section-12": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-12",
+          "pagination-3"
+        ]
+      }
+    },
+    "text-12": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size md</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "pagination-3": {
+      "type": "js.pagination",
+      "props": {
+        "currentPage": 2,
+        "totalPages": 5,
+        "baseLink": "/articles",
+        "size": "md"
+      }
+    },
+    "section-13": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-13",
+          "pagination-4"
+        ]
+      }
+    },
+    "text-13": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size lg</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "pagination-4": {
+      "type": "js.pagination",
+      "props": {
+        "currentPage": 2,
+        "totalPages": 5,
+        "baseLink": "/articles",
+        "size": "lg"
+      }
+    },
+    "section-14": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-14",
+          "pagination-5"
+        ]
+      }
+    },
+    "text-14": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xl</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "pagination-5": {
+      "type": "js.pagination",
+      "props": {
+        "currentPage": 2,
+        "totalPages": 5,
+        "baseLink": "/articles",
+        "size": "xl"
+      }
+    },
+    "section-15": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-15",
+          "pagination-6"
+        ]
+      }
+    },
+    "text-15": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Many pages</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "pagination-6": {
+      "type": "js.pagination",
+      "props": {
+        "currentPage": 10,
+        "totalPages": 20,
+        "baseLink": "/articles"
+      }
+    }
+  }
+}

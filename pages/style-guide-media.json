@@ -1,0 +1,764 @@
+{
+  "title": "Style guide: Media",
+  "path": "/style-guide/media",
+  "description": "Every image shape and maximum width, and video with a poster.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "grid-1",
+          "heading-3",
+          "section-18",
+          "section-19",
+          "section-20",
+          "section-21",
+          "heading-4",
+          "video-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Media",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Every image shape and maximum width, and video with a poster.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Image shapes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-2",
+          "section-3",
+          "section-4",
+          "section-5",
+          "section-6",
+          "section-7",
+          "section-8",
+          "section-9",
+          "section-10",
+          "section-11",
+          "section-12",
+          "section-13",
+          "section-14",
+          "section-15",
+          "section-16",
+          "section-17"
+        ]
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-2",
+          "image-1"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>None</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-1": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/none-shape/300/300",
+          "alt": "none shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "none"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-3",
+          "image-2"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Rounded</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-2": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/rounded-shape/300/300",
+          "alt": "rounded shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "rounded"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-4",
+          "image-3"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Squircle</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-3": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/squircle-shape/300/300",
+          "alt": "squircle shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "squircle"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-5",
+          "image-4"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Heart</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-4": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/heart-shape/300/300",
+          "alt": "heart shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "heart"
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-6",
+          "image-5"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Hexagon</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-5": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/hexagon-shape/300/300",
+          "alt": "hexagon shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "hexagon"
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-7",
+          "image-6"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Hexagon 2</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-6": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/hexagon-2-shape/300/300",
+          "alt": "hexagon_2 shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "hexagon_2"
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-8",
+          "image-7"
+        ]
+      }
+    },
+    "text-8": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Decagon</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-7": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/decagon-shape/300/300",
+          "alt": "decagon shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "decagon"
+      }
+    },
+    "section-9": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-9",
+          "image-8"
+        ]
+      }
+    },
+    "text-9": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Pentagon</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-8": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/pentagon-shape/300/300",
+          "alt": "pentagon shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "pentagon"
+      }
+    },
+    "section-10": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-10",
+          "image-9"
+        ]
+      }
+    },
+    "text-10": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Diamond</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-9": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/diamond-shape/300/300",
+          "alt": "diamond shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "diamond"
+      }
+    },
+    "section-11": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-11",
+          "image-10"
+        ]
+      }
+    },
+    "text-11": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Circle</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-10": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/circle-shape/300/300",
+          "alt": "circle shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "circle"
+      }
+    },
+    "section-12": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-12",
+          "image-11"
+        ]
+      }
+    },
+    "text-12": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Star</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-11": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/star-shape/300/300",
+          "alt": "star shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "star"
+      }
+    },
+    "section-13": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-13",
+          "image-12"
+        ]
+      }
+    },
+    "text-13": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Star 2</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-12": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/star-2-shape/300/300",
+          "alt": "star_2 shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "star_2"
+      }
+    },
+    "section-14": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-14",
+          "image-13"
+        ]
+      }
+    },
+    "text-14": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Triangle</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-13": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/triangle-shape/300/300",
+          "alt": "triangle shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "triangle"
+      }
+    },
+    "section-15": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-15",
+          "image-14"
+        ]
+      }
+    },
+    "text-15": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Triangle 2</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-14": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/triangle-2-shape/300/300",
+          "alt": "triangle_2 shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "triangle_2"
+      }
+    },
+    "section-16": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-16",
+          "image-15"
+        ]
+      }
+    },
+    "text-16": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Triangle 3</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-15": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/triangle-3-shape/300/300",
+          "alt": "triangle_3 shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "triangle_3"
+      }
+    },
+    "section-17": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-17",
+          "image-16"
+        ]
+      }
+    },
+    "text-17": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Triangle 4</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-16": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/triangle-4-shape/300/300",
+          "alt": "triangle_4 shape",
+          "width": 300,
+          "height": 300
+        },
+        "shape": "triangle_4"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Image maximum widths",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-18": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-18",
+          "image-17"
+        ]
+      }
+    },
+    "text-18": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Max width xs</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-17": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/landscape/800/500",
+          "alt": "Landscape",
+          "width": 800,
+          "height": 500
+        },
+        "maxWidth": "xs"
+      }
+    },
+    "section-19": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-19",
+          "image-18"
+        ]
+      }
+    },
+    "text-19": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Max width sm</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-18": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/landscape/800/500",
+          "alt": "Landscape",
+          "width": 800,
+          "height": 500
+        },
+        "maxWidth": "sm"
+      }
+    },
+    "section-20": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-20",
+          "image-19"
+        ]
+      }
+    },
+    "text-20": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Max width md</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-19": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/landscape/800/500",
+          "alt": "Landscape",
+          "width": 800,
+          "height": 500
+        },
+        "maxWidth": "md"
+      }
+    },
+    "section-21": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-21",
+          "image-20"
+        ]
+      }
+    },
+    "text-21": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Max width lg</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "image-20": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/landscape/800/500",
+          "alt": "Landscape",
+          "width": 800,
+          "height": 500
+        },
+        "maxWidth": "lg"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Video with poster",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "video-1": {
+      "type": "js.video",
+      "props": {
+        "video": {
+          "src": "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+          "poster": "https://picsum.photos/1280/720"
+        }
+      }
+    }
+  }
+}

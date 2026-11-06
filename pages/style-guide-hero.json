@@ -1,0 +1,361 @@
+{
+  "title": "Style guide: Hero",
+  "path": "/style-guide/hero",
+  "description": "Each variant, overlay on and off, each height and alignment, and a reversed split.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "hero-1",
+          "heading-3",
+          "hero-2",
+          "heading-4",
+          "hero-3",
+          "heading-5",
+          "hero-4",
+          "heading-6",
+          "hero-5",
+          "heading-7",
+          "hero-6",
+          "heading-8",
+          "hero-7",
+          "heading-9",
+          "hero-8",
+          "heading-10",
+          "hero-9"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Hero",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each variant, overlay on and off, each height and alignment, and a reversed split.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Default",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "hero-1": {
+      "type": "js.hero",
+      "props": {
+        "heading": "Hero heading",
+        "headingElement": "h3",
+        "text": "<p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Get started",
+        "color": "primary"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Image, overlay off",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "hero-2": {
+      "type": "js.hero",
+      "props": {
+        "heading": "Hero heading",
+        "headingElement": "h3",
+        "text": "<p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.</p>",
+        "variant": "image",
+        "backgroundImage": {
+          "src": "https://picsum.photos/seed/background/1600/900",
+          "alt": "Background",
+          "width": 1600,
+          "height": 900
+        },
+        "minHeight": "half"
+      },
+      "slots": {
+        "actions": [
+          "button-2"
+        ]
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "Get started",
+        "color": "primary"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Image, overlay on",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "hero-3": {
+      "type": "js.hero",
+      "props": {
+        "heading": "Hero heading",
+        "headingElement": "h3",
+        "text": "<p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.</p>",
+        "variant": "image",
+        "backgroundImage": {
+          "src": "https://picsum.photos/seed/background/1600/900",
+          "alt": "Background",
+          "width": 1600,
+          "height": 900
+        },
+        "overlay": true,
+        "minHeight": "half"
+      },
+      "slots": {
+        "actions": [
+          "button-3"
+        ]
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "Get started",
+        "color": "primary"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Split",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "hero-4": {
+      "type": "js.hero",
+      "props": {
+        "heading": "Hero heading",
+        "headingElement": "h3",
+        "text": "<p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.</p>",
+        "variant": "split",
+        "alignment": "start"
+      },
+      "slots": {
+        "actions": [
+          "button-4"
+        ],
+        "media": [
+          "image-1"
+        ]
+      }
+    },
+    "button-4": {
+      "type": "js.button",
+      "props": {
+        "text": "Get started",
+        "color": "primary"
+      }
+    },
+    "image-1": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/hero-media/600/400",
+          "alt": "Hero media",
+          "width": 600,
+          "height": 400
+        },
+        "shape": "rounded"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Split, reversed",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "hero-5": {
+      "type": "js.hero",
+      "props": {
+        "heading": "Hero heading",
+        "headingElement": "h3",
+        "text": "<p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.</p>",
+        "variant": "split",
+        "alignment": "start",
+        "reverse": true
+      },
+      "slots": {
+        "actions": [
+          "button-5"
+        ],
+        "media": [
+          "image-2"
+        ]
+      }
+    },
+    "button-5": {
+      "type": "js.button",
+      "props": {
+        "text": "Get started",
+        "color": "primary"
+      }
+    },
+    "image-2": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/hero-media/600/400",
+          "alt": "Hero media",
+          "width": 600,
+          "height": 400
+        },
+        "shape": "rounded"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Height: auto",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "hero-6": {
+      "type": "js.hero",
+      "props": {
+        "heading": "Hero heading",
+        "headingElement": "h3",
+        "text": "<p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.</p>",
+        "minHeight": "auto"
+      },
+      "slots": {
+        "actions": [
+          "button-6"
+        ]
+      }
+    },
+    "button-6": {
+      "type": "js.button",
+      "props": {
+        "text": "Get started",
+        "color": "primary"
+      }
+    },
+    "heading-8": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Height: half",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "hero-7": {
+      "type": "js.hero",
+      "props": {
+        "heading": "Hero heading",
+        "headingElement": "h3",
+        "text": "<p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.</p>",
+        "minHeight": "half"
+      },
+      "slots": {
+        "actions": [
+          "button-7"
+        ]
+      }
+    },
+    "button-7": {
+      "type": "js.button",
+      "props": {
+        "text": "Get started",
+        "color": "primary"
+      }
+    },
+    "heading-9": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Height: screen",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "hero-8": {
+      "type": "js.hero",
+      "props": {
+        "heading": "Hero heading",
+        "headingElement": "h3",
+        "text": "<p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.</p>",
+        "minHeight": "screen"
+      },
+      "slots": {
+        "actions": [
+          "button-8"
+        ]
+      }
+    },
+    "button-8": {
+      "type": "js.button",
+      "props": {
+        "text": "Get started",
+        "color": "primary"
+      }
+    },
+    "heading-10": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Alignment: start",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "hero-9": {
+      "type": "js.hero",
+      "props": {
+        "heading": "Hero heading",
+        "headingElement": "h3",
+        "text": "<p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.</p>",
+        "alignment": "start"
+      },
+      "slots": {
+        "actions": [
+          "button-9"
+        ]
+      }
+    },
+    "button-9": {
+      "type": "js.button",
+      "props": {
+        "text": "Get started",
+        "color": "primary"
+      }
+    }
+  }
+}

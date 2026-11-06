@@ -1,0 +1,115 @@
+{
+  "mocks": [
+    {
+      "name": "Two images",
+      "slots": {
+        "item1": [
+          "image-1"
+        ],
+        "item2": [
+          "image-2"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/before/800/450",
+              "alt": "Before",
+              "width": 800,
+              "height": 450
+            }
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/after/800/450",
+              "alt": "After",
+              "width": 800,
+              "height": 450
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Square",
+      "props": {
+        "aspectRatio": "1_1"
+      },
+      "slots": {
+        "item1": [
+          "image-1"
+        ],
+        "item2": [
+          "image-2"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/before/800/450",
+              "alt": "Before",
+              "width": 800,
+              "height": 450
+            }
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/after/800/450",
+              "alt": "After",
+              "width": 800,
+              "height": 450
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Four by three",
+      "props": {
+        "aspectRatio": "4_3"
+      },
+      "slots": {
+        "item1": [
+          "image-1"
+        ],
+        "item2": [
+          "image-2"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/before/800/450",
+              "alt": "Before",
+              "width": 800,
+              "height": 450
+            }
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/after/800/450",
+              "alt": "After",
+              "width": 800,
+              "height": 450
+            }
+          }
+        }
+      }
+    }
+  ]
+}

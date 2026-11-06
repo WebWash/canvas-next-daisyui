@@ -1,0 +1,44 @@
+name: Megamenu
+machineName: megamenu
+status: true
+required: []
+props:
+  properties:
+    width:
+      title: Width
+      type: string
+      enum:
+        - default
+        - wide
+        - full
+      meta:enum:
+        default: Default
+        wide: Wide
+        full: Full
+      examples:
+        - default
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+    buttonText:
+      title: Button Text
+      type: string
+      examples:
+        - Menu
+slots:
+  items:
+    title: Items

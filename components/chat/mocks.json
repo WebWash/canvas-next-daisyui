@@ -1,0 +1,59 @@
+{
+  "mocks": [
+    {
+      "name": "End",
+      "props": {
+        "placement": "end",
+        "message": "You were the chosen one!"
+      }
+    },
+    {
+      "name": "With everything",
+      "props": {
+        "placement": "start",
+        "message": "You were the chosen one!",
+        "author": "Obi-Wan",
+        "time": "12:45",
+        "footerText": "Delivered",
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/100/100",
+          "alt": "Portrait placeholder",
+          "width": 100,
+          "height": 100
+        }
+      }
+    },
+    {
+      "name": "Colour neutral",
+      "props": {
+        "placement": "start",
+        "message": "You were the chosen one!",
+        "color": "neutral"
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "placement": "start",
+        "message": "You were the chosen one!",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour secondary",
+      "props": {
+        "placement": "start",
+        "message": "You were the chosen one!",
+        "color": "secondary"
+      }
+    },
+    {
+      "name": "Colour accent",
+      "props": {
+        "placement": "start",
+        "message": "You were the chosen one!",
+        "color": "accent"
+      }
+    }
+  ]
+}

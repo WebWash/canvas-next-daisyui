@@ -1,0 +1,65 @@
+{
+  "mocks": [
+    {
+      "name": "Six lines",
+      "props": {
+        "lines": [
+          "DESIGN",
+          "DEVELOP",
+          "DEPLOY",
+          "SCALE",
+          "MAINTAIN",
+          "REPEAT"
+        ],
+        "textSize": "5xl"
+      }
+    },
+    {
+      "name": "Centered",
+      "props": {
+        "lines": [
+          "DESIGN",
+          "DEVELOP",
+          "DEPLOY",
+          "SCALE",
+          "MAINTAIN",
+          "REPEAT"
+        ],
+        "textSize": "7xl",
+        "centered": true
+      }
+    },
+    {
+      "name": "Slow",
+      "props": {
+        "lines": [
+          "DESIGN",
+          "DEVELOP",
+          "DEPLOY"
+        ],
+        "duration": "slow"
+      }
+    },
+    {
+      "name": "Fast",
+      "props": {
+        "lines": [
+          "DESIGN",
+          "DEVELOP",
+          "DEPLOY"
+        ],
+        "duration": "fast"
+      }
+    },
+    {
+      "name": "Base size",
+      "props": {
+        "lines": [
+          "DESIGN",
+          "DEVELOP"
+        ],
+        "textSize": "base"
+      }
+    }
+  ]
+}

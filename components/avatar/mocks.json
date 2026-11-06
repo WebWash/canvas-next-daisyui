@@ -1,0 +1,138 @@
+{
+  "mocks": [
+    {
+      "name": "Size xs",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+          "alt": "Portrait placeholder",
+          "width": 200,
+          "height": 200
+        },
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+          "alt": "Portrait placeholder",
+          "width": 200,
+          "height": 200
+        },
+        "size": "sm"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+          "alt": "Portrait placeholder",
+          "width": 200,
+          "height": 200
+        },
+        "size": "lg"
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+          "alt": "Portrait placeholder",
+          "width": 200,
+          "height": 200
+        },
+        "size": "xl"
+      }
+    },
+    {
+      "name": "Shape rounded",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+          "alt": "Portrait placeholder",
+          "width": 200,
+          "height": 200
+        },
+        "shape": "rounded"
+      }
+    },
+    {
+      "name": "Shape squircle",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+          "alt": "Portrait placeholder",
+          "width": 200,
+          "height": 200
+        },
+        "shape": "squircle"
+      }
+    },
+    {
+      "name": "Shape hexagon",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+          "alt": "Portrait placeholder",
+          "width": 200,
+          "height": 200
+        },
+        "shape": "hexagon"
+      }
+    },
+    {
+      "name": "Shape triangle",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+          "alt": "Portrait placeholder",
+          "width": 200,
+          "height": 200
+        },
+        "shape": "triangle"
+      }
+    },
+    {
+      "name": "Online",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+          "alt": "Portrait placeholder",
+          "width": 200,
+          "height": 200
+        },
+        "status": "online"
+      }
+    },
+    {
+      "name": "Offline",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+          "alt": "Portrait placeholder",
+          "width": 200,
+          "height": 200
+        },
+        "status": "offline"
+      }
+    },
+    {
+      "name": "Placeholder",
+      "props": {
+        "placeholderText": "AB"
+      }
+    },
+    {
+      "name": "Placeholder online",
+      "props": {
+        "placeholderText": "CD",
+        "status": "online",
+        "size": "lg"
+      }
+    }
+  ]
+}

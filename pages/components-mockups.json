@@ -1,0 +1,183 @@
+{
+  "title": "Components: Mockups",
+  "path": "/components/mockups",
+  "description": "Device and window frames.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "section-2",
+          "section-3",
+          "section-4",
+          "section-5"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Mockups",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Device and window frames.</p>"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-2",
+          "mockup-browser-1"
+        ]
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Browser",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "mockup-browser-1": {
+      "type": "js.mockup-browser",
+      "props": {
+        "url": "https://daisyui.com"
+      },
+      "slots": {
+        "content": [
+          "text-2"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Hello!</p>"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-3",
+          "mockup-code-1"
+        ]
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Code",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "mockup-code-1": {
+      "type": "js.mockup-code",
+      "props": {
+        "lines": [
+          "npm i daisyui",
+          "installing...",
+          "Done!"
+        ],
+        "prefix": "dollar"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-4",
+          "mockup-phone-1"
+        ]
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Phone",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "mockup-phone-1": {
+      "type": "js.mockup-phone",
+      "slots": {
+        "content": [
+          "text-3"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Hello from the phone.</p>"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-5",
+          "mockup-window-1"
+        ]
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Window",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "mockup-window-1": {
+      "type": "js.mockup-window",
+      "slots": {
+        "content": [
+          "text-4"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Hello!</p>"
+      }
+    }
+  }
+}

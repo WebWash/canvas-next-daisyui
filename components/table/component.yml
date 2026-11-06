@@ -1,0 +1,43 @@
+name: Table
+machineName: table
+status: true
+required: []
+props:
+  properties:
+    zebra:
+      title: Zebra
+      type: boolean
+      examples:
+        - false
+    pinRows:
+      title: Pin Rows
+      type: boolean
+      examples:
+        - false
+    pinCols:
+      title: Pin Cols
+      type: boolean
+      examples:
+        - false
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+slots:
+  header:
+    title: Header
+  rows:
+    title: Rows

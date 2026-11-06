@@ -1,42 +1,30 @@
 {
   "mocks": [
     {
-      "name": "Extra large",
-      "props": {
-        "heading": "Enter a heading...",
-        "textColor": "dark",
-        "headingElement": "h2",
-        "headingSize": "extra_large",
-        "layout": "left_aligned"
-      }
-    },
-    {
-      "name": "Large",
-      "props": {
-        "heading": "Enter a heading...",
-        "textColor": "dark",
-        "headingElement": "h2",
-        "headingSize": "large",
-        "layout": "left_aligned"
-      }
-    },
-    {
       "name": "Small",
       "props": {
         "heading": "Enter a heading...",
-        "textColor": "dark",
-        "headingElement": "h2",
-        "headingSize": "small",
-        "layout": "left_aligned"
+        "headingSize": "small"
+      }
+    },
+    {
+      "name": "Medium",
+      "props": {
+        "heading": "Enter a heading...",
+        "headingSize": "medium"
+      }
+    },
+    {
+      "name": "Extra large",
+      "props": {
+        "heading": "Enter a heading...",
+        "headingSize": "extra_large"
       }
     },
     {
       "name": "Center aligned",
       "props": {
         "heading": "Enter a heading...",
-        "textColor": "dark",
-        "headingElement": "h2",
-        "headingSize": "medium",
         "layout": "center_aligned"
       }
     },
@@ -44,9 +32,6 @@
       "name": "Right aligned",
       "props": {
         "heading": "Enter a heading...",
-        "textColor": "dark",
-        "headingElement": "h2",
-        "headingSize": "medium",
         "layout": "right_aligned"
       }
     },
@@ -54,21 +39,60 @@
       "name": "With pre-heading",
       "props": {
         "preHeading": "Pre-heading text",
-        "heading": "Main heading text",
-        "textColor": "dark",
-        "headingElement": "h2",
-        "headingSize": "medium",
-        "layout": "left_aligned"
+        "heading": "Main heading text"
       }
     },
     {
-      "name": "Light on dark",
+      "name": "Colour muted",
       "props": {
         "heading": "Enter a heading...",
-        "textColor": "light",
-        "headingElement": "h2",
-        "headingSize": "medium",
-        "layout": "left_aligned"
+        "textColor": "muted"
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "heading": "Enter a heading...",
+        "textColor": "primary"
+      }
+    },
+    {
+      "name": "Colour secondary",
+      "props": {
+        "heading": "Enter a heading...",
+        "textColor": "secondary"
+      }
+    },
+    {
+      "name": "Colour accent",
+      "props": {
+        "heading": "Enter a heading...",
+        "textColor": "accent"
+      }
+    },
+    {
+      "name": "On neutral",
+      "root": "section-1",
+      "elements": {
+        "section-1": {
+          "type": "section",
+          "props": {
+            "background": "neutral",
+            "paddingY": "md"
+          },
+          "slots": {
+            "content": [
+              "heading-1"
+            ]
+          }
+        },
+        "heading-1": {
+          "type": "heading",
+          "props": {
+            "heading": "Heading on neutral",
+            "preHeading": "Pre-heading"
+          }
+        }
       }
     }
   ]

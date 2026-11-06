@@ -1,0 +1,32 @@
+{
+  "mocks": [
+    {
+      "name": "Size xs",
+      "props": {
+        "text": "K",
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "text": "K",
+        "size": "sm"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "text": "K",
+        "size": "lg"
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "text": "K",
+        "size": "xl"
+      }
+    }
+  ]
+}

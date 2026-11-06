@@ -1,0 +1,9 @@
+name: Mockup Phone
+machineName: mockup-phone
+status: true
+required: []
+props:
+  properties: {}
+slots:
+  content:
+    title: Content

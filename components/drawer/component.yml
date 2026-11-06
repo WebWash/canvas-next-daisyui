@@ -1,0 +1,43 @@
+name: Drawer
+machineName: drawer
+status: true
+required:
+  - buttonText
+props:
+  properties:
+    side:
+      title: Side
+      type: string
+      enum:
+        - start
+        - end
+      meta:enum:
+        start: Start
+        end: End
+      examples:
+        - start
+    alwaysOpenOnLarge:
+      title: Always Open On Large
+      type: boolean
+      examples:
+        - false
+    openByDefault:
+      title: Open By Default
+      type: boolean
+      examples:
+        - false
+    buttonText:
+      title: Button Text
+      type: string
+      examples:
+        - Open drawer
+    closeText:
+      title: Close Text
+      type: string
+      examples:
+        - Close
+slots:
+  content:
+    title: Content
+  sidebar:
+    title: Sidebar

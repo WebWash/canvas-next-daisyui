@@ -1,0 +1,209 @@
+{
+  "title": "Style guide: Footer",
+  "path": "/style-guide/footer",
+  "description": "Each layout and background.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "footer-1",
+          "heading-3",
+          "footer-2",
+          "heading-4",
+          "footer-3",
+          "heading-5",
+          "footer-4",
+          "heading-6",
+          "footer-5",
+          "heading-7",
+          "footer-6"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Footer",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each layout and background.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Columns on Base 200",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "footer-1": {
+      "type": "js.footer",
+      "props": {
+        "layout": "columns",
+        "background": "base_200",
+        "copyrightText": "© 2026 daisyUI demo."
+      },
+      "slots": {
+        "brand": [
+          "text-2"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>daisyUI demo</strong><br>Canvas components, built with daisyUI.</p>"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Columns on Base 300",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "footer-2": {
+      "type": "js.footer",
+      "props": {
+        "layout": "columns",
+        "background": "base_300",
+        "copyrightText": "© 2026 daisyUI demo."
+      },
+      "slots": {
+        "brand": [
+          "text-3"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>daisyUI demo</strong><br>Canvas components, built with daisyUI.</p>"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Columns on Neutral",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "footer-3": {
+      "type": "js.footer",
+      "props": {
+        "layout": "columns",
+        "background": "neutral",
+        "copyrightText": "© 2026 daisyUI demo."
+      },
+      "slots": {
+        "brand": [
+          "text-4"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>daisyUI demo</strong><br>Canvas components, built with daisyUI.</p>"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Centered on Base 200",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "footer-4": {
+      "type": "js.footer",
+      "props": {
+        "layout": "centered",
+        "background": "base_200",
+        "copyrightText": "© 2026 daisyUI demo."
+      },
+      "slots": {
+        "brand": [
+          "text-5"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>daisyUI demo</strong><br>Canvas components, built with daisyUI.</p>"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Centered on Base 300",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "footer-5": {
+      "type": "js.footer",
+      "props": {
+        "layout": "centered",
+        "background": "base_300",
+        "copyrightText": "© 2026 daisyUI demo."
+      },
+      "slots": {
+        "brand": [
+          "text-6"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>daisyUI demo</strong><br>Canvas components, built with daisyUI.</p>"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Centered on Neutral",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "footer-6": {
+      "type": "js.footer",
+      "props": {
+        "layout": "centered",
+        "background": "neutral",
+        "copyrightText": "© 2026 daisyUI demo."
+      },
+      "slots": {
+        "brand": [
+          "text-7"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>daisyUI demo</strong><br>Canvas components, built with daisyUI.</p>"
+      }
+    }
+  }
+}

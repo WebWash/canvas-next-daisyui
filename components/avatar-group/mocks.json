@@ -1,0 +1,89 @@
+{
+  "mocks": [
+    {
+      "name": "Three avatars",
+      "slots": {
+        "avatars": [
+          "avatar-1",
+          "avatar-2",
+          "avatar-3"
+        ]
+      },
+      "elements": {
+        "avatar-1": {
+          "type": "avatar",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/person-1/200/200",
+              "alt": "Person 1",
+              "width": 200,
+              "height": 200
+            }
+          }
+        },
+        "avatar-2": {
+          "type": "avatar",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/person-2/200/200",
+              "alt": "Person 2",
+              "width": 200,
+              "height": 200
+            }
+          }
+        },
+        "avatar-3": {
+          "type": "avatar",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/person-3/200/200",
+              "alt": "Person 3",
+              "width": 200,
+              "height": 200
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "With placeholder",
+      "slots": {
+        "avatars": [
+          "avatar-1",
+          "avatar-2",
+          "avatar-3"
+        ]
+      },
+      "elements": {
+        "avatar-1": {
+          "type": "avatar",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+              "alt": "Portrait placeholder",
+              "width": 200,
+              "height": 200
+            }
+          }
+        },
+        "avatar-2": {
+          "type": "avatar",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/portrait-placeholder/200/200",
+              "alt": "Portrait placeholder",
+              "width": 200,
+              "height": 200
+            }
+          }
+        },
+        "avatar-3": {
+          "type": "avatar",
+          "props": {
+            "placeholderText": "+9"
+          }
+        }
+      }
+    }
+  ]
+}

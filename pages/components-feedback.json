@@ -1,0 +1,249 @@
+{
+  "title": "Components: Feedback",
+  "path": "/components/feedback",
+  "description": "Components that report status and progress.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "section-2",
+          "grid-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Feedback",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Components that report status and progress.</p>"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-2",
+          "alert-1"
+        ]
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Alert",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "alert-1": {
+      "type": "js.alert",
+      "props": {
+        "text": "Your changes were saved.",
+        "color": "success",
+        "icon": "success"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-3",
+          "section-4",
+          "section-5",
+          "section-6",
+          "section-7"
+        ]
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-3",
+          "loading-1"
+        ]
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Loading",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "loading-1": {
+      "type": "js.loading",
+      "props": {
+        "variant": "spinner",
+        "size": "lg",
+        "color": "primary"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-4",
+          "progress-1"
+        ]
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Progress",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "progress-1": {
+      "type": "js.progress",
+      "props": {
+        "value": 40,
+        "max": 100,
+        "color": "primary"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-5",
+          "radial-progress-1"
+        ]
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Radial progress",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "radial-progress-1": {
+      "type": "js.radial-progress",
+      "props": {
+        "value": 70,
+        "color": "primary"
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-6",
+          "skeleton-1",
+          "skeleton-2"
+        ]
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Skeleton",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "skeleton-1": {
+      "type": "js.skeleton",
+      "props": {
+        "width": "full",
+        "height": "md"
+      }
+    },
+    "skeleton-2": {
+      "type": "js.skeleton",
+      "props": {
+        "variant": "text",
+        "text": "Loading data..."
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-7",
+          "tooltip-1"
+        ]
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Tooltip",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "tooltip-1": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "Helpful tip",
+        "placement": "right"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Hover or focus me"
+      }
+    }
+  }
+}

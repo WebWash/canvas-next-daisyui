@@ -1,0 +1,87 @@
+{
+  "mocks": [
+    {
+      "name": "With alert",
+      "slots": {
+        "content": [
+          "alert-1"
+        ]
+      },
+      "elements": {
+        "alert-1": {
+          "type": "alert",
+          "props": {
+            "text": "Message sent.",
+            "color": "success",
+            "icon": "success"
+          }
+        }
+      }
+    },
+    {
+      "name": "Top start",
+      "props": {
+        "horizontal": "start",
+        "vertical": "top"
+      },
+      "slots": {
+        "content": [
+          "alert-1"
+        ]
+      },
+      "elements": {
+        "alert-1": {
+          "type": "alert",
+          "props": {
+            "text": "Message sent.",
+            "color": "success",
+            "icon": "success"
+          }
+        }
+      }
+    },
+    {
+      "name": "Middle center",
+      "props": {
+        "horizontal": "center",
+        "vertical": "middle"
+      },
+      "slots": {
+        "content": [
+          "alert-1"
+        ]
+      },
+      "elements": {
+        "alert-1": {
+          "type": "alert",
+          "props": {
+            "text": "Message sent.",
+            "color": "success",
+            "icon": "success"
+          }
+        }
+      }
+    },
+    {
+      "name": "Hides after 3 seconds",
+      "props": {
+        "autoHideSeconds": 3
+      },
+      "slots": {
+        "content": [
+          "alert-1"
+        ]
+      },
+      "elements": {
+        "alert-1": {
+          "type": "alert",
+          "props": {
+            "text": "Message sent.",
+            "color": "success",
+            "icon": "success"
+          }
+        }
+      }
+    }
+  ]
+}

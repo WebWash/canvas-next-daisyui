@@ -1,0 +1,105 @@
+{
+  "title": "Contact",
+  "path": "/contact",
+  "description": "A contact form. Forms are visual only and submit nowhere.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "normal",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "alert-1",
+          "fieldset-1",
+          "button-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Contact us",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "alert-1": {
+      "type": "js.alert",
+      "props": {
+        "text": "This is a demo. The form is visual only and submits nowhere.",
+        "color": "info",
+        "icon": "info"
+      }
+    },
+    "fieldset-1": {
+      "type": "js.fieldset",
+      "props": {
+        "legend": "Your details",
+        "description": "We only use this to reply to you."
+      },
+      "slots": {
+        "content": [
+          "input-1",
+          "input-2",
+          "select-1",
+          "textarea-1",
+          "checkbox-1"
+        ]
+      }
+    },
+    "input-1": {
+      "type": "js.input",
+      "props": {
+        "label": "Name",
+        "required": true,
+        "validationMessage": "Enter your name."
+      }
+    },
+    "input-2": {
+      "type": "js.input",
+      "props": {
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "validationMessage": "Enter a valid email address."
+      }
+    },
+    "select-1": {
+      "type": "js.select",
+      "props": {
+        "label": "Topic",
+        "options": [
+          "Sales",
+          "Support",
+          "Something else"
+        ],
+        "placeholder": "Choose a topic"
+      }
+    },
+    "textarea-1": {
+      "type": "js.textarea",
+      "props": {
+        "label": "Message",
+        "rows": 5,
+        "placeholder": "How can we help?"
+      }
+    },
+    "checkbox-1": {
+      "type": "js.checkbox",
+      "props": {
+        "label": "Send me product updates"
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Send message",
+        "color": "primary"
+      }
+    }
+  }
+}

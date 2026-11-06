@@ -8,8 +8,8 @@ props:
     video:
       title: Video
       type: object
-      examples:
-        - src: /ui/assets/videos/mountain_wide.mp4
-          poster: https://placehold.co/1920x1080.png?text=Widescreen
       $ref: json-schema-definitions://canvas.module/video
+      examples:
+        - src: https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4
+          poster: https://picsum.photos/1280/720
 slots: {}

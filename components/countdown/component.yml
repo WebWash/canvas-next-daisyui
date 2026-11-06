@@ -1,0 +1,33 @@
+name: Countdown
+machineName: countdown
+status: true
+required:
+  - targetDate
+props:
+  properties:
+    targetDate:
+      title: Target Date
+      type: string
+      examples:
+        - 2029-01-01T00:00:00Z
+    showDays:
+      title: Show Days
+      type: boolean
+      examples:
+        - true
+    showHours:
+      title: Show Hours
+      type: boolean
+      examples:
+        - true
+    showMinutes:
+      title: Show Minutes
+      type: boolean
+      examples:
+        - true
+    showSeconds:
+      title: Show Seconds
+      type: boolean
+      examples:
+        - true
+slots: {}

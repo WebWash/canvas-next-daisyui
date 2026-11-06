@@ -1,0 +1,1735 @@
+{
+  "mocks": [
+    {
+      "name": "Three rows",
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4"
+        ]
+      },
+      "elements": {
+        "table-row-1": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2",
+              "table-cell-3"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Job",
+            "isHeader": true
+          }
+        },
+        "table-cell-3": {
+          "type": "table-cell",
+          "props": {
+            "text": "Colour",
+            "isHeader": true
+          }
+        },
+        "table-row-2": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-4",
+              "table-cell-5",
+              "table-cell-6"
+            ]
+          }
+        },
+        "table-cell-4": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 1",
+            "isHeader": true
+          }
+        },
+        "table-cell-5": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-6": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-3": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-7",
+              "table-cell-8",
+              "table-cell-9"
+            ]
+          }
+        },
+        "table-cell-7": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 2",
+            "isHeader": true
+          }
+        },
+        "table-cell-8": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-9": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-4": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-10",
+              "table-cell-11",
+              "table-cell-12"
+            ]
+          }
+        },
+        "table-cell-10": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 3",
+            "isHeader": true
+          }
+        },
+        "table-cell-11": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-12": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        }
+      }
+    },
+    {
+      "name": "Zebra",
+      "props": {
+        "zebra": true
+      },
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4"
+        ]
+      },
+      "elements": {
+        "table-row-1": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2",
+              "table-cell-3"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Job",
+            "isHeader": true
+          }
+        },
+        "table-cell-3": {
+          "type": "table-cell",
+          "props": {
+            "text": "Colour",
+            "isHeader": true
+          }
+        },
+        "table-row-2": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-4",
+              "table-cell-5",
+              "table-cell-6"
+            ]
+          }
+        },
+        "table-cell-4": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 1",
+            "isHeader": true
+          }
+        },
+        "table-cell-5": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-6": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-3": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-7",
+              "table-cell-8",
+              "table-cell-9"
+            ]
+          }
+        },
+        "table-cell-7": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 2",
+            "isHeader": true
+          }
+        },
+        "table-cell-8": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-9": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-4": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-10",
+              "table-cell-11",
+              "table-cell-12"
+            ]
+          }
+        },
+        "table-cell-10": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 3",
+            "isHeader": true
+          }
+        },
+        "table-cell-11": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-12": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        }
+      }
+    },
+    {
+      "name": "Active row",
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4"
+        ]
+      },
+      "elements": {
+        "table-row-1": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2",
+              "table-cell-3"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Job",
+            "isHeader": true
+          }
+        },
+        "table-cell-3": {
+          "type": "table-cell",
+          "props": {
+            "text": "Colour",
+            "isHeader": true
+          }
+        },
+        "table-row-2": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-4",
+              "table-cell-5",
+              "table-cell-6"
+            ]
+          }
+        },
+        "table-cell-4": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 1",
+            "isHeader": true
+          }
+        },
+        "table-cell-5": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-6": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-3": {
+          "type": "table-row",
+          "props": {
+            "active": true
+          },
+          "slots": {
+            "cells": [
+              "table-cell-7",
+              "table-cell-8",
+              "table-cell-9"
+            ]
+          }
+        },
+        "table-cell-7": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 2",
+            "isHeader": true
+          }
+        },
+        "table-cell-8": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-9": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-4": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-10",
+              "table-cell-11",
+              "table-cell-12"
+            ]
+          }
+        },
+        "table-cell-10": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 3",
+            "isHeader": true
+          }
+        },
+        "table-cell-11": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-12": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        }
+      }
+    },
+    {
+      "name": "Pinned rows",
+      "props": {
+        "pinRows": true
+      },
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4",
+          "table-row-5",
+          "table-row-6",
+          "table-row-7",
+          "table-row-8",
+          "table-row-9",
+          "table-row-10",
+          "table-row-11",
+          "table-row-12",
+          "table-row-13",
+          "table-row-14",
+          "table-row-15",
+          "table-row-16",
+          "table-row-17",
+          "table-row-18",
+          "table-row-19",
+          "table-row-20",
+          "table-row-21"
+        ]
+      },
+      "elements": {
+        "table-row-1": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2",
+              "table-cell-3"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Job",
+            "isHeader": true
+          }
+        },
+        "table-cell-3": {
+          "type": "table-cell",
+          "props": {
+            "text": "Colour",
+            "isHeader": true
+          }
+        },
+        "table-row-2": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-4",
+              "table-cell-5",
+              "table-cell-6"
+            ]
+          }
+        },
+        "table-cell-4": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 1",
+            "isHeader": true
+          }
+        },
+        "table-cell-5": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-6": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-3": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-7",
+              "table-cell-8",
+              "table-cell-9"
+            ]
+          }
+        },
+        "table-cell-7": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 2",
+            "isHeader": true
+          }
+        },
+        "table-cell-8": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-9": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-4": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-10",
+              "table-cell-11",
+              "table-cell-12"
+            ]
+          }
+        },
+        "table-cell-10": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 3",
+            "isHeader": true
+          }
+        },
+        "table-cell-11": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-12": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-5": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-13",
+              "table-cell-14",
+              "table-cell-15"
+            ]
+          }
+        },
+        "table-cell-13": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 4",
+            "isHeader": true
+          }
+        },
+        "table-cell-14": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-15": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-6": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-16",
+              "table-cell-17",
+              "table-cell-18"
+            ]
+          }
+        },
+        "table-cell-16": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 5",
+            "isHeader": true
+          }
+        },
+        "table-cell-17": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-18": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-7": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-19",
+              "table-cell-20",
+              "table-cell-21"
+            ]
+          }
+        },
+        "table-cell-19": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 6",
+            "isHeader": true
+          }
+        },
+        "table-cell-20": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-21": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-8": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-22",
+              "table-cell-23",
+              "table-cell-24"
+            ]
+          }
+        },
+        "table-cell-22": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 7",
+            "isHeader": true
+          }
+        },
+        "table-cell-23": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-24": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-9": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-25",
+              "table-cell-26",
+              "table-cell-27"
+            ]
+          }
+        },
+        "table-cell-25": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 8",
+            "isHeader": true
+          }
+        },
+        "table-cell-26": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-27": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-10": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-28",
+              "table-cell-29",
+              "table-cell-30"
+            ]
+          }
+        },
+        "table-cell-28": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 9",
+            "isHeader": true
+          }
+        },
+        "table-cell-29": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-30": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-11": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-31",
+              "table-cell-32",
+              "table-cell-33"
+            ]
+          }
+        },
+        "table-cell-31": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 10",
+            "isHeader": true
+          }
+        },
+        "table-cell-32": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-33": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-12": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-34",
+              "table-cell-35",
+              "table-cell-36"
+            ]
+          }
+        },
+        "table-cell-34": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 11",
+            "isHeader": true
+          }
+        },
+        "table-cell-35": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-36": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-13": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-37",
+              "table-cell-38",
+              "table-cell-39"
+            ]
+          }
+        },
+        "table-cell-37": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 12",
+            "isHeader": true
+          }
+        },
+        "table-cell-38": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-39": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-14": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-40",
+              "table-cell-41",
+              "table-cell-42"
+            ]
+          }
+        },
+        "table-cell-40": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 13",
+            "isHeader": true
+          }
+        },
+        "table-cell-41": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-42": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-15": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-43",
+              "table-cell-44",
+              "table-cell-45"
+            ]
+          }
+        },
+        "table-cell-43": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 14",
+            "isHeader": true
+          }
+        },
+        "table-cell-44": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-45": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-16": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-46",
+              "table-cell-47",
+              "table-cell-48"
+            ]
+          }
+        },
+        "table-cell-46": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 15",
+            "isHeader": true
+          }
+        },
+        "table-cell-47": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-48": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-17": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-49",
+              "table-cell-50",
+              "table-cell-51"
+            ]
+          }
+        },
+        "table-cell-49": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 16",
+            "isHeader": true
+          }
+        },
+        "table-cell-50": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-51": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-18": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-52",
+              "table-cell-53",
+              "table-cell-54"
+            ]
+          }
+        },
+        "table-cell-52": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 17",
+            "isHeader": true
+          }
+        },
+        "table-cell-53": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-54": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-19": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-55",
+              "table-cell-56",
+              "table-cell-57"
+            ]
+          }
+        },
+        "table-cell-55": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 18",
+            "isHeader": true
+          }
+        },
+        "table-cell-56": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-57": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-20": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-58",
+              "table-cell-59",
+              "table-cell-60"
+            ]
+          }
+        },
+        "table-cell-58": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 19",
+            "isHeader": true
+          }
+        },
+        "table-cell-59": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-60": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-21": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-61",
+              "table-cell-62",
+              "table-cell-63"
+            ]
+          }
+        },
+        "table-cell-61": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 20",
+            "isHeader": true
+          }
+        },
+        "table-cell-62": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-63": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        }
+      }
+    },
+    {
+      "name": "Pinned columns",
+      "props": {
+        "pinCols": true
+      },
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4"
+        ]
+      },
+      "elements": {
+        "table-row-1": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2",
+              "table-cell-3"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Job",
+            "isHeader": true
+          }
+        },
+        "table-cell-3": {
+          "type": "table-cell",
+          "props": {
+            "text": "Colour",
+            "isHeader": true
+          }
+        },
+        "table-row-2": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-4",
+              "table-cell-5",
+              "table-cell-6"
+            ]
+          }
+        },
+        "table-cell-4": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 1",
+            "isHeader": true
+          }
+        },
+        "table-cell-5": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-6": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-3": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-7",
+              "table-cell-8",
+              "table-cell-9"
+            ]
+          }
+        },
+        "table-cell-7": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 2",
+            "isHeader": true
+          }
+        },
+        "table-cell-8": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-9": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-4": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-10",
+              "table-cell-11",
+              "table-cell-12"
+            ]
+          }
+        },
+        "table-cell-10": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 3",
+            "isHeader": true
+          }
+        },
+        "table-cell-11": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-12": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "size": "xs"
+      },
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4"
+        ]
+      },
+      "elements": {
+        "table-row-1": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2",
+              "table-cell-3"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Job",
+            "isHeader": true
+          }
+        },
+        "table-cell-3": {
+          "type": "table-cell",
+          "props": {
+            "text": "Colour",
+            "isHeader": true
+          }
+        },
+        "table-row-2": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-4",
+              "table-cell-5",
+              "table-cell-6"
+            ]
+          }
+        },
+        "table-cell-4": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 1",
+            "isHeader": true
+          }
+        },
+        "table-cell-5": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-6": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-3": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-7",
+              "table-cell-8",
+              "table-cell-9"
+            ]
+          }
+        },
+        "table-cell-7": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 2",
+            "isHeader": true
+          }
+        },
+        "table-cell-8": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-9": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-4": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-10",
+              "table-cell-11",
+              "table-cell-12"
+            ]
+          }
+        },
+        "table-cell-10": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 3",
+            "isHeader": true
+          }
+        },
+        "table-cell-11": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-12": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "size": "sm"
+      },
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4"
+        ]
+      },
+      "elements": {
+        "table-row-1": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2",
+              "table-cell-3"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Job",
+            "isHeader": true
+          }
+        },
+        "table-cell-3": {
+          "type": "table-cell",
+          "props": {
+            "text": "Colour",
+            "isHeader": true
+          }
+        },
+        "table-row-2": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-4",
+              "table-cell-5",
+              "table-cell-6"
+            ]
+          }
+        },
+        "table-cell-4": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 1",
+            "isHeader": true
+          }
+        },
+        "table-cell-5": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-6": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-3": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-7",
+              "table-cell-8",
+              "table-cell-9"
+            ]
+          }
+        },
+        "table-cell-7": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 2",
+            "isHeader": true
+          }
+        },
+        "table-cell-8": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-9": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-4": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-10",
+              "table-cell-11",
+              "table-cell-12"
+            ]
+          }
+        },
+        "table-cell-10": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 3",
+            "isHeader": true
+          }
+        },
+        "table-cell-11": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-12": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "size": "lg"
+      },
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4"
+        ]
+      },
+      "elements": {
+        "table-row-1": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2",
+              "table-cell-3"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Job",
+            "isHeader": true
+          }
+        },
+        "table-cell-3": {
+          "type": "table-cell",
+          "props": {
+            "text": "Colour",
+            "isHeader": true
+          }
+        },
+        "table-row-2": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-4",
+              "table-cell-5",
+              "table-cell-6"
+            ]
+          }
+        },
+        "table-cell-4": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 1",
+            "isHeader": true
+          }
+        },
+        "table-cell-5": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-6": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-3": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-7",
+              "table-cell-8",
+              "table-cell-9"
+            ]
+          }
+        },
+        "table-cell-7": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 2",
+            "isHeader": true
+          }
+        },
+        "table-cell-8": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-9": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-4": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-10",
+              "table-cell-11",
+              "table-cell-12"
+            ]
+          }
+        },
+        "table-cell-10": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 3",
+            "isHeader": true
+          }
+        },
+        "table-cell-11": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-12": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "size": "xl"
+      },
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4"
+        ]
+      },
+      "elements": {
+        "table-row-1": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2",
+              "table-cell-3"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Job",
+            "isHeader": true
+          }
+        },
+        "table-cell-3": {
+          "type": "table-cell",
+          "props": {
+            "text": "Colour",
+            "isHeader": true
+          }
+        },
+        "table-row-2": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-4",
+              "table-cell-5",
+              "table-cell-6"
+            ]
+          }
+        },
+        "table-cell-4": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 1",
+            "isHeader": true
+          }
+        },
+        "table-cell-5": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-6": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-3": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-7",
+              "table-cell-8",
+              "table-cell-9"
+            ]
+          }
+        },
+        "table-cell-7": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 2",
+            "isHeader": true
+          }
+        },
+        "table-cell-8": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-9": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        },
+        "table-row-4": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-10",
+              "table-cell-11",
+              "table-cell-12"
+            ]
+          }
+        },
+        "table-cell-10": {
+          "type": "table-cell",
+          "props": {
+            "text": "Person 3",
+            "isHeader": true
+          }
+        },
+        "table-cell-11": {
+          "type": "table-cell",
+          "props": {
+            "text": "Quality engineer"
+          }
+        },
+        "table-cell-12": {
+          "type": "table-cell",
+          "props": {
+            "text": "Blue"
+          }
+        }
+      }
+    }
+  ]
+}

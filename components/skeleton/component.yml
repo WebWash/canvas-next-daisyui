@@ -1,0 +1,53 @@
+name: Skeleton
+machineName: skeleton
+status: true
+required: []
+props:
+  properties:
+    variant:
+      title: Variant
+      type: string
+      enum:
+        - block
+        - text
+      meta:enum:
+        block: Block
+        text: Text
+      examples:
+        - block
+    text:
+      title: Text
+      type: string
+    width:
+      title: Width
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - full
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        full: Full
+      examples:
+        - md
+    height:
+      title: Height
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+      examples:
+        - sm
+slots: {}

@@ -1,0 +1,50 @@
+{
+  "mocks": [
+    {
+      "name": "Empty",
+      "props": {
+        "value": 0
+      }
+    },
+    {
+      "name": "Full",
+      "props": {
+        "value": 100,
+        "color": "success"
+      }
+    },
+    {
+      "name": "Clamped above 100",
+      "props": {
+        "value": 140,
+        "color": "error"
+      }
+    },
+    {
+      "name": "Custom label",
+      "props": {
+        "value": 64,
+        "label": "64 of 100",
+        "size": "lg"
+      }
+    },
+    {
+      "name": "Small and thin",
+      "props": {
+        "value": 40,
+        "size": "sm",
+        "thickness": "thin",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Large and thick",
+      "props": {
+        "value": 80,
+        "size": "lg",
+        "thickness": "thick",
+        "color": "accent"
+      }
+    }
+  ]
+}

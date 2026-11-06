@@ -1,0 +1,74 @@
+{
+  "mocks": [
+    {
+      "name": "Six digits",
+      "props": {
+        "label": "Verification code",
+        "length": 6
+      }
+    },
+    {
+      "name": "Five digits",
+      "props": {
+        "label": "Verification code",
+        "length": 5
+      }
+    },
+    {
+      "name": "Joined",
+      "props": {
+        "label": "Verification code",
+        "joined": true
+      }
+    },
+    {
+      "name": "Description",
+      "props": {
+        "label": "Verification code",
+        "description": "A short description of this field that is long enough to show that it wraps onto another line."
+      }
+    },
+    {
+      "name": "Hidden label",
+      "props": {
+        "label": "Verification code",
+        "hideLabel": true
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "Verification code",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "label": "Verification code",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "label": "Verification code",
+        "color": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "label": "Verification code",
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "label": "Verification code",
+        "size": "lg"
+      }
+    }
+  ]
+}

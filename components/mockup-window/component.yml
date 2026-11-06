@@ -1,0 +1,9 @@
+name: Mockup Window
+machineName: mockup-window
+status: true
+required: []
+props:
+  properties: {}
+slots:
+  content:
+    title: Content

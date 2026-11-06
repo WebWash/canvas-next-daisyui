@@ -2,22 +2,19 @@ name: Text
 machineName: text
 status: true
 required:
-  - textSize
-  - textColor
+  - text
 props:
   properties:
     text:
       title: Text
       type: string
-      examples:
-        - Enter some text...
       contentMediaType: text/html
       x-formatting-context: block
+      examples:
+        - <p>Enter some text...</p>
     textSize:
       title: Text Size
       type: string
-      examples:
-        - normal
       enum:
         - extra_small
         - small
@@ -30,15 +27,23 @@ props:
         normal: Normal
         large: Large
         extra_large: Extra Large
+      examples:
+        - normal
     textColor:
       title: Text Color
       type: string
-      examples:
-        - dark
       enum:
-        - dark
-        - light
+        - default
+        - muted
+        - primary
+        - secondary
+        - accent
       meta:enum:
-        dark: Dark
-        light: Light
+        default: Default
+        muted: Muted
+        primary: Primary
+        secondary: Secondary
+        accent: Accent
+      examples:
+        - default
 slots: {}

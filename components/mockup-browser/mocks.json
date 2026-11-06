@@ -1,0 +1,39 @@
+{
+  "mocks": [
+    {
+      "name": "With content",
+      "props": {
+        "url": "https://daisyui.com"
+      },
+      "slots": {
+        "content": [
+          "text-1"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Hello!</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "No URL",
+      "slots": {
+        "content": [
+          "text-1"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Hello!</p>"
+          }
+        }
+      }
+    }
+  ]
+}

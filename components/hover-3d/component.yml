@@ -1,0 +1,13 @@
+name: Hover 3D
+machineName: hover-3d
+status: true
+required: []
+props:
+  properties:
+    link:
+      title: Link
+      type: string
+      format: uri-reference
+slots:
+  content:
+    title: Content

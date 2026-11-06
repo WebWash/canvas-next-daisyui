@@ -1,0 +1,81 @@
+name: Checkbox
+machineName: checkbox
+status: true
+required:
+  - label
+props:
+  properties:
+    label:
+      title: Label
+      type: string
+      examples:
+        - Accept the terms
+    hideLabel:
+      title: Hide Label
+      type: boolean
+      examples:
+        - false
+    description:
+      title: Description
+      type: string
+    name:
+      title: Name
+      type: string
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    checked:
+      title: Checked
+      type: boolean
+      examples:
+        - false
+    color:
+      title: Color
+      type: string
+      enum:
+        - default
+        - neutral
+        - primary
+        - secondary
+        - accent
+        - info
+        - success
+        - warning
+        - error
+      meta:enum:
+        default: Default
+        neutral: Neutral
+        primary: Primary
+        secondary: Secondary
+        accent: Accent
+        info: Info
+        success: Success
+        warning: Warning
+        error: Error
+      examples:
+        - default
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+slots: {}

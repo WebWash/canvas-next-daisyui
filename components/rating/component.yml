@@ -1,0 +1,127 @@
+name: Rating
+machineName: rating
+status: true
+required:
+  - label
+props:
+  properties:
+    label:
+      title: Label
+      type: string
+      examples:
+        - Your rating
+    hideLabel:
+      title: Hide Label
+      type: boolean
+      examples:
+        - false
+    description:
+      title: Description
+      type: string
+    name:
+      title: Name
+      type: string
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    max:
+      title: Max
+      type: integer
+      enum:
+        - 3
+        - 4
+        - 5
+        - 6
+        - 7
+        - 8
+        - 9
+        - 10
+      meta:enum:
+        "3": "3"
+        "4": "4"
+        "5": "5"
+        "6": "6"
+        "7": "7"
+        "8": "8"
+        "9": "9"
+        "10": "10"
+      examples:
+        - 5
+    value:
+      title: Value
+      type: number
+      examples:
+        - 3
+    half:
+      title: Half
+      type: boolean
+      examples:
+        - false
+    readOnly:
+      title: Read Only
+      type: boolean
+      examples:
+        - false
+    shape:
+      title: Shape
+      type: string
+      enum:
+        - star
+        - star_2
+        - heart
+      meta:enum:
+        star: Star
+        star_2: Star 2
+        heart: Heart
+      examples:
+        - star
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+    color:
+      title: Color
+      type: string
+      enum:
+        - default
+        - neutral
+        - primary
+        - secondary
+        - accent
+        - info
+        - success
+        - warning
+        - error
+      meta:enum:
+        default: Default
+        neutral: Neutral
+        primary: Primary
+        secondary: Secondary
+        accent: Accent
+        info: Info
+        success: Success
+        warning: Warning
+        error: Error
+      examples:
+        - default
+slots: {}

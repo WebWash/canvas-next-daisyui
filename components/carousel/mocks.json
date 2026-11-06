@@ -1,0 +1,277 @@
+{
+  "mocks": [
+    {
+      "name": "Start",
+      "slots": {
+        "items": [
+          "carousel-item-1",
+          "carousel-item-2",
+          "carousel-item-3",
+          "carousel-item-4"
+        ]
+      },
+      "elements": {
+        "carousel-item-1": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-1/360/240",
+              "alt": "Slide 1",
+              "width": 360,
+              "height": 240
+            }
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-2/360/240",
+              "alt": "Slide 2",
+              "width": 360,
+              "height": 240
+            }
+          }
+        },
+        "carousel-item-3": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-3/360/240",
+              "alt": "Slide 3",
+              "width": 360,
+              "height": 240
+            }
+          }
+        },
+        "carousel-item-4": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-4/360/240",
+              "alt": "Slide 4",
+              "width": 360,
+              "height": 240
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Center",
+      "props": {
+        "alignment": "center"
+      },
+      "slots": {
+        "items": [
+          "carousel-item-1",
+          "carousel-item-2",
+          "carousel-item-3",
+          "carousel-item-4"
+        ]
+      },
+      "elements": {
+        "carousel-item-1": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-1/360/240",
+              "alt": "Slide 1",
+              "width": 360,
+              "height": 240
+            }
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-2/360/240",
+              "alt": "Slide 2",
+              "width": 360,
+              "height": 240
+            }
+          }
+        },
+        "carousel-item-3": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-3/360/240",
+              "alt": "Slide 3",
+              "width": 360,
+              "height": 240
+            }
+          }
+        },
+        "carousel-item-4": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-4/360/240",
+              "alt": "Slide 4",
+              "width": 360,
+              "height": 240
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "End",
+      "props": {
+        "alignment": "end"
+      },
+      "slots": {
+        "items": [
+          "carousel-item-1",
+          "carousel-item-2",
+          "carousel-item-3",
+          "carousel-item-4"
+        ]
+      },
+      "elements": {
+        "carousel-item-1": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-1/360/240",
+              "alt": "Slide 1",
+              "width": 360,
+              "height": 240
+            }
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-2/360/240",
+              "alt": "Slide 2",
+              "width": 360,
+              "height": 240
+            }
+          }
+        },
+        "carousel-item-3": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-3/360/240",
+              "alt": "Slide 3",
+              "width": 360,
+              "height": 240
+            }
+          }
+        },
+        "carousel-item-4": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-4/360/240",
+              "alt": "Slide 4",
+              "width": 360,
+              "height": 240
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Vertical",
+      "props": {
+        "direction": "vertical"
+      },
+      "slots": {
+        "items": [
+          "carousel-item-1",
+          "carousel-item-2",
+          "carousel-item-3"
+        ]
+      },
+      "elements": {
+        "carousel-item-1": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-1/360/384",
+              "alt": "Slide 1",
+              "width": 360,
+              "height": 384
+            }
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-2/360/384",
+              "alt": "Slide 2",
+              "width": 360,
+              "height": 384
+            }
+          }
+        },
+        "carousel-item-3": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-3/360/384",
+              "alt": "Slide 3",
+              "width": 360,
+              "height": 384
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "Full width",
+      "props": {
+        "fullWidth": true
+      },
+      "slots": {
+        "items": [
+          "carousel-item-1",
+          "carousel-item-2",
+          "carousel-item-3"
+        ]
+      },
+      "elements": {
+        "carousel-item-1": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-1/1200/500",
+              "alt": "Slide 1",
+              "width": 1200,
+              "height": 500
+            }
+          }
+        },
+        "carousel-item-2": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-2/1200/500",
+              "alt": "Slide 2",
+              "width": 1200,
+              "height": 500
+            }
+          }
+        },
+        "carousel-item-3": {
+          "type": "carousel-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/slide-3/1200/500",
+              "alt": "Slide 3",
+              "width": 1200,
+              "height": 500
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -84,6 +84,12 @@
       "sourceType": "github",
       "skillPath": "skills/canvas-workbench/SKILL.md",
       "computedHash": "24bae1c92b1e6c0bd4d689a9ae5eef1c3681bbbb45072ef7e8b26aa6944d740d"
+    },
+    "daisyui": {
+      "source": "saadeghi/daisyui",
+      "sourceType": "github",
+      "skillPath": "skills/daisyui/SKILL.md",
+      "computedHash": "f70b06883160802b5b04db0504647cc140bd38cf7eb941183a38f44a179b27ca"
     }
   }
 }

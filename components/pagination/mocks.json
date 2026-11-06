@@ -1,0 +1,56 @@
+{
+  "mocks": [
+    {
+      "name": "First page",
+      "props": {
+        "currentPage": 1,
+        "totalPages": 5,
+        "baseLink": "/articles"
+      }
+    },
+    {
+      "name": "Many pages",
+      "props": {
+        "currentPage": 10,
+        "totalPages": 20,
+        "baseLink": "/articles"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "currentPage": 2,
+        "totalPages": 4,
+        "baseLink": "/articles",
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "currentPage": 2,
+        "totalPages": 4,
+        "baseLink": "/articles",
+        "size": "sm"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "currentPage": 2,
+        "totalPages": 4,
+        "baseLink": "/articles",
+        "size": "lg"
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "currentPage": 2,
+        "totalPages": 4,
+        "baseLink": "/articles",
+        "size": "xl"
+      }
+    }
+  ]
+}

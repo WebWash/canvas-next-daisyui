@@ -1,0 +1,280 @@
+{
+  "title": "Style guide: Stats",
+  "path": "/style-guide/stats",
+  "description": "Each direction, with icons and actions.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "stats-1",
+          "heading-3",
+          "stats-2",
+          "heading-4",
+          "stats-3",
+          "heading-5",
+          "stats-4",
+          "heading-6",
+          "stats-5"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Stats",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each direction, with icons and actions.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Direction: horizontal",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "stats-1": {
+      "type": "js.stats",
+      "props": {
+        "direction": "horizontal"
+      },
+      "slots": {
+        "items": [
+          "stat-1",
+          "stat-2",
+          "stat-3"
+        ]
+      }
+    },
+    "stat-1": {
+      "type": "js.stat",
+      "props": {
+        "title": "Components",
+        "value": "88",
+        "description": "All built from daisyUI guides",
+        "icon": "sparkles"
+      }
+    },
+    "stat-2": {
+      "type": "js.stat",
+      "props": {
+        "title": "Guides covered",
+        "value": "68",
+        "description": "Every daisyUI guide",
+        "icon": "check"
+      }
+    },
+    "stat-3": {
+      "type": "js.stat",
+      "props": {
+        "title": "Themes",
+        "value": "4",
+        "description": "Switch from the navbar",
+        "icon": "sun"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Direction: vertical",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "stats-2": {
+      "type": "js.stats",
+      "props": {
+        "direction": "vertical"
+      },
+      "slots": {
+        "items": [
+          "stat-4",
+          "stat-5",
+          "stat-6"
+        ]
+      }
+    },
+    "stat-4": {
+      "type": "js.stat",
+      "props": {
+        "title": "Components",
+        "value": "88",
+        "description": "All built from daisyUI guides",
+        "icon": "sparkles"
+      }
+    },
+    "stat-5": {
+      "type": "js.stat",
+      "props": {
+        "title": "Guides covered",
+        "value": "68",
+        "description": "Every daisyUI guide",
+        "icon": "check"
+      }
+    },
+    "stat-6": {
+      "type": "js.stat",
+      "props": {
+        "title": "Themes",
+        "value": "4",
+        "description": "Switch from the navbar",
+        "icon": "sun"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Direction: responsive",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "stats-3": {
+      "type": "js.stats",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "stat-7",
+          "stat-8",
+          "stat-9"
+        ]
+      }
+    },
+    "stat-7": {
+      "type": "js.stat",
+      "props": {
+        "title": "Components",
+        "value": "88",
+        "description": "All built from daisyUI guides",
+        "icon": "sparkles"
+      }
+    },
+    "stat-8": {
+      "type": "js.stat",
+      "props": {
+        "title": "Guides covered",
+        "value": "68",
+        "description": "Every daisyUI guide",
+        "icon": "check"
+      }
+    },
+    "stat-9": {
+      "type": "js.stat",
+      "props": {
+        "title": "Themes",
+        "value": "4",
+        "description": "Switch from the navbar",
+        "icon": "sun"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "With actions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "stats-4": {
+      "type": "js.stats",
+      "slots": {
+        "items": [
+          "stat-10",
+          "stat-11"
+        ]
+      }
+    },
+    "stat-10": {
+      "type": "js.stat",
+      "props": {
+        "title": "Balance",
+        "value": "$89,400",
+        "icon": "zap"
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Add funds",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "stat-11": {
+      "type": "js.stat",
+      "props": {
+        "title": "Current",
+        "value": "$12,000",
+        "icon": "star"
+      },
+      "slots": {
+        "actions": [
+          "button-2"
+        ]
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "Withdraw",
+        "size": "sm"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Without icons",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "stats-5": {
+      "type": "js.stats",
+      "slots": {
+        "items": [
+          "stat-12",
+          "stat-13"
+        ]
+      }
+    },
+    "stat-12": {
+      "type": "js.stat",
+      "props": {
+        "title": "Total",
+        "value": "89,400",
+        "icon": "none"
+      }
+    },
+    "stat-13": {
+      "type": "js.stat",
+      "props": {
+        "title": "Page views",
+        "value": "2.6M",
+        "icon": "none"
+      }
+    }
+  }
+}

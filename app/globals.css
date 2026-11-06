@@ -1,20 +1,72 @@
 @import 'tailwindcss';
+@plugin "@tailwindcss/typography";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, corporate, synthwave;
+}
 @source '../components';
+@source '../lib';
 
-@theme {
-  --font-sans: Inter, Roboto, "Helvetica Neue", Arial, sans-serif;
-  --color-primary-100: var(--color-blue-100);
-  --color-primary-200: var(--color-blue-200);
-  --color-primary-300: var(--color-blue-300);
-  --color-primary-400: var(--color-blue-400);
-  --color-primary-500: var(--color-blue-500);
-  --color-primary-600: var(--color-blue-600);
-  --color-primary-700: var(--color-blue-700);
-  --color-primary-800: var(--color-blue-800);
-  --color-primary-900: var(--color-blue-900);
-  --color-primary-dark: var(--color-primary-700);
-  --color-primary-light: var(--color-slate-400);
+/*
+ * Workbench's preview frame loads its own CSS, which would otherwise win over
+ * daisyUI. Neither rule changes the Next.js result.
+ *
+ * - Its body styles paint over daisyUI's colours on :root.
+ * - Its unlayered `:root { --border: <colour> }` beats the default theme's border width,
+ *   at :where(:root), so every daisyUI border disappears. All four enabled
+ *   themes use 1px. A theme with a different width needs its own rule here.
+ */
+html body {
+  background-color: var(--color-base-100);
+  color: var(--color-base-content);
+  font-family: var(--default-font-family);
+}
+:root:root {
+  --border: 1px;
 }
 
-html { color: var(--color-slate-950); }
-body { margin: 0; }
+/* Rich text follows the surrounding colour, so it works on neutral and primary surfaces. */
+.prose-inherit {
+  --tw-prose-body: currentColor;
+  --tw-prose-headings: currentColor;
+  --tw-prose-lead: currentColor;
+  --tw-prose-links: currentColor;
+  --tw-prose-bold: currentColor;
+  --tw-prose-counters: currentColor;
+  --tw-prose-quotes: currentColor;
+  --tw-prose-code: currentColor;
+  --tw-prose-kbd: currentColor;
+  --tw-prose-bullets: color-mix(in oklab, currentColor 50%, transparent);
+  --tw-prose-captions: color-mix(in oklab, currentColor 70%, transparent);
+  --tw-prose-th-borders: color-mix(in oklab, currentColor 50%, transparent);
+  --tw-prose-hr: color-mix(in oklab, currentColor 20%, transparent);
+  --tw-prose-quote-borders: color-mix(in oklab, currentColor 20%, transparent);
+  --tw-prose-td-borders: color-mix(in oklab, currentColor 20%, transparent);
+}
+.prose-inherit :where(code):not(pre > code) {
+  background-color: color-mix(in oklab, currentColor 12%, transparent);
+  border-color: color-mix(in oklab, currentColor 20%, transparent);
+}
+
+/* Keeps a drawer inside its own box instead of covering the viewport. */
+.drawer-contained {
+  position: relative;
+  overflow: hidden;
+  min-height: 20rem;
+}
+.drawer-contained > .drawer-toggle {
+  position: absolute;
+}
+.drawer-contained > .drawer-side {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+}
+@media (width >= 64rem) {
+  .drawer-contained.lg\:drawer-open > .drawer-side {
+    position: static;
+    height: auto;
+  }
+}
+:root:has(.drawer-contained > .drawer-toggle:checked):not(:has(dialog.modal[open])) {
+  --page-scroll-lock: initial;
+}

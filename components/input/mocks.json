@@ -1,0 +1,159 @@
+{
+  "mocks": [
+    {
+      "name": "Ghost",
+      "props": {
+        "variant": "ghost",
+        "label": "Name"
+      }
+    },
+    {
+      "name": "Inline label",
+      "props": {
+        "label": "Name",
+        "labelStyle": "inline"
+      }
+    },
+    {
+      "name": "Floating label",
+      "props": {
+        "label": "Name",
+        "labelStyle": "floating"
+      }
+    },
+    {
+      "name": "With value",
+      "props": {
+        "label": "Name",
+        "value": "Ada Lovelace"
+      }
+    },
+    {
+      "name": "Type email",
+      "props": {
+        "label": "Type email",
+        "type": "email"
+      }
+    },
+    {
+      "name": "Type password",
+      "props": {
+        "label": "Type password",
+        "type": "password"
+      }
+    },
+    {
+      "name": "Type number",
+      "props": {
+        "label": "Type number",
+        "type": "number"
+      }
+    },
+    {
+      "name": "Type tel",
+      "props": {
+        "label": "Type tel",
+        "type": "tel"
+      }
+    },
+    {
+      "name": "Type url",
+      "props": {
+        "label": "Type url",
+        "type": "url"
+      }
+    },
+    {
+      "name": "Type search",
+      "props": {
+        "label": "Type search",
+        "type": "search"
+      }
+    },
+    {
+      "name": "Type date",
+      "props": {
+        "label": "Type date",
+        "type": "date"
+      }
+    },
+    {
+      "name": "Validation stacked",
+      "props": {
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "validationMessage": "Enter a valid email address."
+      }
+    },
+    {
+      "name": "Validation inline",
+      "props": {
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "validationMessage": "Enter a valid email address.",
+        "labelStyle": "inline"
+      }
+    },
+    {
+      "name": "Validation floating",
+      "props": {
+        "label": "Email",
+        "type": "email",
+        "required": true,
+        "validationMessage": "Enter a valid email address.",
+        "labelStyle": "floating"
+      }
+    },
+    {
+      "name": "Description",
+      "props": {
+        "label": "Name",
+        "description": "A short description of this field that is long enough to show that it wraps onto another line."
+      }
+    },
+    {
+      "name": "Hidden label",
+      "props": {
+        "label": "Name",
+        "hideLabel": true
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "Name",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "label": "Name",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "label": "Name",
+        "color": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "label": "Name",
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "label": "Name",
+        "size": "lg"
+      }
+    }
+  ]
+}

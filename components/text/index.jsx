@@ -1,37 +1,38 @@
 import { cva } from 'class-variance-authority';
 import { cn, FormattedText } from 'drupal-canvas';
 
-const textVariants = cva('my-8', {
+const colorVariants = cva('', {
   variants: {
     textColor: {
-      dark: '!text-black',
-      light: '!text-white',
-    },
-    textSize: {
-      extra_small: 'text-xs',
-      small: 'text-sm',
-      normal: 'text-base/6',
-      large: 'text-lg/8',
-      extra_large: 'text-xl/8',
-    },
-    textShadow: {
-      light: 'text-shadow-sm',
-      medium: 'text-shadow-md',
-      heavy: 'text-shadow-lg',
+      default: '',
+      muted: 'opacity-70',
+      primary: 'text-primary',
+      secondary: 'text-secondary',
+      accent: 'text-accent',
     },
   },
 });
 
-const Text = ({ text, textSize, textColor, textShadow, className }) => {
+const proseVariants = cva('prose prose-inherit max-w-none', {
+  variants: {
+    textSize: {
+      extra_small: 'prose-sm text-xs',
+      small: 'prose-sm',
+      normal: 'prose-base',
+      large: 'prose-lg',
+      extra_large: 'prose-xl',
+    },
+  },
+  defaultVariants: {
+    textSize: 'normal',
+  },
+});
+
+const Text = ({ text, textSize, textColor, className }) => {
   return (
-    <FormattedText
-      className={cn(
-        textVariants({ textColor, textSize, textShadow }),
-        className,
-      )}
-    >
-      {text}
-    </FormattedText>
+    <div className={cn(colorVariants({ textColor }), className)}>
+      <FormattedText className={proseVariants({ textSize })}>{text}</FormattedText>
+    </div>
   );
 };
 

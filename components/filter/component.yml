@@ -1,0 +1,44 @@
+name: Filter
+machineName: filter
+status: true
+required:
+  - label
+  - options
+props:
+  properties:
+    label:
+      title: Label
+      type: string
+      examples:
+        - Frameworks
+    hideLabel:
+      title: Hide Label
+      type: boolean
+      examples:
+        - false
+    description:
+      title: Description
+      type: string
+    name:
+      title: Name
+      type: string
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    options:
+      title: Options
+      type: array
+      items:
+        type: string
+      examples:
+        - - Svelte
+          - Vue
+          - React
+slots: {}

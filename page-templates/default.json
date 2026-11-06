@@ -1,0 +1,38 @@
+{
+  "label": "Default",
+  "description": "Site navbar and footer around every page.",
+  "status": true,
+  "default": true,
+  "elements": {
+    "site-navbar": {
+      "type": "js.navbar",
+      "props": { "background": "base_100" },
+      "slots": {
+        "start": ["site-brand"],
+        "end": ["site-theme"]
+      }
+    },
+    "site-brand": {
+      "type": "js.button",
+      "props": { "variant": "ghost", "size": "lg", "text": "daisyUI", "link": "/" }
+    },
+    "site-theme": {
+      "type": "js.theme-controller",
+      "props": { "variant": "toggle", "theme": "dark", "label": "Dark theme" }
+    },
+    "page-content": { "type": "marker.page_content" },
+    "site-footer": {
+      "type": "js.footer",
+      "props": {
+        "layout": "columns",
+        "background": "base_200",
+        "copyrightText": "© 2026 daisyUI demo. All rights reserved."
+      },
+      "slots": { "brand": ["footer-brand"] }
+    },
+    "footer-brand": {
+      "type": "js.text",
+      "props": { "text": "<p><strong>daisyUI demo</strong><br>Canvas components, built with daisyUI.</p>" }
+    }
+  }
+}

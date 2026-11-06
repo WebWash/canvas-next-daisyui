@@ -1,0 +1,19 @@
+name: Table Cell (child of Table Row)
+machineName: table-cell
+status: true
+required: []
+props:
+  properties:
+    text:
+      title: Text
+      type: string
+      contentMediaType: text/html
+      x-formatting-context: block
+      examples:
+        - <p>Cell text</p>
+    isHeader:
+      title: Is Header
+      type: boolean
+      examples:
+        - false
+slots: {}

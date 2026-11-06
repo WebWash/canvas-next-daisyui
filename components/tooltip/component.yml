@@ -1,0 +1,71 @@
+name: Tooltip
+machineName: tooltip
+status: true
+required:
+  - text
+props:
+  properties:
+    text:
+      title: Text
+      type: string
+      examples:
+        - Helpful tip
+    placement:
+      title: Placement
+      type: string
+      enum:
+        - top
+        - bottom
+        - left
+        - right
+      meta:enum:
+        top: Top
+        bottom: Bottom
+        left: Left
+        right: Right
+      examples:
+        - top
+    alignment:
+      title: Alignment
+      type: string
+      enum:
+        - center
+        - start
+        - end
+      meta:enum:
+        center: Center
+        start: Start
+        end: End
+      examples:
+        - center
+    color:
+      title: Color
+      type: string
+      enum:
+        - default
+        - primary
+        - secondary
+        - accent
+        - info
+        - success
+        - warning
+        - error
+      meta:enum:
+        default: Default
+        primary: Primary
+        secondary: Secondary
+        accent: Accent
+        info: Info
+        success: Success
+        warning: Warning
+        error: Error
+      examples:
+        - default
+    openByDefault:
+      title: Open By Default
+      type: boolean
+      examples:
+        - false
+slots:
+  content:
+    title: Content

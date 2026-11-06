@@ -1,0 +1,358 @@
+{
+  "mocks": [
+    {
+      "name": "Images",
+      "slots": {
+        "items": [
+          "image-1",
+          "image-2",
+          "image-3"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-1/400/300",
+              "alt": "Stacked image 1",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-2/400/300",
+              "alt": "Stacked image 2",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-3/400/300",
+              "alt": "Stacked image 3",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        }
+      }
+    },
+    {
+      "name": "Alignment top",
+      "props": {
+        "alignment": "top"
+      },
+      "slots": {
+        "items": [
+          "image-1",
+          "image-2",
+          "image-3"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-1/400/300",
+              "alt": "Stacked image 1",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-2/400/300",
+              "alt": "Stacked image 2",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-3/400/300",
+              "alt": "Stacked image 3",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        }
+      }
+    },
+    {
+      "name": "Alignment bottom",
+      "props": {
+        "alignment": "bottom"
+      },
+      "slots": {
+        "items": [
+          "image-1",
+          "image-2",
+          "image-3"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-1/400/300",
+              "alt": "Stacked image 1",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-2/400/300",
+              "alt": "Stacked image 2",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-3/400/300",
+              "alt": "Stacked image 3",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        }
+      }
+    },
+    {
+      "name": "Alignment start",
+      "props": {
+        "alignment": "start"
+      },
+      "slots": {
+        "items": [
+          "image-1",
+          "image-2",
+          "image-3"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-1/400/300",
+              "alt": "Stacked image 1",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-2/400/300",
+              "alt": "Stacked image 2",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-3/400/300",
+              "alt": "Stacked image 3",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        }
+      }
+    },
+    {
+      "name": "Alignment end",
+      "props": {
+        "alignment": "end"
+      },
+      "slots": {
+        "items": [
+          "image-1",
+          "image-2",
+          "image-3"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-1/400/300",
+              "alt": "Stacked image 1",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-2/400/300",
+              "alt": "Stacked image 2",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-3/400/300",
+              "alt": "Stacked image 3",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        }
+      }
+    },
+    {
+      "name": "Small",
+      "props": {
+        "size": "sm"
+      },
+      "slots": {
+        "items": [
+          "image-1",
+          "image-2",
+          "image-3"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-1/400/300",
+              "alt": "Stacked image 1",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-2/400/300",
+              "alt": "Stacked image 2",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-3/400/300",
+              "alt": "Stacked image 3",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        }
+      }
+    },
+    {
+      "name": "Large",
+      "props": {
+        "size": "lg"
+      },
+      "slots": {
+        "items": [
+          "image-1",
+          "image-2",
+          "image-3"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-1/400/300",
+              "alt": "Stacked image 1",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-2": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-2/400/300",
+              "alt": "Stacked image 2",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        },
+        "image-3": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/stacked-image-3/400/300",
+              "alt": "Stacked image 3",
+              "width": 400,
+              "height": 300
+            },
+            "shape": "rounded"
+          }
+        }
+      }
+    }
+  ]
+}

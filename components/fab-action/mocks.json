@@ -1,0 +1,11 @@
+{
+  "mocks": [
+    {
+      "name": "As a button",
+      "props": {
+        "label": "Favourite",
+        "icon": "heart"
+      }
+    }
+  ]
+}

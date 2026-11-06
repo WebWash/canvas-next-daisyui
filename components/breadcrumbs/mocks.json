@@ -1,0 +1,37 @@
+{
+  "mocks": [
+    {
+      "name": "Three levels",
+      "slots": {
+        "items": [
+          "breadcrumb-item-1",
+          "breadcrumb-item-2",
+          "breadcrumb-item-3"
+        ]
+      },
+      "elements": {
+        "breadcrumb-item-1": {
+          "type": "breadcrumb-item",
+          "props": {
+            "label": "Home",
+            "link": "/",
+            "icon": "home"
+          }
+        },
+        "breadcrumb-item-2": {
+          "type": "breadcrumb-item",
+          "props": {
+            "label": "Documents",
+            "link": "/documents"
+          }
+        },
+        "breadcrumb-item-3": {
+          "type": "breadcrumb-item",
+          "props": {
+            "label": "Add document"
+          }
+        }
+      }
+    }
+  ]
+}

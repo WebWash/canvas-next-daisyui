@@ -1,0 +1,507 @@
+{
+  "title": "Style guide",
+  "path": "/style-guide",
+  "description": "An index of every style guide page.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "grid-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Style guide",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>One page per major component, showing its variants.</p>"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "card-1",
+          "card-2",
+          "card-3",
+          "card-4",
+          "card-5",
+          "card-6",
+          "card-7",
+          "card-8",
+          "card-9",
+          "card-10",
+          "card-11",
+          "card-12",
+          "card-13",
+          "card-14",
+          "card-15",
+          "card-16",
+          "card-17",
+          "card-18",
+          "card-19",
+          "card-20"
+        ]
+      }
+    },
+    "card-1": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Typography",
+        "titleElement": "h2",
+        "text": "<p>Text and headings.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/typography",
+        "size": "sm"
+      }
+    },
+    "card-2": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Layout",
+        "titleElement": "h2",
+        "text": "<p>Sections, grids, spacers and dividers.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-2"
+        ]
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/layout",
+        "size": "sm"
+      }
+    },
+    "card-3": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Media",
+        "titleElement": "h2",
+        "text": "<p>Images and video.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-3"
+        ]
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/media",
+        "size": "sm"
+      }
+    },
+    "card-4": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Button",
+        "titleElement": "h2",
+        "text": "<p>Every variant, colour, size and shape.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-4"
+        ]
+      }
+    },
+    "button-4": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/button",
+        "size": "sm"
+      }
+    },
+    "card-5": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Badge",
+        "titleElement": "h2",
+        "text": "<p>Badges, status and keyboard keys.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-5"
+        ]
+      }
+    },
+    "button-5": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/badge",
+        "size": "sm"
+      }
+    },
+    "card-6": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Card",
+        "titleElement": "h2",
+        "text": "<p>Every card layout.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-6"
+        ]
+      }
+    },
+    "button-6": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/card",
+        "size": "sm"
+      }
+    },
+    "card-7": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Hero",
+        "titleElement": "h2",
+        "text": "<p>Every hero variant.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-7"
+        ]
+      }
+    },
+    "button-7": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/hero",
+        "size": "sm"
+      }
+    },
+    "card-8": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Navbar",
+        "titleElement": "h2",
+        "text": "<p>Each background and slot.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-8"
+        ]
+      }
+    },
+    "button-8": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/navbar",
+        "size": "sm"
+      }
+    },
+    "card-9": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Footer",
+        "titleElement": "h2",
+        "text": "<p>Each layout and background.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-9"
+        ]
+      }
+    },
+    "button-9": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/footer",
+        "size": "sm"
+      }
+    },
+    "card-10": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Menu",
+        "titleElement": "h2",
+        "text": "<p>Menus, breadcrumbs and pagination.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-10"
+        ]
+      }
+    },
+    "button-10": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/menu",
+        "size": "sm"
+      }
+    },
+    "card-11": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Tabs",
+        "titleElement": "h2",
+        "text": "<p>Every tab style.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-11"
+        ]
+      }
+    },
+    "button-11": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/tabs",
+        "size": "sm"
+      }
+    },
+    "card-12": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Steps",
+        "titleElement": "h2",
+        "text": "<p>Steps and timelines.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-12"
+        ]
+      }
+    },
+    "button-12": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/steps",
+        "size": "sm"
+      }
+    },
+    "card-13": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Accordion",
+        "titleElement": "h2",
+        "text": "<p>Accordions and collapses.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-13"
+        ]
+      }
+    },
+    "button-13": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/accordion",
+        "size": "sm"
+      }
+    },
+    "card-14": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Alert",
+        "titleElement": "h2",
+        "text": "<p>Every alert style.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-14"
+        ]
+      }
+    },
+    "button-14": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/alert",
+        "size": "sm"
+      }
+    },
+    "card-15": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Avatar",
+        "titleElement": "h2",
+        "text": "<p>Avatars and groups.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-15"
+        ]
+      }
+    },
+    "button-15": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/avatar",
+        "size": "sm"
+      }
+    },
+    "card-16": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Modal",
+        "titleElement": "h2",
+        "text": "<p>Modals, dropdowns, tooltips and drawers.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-16"
+        ]
+      }
+    },
+    "button-16": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/modal",
+        "size": "sm"
+      }
+    },
+    "card-17": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Table",
+        "titleElement": "h2",
+        "text": "<p>Every table option.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-17"
+        ]
+      }
+    },
+    "button-17": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/table",
+        "size": "sm"
+      }
+    },
+    "card-18": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Stats",
+        "titleElement": "h2",
+        "text": "<p>Stats in each direction.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-18"
+        ]
+      }
+    },
+    "button-18": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/stats",
+        "size": "sm"
+      }
+    },
+    "card-19": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Carousel",
+        "titleElement": "h2",
+        "text": "<p>Every carousel option.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-19"
+        ]
+      }
+    },
+    "button-19": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/carousel",
+        "size": "sm"
+      }
+    },
+    "card-20": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Form fields",
+        "titleElement": "h2",
+        "text": "<p>Every field, label style and state.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-20"
+        ]
+      }
+    },
+    "button-20": {
+      "type": "js.button",
+      "props": {
+        "text": "Open",
+        "link": "/style-guide/form-fields",
+        "size": "sm"
+      }
+    }
+  }
+}

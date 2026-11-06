@@ -1,0 +1,44 @@
+{
+  "mocks": [
+    {
+      "name": "Inside a gallery",
+      "root": "hover-gallery-1",
+      "elements": {
+        "hover-gallery-1": {
+          "type": "hover-gallery",
+          "props": {
+            "maxWidth": "xs"
+          },
+          "slots": {
+            "images": [
+              "hover-gallery-item-1",
+              "hover-gallery-item-2"
+            ]
+          }
+        },
+        "hover-gallery-item-1": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-1/400/400",
+              "alt": "Gallery image 1",
+              "width": 400,
+              "height": 400
+            }
+          }
+        },
+        "hover-gallery-item-2": {
+          "type": "hover-gallery-item",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/gallery-image-2/400/400",
+              "alt": "Gallery image 2",
+              "width": 400,
+              "height": 400
+            }
+          }
+        }
+      }
+    }
+  ]
+}

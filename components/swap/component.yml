@@ -1,0 +1,186 @@
+name: Swap
+machineName: swap
+status: true
+required:
+  - label
+props:
+  properties:
+    variant:
+      title: Variant
+      type: string
+      enum:
+        - default
+        - rotate
+        - flip
+      meta:enum:
+        default: Default
+        rotate: Rotate
+        flip: Flip
+      examples:
+        - default
+    onIcon:
+      title: On Icon
+      type: string
+      enum:
+        - none
+        - menu
+        - close
+        - chevron_right
+        - chevron_down
+        - arrow_right
+        - check
+        - info
+        - warning
+        - success
+        - error
+        - search
+        - home
+        - user
+        - users
+        - settings
+        - mail
+        - phone
+        - calendar
+        - clock
+        - star
+        - heart
+        - plus
+        - minus
+        - download
+        - upload
+        - share
+        - trash
+        - edit
+        - sparkles
+        - zap
+        - globe
+        - lock
+        - sun
+        - moon
+      meta:enum:
+        none: None
+        menu: Menu
+        close: Close
+        chevron_right: Chevron Right
+        chevron_down: Chevron Down
+        arrow_right: Arrow Right
+        check: Check
+        info: Info
+        warning: Warning
+        success: Success
+        error: Error
+        search: Search
+        home: Home
+        user: User
+        users: Users
+        settings: Settings
+        mail: Mail
+        phone: Phone
+        calendar: Calendar
+        clock: Clock
+        star: Star
+        heart: Heart
+        plus: Plus
+        minus: Minus
+        download: Download
+        upload: Upload
+        share: Share
+        trash: Trash
+        edit: Edit
+        sparkles: Sparkles
+        zap: Zap
+        globe: Globe
+        lock: Lock
+        sun: Sun
+        moon: Moon
+      examples:
+        - sun
+    offIcon:
+      title: Off Icon
+      type: string
+      enum:
+        - none
+        - menu
+        - close
+        - chevron_right
+        - chevron_down
+        - arrow_right
+        - check
+        - info
+        - warning
+        - success
+        - error
+        - search
+        - home
+        - user
+        - users
+        - settings
+        - mail
+        - phone
+        - calendar
+        - clock
+        - star
+        - heart
+        - plus
+        - minus
+        - download
+        - upload
+        - share
+        - trash
+        - edit
+        - sparkles
+        - zap
+        - globe
+        - lock
+        - sun
+        - moon
+      meta:enum:
+        none: None
+        menu: Menu
+        close: Close
+        chevron_right: Chevron Right
+        chevron_down: Chevron Down
+        arrow_right: Arrow Right
+        check: Check
+        info: Info
+        warning: Warning
+        success: Success
+        error: Error
+        search: Search
+        home: Home
+        user: User
+        users: Users
+        settings: Settings
+        mail: Mail
+        phone: Phone
+        calendar: Calendar
+        clock: Clock
+        star: Star
+        heart: Heart
+        plus: Plus
+        minus: Minus
+        download: Download
+        upload: Upload
+        share: Share
+        trash: Trash
+        edit: Edit
+        sparkles: Sparkles
+        zap: Zap
+        globe: Globe
+        lock: Lock
+        sun: Sun
+        moon: Moon
+      examples:
+        - moon
+    onText:
+      title: On Text
+      type: string
+    offText:
+      title: Off Text
+      type: string
+    label:
+      title: Label
+      type: string
+      examples:
+        - Toggle
+slots: {}

@@ -1,0 +1,32 @@
+{
+  "mocks": [
+    {
+      "name": "Text",
+      "props": {
+        "variant": "text",
+        "text": "Loading data..."
+      }
+    },
+    {
+      "name": "Full width",
+      "props": {
+        "width": "full",
+        "height": "md"
+      }
+    },
+    {
+      "name": "Large",
+      "props": {
+        "width": "lg",
+        "height": "lg"
+      }
+    },
+    {
+      "name": "Small",
+      "props": {
+        "width": "xs",
+        "height": "xs"
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+name: Modal
+machineName: modal
+status: true
+required:
+  - buttonText
+  - heading
+props:
+  properties:
+    buttonText:
+      title: Button Text
+      type: string
+      examples:
+        - Open modal
+    heading:
+      title: Heading
+      type: string
+      examples:
+        - Modal heading
+    placement:
+      title: Placement
+      type: string
+      enum:
+        - middle
+        - top
+        - bottom
+        - start
+        - end
+      meta:enum:
+        middle: Middle
+        top: Top
+        bottom: Bottom
+        start: Start
+        end: End
+      examples:
+        - middle
+    closeText:
+      title: Close Text
+      type: string
+      examples:
+        - Close
+    openByDefault:
+      title: Open By Default
+      type: boolean
+      examples:
+        - false
+slots:
+  content:
+    title: Content
+  actions:
+    title: Actions

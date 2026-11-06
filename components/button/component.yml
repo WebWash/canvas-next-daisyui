@@ -8,37 +8,183 @@ props:
     variant:
       title: Variant
       type: string
-      examples:
-        - solid
       enum:
-        - solid
-        - outline_dark
-        - outline_light
-        - ghost_neutral
-        - ghost_light
+        - default
+        - outline
+        - dash
+        - soft
+        - ghost
         - link
-        - link_underline
-        - link_dark
-        - link_light
-        - nav_link_dark
       meta:enum:
-        solid: Solid
-        outline_dark: Outline Dark
-        outline_light: Outline Light
-        ghost_neutral: Ghost Neutral
-        ghost_light: Ghost Light
+        default: Default
+        outline: Outline
+        dash: Dash
+        soft: Soft
+        ghost: Ghost
         link: Link
-        link_underline: Link Underline
-        link_dark: Link Dark
-        link_light: Link Light
-        nav_link_dark: Nav Link Dark
+      examples:
+        - default
     text:
       title: Text
       type: string
       examples:
-        - Button
+        - Click me
     link:
       title: Link
       type: string
       format: uri-reference
+      examples:
+        - /about
+    icon:
+      title: Icon
+      type: string
+      enum:
+        - none
+        - menu
+        - close
+        - chevron_right
+        - chevron_down
+        - arrow_right
+        - check
+        - info
+        - warning
+        - success
+        - error
+        - search
+        - home
+        - user
+        - users
+        - settings
+        - mail
+        - phone
+        - calendar
+        - clock
+        - star
+        - heart
+        - plus
+        - minus
+        - download
+        - upload
+        - share
+        - trash
+        - edit
+        - sparkles
+        - zap
+        - globe
+        - lock
+        - sun
+        - moon
+      meta:enum:
+        none: None
+        menu: Menu
+        close: Close
+        chevron_right: Chevron Right
+        chevron_down: Chevron Down
+        arrow_right: Arrow Right
+        check: Check
+        info: Info
+        warning: Warning
+        success: Success
+        error: Error
+        search: Search
+        home: Home
+        user: User
+        users: Users
+        settings: Settings
+        mail: Mail
+        phone: Phone
+        calendar: Calendar
+        clock: Clock
+        star: Star
+        heart: Heart
+        plus: Plus
+        minus: Minus
+        download: Download
+        upload: Upload
+        share: Share
+        trash: Trash
+        edit: Edit
+        sparkles: Sparkles
+        zap: Zap
+        globe: Globe
+        lock: Lock
+        sun: Sun
+        moon: Moon
+      examples:
+        - none
+    iconPosition:
+      title: Icon Position
+      type: string
+      enum:
+        - start
+        - end
+      meta:enum:
+        start: Start
+        end: End
+      examples:
+        - start
+    color:
+      title: Color
+      type: string
+      enum:
+        - default
+        - neutral
+        - primary
+        - secondary
+        - accent
+        - info
+        - success
+        - warning
+        - error
+      meta:enum:
+        default: Default
+        neutral: Neutral
+        primary: Primary
+        secondary: Secondary
+        accent: Accent
+        info: Info
+        success: Success
+        warning: Warning
+        error: Error
+      examples:
+        - default
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+    shape:
+      title: Shape
+      type: string
+      enum:
+        - default
+        - wide
+        - block
+        - square
+        - circle
+      meta:enum:
+        default: Default
+        wide: Wide
+        block: Block
+        square: Square
+        circle: Circle
+      examples:
+        - default
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
 slots: {}

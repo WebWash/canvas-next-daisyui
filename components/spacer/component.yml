@@ -1,15 +1,12 @@
 name: Spacer
 machineName: spacer
 status: true
-required:
-  - height
+required: []
 props:
   properties:
     height:
       title: Height
       type: string
-      examples:
-        - medium
       enum:
         - small
         - medium
@@ -20,4 +17,6 @@ props:
         medium: Medium
         large: Large
         extra_large: Extra Large
+      examples:
+        - medium
 slots: {}

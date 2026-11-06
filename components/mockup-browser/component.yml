@@ -1,0 +1,14 @@
+name: Mockup Browser
+machineName: mockup-browser
+status: true
+required: []
+props:
+  properties:
+    url:
+      title: Url
+      type: string
+      examples:
+        - https://daisyui.com
+slots:
+  content:
+    title: Content

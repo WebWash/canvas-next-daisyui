@@ -1,0 +1,29 @@
+name: Navbar
+machineName: navbar
+status: true
+required: []
+props:
+  properties:
+    background:
+      title: Background
+      type: string
+      enum:
+        - base_100
+        - base_200
+        - neutral
+      meta:enum:
+        base_100: Base 100
+        base_200: Base 200
+        neutral: Neutral
+      examples:
+        - base_100
+    sticky:
+      title: Sticky
+      type: boolean
+      examples:
+        - false
+slots:
+  start:
+    title: Start
+  end:
+    title: End

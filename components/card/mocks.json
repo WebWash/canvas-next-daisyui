@@ -1,122 +1,245 @@
 {
   "mocks": [
     {
-      "name": "With link",
+      "name": "No image",
       "props": {
-        "variant": "default",
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>"
+      }
+    },
+    {
+      "name": "Variant border",
+      "props": {
+        "variant": "border",
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>"
+      }
+    },
+    {
+      "name": "Variant dash",
+      "props": {
+        "variant": "dash",
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>"
+      }
+    },
+    {
+      "name": "Image bottom",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
         "image": {
-          "src": "https://placehold.co/800x600@2x.png",
-          "alt": "Example image placeholder",
+          "src": "https://picsum.photos/seed/card-placeholder/800/500",
+          "alt": "Card placeholder",
           "width": 800,
-          "height": 600
+          "height": 500
         },
-        "layout": "left_aligned",
-        "heading": "Feature or benefit",
-        "headingElement": "h3",
-        "text": "Help people become familiar with the organization and its offerings, creating a sense of connection and trust.",
-        "link": "/learn-more",
-        "linkLabel": "Learn more",
-        "linkVariant": "link"
+        "imagePosition": "bottom"
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Buy now",
+            "color": "primary",
+            "size": "sm"
+          }
+        }
       }
     },
     {
-      "name": "Center aligned",
+      "name": "Image side",
       "props": {
-        "variant": "default",
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
         "image": {
-          "src": "https://placehold.co/800x600@2x.png",
-          "alt": "Example image placeholder",
+          "src": "https://picsum.photos/seed/card-placeholder/800/500",
+          "alt": "Card placeholder",
           "width": 800,
-          "height": 600
+          "height": 500
         },
-        "layout": "center_aligned",
-        "heading": "Feature or benefit",
-        "headingElement": "h3",
-        "text": "Help people become familiar with the organization and its offerings, creating a sense of connection and trust.",
-        "link": "/",
-        "linkVariant": "link"
+        "imagePosition": "side"
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Buy now",
+            "color": "primary",
+            "size": "sm"
+          }
+        }
       }
     },
     {
-      "name": "Custom colors",
+      "name": "Image responsive side",
       "props": {
-        "variant": "default",
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
         "image": {
-          "src": "https://placehold.co/800x600@2x.png",
-          "alt": "Example image placeholder",
+          "src": "https://picsum.photos/seed/card-placeholder/800/500",
+          "alt": "Card placeholder",
           "width": 800,
-          "height": 600
+          "height": 500
         },
-        "layout": "left_aligned",
-        "heading": "Feature or benefit",
-        "headingElement": "h3",
-        "text": "Help people become familiar with the organization and its offerings, creating a sense of connection and trust.",
-        "link": "/",
-        "linkVariant": "link",
-        "backgroundColor": "#F0F9FF",
-        "backgroundColorOnHover": "#E0F2FE"
+        "imagePosition": "responsive_side"
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Buy now",
+            "color": "primary",
+            "size": "sm"
+          }
+        }
       }
     },
     {
-      "name": "With solid button",
+      "name": "Image overlay",
       "props": {
-        "variant": "default",
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
         "image": {
-          "src": "https://placehold.co/800x600@2x.png",
-          "alt": "Example image placeholder",
+          "src": "https://picsum.photos/seed/card-placeholder/800/500",
+          "alt": "Card placeholder",
           "width": 800,
-          "height": 600
+          "height": 500
         },
-        "layout": "left_aligned",
-        "heading": "Feature or benefit",
-        "headingElement": "h3",
-        "text": "Help people become familiar with the organization and its offerings, creating a sense of connection and trust.",
-        "link": "/get-started",
-        "linkLabel": "Get Started",
-        "linkVariant": "solid"
+        "imagePosition": "overlay"
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Buy now",
+            "color": "primary",
+            "size": "sm"
+          }
+        }
       }
     },
     {
-      "name": "With byline",
+      "name": "Size xs",
       "props": {
-        "variant": "default",
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "size": "sm"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "size": "lg"
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "size": "xl"
+      }
+    },
+    {
+      "name": "With actions",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
         "image": {
-          "src": "https://placehold.co/800x600@2x.png",
-          "alt": "Example image placeholder",
+          "src": "https://picsum.photos/seed/card-placeholder/800/500",
+          "alt": "Card placeholder",
           "width": 800,
-          "height": 600
+          "height": 500
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-1",
+          "button-2"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Details",
+            "size": "sm",
+            "variant": "ghost"
+          }
         },
-        "layout": "left_aligned",
-        "heading": "Feature or benefit",
-        "headingElement": "h3",
-        "text": "Help people become familiar with the organization and its offerings, creating a sense of connection and trust.",
-        "link": "/",
-        "linkVariant": "link",
-        "byline": "Mark Williams - 1 AUG, 2023"
+        "button-2": {
+          "type": "button",
+          "props": {
+            "text": "Buy now",
+            "size": "sm",
+            "color": "primary"
+          }
+        }
       }
     },
     {
-      "name": "Link card",
+      "name": "With nested content",
       "props": {
-        "variant": "link_card",
-        "layout": "left_aligned",
-        "heading": "Management",
-        "text": "4 job positions",
-        "link": "/management"
-      }
-    },
-    {
-      "name": "Link card with image",
-      "props": {
-        "variant": "link_card",
-        "layout": "left_aligned",
-        "heading": "London, UK",
-        "link": "/locations/london",
-        "image": {
-          "src": "https://images.unsplash.com/photo-1486299267070-83823f5448dd?ixlib=rb-4.0.3&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
-          "alt": "London skyline",
-          "width": 320,
-          "height": 320
+        "title": "Card title"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "spacer-1",
+          "button-1"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>A short description of what this card is about.</p>"
+          }
+        },
+        "spacer-1": {
+          "type": "spacer",
+          "props": {
+            "height": "small"
+          }
+        },
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Nested",
+            "variant": "outline",
+            "size": "sm"
+          }
         }
       }
     }

@@ -1,0 +1,134 @@
+name: Input
+machineName: input
+status: true
+required:
+  - label
+props:
+  properties:
+    variant:
+      title: Variant
+      type: string
+      enum:
+        - default
+        - ghost
+      meta:enum:
+        default: Default
+        ghost: Ghost
+      examples:
+        - default
+    label:
+      title: Label
+      type: string
+      examples:
+        - Email address
+    hideLabel:
+      title: Hide Label
+      type: boolean
+      examples:
+        - false
+    description:
+      title: Description
+      type: string
+    name:
+      title: Name
+      type: string
+    required:
+      title: Required
+      type: boolean
+      examples:
+        - false
+    disabled:
+      title: Disabled
+      type: boolean
+      examples:
+        - false
+    validationMessage:
+      title: Validation Message
+      type: string
+    labelStyle:
+      title: Label Style
+      type: string
+      enum:
+        - stacked
+        - inline
+        - floating
+      meta:enum:
+        stacked: Stacked
+        inline: Inline
+        floating: Floating
+      examples:
+        - stacked
+    type:
+      title: Type
+      type: string
+      enum:
+        - text
+        - email
+        - password
+        - number
+        - tel
+        - url
+        - search
+        - date
+      meta:enum:
+        text: Text
+        email: Email
+        password: Password
+        number: Number
+        tel: Tel
+        url: Url
+        search: Search
+        date: Date
+      examples:
+        - text
+    placeholder:
+      title: Placeholder
+      type: string
+      examples:
+        - Type here
+    value:
+      title: Value
+      type: string
+    color:
+      title: Color
+      type: string
+      enum:
+        - default
+        - neutral
+        - primary
+        - secondary
+        - accent
+        - info
+        - success
+        - warning
+        - error
+      meta:enum:
+        default: Default
+        neutral: Neutral
+        primary: Primary
+        secondary: Secondary
+        accent: Accent
+        info: Info
+        success: Success
+        warning: Warning
+        error: Error
+      examples:
+        - default
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+slots: {}

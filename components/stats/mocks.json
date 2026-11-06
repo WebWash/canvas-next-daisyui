@@ -1,0 +1,127 @@
+{
+  "mocks": [
+    {
+      "name": "Horizontal",
+      "slots": {
+        "items": [
+          "stat-1",
+          "stat-2",
+          "stat-3"
+        ]
+      },
+      "elements": {
+        "stat-1": {
+          "type": "stat",
+          "props": {
+            "title": "Downloads",
+            "value": "31K",
+            "description": "Jan 1st to Feb 1st",
+            "icon": "download"
+          }
+        },
+        "stat-2": {
+          "type": "stat",
+          "props": {
+            "title": "New users",
+            "value": "4,200",
+            "description": "Up 400 (22%)",
+            "icon": "users"
+          }
+        },
+        "stat-3": {
+          "type": "stat",
+          "props": {
+            "title": "Revenue",
+            "value": "$1.2M",
+            "description": "Down 90 (14%)",
+            "icon": "star"
+          }
+        }
+      }
+    },
+    {
+      "name": "Vertical",
+      "props": {
+        "direction": "vertical"
+      },
+      "slots": {
+        "items": [
+          "stat-1",
+          "stat-2",
+          "stat-3"
+        ]
+      },
+      "elements": {
+        "stat-1": {
+          "type": "stat",
+          "props": {
+            "title": "Downloads",
+            "value": "31K",
+            "description": "Jan 1st to Feb 1st",
+            "icon": "download"
+          }
+        },
+        "stat-2": {
+          "type": "stat",
+          "props": {
+            "title": "New users",
+            "value": "4,200",
+            "description": "Up 400 (22%)",
+            "icon": "users"
+          }
+        },
+        "stat-3": {
+          "type": "stat",
+          "props": {
+            "title": "Revenue",
+            "value": "$1.2M",
+            "description": "Down 90 (14%)",
+            "icon": "star"
+          }
+        }
+      }
+    },
+    {
+      "name": "Responsive",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "stat-1",
+          "stat-2",
+          "stat-3"
+        ]
+      },
+      "elements": {
+        "stat-1": {
+          "type": "stat",
+          "props": {
+            "title": "Downloads",
+            "value": "31K",
+            "description": "Jan 1st to Feb 1st",
+            "icon": "download"
+          }
+        },
+        "stat-2": {
+          "type": "stat",
+          "props": {
+            "title": "New users",
+            "value": "4,200",
+            "description": "Up 400 (22%)",
+            "icon": "users"
+          }
+        },
+        "stat-3": {
+          "type": "stat",
+          "props": {
+            "title": "Revenue",
+            "value": "$1.2M",
+            "description": "Down 90 (14%)",
+            "icon": "star"
+          }
+        }
+      }
+    }
+  ]
+}

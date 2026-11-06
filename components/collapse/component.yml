@@ -1,0 +1,38 @@
+name: Collapse
+machineName: collapse
+status: true
+required:
+  - title
+props:
+  properties:
+    title:
+      title: Title
+      type: string
+      examples:
+        - Show more
+    indicator:
+      title: Indicator
+      type: string
+      enum:
+        - arrow
+        - plus
+        - none
+      meta:enum:
+        arrow: Arrow
+        plus: Plus
+        none: None
+      examples:
+        - arrow
+    bordered:
+      title: Bordered
+      type: boolean
+      examples:
+        - false
+    openByDefault:
+      title: Open By Default
+      type: boolean
+      examples:
+        - false
+slots:
+  content:
+    title: Content

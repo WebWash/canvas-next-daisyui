@@ -1,0 +1,14 @@
+name: Table Row (child of Table)
+machineName: table-row
+status: true
+required: []
+props:
+  properties:
+    active:
+      title: Active
+      type: boolean
+      examples:
+        - false
+slots:
+  cells:
+    title: Cells

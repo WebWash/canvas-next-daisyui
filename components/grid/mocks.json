@@ -1,0 +1,341 @@
+{
+  "mocks": [
+    {
+      "name": "Layout 50-50",
+      "props": {
+        "layout": "50-50"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Layout 75-25",
+      "props": {
+        "layout": "75-25"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Layout 25-75",
+      "props": {
+        "layout": "25-75"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Layout 67-33",
+      "props": {
+        "layout": "67-33"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Layout 33-67",
+      "props": {
+        "layout": "33-67"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Layout 50-25-25",
+      "props": {
+        "layout": "50-25-25"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2",
+          "text-3"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 3. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Layout 25-25-50",
+      "props": {
+        "layout": "25-25-50"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2",
+          "text-3"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 3. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Layout 25-25-25-25",
+      "props": {
+        "layout": "25-25-25-25"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2",
+          "text-3",
+          "text-4"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 3. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-4": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 4. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Three columns",
+      "props": {
+        "layout": "33-33-33"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2",
+          "text-3"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 3. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Large gap",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "extra_large"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2",
+          "text-3"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 3. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Small gap",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "small"
+      },
+      "slots": {
+        "content": [
+          "text-1",
+          "text-2",
+          "text-3"
+        ]
+      },
+      "elements": {
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 1. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 2. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Column 3. Short copy to fill this column. Short copy to fill this column. </p>"
+          }
+        }
+      }
+    }
+  ]
+}

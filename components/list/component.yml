@@ -1,0 +1,9 @@
+name: List
+machineName: list
+status: true
+required: []
+props:
+  properties: {}
+slots:
+  rows:
+    title: Rows

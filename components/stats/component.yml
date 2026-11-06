@@ -1,0 +1,22 @@
+name: Stats
+machineName: stats
+status: true
+required: []
+props:
+  properties:
+    direction:
+      title: Direction
+      type: string
+      enum:
+        - horizontal
+        - vertical
+        - responsive
+      meta:enum:
+        horizontal: Horizontal
+        vertical: Vertical
+        responsive: Responsive
+      examples:
+        - horizontal
+slots:
+  items:
+    title: Items

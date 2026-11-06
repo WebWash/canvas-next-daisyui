@@ -1,0 +1,45 @@
+{
+  "mocks": [
+    {
+      "name": "With fields",
+      "props": {
+        "legend": "Account details",
+        "description": "We never share this."
+      },
+      "slots": {
+        "content": [
+          "input-1",
+          "input-2",
+          "checkbox-1"
+        ]
+      },
+      "elements": {
+        "input-1": {
+          "type": "input",
+          "props": {
+            "label": "Name"
+          }
+        },
+        "input-2": {
+          "type": "input",
+          "props": {
+            "label": "Email",
+            "type": "email"
+          }
+        },
+        "checkbox-1": {
+          "type": "checkbox",
+          "props": {
+            "label": "Send me updates"
+          }
+        }
+      }
+    },
+    {
+      "name": "Legend only",
+      "props": {
+        "legend": "Account details"
+      }
+    }
+  ]
+}

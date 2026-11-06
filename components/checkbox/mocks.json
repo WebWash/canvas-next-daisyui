@@ -1,0 +1,60 @@
+{
+  "mocks": [
+    {
+      "name": "Checked",
+      "props": {
+        "label": "Accept the terms",
+        "checked": true
+      }
+    },
+    {
+      "name": "Description",
+      "props": {
+        "label": "Accept the terms",
+        "description": "A short description of this field that is long enough to show that it wraps onto another line."
+      }
+    },
+    {
+      "name": "Hidden label",
+      "props": {
+        "label": "Accept the terms",
+        "hideLabel": true
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "Accept the terms",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "label": "Accept the terms",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "label": "Accept the terms",
+        "color": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "label": "Accept the terms",
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "label": "Accept the terms",
+        "size": "lg"
+      }
+    }
+  ]
+}

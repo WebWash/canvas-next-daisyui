@@ -1,0 +1,24 @@
+name: Hover Gallery
+machineName: hover-gallery
+status: true
+required: []
+props:
+  properties:
+    maxWidth:
+      title: Max Width
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+      examples:
+        - sm
+slots:
+  images:
+    title: Images

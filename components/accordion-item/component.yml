@@ -1,4 +1,4 @@
-name: Accordion Item
+name: Accordion Item (child of Accordion)
 machineName: accordion-item
 status: true
 required:
@@ -9,32 +9,12 @@ props:
       title: Title
       type: string
       examples:
-        - Accordion item title
-    headingElement:
-      title: Heading Element
-      type: string
-      examples:
-        - h3
-      enum:
-        - h2
-        - h3
-        - h4
-        - h5
-        - h6
-      meta:enum:
-        h2: h2
-        h3: h3
-        h4: h4
-        h5: h5
-        h6: h6
-    defaultOpen:
-      title: Default Open
+        - What is daisyUI?
+    openByDefault:
+      title: Open By Default
       type: boolean
       examples:
         - false
-    anchorId:
-      title: Anchor ID
-      type: string
 slots:
   content:
     title: Content

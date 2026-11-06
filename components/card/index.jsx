@@ -1,185 +1,79 @@
-import Button from '@/components/button';
-import Heading from '@/components/heading';
 import { cva } from 'class-variance-authority';
 import { cn, FormattedText, Image } from 'drupal-canvas';
 
-const cardVariants = cva(
-  'flex w-full max-w-md flex-col items-center gap-4 rounded-2xl pb-6 leading-[normal]',
-  {
-    variants: {
-      layout: {
-        left_aligned: 'items-start text-left',
-        center_aligned: 'items-center text-center',
-        right_aligned: 'items-end text-right',
-      },
-      textColor: {
-        Default: null,
-        Dark: 'text-primary-dark',
-        Light: 'text-white',
-      },
-      image: {
-        true: null,
-        false: 'pt-8',
-      },
+import { sample } from '@/lib/sample';
+
+const cardVariants = cva('card bg-base-100 text-base-content shadow-sm', {
+  variants: {
+    variant: {
+      default: '',
+      // No shadow, or it hides the border that makes these variants different.
+      border: 'card-border border-base-300 shadow-none',
+      dash: 'card-dash border-base-300 shadow-none',
     },
-    defaultVariants: {
-      textColor: 'Default',
+    imagePosition: {
+      top: '',
+      bottom: '',
+      side: 'card-side [&>figure]:max-w-2/5',
+      responsive_side: 'sm:card-side sm:[&>figure]:max-w-2/5',
+      overlay: 'image-full',
+    },
+    size: {
+      xs: 'card-xs',
+      sm: 'card-sm',
+      md: 'card-md',
+      lg: 'card-lg',
+      xl: 'card-xl',
     },
   },
-);
+});
 
-const linkCardStyles =
-  'group flex flex-col rounded-xl border border-gray-200 bg-white shadow-sm transition hover:shadow-md focus:shadow-md focus:outline-none';
-
-const ChevronIcon = () => (
-  <svg
-    className="size-5 shrink-0 text-gray-800"
-    xmlns="http://www.w3.org/2000/svg"
-    width="24"
-    height="24"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  >
-    <path d="m9 18 6-6-6-6" />
-  </svg>
-);
-
-const linkCardTextAlign = {
-  left_aligned: 'text-left',
-  center_aligned: 'text-center',
-  right_aligned: 'text-right',
-};
-
-const LinkCard = ({
-  className,
-  heading,
+const Card = ({
+  variant,
+  title,
+  titleElement = 'h2',
   text,
   image,
-  link,
-  layout = 'left_aligned',
-}) => (
-  <a className={cn(linkCardStyles, className)} href={link}>
-    <div className="p-4 md:p-5">
-      <div className="flex items-center justify-between gap-x-3">
-        <div className="flex grow items-center gap-x-3">
-          {image?.src && (
-            <Image
-              src={image.src}
-              alt={image.alt}
-              width={image.width}
-              height={image.height}
-              className="size-9.5 rounded-full object-cover"
-              sizes="38px"
-            />
-          )}
-          <div className={cn('grow', linkCardTextAlign[layout])}>
-            <h3 className="font-semibold text-gray-800 group-hover:text-primary-600">
-              {heading}
-            </h3>
-            {text && (
-              <p className="text-sm text-gray-500">
-                <FormattedText>{text}</FormattedText>
-              </p>
-            )}
-          </div>
-        </div>
-        <ChevronIcon />
-      </div>
-    </div>
-  </a>
-);
-
-const DefaultCard = ({
-  backgroundColor = '#ffffff',
-  backgroundColorOnHover = '#E2E8F0',
-  byline,
+  imagePosition = 'top',
+  size,
+  content,
+  actions,
   className,
-  image,
-  heading,
-  headingElement = 'h2',
-  layout = 'left_aligned',
-  link,
-  linkLabel,
-  linkVariant = 'link',
-  text,
-  textColor,
 }) => {
-  const cardBackgroundClassName = `card-${backgroundColor.substring(1)}`;
-  const cardBackgroundClassNameOnHover = `card-${backgroundColorOnHover.substring(1)}`;
-  const { src, alt, width, height } = image ?? {};
-  const hasImage = !!src;
-
-  const cardContent = (
-    <div
-      className={cn(
-        cardVariants({ layout, textColor, image: hasImage }),
-        cardBackgroundClassName,
-        cardBackgroundClassNameOnHover,
-        className,
-      )}
-    >
-      {hasImage && (
-        <Image
-          {...{ src, alt, width, height }}
-          className="w-full rounded-2xl object-cover object-center"
-        />
-      )}
-      <div className="px-6 pt-2">
-        {heading && (
-          <Heading
-            className="mb-2"
-            heading={heading}
-            headingElement={headingElement}
-            headingSize="small"
-            layout={layout}
-            textColor={textColor}
-          />
-        )}
-        {byline && (
-          <div className="mt-3 mb-2 text-xs font-semibold text-gray-500">
-            {byline}
-          </div>
-        )}
-        {text && (
-          <FormattedText className="mb-4 leading-6">{text}</FormattedText>
-        )}
-        {link && linkLabel && (
-          <Button link={link} variant={linkVariant}>
-            {linkLabel}
-          </Button>
-        )}
-      </div>
-    </div>
-  );
+  const Title = titleElement;
+  const sampledActions = sample(actions, () => (
+    <button type="button" className="btn btn-primary">Read more</button>
+  ));
+  const figure = image?.src ? (
+    <figure>
+      <Image
+        src={image.src}
+        alt={image.alt}
+        width={image.width}
+        height={image.height}
+        className="h-full w-full object-cover"
+      />
+    </figure>
+  ) : null;
 
   return (
-    <>
-      <style>
-        {`
-          .${cardBackgroundClassName} {
-            background-color: ${backgroundColor};
-          }
-          .${cardBackgroundClassNameOnHover}:hover {
-            background-color: ${backgroundColorOnHover};
-          }
-        `}
-      </style>
-      {link && !linkLabel ? <a href={link}>{cardContent}</a> : cardContent}
-    </>
+    <div className={cn(cardVariants({ variant, imagePosition, size }), className)}>
+      {imagePosition !== 'bottom' && figure}
+      <div className="card-body">
+        {title && <Title className="card-title">{title}</Title>}
+        {text && (
+          <FormattedText className="prose prose-inherit max-w-none">
+            {text}
+          </FormattedText>
+        )}
+        {content}
+        {sampledActions && (
+          <div className="card-actions mt-auto justify-end">{sampledActions}</div>
+        )}
+      </div>
+      {imagePosition === 'bottom' && figure}
+    </div>
   );
-};
-
-const Card = ({ variant = 'default', ...props }) => {
-  switch (variant) {
-    case 'link_card':
-      return <LinkCard {...props} />;
-    default:
-      return <DefaultCard {...props} />;
-  }
 };
 
 export default Card;

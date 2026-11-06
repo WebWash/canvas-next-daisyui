@@ -1,0 +1,19 @@
+{
+  "mocks": [
+    {
+      "name": "Active",
+      "props": {
+        "label": "Home",
+        "icon": "home",
+        "active": true
+      }
+    },
+    {
+      "name": "As a button",
+      "props": {
+        "label": "Settings",
+        "icon": "settings"
+      }
+    }
+  ]
+}

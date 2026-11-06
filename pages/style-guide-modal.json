@@ -1,0 +1,1314 @@
+{
+  "title": "Style guide: Modal",
+  "path": "/style-guide/modal",
+  "description": "Each modal placement, closed until triggered, plus dropdown, tooltip and two drawers beside normal content.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "grid-1",
+          "heading-3",
+          "grid-2",
+          "heading-4",
+          "grid-3",
+          "heading-5",
+          "grid-4",
+          "heading-6",
+          "grid-5",
+          "heading-7",
+          "text-33",
+          "grid-6",
+          "text-38",
+          "drawer-3"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Modal",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each modal placement, closed until triggered, plus dropdown, tooltip and two drawers beside normal content.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Modal placements",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "modal-1",
+          "modal-2",
+          "modal-3",
+          "modal-4",
+          "modal-5"
+        ]
+      }
+    },
+    "modal-1": {
+      "type": "js.modal",
+      "props": {
+        "buttonText": "Placement middle",
+        "heading": "Modal: middle",
+        "placement": "middle"
+      },
+      "slots": {
+        "content": [
+          "text-2"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Press Escape, use the close button or click outside.</p>"
+      }
+    },
+    "modal-2": {
+      "type": "js.modal",
+      "props": {
+        "buttonText": "Placement top",
+        "heading": "Modal: top",
+        "placement": "top"
+      },
+      "slots": {
+        "content": [
+          "text-3"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Press Escape, use the close button or click outside.</p>"
+      }
+    },
+    "modal-3": {
+      "type": "js.modal",
+      "props": {
+        "buttonText": "Placement bottom",
+        "heading": "Modal: bottom",
+        "placement": "bottom"
+      },
+      "slots": {
+        "content": [
+          "text-4"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Press Escape, use the close button or click outside.</p>"
+      }
+    },
+    "modal-4": {
+      "type": "js.modal",
+      "props": {
+        "buttonText": "Placement start",
+        "heading": "Modal: start",
+        "placement": "start"
+      },
+      "slots": {
+        "content": [
+          "text-5"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Press Escape, use the close button or click outside.</p>"
+      }
+    },
+    "modal-5": {
+      "type": "js.modal",
+      "props": {
+        "buttonText": "Placement end",
+        "heading": "Modal: end",
+        "placement": "end"
+      },
+      "slots": {
+        "content": [
+          "text-6"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Press Escape, use the close button or click outside.</p>"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Dropdown placements",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-2": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-2",
+          "section-3",
+          "section-4",
+          "section-5"
+        ]
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-7",
+          "dropdown-1"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Bottom</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "dropdown-1": {
+      "type": "js.dropdown",
+      "props": {
+        "buttonText": "bottom",
+        "placement": "bottom"
+      },
+      "slots": {
+        "content": [
+          "dropdown-1-menu"
+        ]
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-9",
+          "dropdown-2"
+        ]
+      }
+    },
+    "text-9": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Top</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "dropdown-2": {
+      "type": "js.dropdown",
+      "props": {
+        "buttonText": "top",
+        "placement": "top"
+      },
+      "slots": {
+        "content": [
+          "dropdown-2-menu"
+        ]
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-11",
+          "dropdown-3"
+        ]
+      }
+    },
+    "text-11": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Left</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "dropdown-3": {
+      "type": "js.dropdown",
+      "props": {
+        "buttonText": "left",
+        "placement": "left"
+      },
+      "slots": {
+        "content": [
+          "dropdown-3-menu"
+        ]
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-13",
+          "dropdown-4"
+        ]
+      }
+    },
+    "text-13": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Right</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "dropdown-4": {
+      "type": "js.dropdown",
+      "props": {
+        "buttonText": "right",
+        "placement": "right"
+      },
+      "slots": {
+        "content": [
+          "dropdown-4-menu"
+        ]
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Dropdown alignment",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-3": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-6",
+          "section-7",
+          "section-8"
+        ]
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-15",
+          "dropdown-5"
+        ]
+      }
+    },
+    "text-15": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Start</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "dropdown-5": {
+      "type": "js.dropdown",
+      "props": {
+        "buttonText": "start",
+        "alignment": "start"
+      },
+      "slots": {
+        "content": [
+          "dropdown-5-menu"
+        ]
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-17",
+          "dropdown-6"
+        ]
+      }
+    },
+    "text-17": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Center</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "dropdown-6": {
+      "type": "js.dropdown",
+      "props": {
+        "buttonText": "center",
+        "alignment": "center"
+      },
+      "slots": {
+        "content": [
+          "dropdown-6-menu"
+        ]
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-19",
+          "dropdown-7"
+        ]
+      }
+    },
+    "text-19": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>End</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "dropdown-7": {
+      "type": "js.dropdown",
+      "props": {
+        "buttonText": "end",
+        "alignment": "end"
+      },
+      "slots": {
+        "content": [
+          "dropdown-7-menu"
+        ]
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Tooltip placements",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-4": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-9",
+          "section-10",
+          "section-11",
+          "section-12"
+        ]
+      }
+    },
+    "section-9": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-21",
+          "tooltip-1"
+        ]
+      }
+    },
+    "text-21": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Top</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-1": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "Tooltip top",
+        "placement": "top"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "top"
+      }
+    },
+    "section-10": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-22",
+          "tooltip-2"
+        ]
+      }
+    },
+    "text-22": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Bottom</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-2": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "Tooltip bottom",
+        "placement": "bottom"
+      },
+      "slots": {
+        "content": [
+          "button-2"
+        ]
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "bottom"
+      }
+    },
+    "section-11": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-23",
+          "tooltip-3"
+        ]
+      }
+    },
+    "text-23": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Left</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-3": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "Tooltip left",
+        "placement": "left"
+      },
+      "slots": {
+        "content": [
+          "button-3"
+        ]
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "left"
+      }
+    },
+    "section-12": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-24",
+          "tooltip-4"
+        ]
+      }
+    },
+    "text-24": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Right</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-4": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "Tooltip right",
+        "placement": "right"
+      },
+      "slots": {
+        "content": [
+          "button-4"
+        ]
+      }
+    },
+    "button-4": {
+      "type": "js.button",
+      "props": {
+        "text": "right"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Tooltip colours",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-5": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-13",
+          "section-14",
+          "section-15",
+          "section-16",
+          "section-17",
+          "section-18",
+          "section-19",
+          "section-20"
+        ]
+      }
+    },
+    "section-13": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-25",
+          "tooltip-5"
+        ]
+      }
+    },
+    "text-25": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Default</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-5": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "default",
+        "color": "default"
+      },
+      "slots": {
+        "content": [
+          "button-5"
+        ]
+      }
+    },
+    "button-5": {
+      "type": "js.button",
+      "props": {
+        "text": "default"
+      }
+    },
+    "section-14": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-26",
+          "tooltip-6"
+        ]
+      }
+    },
+    "text-26": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Primary</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-6": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "primary",
+        "color": "primary"
+      },
+      "slots": {
+        "content": [
+          "button-6"
+        ]
+      }
+    },
+    "button-6": {
+      "type": "js.button",
+      "props": {
+        "text": "primary"
+      }
+    },
+    "section-15": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-27",
+          "tooltip-7"
+        ]
+      }
+    },
+    "text-27": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Secondary</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-7": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "secondary",
+        "color": "secondary"
+      },
+      "slots": {
+        "content": [
+          "button-7"
+        ]
+      }
+    },
+    "button-7": {
+      "type": "js.button",
+      "props": {
+        "text": "secondary"
+      }
+    },
+    "section-16": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-28",
+          "tooltip-8"
+        ]
+      }
+    },
+    "text-28": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Accent</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-8": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "accent",
+        "color": "accent"
+      },
+      "slots": {
+        "content": [
+          "button-8"
+        ]
+      }
+    },
+    "button-8": {
+      "type": "js.button",
+      "props": {
+        "text": "accent"
+      }
+    },
+    "section-17": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-29",
+          "tooltip-9"
+        ]
+      }
+    },
+    "text-29": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Info</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-9": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "info",
+        "color": "info"
+      },
+      "slots": {
+        "content": [
+          "button-9"
+        ]
+      }
+    },
+    "button-9": {
+      "type": "js.button",
+      "props": {
+        "text": "info"
+      }
+    },
+    "section-18": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-30",
+          "tooltip-10"
+        ]
+      }
+    },
+    "text-30": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Success</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-10": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "success",
+        "color": "success"
+      },
+      "slots": {
+        "content": [
+          "button-10"
+        ]
+      }
+    },
+    "button-10": {
+      "type": "js.button",
+      "props": {
+        "text": "success"
+      }
+    },
+    "section-19": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-31",
+          "tooltip-11"
+        ]
+      }
+    },
+    "text-31": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Warning</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-11": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "warning",
+        "color": "warning"
+      },
+      "slots": {
+        "content": [
+          "button-11"
+        ]
+      }
+    },
+    "button-11": {
+      "type": "js.button",
+      "props": {
+        "text": "warning"
+      }
+    },
+    "section-20": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-32",
+          "tooltip-12"
+        ]
+      }
+    },
+    "text-32": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Error</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "tooltip-12": {
+      "type": "js.tooltip",
+      "props": {
+        "text": "error",
+        "color": "error"
+      },
+      "slots": {
+        "content": [
+          "button-12"
+        ]
+      }
+    },
+    "button-12": {
+      "type": "js.button",
+      "props": {
+        "text": "error"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Drawers beside normal content",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "text-33": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>"
+      }
+    },
+    "grid-6": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "drawer-1",
+          "drawer-2"
+        ]
+      }
+    },
+    "drawer-1": {
+      "type": "js.drawer",
+      "props": {
+        "buttonText": "Open first drawer"
+      },
+      "slots": {
+        "content": [
+          "text-34"
+        ],
+        "sidebar": [
+          "text-35"
+        ]
+      }
+    },
+    "text-34": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>First drawer content.</p>"
+      }
+    },
+    "text-35": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>First sidebar</strong></p>"
+      }
+    },
+    "drawer-2": {
+      "type": "js.drawer",
+      "props": {
+        "buttonText": "Open second drawer",
+        "side": "end"
+      },
+      "slots": {
+        "content": [
+          "text-36"
+        ],
+        "sidebar": [
+          "text-37"
+        ]
+      }
+    },
+    "text-36": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Second drawer content.</p>"
+      }
+    },
+    "text-37": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Second sidebar</strong></p>"
+      }
+    },
+    "text-38": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>"
+      }
+    },
+    "drawer-3": {
+      "type": "js.drawer",
+      "props": {
+        "buttonText": "Open drawer",
+        "alwaysOpenOnLarge": true
+      },
+      "slots": {
+        "content": [
+          "text-39"
+        ],
+        "sidebar": [
+          "text-40"
+        ]
+      }
+    },
+    "text-39": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>This sidebar stays open at the large breakpoint.</p>"
+      }
+    },
+    "text-40": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Always open on large</strong></p>"
+      }
+    },
+    "dropdown-1-menu": {
+      "type": "js.menu",
+      "slots": {
+        "items": [
+          "dropdown-1-menu-item-1",
+          "dropdown-1-menu-item-2",
+          "dropdown-1-menu-item-3"
+        ]
+      }
+    },
+    "dropdown-1-menu-item-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Profile",
+        "link": "/profile",
+        "icon": "user"
+      }
+    },
+    "dropdown-1-menu-item-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Settings",
+        "link": "/settings",
+        "icon": "settings"
+      }
+    },
+    "dropdown-1-menu-item-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Sign out",
+        "link": "/sign-out",
+        "icon": "arrow_right"
+      }
+    },
+    "dropdown-2-menu": {
+      "type": "js.menu",
+      "slots": {
+        "items": [
+          "dropdown-2-menu-item-1",
+          "dropdown-2-menu-item-2",
+          "dropdown-2-menu-item-3"
+        ]
+      }
+    },
+    "dropdown-2-menu-item-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Profile",
+        "link": "/profile",
+        "icon": "user"
+      }
+    },
+    "dropdown-2-menu-item-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Settings",
+        "link": "/settings",
+        "icon": "settings"
+      }
+    },
+    "dropdown-2-menu-item-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Sign out",
+        "link": "/sign-out",
+        "icon": "arrow_right"
+      }
+    },
+    "dropdown-3-menu": {
+      "type": "js.menu",
+      "slots": {
+        "items": [
+          "dropdown-3-menu-item-1",
+          "dropdown-3-menu-item-2",
+          "dropdown-3-menu-item-3"
+        ]
+      }
+    },
+    "dropdown-3-menu-item-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Profile",
+        "link": "/profile",
+        "icon": "user"
+      }
+    },
+    "dropdown-3-menu-item-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Settings",
+        "link": "/settings",
+        "icon": "settings"
+      }
+    },
+    "dropdown-3-menu-item-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Sign out",
+        "link": "/sign-out",
+        "icon": "arrow_right"
+      }
+    },
+    "dropdown-4-menu": {
+      "type": "js.menu",
+      "slots": {
+        "items": [
+          "dropdown-4-menu-item-1",
+          "dropdown-4-menu-item-2",
+          "dropdown-4-menu-item-3"
+        ]
+      }
+    },
+    "dropdown-4-menu-item-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Profile",
+        "link": "/profile",
+        "icon": "user"
+      }
+    },
+    "dropdown-4-menu-item-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Settings",
+        "link": "/settings",
+        "icon": "settings"
+      }
+    },
+    "dropdown-4-menu-item-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Sign out",
+        "link": "/sign-out",
+        "icon": "arrow_right"
+      }
+    },
+    "dropdown-5-menu": {
+      "type": "js.menu",
+      "slots": {
+        "items": [
+          "dropdown-5-menu-item-1",
+          "dropdown-5-menu-item-2",
+          "dropdown-5-menu-item-3"
+        ]
+      }
+    },
+    "dropdown-5-menu-item-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Profile",
+        "link": "/profile",
+        "icon": "user"
+      }
+    },
+    "dropdown-5-menu-item-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Settings",
+        "link": "/settings",
+        "icon": "settings"
+      }
+    },
+    "dropdown-5-menu-item-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Sign out",
+        "link": "/sign-out",
+        "icon": "arrow_right"
+      }
+    },
+    "dropdown-6-menu": {
+      "type": "js.menu",
+      "slots": {
+        "items": [
+          "dropdown-6-menu-item-1",
+          "dropdown-6-menu-item-2",
+          "dropdown-6-menu-item-3"
+        ]
+      }
+    },
+    "dropdown-6-menu-item-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Profile",
+        "link": "/profile",
+        "icon": "user"
+      }
+    },
+    "dropdown-6-menu-item-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Settings",
+        "link": "/settings",
+        "icon": "settings"
+      }
+    },
+    "dropdown-6-menu-item-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Sign out",
+        "link": "/sign-out",
+        "icon": "arrow_right"
+      }
+    },
+    "dropdown-7-menu": {
+      "type": "js.menu",
+      "slots": {
+        "items": [
+          "dropdown-7-menu-item-1",
+          "dropdown-7-menu-item-2",
+          "dropdown-7-menu-item-3"
+        ]
+      }
+    },
+    "dropdown-7-menu-item-1": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Profile",
+        "link": "/profile",
+        "icon": "user"
+      }
+    },
+    "dropdown-7-menu-item-2": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Settings",
+        "link": "/settings",
+        "icon": "settings"
+      }
+    },
+    "dropdown-7-menu-item-3": {
+      "type": "js.menu-item",
+      "props": {
+        "label": "Sign out",
+        "link": "/sign-out",
+        "icon": "arrow_right"
+      }
+    }
+  }
+}

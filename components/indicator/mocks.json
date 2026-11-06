@@ -1,0 +1,126 @@
+{
+  "mocks": [
+    {
+      "name": "On a button",
+      "props": {
+        "text": "12",
+        "color": "primary"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Inbox"
+          }
+        }
+      }
+    },
+    {
+      "name": "Top start",
+      "props": {
+        "text": "New",
+        "horizontal": "start"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Inbox"
+          }
+        }
+      }
+    },
+    {
+      "name": "Top center",
+      "props": {
+        "text": "New",
+        "horizontal": "center"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Inbox"
+          }
+        }
+      }
+    },
+    {
+      "name": "Middle end",
+      "props": {
+        "text": "New",
+        "vertical": "middle"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Inbox"
+          }
+        }
+      }
+    },
+    {
+      "name": "Bottom end",
+      "props": {
+        "text": "New",
+        "vertical": "bottom"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Inbox"
+          }
+        }
+      }
+    },
+    {
+      "name": "Bottom start",
+      "props": {
+        "text": "New",
+        "vertical": "bottom",
+        "horizontal": "start",
+        "color": "error"
+      },
+      "slots": {
+        "content": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "Inbox"
+          }
+        }
+      }
+    }
+  ]
+}

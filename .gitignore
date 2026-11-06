@@ -43,3 +43,10 @@ next-env.d.ts
 
 # Canvas build artifacts
 /.canvas/
+
+# AI agent files
+/.agents/
+/.claude/
+
+# Docs
+/docs/

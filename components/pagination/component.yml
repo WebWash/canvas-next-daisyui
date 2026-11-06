@@ -1,0 +1,43 @@
+name: Pagination
+machineName: pagination
+status: true
+required:
+  - currentPage
+  - totalPages
+  - baseLink
+props:
+  properties:
+    currentPage:
+      title: Current Page
+      type: integer
+      examples:
+        - 2
+    totalPages:
+      title: Total Pages
+      type: integer
+      examples:
+        - 5
+    baseLink:
+      title: Base Link
+      type: string
+      format: uri-reference
+      examples:
+        - /articles
+    size:
+      title: Size
+      type: string
+      enum:
+        - xs
+        - sm
+        - md
+        - lg
+        - xl
+      meta:enum:
+        xs: XS
+        sm: SM
+        md: MD
+        lg: LG
+        xl: XL
+      examples:
+        - md
+slots: {}

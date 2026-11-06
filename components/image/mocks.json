@@ -1,36 +1,129 @@
 {
   "mocks": [
     {
-      "name": "Custom image",
+      "name": "Rounded",
       "props": {
         "image": {
-          "src": "https://placehold.co/1200x800@2x.png",
-          "alt": "Wide landscape placeholder",
-          "width": 1200,
-          "height": 800
-        }
-      }
-    },
-    {
-      "name": "Square image",
-      "props": {
-        "image": {
-          "src": "https://placehold.co/600x600@2x.png",
-          "alt": "Square placeholder",
-          "width": 600,
+          "src": "https://picsum.photos/seed/landscape-placeholder/800/600",
+          "alt": "Landscape placeholder",
+          "width": 800,
           "height": 600
-        }
+        },
+        "shape": "rounded",
+        "maxWidth": "md"
       }
     },
     {
-      "name": "Portrait image",
+      "name": "Portrait",
       "props": {
         "image": {
-          "src": "https://placehold.co/400x600@2x.png",
+          "src": "https://picsum.photos/seed/portrait-placeholder/400/600",
           "alt": "Portrait placeholder",
           "width": 400,
           "height": 600
-        }
+        },
+        "maxWidth": "xs"
+      }
+    },
+    {
+      "name": "Shape squircle",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/square-placeholder/400/400",
+          "alt": "Square placeholder",
+          "width": 400,
+          "height": 400
+        },
+        "shape": "squircle",
+        "maxWidth": "xs"
+      }
+    },
+    {
+      "name": "Shape heart",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/square-placeholder/400/400",
+          "alt": "Square placeholder",
+          "width": 400,
+          "height": 400
+        },
+        "shape": "heart",
+        "maxWidth": "xs"
+      }
+    },
+    {
+      "name": "Shape hexagon",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/square-placeholder/400/400",
+          "alt": "Square placeholder",
+          "width": 400,
+          "height": 400
+        },
+        "shape": "hexagon",
+        "maxWidth": "xs"
+      }
+    },
+    {
+      "name": "Shape circle",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/square-placeholder/400/400",
+          "alt": "Square placeholder",
+          "width": 400,
+          "height": 400
+        },
+        "shape": "circle",
+        "maxWidth": "xs"
+      }
+    },
+    {
+      "name": "Shape star",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/square-placeholder/400/400",
+          "alt": "Square placeholder",
+          "width": 400,
+          "height": 400
+        },
+        "shape": "star",
+        "maxWidth": "xs"
+      }
+    },
+    {
+      "name": "Max width xs",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/landscape-placeholder/800/600",
+          "alt": "Landscape placeholder",
+          "width": 800,
+          "height": 600
+        },
+        "maxWidth": "xs"
+      }
+    },
+    {
+      "name": "Max width sm",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/landscape-placeholder/800/600",
+          "alt": "Landscape placeholder",
+          "width": 800,
+          "height": 600
+        },
+        "maxWidth": "sm"
+      }
+    },
+    {
+      "name": "Max width lg",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/landscape-placeholder/800/600",
+          "alt": "Landscape placeholder",
+          "width": 800,
+          "height": 600
+        },
+        "maxWidth": "lg"
       }
     }
   ]

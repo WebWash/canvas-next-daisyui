@@ -1,0 +1,196 @@
+{
+  "mocks": [
+    {
+      "name": "Three items",
+      "slots": {
+        "items": [
+          "dock-item-1",
+          "dock-item-2",
+          "dock-item-3"
+        ]
+      },
+      "elements": {
+        "dock-item-1": {
+          "type": "dock-item",
+          "props": {
+            "label": "Home",
+            "icon": "home",
+            "link": "/",
+            "active": true
+          }
+        },
+        "dock-item-2": {
+          "type": "dock-item",
+          "props": {
+            "label": "Inbox",
+            "icon": "mail",
+            "link": "/inbox"
+          }
+        },
+        "dock-item-3": {
+          "type": "dock-item",
+          "props": {
+            "label": "Settings",
+            "icon": "settings"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "size": "xs"
+      },
+      "slots": {
+        "items": [
+          "dock-item-1",
+          "dock-item-2",
+          "dock-item-3"
+        ]
+      },
+      "elements": {
+        "dock-item-1": {
+          "type": "dock-item",
+          "props": {
+            "label": "Home",
+            "icon": "home",
+            "link": "/",
+            "active": true
+          }
+        },
+        "dock-item-2": {
+          "type": "dock-item",
+          "props": {
+            "label": "Inbox",
+            "icon": "mail",
+            "link": "/inbox"
+          }
+        },
+        "dock-item-3": {
+          "type": "dock-item",
+          "props": {
+            "label": "Settings",
+            "icon": "settings"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "size": "sm"
+      },
+      "slots": {
+        "items": [
+          "dock-item-1",
+          "dock-item-2",
+          "dock-item-3"
+        ]
+      },
+      "elements": {
+        "dock-item-1": {
+          "type": "dock-item",
+          "props": {
+            "label": "Home",
+            "icon": "home",
+            "link": "/",
+            "active": true
+          }
+        },
+        "dock-item-2": {
+          "type": "dock-item",
+          "props": {
+            "label": "Inbox",
+            "icon": "mail",
+            "link": "/inbox"
+          }
+        },
+        "dock-item-3": {
+          "type": "dock-item",
+          "props": {
+            "label": "Settings",
+            "icon": "settings"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "size": "lg"
+      },
+      "slots": {
+        "items": [
+          "dock-item-1",
+          "dock-item-2",
+          "dock-item-3"
+        ]
+      },
+      "elements": {
+        "dock-item-1": {
+          "type": "dock-item",
+          "props": {
+            "label": "Home",
+            "icon": "home",
+            "link": "/",
+            "active": true
+          }
+        },
+        "dock-item-2": {
+          "type": "dock-item",
+          "props": {
+            "label": "Inbox",
+            "icon": "mail",
+            "link": "/inbox"
+          }
+        },
+        "dock-item-3": {
+          "type": "dock-item",
+          "props": {
+            "label": "Settings",
+            "icon": "settings"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "size": "xl"
+      },
+      "slots": {
+        "items": [
+          "dock-item-1",
+          "dock-item-2",
+          "dock-item-3"
+        ]
+      },
+      "elements": {
+        "dock-item-1": {
+          "type": "dock-item",
+          "props": {
+            "label": "Home",
+            "icon": "home",
+            "link": "/",
+            "active": true
+          }
+        },
+        "dock-item-2": {
+          "type": "dock-item",
+          "props": {
+            "label": "Inbox",
+            "icon": "mail",
+            "link": "/inbox"
+          }
+        },
+        "dock-item-3": {
+          "type": "dock-item",
+          "props": {
+            "label": "Settings",
+            "icon": "settings"
+          }
+        }
+      }
+    }
+  ]
+}

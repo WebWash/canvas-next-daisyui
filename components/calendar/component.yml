@@ -1,0 +1,24 @@
+name: Calendar
+machineName: calendar
+status: true
+required:
+  - defaultMonth
+props:
+  properties:
+    selectionMode:
+      title: Selection Mode
+      type: string
+      enum:
+        - none
+        - single
+      meta:enum:
+        none: None
+        single: Single
+      examples:
+        - none
+    defaultMonth:
+      title: Default Month
+      type: string
+      examples:
+        - 2026-11
+slots: {}

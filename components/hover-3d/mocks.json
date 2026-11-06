@@ -1,0 +1,51 @@
+{
+  "mocks": [
+    {
+      "name": "Image",
+      "slots": {
+        "content": [
+          "image-1"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/card-placeholder/400/250",
+              "alt": "Card placeholder",
+              "width": 400,
+              "height": 250
+            },
+            "shape": "rounded"
+          }
+        }
+      }
+    },
+    {
+      "name": "As a link",
+      "props": {
+        "link": "/about"
+      },
+      "slots": {
+        "content": [
+          "image-1"
+        ]
+      },
+      "elements": {
+        "image-1": {
+          "type": "image",
+          "props": {
+            "image": {
+              "src": "https://picsum.photos/seed/card-placeholder/400/250",
+              "alt": "Card placeholder",
+              "width": 400,
+              "height": 250
+            },
+            "shape": "rounded"
+          }
+        }
+      }
+    }
+  ]
+}

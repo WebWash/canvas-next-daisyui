@@ -1,0 +1,865 @@
+{
+  "title": "Style guide: Card",
+  "path": "/style-guide/card",
+  "description": "Each variant, image position and size, with and without actions, with nested content, and a grid of cards.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "grid-1",
+          "heading-3",
+          "grid-2",
+          "heading-4",
+          "grid-3",
+          "heading-5",
+          "grid-4",
+          "heading-6",
+          "card-16",
+          "heading-7",
+          "grid-5"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Card",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each variant, image position and size, with and without actions, with nested content, and a grid of cards.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variants",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-2",
+          "section-3",
+          "section-4"
+        ]
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-2",
+          "card-1"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Default</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-1": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "variant": "default"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-3",
+          "card-2"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Border</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-2": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "variant": "border"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-4",
+          "card-3"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Dash</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-3": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "variant": "dash"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Image positions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-2": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-5",
+          "section-6",
+          "section-7",
+          "section-8",
+          "section-9"
+        ]
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-5",
+          "card-4"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Top</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-4": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "imagePosition": "top",
+        "image": {
+          "src": "https://picsum.photos/seed/card-image/800/500",
+          "alt": "Card image",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-6",
+          "card-5"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Bottom</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-5": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "imagePosition": "bottom",
+        "image": {
+          "src": "https://picsum.photos/seed/card-image/800/500",
+          "alt": "Card image",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-2"
+        ]
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-7",
+          "card-6"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Side</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-6": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "imagePosition": "side",
+        "image": {
+          "src": "https://picsum.photos/seed/card-image/800/500",
+          "alt": "Card image",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-3"
+        ]
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-8",
+          "card-7"
+        ]
+      }
+    },
+    "text-8": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Responsive side</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-7": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "imagePosition": "responsive_side",
+        "image": {
+          "src": "https://picsum.photos/seed/card-image/800/500",
+          "alt": "Card image",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-4"
+        ]
+      }
+    },
+    "button-4": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "section-9": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-9",
+          "card-8"
+        ]
+      }
+    },
+    "text-9": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Overlay</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-8": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "imagePosition": "overlay",
+        "image": {
+          "src": "https://picsum.photos/seed/card-image/800/500",
+          "alt": "Card image",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-5"
+        ]
+      }
+    },
+    "button-5": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-3": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-10",
+          "section-11",
+          "section-12",
+          "section-13",
+          "section-14"
+        ]
+      }
+    },
+    "section-10": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-10",
+          "card-9"
+        ]
+      }
+    },
+    "text-10": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xs</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-9": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "size": "xs",
+        "variant": "border"
+      }
+    },
+    "section-11": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-11",
+          "card-10"
+        ]
+      }
+    },
+    "text-11": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size sm</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-10": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "size": "sm",
+        "variant": "border"
+      }
+    },
+    "section-12": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-12",
+          "card-11"
+        ]
+      }
+    },
+    "text-12": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size md</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-11": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "size": "md",
+        "variant": "border"
+      }
+    },
+    "section-13": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-13",
+          "card-12"
+        ]
+      }
+    },
+    "text-13": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size lg</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-12": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "size": "lg",
+        "variant": "border"
+      }
+    },
+    "section-14": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-14",
+          "card-13"
+        ]
+      }
+    },
+    "text-14": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xl</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-13": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "size": "xl",
+        "variant": "border"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Actions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-4": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-15",
+          "section-16"
+        ]
+      }
+    },
+    "section-15": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-15",
+          "card-14"
+        ]
+      }
+    },
+    "text-15": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Without actions</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-14": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "variant": "border"
+      }
+    },
+    "section-16": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-16",
+          "card-15"
+        ]
+      }
+    },
+    "text-16": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>With actions</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "card-15": {
+      "type": "js.card",
+      "props": {
+        "title": "Card title",
+        "text": "<p>A short description of what this card is about.</p>",
+        "variant": "border"
+      },
+      "slots": {
+        "actions": [
+          "button-6",
+          "button-7"
+        ]
+      }
+    },
+    "button-6": {
+      "type": "js.button",
+      "props": {
+        "text": "Details",
+        "size": "sm",
+        "variant": "ghost"
+      }
+    },
+    "button-7": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Nested content",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "card-16": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Card with nested components"
+      },
+      "slots": {
+        "content": [
+          "text-17",
+          "progress-1",
+          "badge-1"
+        ]
+      }
+    },
+    "text-17": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Text inside the content slot.</p>"
+      }
+    },
+    "progress-1": {
+      "type": "js.progress",
+      "props": {
+        "value": 60,
+        "max": 100,
+        "color": "primary"
+      }
+    },
+    "badge-1": {
+      "type": "js.badge",
+      "props": {
+        "text": "Nested",
+        "color": "secondary"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Grid of cards",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-5": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "card-17",
+          "card-18",
+          "card-19",
+          "card-20"
+        ]
+      }
+    },
+    "card-17": {
+      "type": "js.card",
+      "props": {
+        "title": "Card 1",
+        "text": "<p>A short description of what this card is about.</p>",
+        "image": {
+          "src": "https://picsum.photos/seed/card-1/600/400",
+          "alt": "Card 1",
+          "width": 600,
+          "height": 400
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-8"
+        ]
+      }
+    },
+    "button-8": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "card-18": {
+      "type": "js.card",
+      "props": {
+        "title": "Card 2",
+        "text": "<p>A short description of what this card is about.</p>",
+        "image": {
+          "src": "https://picsum.photos/seed/card-2/600/400",
+          "alt": "Card 2",
+          "width": 600,
+          "height": 400
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-9"
+        ]
+      }
+    },
+    "button-9": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "card-19": {
+      "type": "js.card",
+      "props": {
+        "title": "Card 3",
+        "text": "<p>A short description of what this card is about.</p>",
+        "image": {
+          "src": "https://picsum.photos/seed/card-3/600/400",
+          "alt": "Card 3",
+          "width": 600,
+          "height": 400
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-10"
+        ]
+      }
+    },
+    "button-10": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "card-20": {
+      "type": "js.card",
+      "props": {
+        "title": "Card 4",
+        "text": "<p>A short description of what this card is about.</p>",
+        "image": {
+          "src": "https://picsum.photos/seed/card-4/600/400",
+          "alt": "Card 4",
+          "width": 600,
+          "height": 400
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-11"
+        ]
+      }
+    },
+    "button-11": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    }
+  }
+}

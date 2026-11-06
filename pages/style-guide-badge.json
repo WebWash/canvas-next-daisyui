@@ -1,0 +1,1124 @@
+{
+  "title": "Style guide: Badge",
+  "path": "/style-guide/badge",
+  "description": "Badges by variant and colour, plus status and keyboard key sizes.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "grid-1",
+          "heading-3",
+          "grid-2",
+          "heading-4",
+          "grid-3",
+          "heading-5",
+          "grid-4",
+          "heading-6",
+          "grid-5",
+          "heading-7",
+          "grid-6",
+          "heading-8",
+          "grid-7",
+          "heading-9",
+          "grid-8",
+          "heading-10",
+          "grid-9"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Badge",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Badges by variant and colour, plus status and keyboard key sizes.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Badge variant: default",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "badge-1",
+          "badge-2",
+          "badge-3",
+          "badge-4",
+          "badge-5",
+          "badge-6",
+          "badge-7",
+          "badge-8",
+          "badge-9"
+        ]
+      }
+    },
+    "badge-1": {
+      "type": "js.badge",
+      "props": {
+        "variant": "default",
+        "color": "default",
+        "text": "Default"
+      }
+    },
+    "badge-2": {
+      "type": "js.badge",
+      "props": {
+        "variant": "default",
+        "color": "neutral",
+        "text": "Neutral"
+      }
+    },
+    "badge-3": {
+      "type": "js.badge",
+      "props": {
+        "variant": "default",
+        "color": "primary",
+        "text": "Primary"
+      }
+    },
+    "badge-4": {
+      "type": "js.badge",
+      "props": {
+        "variant": "default",
+        "color": "secondary",
+        "text": "Secondary"
+      }
+    },
+    "badge-5": {
+      "type": "js.badge",
+      "props": {
+        "variant": "default",
+        "color": "accent",
+        "text": "Accent"
+      }
+    },
+    "badge-6": {
+      "type": "js.badge",
+      "props": {
+        "variant": "default",
+        "color": "info",
+        "text": "Info"
+      }
+    },
+    "badge-7": {
+      "type": "js.badge",
+      "props": {
+        "variant": "default",
+        "color": "success",
+        "text": "Success"
+      }
+    },
+    "badge-8": {
+      "type": "js.badge",
+      "props": {
+        "variant": "default",
+        "color": "warning",
+        "text": "Warning"
+      }
+    },
+    "badge-9": {
+      "type": "js.badge",
+      "props": {
+        "variant": "default",
+        "color": "error",
+        "text": "Error"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Badge variant: outline",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-2": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "badge-10",
+          "badge-11",
+          "badge-12",
+          "badge-13",
+          "badge-14",
+          "badge-15",
+          "badge-16",
+          "badge-17",
+          "badge-18"
+        ]
+      }
+    },
+    "badge-10": {
+      "type": "js.badge",
+      "props": {
+        "variant": "outline",
+        "color": "default",
+        "text": "Default"
+      }
+    },
+    "badge-11": {
+      "type": "js.badge",
+      "props": {
+        "variant": "outline",
+        "color": "neutral",
+        "text": "Neutral"
+      }
+    },
+    "badge-12": {
+      "type": "js.badge",
+      "props": {
+        "variant": "outline",
+        "color": "primary",
+        "text": "Primary"
+      }
+    },
+    "badge-13": {
+      "type": "js.badge",
+      "props": {
+        "variant": "outline",
+        "color": "secondary",
+        "text": "Secondary"
+      }
+    },
+    "badge-14": {
+      "type": "js.badge",
+      "props": {
+        "variant": "outline",
+        "color": "accent",
+        "text": "Accent"
+      }
+    },
+    "badge-15": {
+      "type": "js.badge",
+      "props": {
+        "variant": "outline",
+        "color": "info",
+        "text": "Info"
+      }
+    },
+    "badge-16": {
+      "type": "js.badge",
+      "props": {
+        "variant": "outline",
+        "color": "success",
+        "text": "Success"
+      }
+    },
+    "badge-17": {
+      "type": "js.badge",
+      "props": {
+        "variant": "outline",
+        "color": "warning",
+        "text": "Warning"
+      }
+    },
+    "badge-18": {
+      "type": "js.badge",
+      "props": {
+        "variant": "outline",
+        "color": "error",
+        "text": "Error"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Badge variant: dash",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-3": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "badge-19",
+          "badge-20",
+          "badge-21",
+          "badge-22",
+          "badge-23",
+          "badge-24",
+          "badge-25",
+          "badge-26",
+          "badge-27"
+        ]
+      }
+    },
+    "badge-19": {
+      "type": "js.badge",
+      "props": {
+        "variant": "dash",
+        "color": "default",
+        "text": "Default"
+      }
+    },
+    "badge-20": {
+      "type": "js.badge",
+      "props": {
+        "variant": "dash",
+        "color": "neutral",
+        "text": "Neutral"
+      }
+    },
+    "badge-21": {
+      "type": "js.badge",
+      "props": {
+        "variant": "dash",
+        "color": "primary",
+        "text": "Primary"
+      }
+    },
+    "badge-22": {
+      "type": "js.badge",
+      "props": {
+        "variant": "dash",
+        "color": "secondary",
+        "text": "Secondary"
+      }
+    },
+    "badge-23": {
+      "type": "js.badge",
+      "props": {
+        "variant": "dash",
+        "color": "accent",
+        "text": "Accent"
+      }
+    },
+    "badge-24": {
+      "type": "js.badge",
+      "props": {
+        "variant": "dash",
+        "color": "info",
+        "text": "Info"
+      }
+    },
+    "badge-25": {
+      "type": "js.badge",
+      "props": {
+        "variant": "dash",
+        "color": "success",
+        "text": "Success"
+      }
+    },
+    "badge-26": {
+      "type": "js.badge",
+      "props": {
+        "variant": "dash",
+        "color": "warning",
+        "text": "Warning"
+      }
+    },
+    "badge-27": {
+      "type": "js.badge",
+      "props": {
+        "variant": "dash",
+        "color": "error",
+        "text": "Error"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Badge variant: soft",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-4": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "badge-28",
+          "badge-29",
+          "badge-30",
+          "badge-31",
+          "badge-32",
+          "badge-33",
+          "badge-34",
+          "badge-35",
+          "badge-36"
+        ]
+      }
+    },
+    "badge-28": {
+      "type": "js.badge",
+      "props": {
+        "variant": "soft",
+        "color": "default",
+        "text": "Default"
+      }
+    },
+    "badge-29": {
+      "type": "js.badge",
+      "props": {
+        "variant": "soft",
+        "color": "neutral",
+        "text": "Neutral"
+      }
+    },
+    "badge-30": {
+      "type": "js.badge",
+      "props": {
+        "variant": "soft",
+        "color": "primary",
+        "text": "Primary"
+      }
+    },
+    "badge-31": {
+      "type": "js.badge",
+      "props": {
+        "variant": "soft",
+        "color": "secondary",
+        "text": "Secondary"
+      }
+    },
+    "badge-32": {
+      "type": "js.badge",
+      "props": {
+        "variant": "soft",
+        "color": "accent",
+        "text": "Accent"
+      }
+    },
+    "badge-33": {
+      "type": "js.badge",
+      "props": {
+        "variant": "soft",
+        "color": "info",
+        "text": "Info"
+      }
+    },
+    "badge-34": {
+      "type": "js.badge",
+      "props": {
+        "variant": "soft",
+        "color": "success",
+        "text": "Success"
+      }
+    },
+    "badge-35": {
+      "type": "js.badge",
+      "props": {
+        "variant": "soft",
+        "color": "warning",
+        "text": "Warning"
+      }
+    },
+    "badge-36": {
+      "type": "js.badge",
+      "props": {
+        "variant": "soft",
+        "color": "error",
+        "text": "Error"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Badge variant: ghost",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-5": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "badge-37",
+          "badge-38",
+          "badge-39",
+          "badge-40",
+          "badge-41",
+          "badge-42",
+          "badge-43",
+          "badge-44",
+          "badge-45"
+        ]
+      }
+    },
+    "badge-37": {
+      "type": "js.badge",
+      "props": {
+        "variant": "ghost",
+        "color": "default",
+        "text": "Default"
+      }
+    },
+    "badge-38": {
+      "type": "js.badge",
+      "props": {
+        "variant": "ghost",
+        "color": "neutral",
+        "text": "Neutral"
+      }
+    },
+    "badge-39": {
+      "type": "js.badge",
+      "props": {
+        "variant": "ghost",
+        "color": "primary",
+        "text": "Primary"
+      }
+    },
+    "badge-40": {
+      "type": "js.badge",
+      "props": {
+        "variant": "ghost",
+        "color": "secondary",
+        "text": "Secondary"
+      }
+    },
+    "badge-41": {
+      "type": "js.badge",
+      "props": {
+        "variant": "ghost",
+        "color": "accent",
+        "text": "Accent"
+      }
+    },
+    "badge-42": {
+      "type": "js.badge",
+      "props": {
+        "variant": "ghost",
+        "color": "info",
+        "text": "Info"
+      }
+    },
+    "badge-43": {
+      "type": "js.badge",
+      "props": {
+        "variant": "ghost",
+        "color": "success",
+        "text": "Success"
+      }
+    },
+    "badge-44": {
+      "type": "js.badge",
+      "props": {
+        "variant": "ghost",
+        "color": "warning",
+        "text": "Warning"
+      }
+    },
+    "badge-45": {
+      "type": "js.badge",
+      "props": {
+        "variant": "ghost",
+        "color": "error",
+        "text": "Error"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Badge sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-6": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "badge-46",
+          "badge-47",
+          "badge-48",
+          "badge-49",
+          "badge-50"
+        ]
+      }
+    },
+    "badge-46": {
+      "type": "js.badge",
+      "props": {
+        "size": "xs",
+        "text": "Size xs"
+      }
+    },
+    "badge-47": {
+      "type": "js.badge",
+      "props": {
+        "size": "sm",
+        "text": "Size sm"
+      }
+    },
+    "badge-48": {
+      "type": "js.badge",
+      "props": {
+        "size": "md",
+        "text": "Size md"
+      }
+    },
+    "badge-49": {
+      "type": "js.badge",
+      "props": {
+        "size": "lg",
+        "text": "Size lg"
+      }
+    },
+    "badge-50": {
+      "type": "js.badge",
+      "props": {
+        "size": "xl",
+        "text": "Size xl"
+      }
+    },
+    "heading-8": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Status colours",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-7": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-2",
+          "section-3",
+          "section-4",
+          "section-5",
+          "section-6",
+          "section-7",
+          "section-8",
+          "section-9",
+          "section-10"
+        ]
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-2",
+          "status-1"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Default</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-1": {
+      "type": "js.status",
+      "props": {
+        "color": "default",
+        "size": "lg",
+        "label": "default"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-3",
+          "status-2"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Neutral</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-2": {
+      "type": "js.status",
+      "props": {
+        "color": "neutral",
+        "size": "lg",
+        "label": "neutral"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-4",
+          "status-3"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Primary</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-3": {
+      "type": "js.status",
+      "props": {
+        "color": "primary",
+        "size": "lg",
+        "label": "primary"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-5",
+          "status-4"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Secondary</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-4": {
+      "type": "js.status",
+      "props": {
+        "color": "secondary",
+        "size": "lg",
+        "label": "secondary"
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-6",
+          "status-5"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Accent</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-5": {
+      "type": "js.status",
+      "props": {
+        "color": "accent",
+        "size": "lg",
+        "label": "accent"
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-7",
+          "status-6"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Info</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-6": {
+      "type": "js.status",
+      "props": {
+        "color": "info",
+        "size": "lg",
+        "label": "info"
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-8",
+          "status-7"
+        ]
+      }
+    },
+    "text-8": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Success</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-7": {
+      "type": "js.status",
+      "props": {
+        "color": "success",
+        "size": "lg",
+        "label": "success"
+      }
+    },
+    "section-9": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-9",
+          "status-8"
+        ]
+      }
+    },
+    "text-9": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Warning</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-8": {
+      "type": "js.status",
+      "props": {
+        "color": "warning",
+        "size": "lg",
+        "label": "warning"
+      }
+    },
+    "section-10": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-10",
+          "status-9"
+        ]
+      }
+    },
+    "text-10": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Error</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-9": {
+      "type": "js.status",
+      "props": {
+        "color": "error",
+        "size": "lg",
+        "label": "error"
+      }
+    },
+    "heading-9": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Status sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-8": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-11",
+          "section-12",
+          "section-13",
+          "section-14",
+          "section-15"
+        ]
+      }
+    },
+    "section-11": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-11",
+          "status-10"
+        ]
+      }
+    },
+    "text-11": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xs</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-10": {
+      "type": "js.status",
+      "props": {
+        "size": "xs",
+        "label": "xs"
+      }
+    },
+    "section-12": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-12",
+          "status-11"
+        ]
+      }
+    },
+    "text-12": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size sm</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-11": {
+      "type": "js.status",
+      "props": {
+        "size": "sm",
+        "label": "sm"
+      }
+    },
+    "section-13": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-13",
+          "status-12"
+        ]
+      }
+    },
+    "text-13": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size md</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-12": {
+      "type": "js.status",
+      "props": {
+        "size": "md",
+        "label": "md"
+      }
+    },
+    "section-14": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-14",
+          "status-13"
+        ]
+      }
+    },
+    "text-14": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size lg</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-13": {
+      "type": "js.status",
+      "props": {
+        "size": "lg",
+        "label": "lg"
+      }
+    },
+    "section-15": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-15",
+          "status-14"
+        ]
+      }
+    },
+    "text-15": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Size xl</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "status-14": {
+      "type": "js.status",
+      "props": {
+        "size": "xl",
+        "label": "xl"
+      }
+    },
+    "heading-10": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Keyboard key sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-9": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "kbd-1",
+          "kbd-2",
+          "kbd-3",
+          "kbd-4",
+          "kbd-5"
+        ]
+      }
+    },
+    "kbd-1": {
+      "type": "js.kbd",
+      "props": {
+        "size": "xs",
+        "text": "xs"
+      }
+    },
+    "kbd-2": {
+      "type": "js.kbd",
+      "props": {
+        "size": "sm",
+        "text": "sm"
+      }
+    },
+    "kbd-3": {
+      "type": "js.kbd",
+      "props": {
+        "size": "md",
+        "text": "md"
+      }
+    },
+    "kbd-4": {
+      "type": "js.kbd",
+      "props": {
+        "size": "lg",
+        "text": "lg"
+      }
+    },
+    "kbd-5": {
+      "type": "js.kbd",
+      "props": {
+        "size": "xl",
+        "text": "xl"
+      }
+    }
+  }
+}

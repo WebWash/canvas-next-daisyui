@@ -1,0 +1,9 @@
+name: Avatar Group
+machineName: avatar-group
+status: true
+required: []
+props:
+  properties: {}
+slots:
+  avatars:
+    title: Avatars

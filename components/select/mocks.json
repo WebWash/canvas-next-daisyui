@@ -1,0 +1,165 @@
+{
+  "mocks": [
+    {
+      "name": "Ghost",
+      "props": {
+        "variant": "ghost",
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ]
+      }
+    },
+    {
+      "name": "Inline label",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "labelStyle": "inline"
+      }
+    },
+    {
+      "name": "Placeholder",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "placeholder": "Choose one"
+      }
+    },
+    {
+      "name": "Preselected",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "value": "Large"
+      }
+    },
+    {
+      "name": "Validation stacked",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "placeholder": "Choose one",
+        "required": true,
+        "validationMessage": "Choose a size."
+      }
+    },
+    {
+      "name": "Validation inline",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "placeholder": "Choose one",
+        "required": true,
+        "validationMessage": "Choose a size.",
+        "labelStyle": "inline"
+      }
+    },
+    {
+      "name": "Description",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "description": "A short description of this field that is long enough to show that it wraps onto another line."
+      }
+    },
+    {
+      "name": "Hidden label",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "hideLabel": true
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "disabled": true
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "color": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "label": "Pick a size",
+        "options": [
+          "Small",
+          "Medium",
+          "Large"
+        ],
+        "size": "lg"
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "title": "Components: Viewport-fixed components",
+  "path": "/components/fixed",
+  "description": "These three stay fixed to the viewport, so each is used once on this page only.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "text-2",
+          "spacer-1",
+          "spacer-2",
+          "spacer-3",
+          "text-3",
+          "spacer-4",
+          "spacer-5",
+          "spacer-6",
+          "toast-1",
+          "fab-1",
+          "dock-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Viewport-fixed components",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>These three stay fixed to the viewport, so each is used once on this page only.</p>"
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p><p>The toast is at the top, the FAB is in the corner, and the dock is along the bottom. Scroll to confirm they stay put.</p>"
+      }
+    },
+    "spacer-1": {
+      "type": "js.spacer",
+      "props": {
+        "height": "extra_large"
+      }
+    },
+    "spacer-2": {
+      "type": "js.spacer",
+      "props": {
+        "height": "extra_large"
+      }
+    },
+    "spacer-3": {
+      "type": "js.spacer",
+      "props": {
+        "height": "extra_large"
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>"
+      }
+    },
+    "spacer-4": {
+      "type": "js.spacer",
+      "props": {
+        "height": "extra_large"
+      }
+    },
+    "spacer-5": {
+      "type": "js.spacer",
+      "props": {
+        "height": "extra_large"
+      }
+    },
+    "spacer-6": {
+      "type": "js.spacer",
+      "props": {
+        "height": "extra_large"
+      }
+    },
+    "toast-1": {
+      "type": "js.toast",
+      "props": {
+        "horizontal": "end",
+        "vertical": "top"
+      },
+      "slots": {
+        "content": [
+          "alert-1"
+        ]
+      }
+    },
+    "alert-1": {
+      "type": "js.alert",
+      "props": {
+        "text": "Message sent.",
+        "color": "success",
+        "icon": "success"
+      }
+    },
+    "fab-1": {
+      "type": "js.fab",
+      "props": {
+        "label": "Open actions",
+        "color": "primary",
+        "icon": "plus"
+      },
+      "slots": {
+        "actions": [
+          "fab-action-1",
+          "fab-action-2",
+          "fab-action-3"
+        ]
+      }
+    },
+    "fab-action-1": {
+      "type": "js.fab-action",
+      "props": {
+        "label": "Edit",
+        "icon": "edit"
+      }
+    },
+    "fab-action-2": {
+      "type": "js.fab-action",
+      "props": {
+        "label": "Share",
+        "icon": "share"
+      }
+    },
+    "fab-action-3": {
+      "type": "js.fab-action",
+      "props": {
+        "label": "Mail",
+        "icon": "mail",
+        "link": "/contact"
+      }
+    },
+    "dock-1": {
+      "type": "js.dock",
+      "slots": {
+        "items": [
+          "dock-item-1",
+          "dock-item-2",
+          "dock-item-3"
+        ]
+      }
+    },
+    "dock-item-1": {
+      "type": "js.dock-item",
+      "props": {
+        "label": "Home",
+        "icon": "home",
+        "link": "/",
+        "active": true
+      }
+    },
+    "dock-item-2": {
+      "type": "js.dock-item",
+      "props": {
+        "label": "Pricing",
+        "icon": "star",
+        "link": "/pricing"
+      }
+    },
+    "dock-item-3": {
+      "type": "js.dock-item",
+      "props": {
+        "label": "Contact",
+        "icon": "mail",
+        "link": "/contact"
+      }
+    }
+  }
+}

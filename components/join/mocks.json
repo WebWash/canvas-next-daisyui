@@ -1,0 +1,100 @@
+{
+  "mocks": [
+    {
+      "name": "Horizontal",
+      "slots": {
+        "items": [
+          "button-1",
+          "button-2",
+          "button-3"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "One"
+          }
+        },
+        "button-2": {
+          "type": "button",
+          "props": {
+            "text": "Two"
+          }
+        },
+        "button-3": {
+          "type": "button",
+          "props": {
+            "text": "Three"
+          }
+        }
+      }
+    },
+    {
+      "name": "Vertical",
+      "props": {
+        "direction": "vertical"
+      },
+      "slots": {
+        "items": [
+          "button-1",
+          "button-2",
+          "button-3"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "One"
+          }
+        },
+        "button-2": {
+          "type": "button",
+          "props": {
+            "text": "Two"
+          }
+        },
+        "button-3": {
+          "type": "button",
+          "props": {
+            "text": "Three"
+          }
+        }
+      }
+    },
+    {
+      "name": "Responsive",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "button-1",
+          "button-2",
+          "button-3"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "One"
+          }
+        },
+        "button-2": {
+          "type": "button",
+          "props": {
+            "text": "Two"
+          }
+        },
+        "button-3": {
+          "type": "button",
+          "props": {
+            "text": "Three"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "mocks": [
+    {
+      "name": "Half stars",
+      "props": {
+        "label": "Your rating",
+        "half": true,
+        "value": 2.5
+      }
+    },
+    {
+      "name": "Read only",
+      "props": {
+        "label": "Average rating",
+        "readOnly": true,
+        "value": 4
+      }
+    },
+    {
+      "name": "Read only half",
+      "props": {
+        "label": "Average rating",
+        "readOnly": true,
+        "half": true,
+        "value": 3.5
+      }
+    },
+    {
+      "name": "Ten stars",
+      "props": {
+        "label": "Your rating",
+        "max": 10,
+        "value": 7
+      }
+    },
+    {
+      "name": "Hearts",
+      "props": {
+        "label": "Your rating",
+        "shape": "heart",
+        "color": "error",
+        "value": 3
+      }
+    },
+    {
+      "name": "Star 2",
+      "props": {
+        "label": "Your rating",
+        "shape": "star_2",
+        "color": "warning",
+        "value": 3
+      }
+    },
+    {
+      "name": "Description",
+      "props": {
+        "label": "Your rating",
+        "value": 3,
+        "description": "A short description of this field that is long enough to show that it wraps onto another line."
+      }
+    },
+    {
+      "name": "Hidden label",
+      "props": {
+        "label": "Your rating",
+        "value": 3,
+        "hideLabel": true
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "Your rating",
+        "value": 3,
+        "disabled": true
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "label": "Your rating",
+        "value": 3,
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "label": "Your rating",
+        "value": 3,
+        "color": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "label": "Your rating",
+        "value": 3,
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "label": "Your rating",
+        "value": 3,
+        "size": "lg"
+      }
+    }
+  ]
+}

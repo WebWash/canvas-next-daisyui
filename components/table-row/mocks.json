@@ -1,0 +1,90 @@
+{
+  "mocks": [
+    {
+      "name": "Standalone with cells",
+      "slots": {
+        "cells": [
+          "table-cell-1",
+          "table-cell-2"
+        ]
+      },
+      "elements": {
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Value"
+          }
+        }
+      }
+    },
+    {
+      "name": "Active inside a table",
+      "root": "table-1",
+      "elements": {
+        "table-1": {
+          "type": "table",
+          "slots": {
+            "rows": [
+              "table-row-1",
+              "table-row-2"
+            ]
+          }
+        },
+        "table-row-1": {
+          "type": "table-row",
+          "props": {
+            "active": true
+          },
+          "slots": {
+            "cells": [
+              "table-cell-1",
+              "table-cell-2"
+            ]
+          }
+        },
+        "table-cell-1": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-2": {
+          "type": "table-cell",
+          "props": {
+            "text": "Value"
+          }
+        },
+        "table-row-2": {
+          "type": "table-row",
+          "slots": {
+            "cells": [
+              "table-cell-3",
+              "table-cell-4"
+            ]
+          }
+        },
+        "table-cell-3": {
+          "type": "table-cell",
+          "props": {
+            "text": "Name",
+            "isHeader": true
+          }
+        },
+        "table-cell-4": {
+          "type": "table-cell",
+          "props": {
+            "text": "Value"
+          }
+        }
+      }
+    }
+  ]
+}

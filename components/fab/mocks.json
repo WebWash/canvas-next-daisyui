@@ -1,0 +1,80 @@
+{
+  "mocks": [
+    {
+      "name": "With actions",
+      "props": {
+        "label": "Open actions",
+        "color": "primary"
+      },
+      "slots": {
+        "actions": [
+          "fab-action-1",
+          "fab-action-2",
+          "fab-action-3"
+        ]
+      },
+      "elements": {
+        "fab-action-1": {
+          "type": "fab-action",
+          "props": {
+            "label": "Edit",
+            "icon": "edit"
+          }
+        },
+        "fab-action-2": {
+          "type": "fab-action",
+          "props": {
+            "label": "Share",
+            "icon": "share"
+          }
+        },
+        "fab-action-3": {
+          "type": "fab-action",
+          "props": {
+            "label": "Mail",
+            "icon": "mail",
+            "link": "/contact"
+          }
+        }
+      }
+    },
+    {
+      "name": "Flower",
+      "props": {
+        "variant": "flower",
+        "label": "Open actions",
+        "color": "secondary"
+      },
+      "slots": {
+        "actions": [
+          "fab-action-1",
+          "fab-action-2",
+          "fab-action-3"
+        ]
+      },
+      "elements": {
+        "fab-action-1": {
+          "type": "fab-action",
+          "props": {
+            "label": "Edit",
+            "icon": "edit"
+          }
+        },
+        "fab-action-2": {
+          "type": "fab-action",
+          "props": {
+            "label": "Share",
+            "icon": "share"
+          }
+        },
+        "fab-action-3": {
+          "type": "fab-action",
+          "props": {
+            "label": "Mail",
+            "icon": "mail"
+          }
+        }
+      }
+    }
+  ]
+}

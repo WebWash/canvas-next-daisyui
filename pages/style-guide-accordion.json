@@ -1,0 +1,574 @@
+{
+  "title": "Style guide: Accordion",
+  "path": "/style-guide/accordion",
+  "description": "Each indicator, bordered, and open by default.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "section-2",
+          "section-3",
+          "section-4",
+          "heading-3",
+          "accordion-4",
+          "heading-4",
+          "accordion-5",
+          "heading-5",
+          "collapse-1",
+          "collapse-2",
+          "collapse-3",
+          "heading-6",
+          "collapse-4",
+          "heading-7",
+          "collapse-5"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Accordion",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each indicator, bordered, and open by default.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Accordion indicators",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-2",
+          "accordion-1"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Arrow</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "accordion-1": {
+      "type": "js.accordion",
+      "props": {
+        "indicator": "arrow"
+      },
+      "slots": {
+        "items": [
+          "accordion-item-1",
+          "accordion-item-2",
+          "accordion-item-3"
+        ]
+      }
+    },
+    "accordion-item-1": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "What is daisyUI?",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-3"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>A component library for Tailwind CSS.</p>"
+      }
+    },
+    "accordion-item-2": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Does this need JavaScript?"
+      },
+      "slots": {
+        "content": [
+          "text-4"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Most of it is plain CSS and native HTML.</p>"
+      }
+    },
+    "accordion-item-3": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Can every item close?"
+      },
+      "slots": {
+        "content": [
+          "text-5"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Yes. Items use the native details element.</p>"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-6",
+          "accordion-2"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Plus</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "accordion-2": {
+      "type": "js.accordion",
+      "props": {
+        "indicator": "plus"
+      },
+      "slots": {
+        "items": [
+          "accordion-item-4",
+          "accordion-item-5",
+          "accordion-item-6"
+        ]
+      }
+    },
+    "accordion-item-4": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "What is daisyUI?",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-7"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>A component library for Tailwind CSS.</p>"
+      }
+    },
+    "accordion-item-5": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Does this need JavaScript?"
+      },
+      "slots": {
+        "content": [
+          "text-8"
+        ]
+      }
+    },
+    "text-8": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Most of it is plain CSS and native HTML.</p>"
+      }
+    },
+    "accordion-item-6": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Can every item close?"
+      },
+      "slots": {
+        "content": [
+          "text-9"
+        ]
+      }
+    },
+    "text-9": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Yes. Items use the native details element.</p>"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-10",
+          "accordion-3"
+        ]
+      }
+    },
+    "text-10": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>None</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "accordion-3": {
+      "type": "js.accordion",
+      "props": {
+        "indicator": "none"
+      },
+      "slots": {
+        "items": [
+          "accordion-item-7",
+          "accordion-item-8",
+          "accordion-item-9"
+        ]
+      }
+    },
+    "accordion-item-7": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "What is daisyUI?",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-11"
+        ]
+      }
+    },
+    "text-11": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>A component library for Tailwind CSS.</p>"
+      }
+    },
+    "accordion-item-8": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Does this need JavaScript?"
+      },
+      "slots": {
+        "content": [
+          "text-12"
+        ]
+      }
+    },
+    "text-12": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Most of it is plain CSS and native HTML.</p>"
+      }
+    },
+    "accordion-item-9": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Can every item close?"
+      },
+      "slots": {
+        "content": [
+          "text-13"
+        ]
+      }
+    },
+    "text-13": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Yes. Items use the native details element.</p>"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Bordered accordion",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "accordion-4": {
+      "type": "js.accordion",
+      "props": {
+        "bordered": true
+      },
+      "slots": {
+        "items": [
+          "accordion-item-10",
+          "accordion-item-11",
+          "accordion-item-12"
+        ]
+      }
+    },
+    "accordion-item-10": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "What is daisyUI?",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-14"
+        ]
+      }
+    },
+    "text-14": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>A component library for Tailwind CSS.</p>"
+      }
+    },
+    "accordion-item-11": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Does this need JavaScript?"
+      },
+      "slots": {
+        "content": [
+          "text-15"
+        ]
+      }
+    },
+    "text-15": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Most of it is plain CSS and native HTML.</p>"
+      }
+    },
+    "accordion-item-12": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Can every item close?"
+      },
+      "slots": {
+        "content": [
+          "text-16"
+        ]
+      }
+    },
+    "text-16": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Yes. Items use the native details element.</p>"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "All closed",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "accordion-5": {
+      "type": "js.accordion",
+      "slots": {
+        "items": [
+          "accordion-item-13",
+          "accordion-item-14",
+          "accordion-item-15"
+        ]
+      }
+    },
+    "accordion-item-13": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "What is daisyUI?",
+        "openByDefault": false
+      },
+      "slots": {
+        "content": [
+          "text-17"
+        ]
+      }
+    },
+    "text-17": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>A component library for Tailwind CSS.</p>"
+      }
+    },
+    "accordion-item-14": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Does this need JavaScript?"
+      },
+      "slots": {
+        "content": [
+          "text-18"
+        ]
+      }
+    },
+    "text-18": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Most of it is plain CSS and native HTML.</p>"
+      }
+    },
+    "accordion-item-15": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Can every item close?"
+      },
+      "slots": {
+        "content": [
+          "text-19"
+        ]
+      }
+    },
+    "text-19": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Yes. Items use the native details element.</p>"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Collapse indicators",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "collapse-1": {
+      "type": "js.collapse",
+      "props": {
+        "title": "Indicator arrow",
+        "indicator": "arrow"
+      },
+      "slots": {
+        "content": [
+          "text-20"
+        ]
+      }
+    },
+    "text-20": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>"
+      }
+    },
+    "collapse-2": {
+      "type": "js.collapse",
+      "props": {
+        "title": "Indicator plus",
+        "indicator": "plus"
+      },
+      "slots": {
+        "content": [
+          "text-21"
+        ]
+      }
+    },
+    "text-21": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>"
+      }
+    },
+    "collapse-3": {
+      "type": "js.collapse",
+      "props": {
+        "title": "Indicator none",
+        "indicator": "none"
+      },
+      "slots": {
+        "content": [
+          "text-22"
+        ]
+      }
+    },
+    "text-22": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Bordered collapse",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "collapse-4": {
+      "type": "js.collapse",
+      "props": {
+        "title": "Bordered",
+        "bordered": true
+      },
+      "slots": {
+        "content": [
+          "text-23"
+        ]
+      }
+    },
+    "text-23": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Open by default",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "collapse-5": {
+      "type": "js.collapse",
+      "props": {
+        "title": "Open by default",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-24"
+        ]
+      }
+    },
+    "text-24": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>"
+      }
+    }
+  }
+}

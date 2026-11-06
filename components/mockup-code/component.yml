@@ -1,0 +1,30 @@
+name: Mockup Code
+machineName: mockup-code
+status: true
+required:
+  - lines
+props:
+  properties:
+    lines:
+      title: Lines
+      type: array
+      items:
+        type: string
+      examples:
+        - - npm i daisyui
+          - installing...
+          - Done!
+    prefix:
+      title: Prefix
+      type: string
+      enum:
+        - none
+        - numbers
+        - dollar
+      meta:enum:
+        none: None
+        numbers: Numbers
+        dollar: Dollar
+      examples:
+        - none
+slots: {}

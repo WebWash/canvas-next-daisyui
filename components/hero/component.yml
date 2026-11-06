@@ -1,97 +1,92 @@
 name: Hero
 machineName: hero
 status: true
-required:
-  - backgroundImage
-  - layout
-  - headingSize
-  - textColor
+required: []
 props:
   properties:
-    backgroundImage:
-      title: Background Image
-      type: object
-      examples:
-        - src: https://placehold.co/1920x1080@2x.png
-          alt: Example image placeholder
-          width: 1920
-          height: 1080
-      $ref: json-schema-definitions://canvas.module/image
-    layout:
-      title: Layout
+    variant:
+      title: Variant
       type: string
-      examples:
-        - left_aligned
       enum:
-        - left_aligned
-        - centered
+        - default
+        - image
+        - split
       meta:enum:
-        left_aligned: Left aligned
-        centered: Centered
-    preHeading:
-      title: Pre Heading
-      type: string
+        default: Default
+        image: Image
+        split: Split
       examples:
-        - Mission
-    headingElement:
-      title: Heading Element
-      type: string
-      examples:
-        - h2
-      enum:
-        - h1
-        - h2
-        - h3
-        - h4
-        - h5
-        - h6
-      meta:enum:
-        h1: h1
-        h2: h2
-        h3: h3
-        h4: h4
-        h5: h5
-        h6: h6
-    headingSize:
-      title: Heading Size
-      type: string
-      examples:
-        - extra_large
-      enum:
-        - extra_large
-        - large
-        - medium
-        - small
-      meta:enum:
-        extra_large: Extra Large
-        large: Large
-        medium: Medium
-        small: Small
+        - default
     heading:
       title: Heading
       type: string
       examples:
-        - This space deserves a hero.
+        - Hello there
+    headingElement:
+      title: Heading Element
+      type: string
+      enum:
+        - h1
+        - h2
+        - h3
+      meta:enum:
+        h1: h1
+        h2: h2
+        h3: h3
+      examples:
+        - h1
     text:
       title: Text
       type: string
-      examples:
-        - >-
-          This is a space to welcome visitors to the site. Grab their attention
-          with copy that clearly states what the site is about.
       contentMediaType: text/html
       x-formatting-context: block
-    textColor:
-      title: Text Color
-      type: string
       examples:
-        - dark
+        - <p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi.</p>
+    backgroundImage:
+      title: Background Image
+      type: object
+      $ref: json-schema-definitions://canvas.module/image
+      examples:
+        - src: https://picsum.photos/seed/background-placeholder/1600/900
+          alt: Background placeholder
+          width: 1600
+          height: 900
+    overlay:
+      title: Overlay
+      type: boolean
+      examples:
+        - false
+    minHeight:
+      title: Min Height
+      type: string
       enum:
-        - dark
-        - light
+        - auto
+        - half
+        - screen
       meta:enum:
-        dark: Dark
-        light: Light
+        auto: Auto
+        half: Half
+        screen: Screen
+      examples:
+        - auto
+    alignment:
+      title: Alignment
+      type: string
+      enum:
+        - center
+        - start
+      meta:enum:
+        center: Center
+        start: Start
+      examples:
+        - center
+    reverse:
+      title: Reverse
+      type: boolean
+      examples:
+        - false
 slots:
-  buttons:
-    title: Buttons
+  media:
+    title: Media
+  actions:
+    title: Actions

@@ -1,0 +1,140 @@
+name: Alert
+machineName: alert
+status: true
+required:
+  - text
+props:
+  properties:
+    variant:
+      title: Variant
+      type: string
+      enum:
+        - default
+        - outline
+        - dash
+        - soft
+      meta:enum:
+        default: Default
+        outline: Outline
+        dash: Dash
+        soft: Soft
+      examples:
+        - default
+    heading:
+      title: Heading
+      type: string
+    text:
+      title: Text
+      type: string
+      examples:
+        - Your changes were saved.
+    icon:
+      title: Icon
+      type: string
+      enum:
+        - none
+        - menu
+        - close
+        - chevron_right
+        - chevron_down
+        - arrow_right
+        - check
+        - info
+        - warning
+        - success
+        - error
+        - search
+        - home
+        - user
+        - users
+        - settings
+        - mail
+        - phone
+        - calendar
+        - clock
+        - star
+        - heart
+        - plus
+        - minus
+        - download
+        - upload
+        - share
+        - trash
+        - edit
+        - sparkles
+        - zap
+        - globe
+        - lock
+        - sun
+        - moon
+      meta:enum:
+        none: None
+        menu: Menu
+        close: Close
+        chevron_right: Chevron Right
+        chevron_down: Chevron Down
+        arrow_right: Arrow Right
+        check: Check
+        info: Info
+        warning: Warning
+        success: Success
+        error: Error
+        search: Search
+        home: Home
+        user: User
+        users: Users
+        settings: Settings
+        mail: Mail
+        phone: Phone
+        calendar: Calendar
+        clock: Clock
+        star: Star
+        heart: Heart
+        plus: Plus
+        minus: Minus
+        download: Download
+        upload: Upload
+        share: Share
+        trash: Trash
+        edit: Edit
+        sparkles: Sparkles
+        zap: Zap
+        globe: Globe
+        lock: Lock
+        sun: Sun
+        moon: Moon
+      examples:
+        - info
+    color:
+      title: Color
+      type: string
+      enum:
+        - default
+        - info
+        - success
+        - warning
+        - error
+      meta:enum:
+        default: Default
+        info: Info
+        success: Success
+        warning: Warning
+        error: Error
+      examples:
+        - default
+    direction:
+      title: Direction
+      type: string
+      enum:
+        - horizontal
+        - vertical
+        - responsive
+      meta:enum:
+        horizontal: Horizontal
+        vertical: Vertical
+        responsive: Responsive
+      examples:
+        - horizontal
+slots:
+  actions:
+    title: Actions

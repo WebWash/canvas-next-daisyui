@@ -1,0 +1,34 @@
+{
+  "mocks": [
+    {
+      "name": "Active",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "active": true
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "Home",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Title",
+      "props": {
+        "label": "Section",
+        "isTitle": true
+      }
+    },
+    {
+      "name": "With icon",
+      "props": {
+        "label": "Home",
+        "link": "/",
+        "icon": "home"
+      }
+    }
+  ]
+}

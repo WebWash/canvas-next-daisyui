@@ -1,0 +1,635 @@
+{
+  "title": "Style guide: Steps",
+  "path": "/style-guide/steps",
+  "description": "Each direction, step colours and icons, and compact, boxed and snapped timelines.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "section-2",
+          "section-3",
+          "section-4",
+          "heading-3",
+          "steps-4",
+          "heading-4",
+          "steps-5",
+          "heading-5",
+          "section-5",
+          "section-6",
+          "heading-6",
+          "timeline-3",
+          "heading-7",
+          "timeline-4",
+          "heading-8",
+          "timeline-5"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Steps",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each direction, step colours and icons, and compact, boxed and snapped timelines.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Steps directions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-2",
+          "steps-1"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Horizontal</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "steps-1": {
+      "type": "js.steps",
+      "props": {
+        "direction": "horizontal"
+      },
+      "slots": {
+        "items": [
+          "step-1",
+          "step-2",
+          "step-3",
+          "step-4"
+        ]
+      }
+    },
+    "step-1": {
+      "type": "js.step",
+      "props": {
+        "label": "Register",
+        "color": "primary"
+      }
+    },
+    "step-2": {
+      "type": "js.step",
+      "props": {
+        "label": "Choose plan",
+        "color": "primary"
+      }
+    },
+    "step-3": {
+      "type": "js.step",
+      "props": {
+        "label": "Purchase"
+      }
+    },
+    "step-4": {
+      "type": "js.step",
+      "props": {
+        "label": "Receive"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-3",
+          "steps-2"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Vertical</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "steps-2": {
+      "type": "js.steps",
+      "props": {
+        "direction": "vertical"
+      },
+      "slots": {
+        "items": [
+          "step-5",
+          "step-6",
+          "step-7",
+          "step-8"
+        ]
+      }
+    },
+    "step-5": {
+      "type": "js.step",
+      "props": {
+        "label": "Register",
+        "color": "primary"
+      }
+    },
+    "step-6": {
+      "type": "js.step",
+      "props": {
+        "label": "Choose plan",
+        "color": "primary"
+      }
+    },
+    "step-7": {
+      "type": "js.step",
+      "props": {
+        "label": "Purchase"
+      }
+    },
+    "step-8": {
+      "type": "js.step",
+      "props": {
+        "label": "Receive"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-4",
+          "steps-3"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Responsive</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "steps-3": {
+      "type": "js.steps",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "step-9",
+          "step-10",
+          "step-11",
+          "step-12"
+        ]
+      }
+    },
+    "step-9": {
+      "type": "js.step",
+      "props": {
+        "label": "Register",
+        "color": "primary"
+      }
+    },
+    "step-10": {
+      "type": "js.step",
+      "props": {
+        "label": "Choose plan",
+        "color": "primary"
+      }
+    },
+    "step-11": {
+      "type": "js.step",
+      "props": {
+        "label": "Purchase"
+      }
+    },
+    "step-12": {
+      "type": "js.step",
+      "props": {
+        "label": "Receive"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Step colours",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "steps-4": {
+      "type": "js.steps",
+      "props": {
+        "direction": "vertical"
+      },
+      "slots": {
+        "items": [
+          "step-13",
+          "step-14",
+          "step-15",
+          "step-16",
+          "step-17",
+          "step-18",
+          "step-19",
+          "step-20",
+          "step-21"
+        ]
+      }
+    },
+    "step-13": {
+      "type": "js.step",
+      "props": {
+        "label": "Default",
+        "color": "default"
+      }
+    },
+    "step-14": {
+      "type": "js.step",
+      "props": {
+        "label": "Neutral",
+        "color": "neutral"
+      }
+    },
+    "step-15": {
+      "type": "js.step",
+      "props": {
+        "label": "Primary",
+        "color": "primary"
+      }
+    },
+    "step-16": {
+      "type": "js.step",
+      "props": {
+        "label": "Secondary",
+        "color": "secondary"
+      }
+    },
+    "step-17": {
+      "type": "js.step",
+      "props": {
+        "label": "Accent",
+        "color": "accent"
+      }
+    },
+    "step-18": {
+      "type": "js.step",
+      "props": {
+        "label": "Info",
+        "color": "info"
+      }
+    },
+    "step-19": {
+      "type": "js.step",
+      "props": {
+        "label": "Success",
+        "color": "success"
+      }
+    },
+    "step-20": {
+      "type": "js.step",
+      "props": {
+        "label": "Warning",
+        "color": "warning"
+      }
+    },
+    "step-21": {
+      "type": "js.step",
+      "props": {
+        "label": "Error",
+        "color": "error"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Step icons and data",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "steps-5": {
+      "type": "js.steps",
+      "slots": {
+        "items": [
+          "step-22",
+          "step-23",
+          "step-24",
+          "step-25"
+        ]
+      }
+    },
+    "step-22": {
+      "type": "js.step",
+      "props": {
+        "label": "Icon",
+        "icon": "star",
+        "color": "primary"
+      }
+    },
+    "step-23": {
+      "type": "js.step",
+      "props": {
+        "label": "Icon",
+        "icon": "zap",
+        "color": "primary"
+      }
+    },
+    "step-24": {
+      "type": "js.step",
+      "props": {
+        "label": "Data",
+        "dataContent": "?"
+      }
+    },
+    "step-25": {
+      "type": "js.step",
+      "props": {
+        "label": "Data",
+        "dataContent": "!"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Timeline directions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-5",
+          "timeline-1"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Vertical</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "timeline-1": {
+      "type": "js.timeline",
+      "props": {
+        "direction": "vertical"
+      },
+      "slots": {
+        "items": [
+          "timeline-item-1",
+          "timeline-item-2",
+          "timeline-item-3"
+        ]
+      }
+    },
+    "timeline-item-1": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2024",
+        "endText": "Project started",
+        "icon": "star"
+      }
+    },
+    "timeline-item-2": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2025",
+        "endText": "First release",
+        "icon": "zap"
+      }
+    },
+    "timeline-item-3": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2026",
+        "endText": "daisyUI version",
+        "icon": "check"
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-6",
+          "timeline-2"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Horizontal</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "timeline-2": {
+      "type": "js.timeline",
+      "props": {
+        "direction": "horizontal"
+      },
+      "slots": {
+        "items": [
+          "timeline-item-4",
+          "timeline-item-5",
+          "timeline-item-6"
+        ]
+      }
+    },
+    "timeline-item-4": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2024",
+        "endText": "Project started",
+        "icon": "star"
+      }
+    },
+    "timeline-item-5": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2025",
+        "endText": "First release",
+        "icon": "zap"
+      }
+    },
+    "timeline-item-6": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2026",
+        "endText": "daisyUI version",
+        "icon": "check"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Compact",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "timeline-3": {
+      "type": "js.timeline",
+      "props": {
+        "compact": true
+      },
+      "slots": {
+        "items": [
+          "timeline-item-7",
+          "timeline-item-8",
+          "timeline-item-9"
+        ]
+      }
+    },
+    "timeline-item-7": {
+      "type": "js.timeline-item",
+      "props": {
+        "endText": "Event 1"
+      }
+    },
+    "timeline-item-8": {
+      "type": "js.timeline-item",
+      "props": {
+        "endText": "Event 2"
+      }
+    },
+    "timeline-item-9": {
+      "type": "js.timeline-item",
+      "props": {
+        "endText": "Event 3"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Boxed",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "timeline-4": {
+      "type": "js.timeline",
+      "slots": {
+        "items": [
+          "timeline-item-10",
+          "timeline-item-11",
+          "timeline-item-12"
+        ]
+      }
+    },
+    "timeline-item-10": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2024",
+        "endText": "Project started",
+        "icon": "star",
+        "boxed": true
+      }
+    },
+    "timeline-item-11": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2025",
+        "endText": "First release",
+        "icon": "zap",
+        "boxed": true
+      }
+    },
+    "timeline-item-12": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2026",
+        "endText": "daisyUI version",
+        "icon": "check",
+        "boxed": true
+      }
+    },
+    "heading-8": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Snapped icons",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "timeline-5": {
+      "type": "js.timeline",
+      "props": {
+        "snapIcon": true
+      },
+      "slots": {
+        "items": [
+          "timeline-item-13",
+          "timeline-item-14",
+          "timeline-item-15"
+        ]
+      }
+    },
+    "timeline-item-13": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2024",
+        "endText": "Project started",
+        "icon": "star"
+      }
+    },
+    "timeline-item-14": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2025",
+        "endText": "First release",
+        "icon": "zap"
+      }
+    },
+    "timeline-item-15": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2026",
+        "endText": "daisyUI version",
+        "icon": "check"
+      }
+    }
+  }
+}

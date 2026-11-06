@@ -1,0 +1,207 @@
+{
+  "title": "Style guide: Navbar",
+  "path": "/style-guide/navbar",
+  "description": "Each background, with and without end actions. The page template shows the live navbar.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "navbar-1",
+          "heading-3",
+          "navbar-2",
+          "heading-4",
+          "navbar-3",
+          "heading-5",
+          "navbar-4",
+          "heading-6",
+          "navbar-5",
+          "heading-7",
+          "text-2"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Navbar",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Each background, with and without end actions. The page template shows the live navbar.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Background: Base 100",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "navbar-1": {
+      "type": "js.navbar",
+      "props": {
+        "background": "base_100"
+      },
+      "slots": {
+        "start": [
+          "button-1"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "daisyUI",
+        "variant": "ghost",
+        "size": "lg",
+        "link": "/"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Background: Base 200",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "navbar-2": {
+      "type": "js.navbar",
+      "props": {
+        "background": "base_200"
+      },
+      "slots": {
+        "start": [
+          "button-2"
+        ]
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "daisyUI",
+        "variant": "ghost",
+        "size": "lg",
+        "link": "/"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Background: Neutral",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "navbar-3": {
+      "type": "js.navbar",
+      "props": {
+        "background": "neutral"
+      },
+      "slots": {
+        "start": [
+          "button-3"
+        ]
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "daisyUI",
+        "variant": "ghost",
+        "size": "lg",
+        "link": "/"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "With end actions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "navbar-4": {
+      "type": "js.navbar",
+      "slots": {
+        "start": [
+          "button-4"
+        ],
+        "end": [
+          "button-5"
+        ]
+      }
+    },
+    "button-4": {
+      "type": "js.button",
+      "props": {
+        "text": "daisyUI",
+        "variant": "ghost",
+        "size": "lg",
+        "link": "/"
+      }
+    },
+    "button-5": {
+      "type": "js.button",
+      "props": {
+        "text": "Sign up",
+        "color": "primary",
+        "size": "sm",
+        "link": "/contact"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Without end actions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "navbar-5": {
+      "type": "js.navbar",
+      "slots": {
+        "start": [
+          "button-6"
+        ]
+      }
+    },
+    "button-6": {
+      "type": "js.button",
+      "props": {
+        "text": "daisyUI",
+        "variant": "ghost",
+        "size": "lg",
+        "link": "/"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Sticky",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Sticky only makes sense on the page itself, so test it by setting Sticky on the navbar in the page template.</p>"
+      }
+    }
+  }
+}

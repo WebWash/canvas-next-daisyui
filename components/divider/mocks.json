@@ -1,0 +1,80 @@
+{
+  "mocks": [
+    {
+      "name": "Blank"
+    },
+    {
+      "name": "Start",
+      "props": {
+        "text": "OR",
+        "placement": "start"
+      }
+    },
+    {
+      "name": "End",
+      "props": {
+        "text": "OR",
+        "placement": "end"
+      }
+    },
+    {
+      "name": "Colour neutral",
+      "props": {
+        "text": "OR",
+        "color": "neutral"
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "text": "OR",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour secondary",
+      "props": {
+        "text": "OR",
+        "color": "secondary"
+      }
+    },
+    {
+      "name": "Colour accent",
+      "props": {
+        "text": "OR",
+        "color": "accent"
+      }
+    },
+    {
+      "name": "Horizontal in a row",
+      "root": "grid-1",
+      "elements": {
+        "grid-1": {
+          "type": "grid",
+          "props": {
+            "layout": "50-50"
+          },
+          "slots": {
+            "content": [
+              "text-1",
+              "divider-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>Left content.</p>"
+          }
+        },
+        "divider-1": {
+          "type": "divider",
+          "props": {
+            "text": "OR",
+            "direction": "horizontal"
+          }
+        }
+      }
+    }
+  ]
+}

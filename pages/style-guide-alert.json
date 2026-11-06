@@ -1,0 +1,363 @@
+{
+  "title": "Style guide: Alert",
+  "path": "/style-guide/alert",
+  "description": "A variant by colour matrix, each direction, and alerts with actions and icons.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "alert-1",
+          "alert-2",
+          "alert-3",
+          "alert-4",
+          "alert-5",
+          "heading-3",
+          "alert-6",
+          "alert-7",
+          "alert-8",
+          "alert-9",
+          "alert-10",
+          "heading-4",
+          "alert-11",
+          "alert-12",
+          "alert-13",
+          "alert-14",
+          "alert-15",
+          "heading-5",
+          "alert-16",
+          "alert-17",
+          "alert-18",
+          "alert-19",
+          "alert-20",
+          "heading-6",
+          "alert-21",
+          "alert-22",
+          "alert-23",
+          "heading-7",
+          "alert-24"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Alert",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>A variant by colour matrix, each direction, and alerts with actions and icons.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variant: default",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "alert-1": {
+      "type": "js.alert",
+      "props": {
+        "variant": "default",
+        "color": "default",
+        "icon": "info",
+        "text": "Default default alert."
+      }
+    },
+    "alert-2": {
+      "type": "js.alert",
+      "props": {
+        "variant": "default",
+        "color": "info",
+        "icon": "info",
+        "text": "Default info alert."
+      }
+    },
+    "alert-3": {
+      "type": "js.alert",
+      "props": {
+        "variant": "default",
+        "color": "success",
+        "icon": "success",
+        "text": "Default success alert."
+      }
+    },
+    "alert-4": {
+      "type": "js.alert",
+      "props": {
+        "variant": "default",
+        "color": "warning",
+        "icon": "warning",
+        "text": "Default warning alert."
+      }
+    },
+    "alert-5": {
+      "type": "js.alert",
+      "props": {
+        "variant": "default",
+        "color": "error",
+        "icon": "error",
+        "text": "Default error alert."
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variant: outline",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "alert-6": {
+      "type": "js.alert",
+      "props": {
+        "variant": "outline",
+        "color": "default",
+        "icon": "info",
+        "text": "Outline default alert."
+      }
+    },
+    "alert-7": {
+      "type": "js.alert",
+      "props": {
+        "variant": "outline",
+        "color": "info",
+        "icon": "info",
+        "text": "Outline info alert."
+      }
+    },
+    "alert-8": {
+      "type": "js.alert",
+      "props": {
+        "variant": "outline",
+        "color": "success",
+        "icon": "success",
+        "text": "Outline success alert."
+      }
+    },
+    "alert-9": {
+      "type": "js.alert",
+      "props": {
+        "variant": "outline",
+        "color": "warning",
+        "icon": "warning",
+        "text": "Outline warning alert."
+      }
+    },
+    "alert-10": {
+      "type": "js.alert",
+      "props": {
+        "variant": "outline",
+        "color": "error",
+        "icon": "error",
+        "text": "Outline error alert."
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variant: dash",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "alert-11": {
+      "type": "js.alert",
+      "props": {
+        "variant": "dash",
+        "color": "default",
+        "icon": "info",
+        "text": "Dash default alert."
+      }
+    },
+    "alert-12": {
+      "type": "js.alert",
+      "props": {
+        "variant": "dash",
+        "color": "info",
+        "icon": "info",
+        "text": "Dash info alert."
+      }
+    },
+    "alert-13": {
+      "type": "js.alert",
+      "props": {
+        "variant": "dash",
+        "color": "success",
+        "icon": "success",
+        "text": "Dash success alert."
+      }
+    },
+    "alert-14": {
+      "type": "js.alert",
+      "props": {
+        "variant": "dash",
+        "color": "warning",
+        "icon": "warning",
+        "text": "Dash warning alert."
+      }
+    },
+    "alert-15": {
+      "type": "js.alert",
+      "props": {
+        "variant": "dash",
+        "color": "error",
+        "icon": "error",
+        "text": "Dash error alert."
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variant: soft",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "alert-16": {
+      "type": "js.alert",
+      "props": {
+        "variant": "soft",
+        "color": "default",
+        "icon": "info",
+        "text": "Soft default alert."
+      }
+    },
+    "alert-17": {
+      "type": "js.alert",
+      "props": {
+        "variant": "soft",
+        "color": "info",
+        "icon": "info",
+        "text": "Soft info alert."
+      }
+    },
+    "alert-18": {
+      "type": "js.alert",
+      "props": {
+        "variant": "soft",
+        "color": "success",
+        "icon": "success",
+        "text": "Soft success alert."
+      }
+    },
+    "alert-19": {
+      "type": "js.alert",
+      "props": {
+        "variant": "soft",
+        "color": "warning",
+        "icon": "warning",
+        "text": "Soft warning alert."
+      }
+    },
+    "alert-20": {
+      "type": "js.alert",
+      "props": {
+        "variant": "soft",
+        "color": "error",
+        "icon": "error",
+        "text": "Soft error alert."
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Directions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "alert-21": {
+      "type": "js.alert",
+      "props": {
+        "direction": "horizontal",
+        "icon": "info",
+        "heading": "Direction horizontal",
+        "text": "With a heading and an action."
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Action",
+        "size": "sm"
+      }
+    },
+    "alert-22": {
+      "type": "js.alert",
+      "props": {
+        "direction": "vertical",
+        "icon": "info",
+        "heading": "Direction vertical",
+        "text": "With a heading and an action."
+      },
+      "slots": {
+        "actions": [
+          "button-2"
+        ]
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "Action",
+        "size": "sm"
+      }
+    },
+    "alert-23": {
+      "type": "js.alert",
+      "props": {
+        "direction": "responsive",
+        "icon": "info",
+        "heading": "Direction responsive",
+        "text": "With a heading and an action."
+      },
+      "slots": {
+        "actions": [
+          "button-3"
+        ]
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "Action",
+        "size": "sm"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Without an icon",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "alert-24": {
+      "type": "js.alert",
+      "props": {
+        "text": "An alert with no icon.",
+        "icon": "none"
+      }
+    }
+  }
+}

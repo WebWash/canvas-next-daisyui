@@ -1,0 +1,407 @@
+{
+  "mocks": [
+    {
+      "name": "Inside a megamenu",
+      "root": "megamenu-1",
+      "elements": {
+        "panel-1-menu": {
+          "type": "menu",
+          "props": {
+            "direction": "responsive"
+          },
+          "slots": {
+            "items": [
+              "panel-1-col-1",
+              "panel-1-col-2",
+              "panel-1-col-3"
+            ]
+          }
+        },
+        "panel-1-col-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Build",
+            "isTitle": true
+          },
+          "slots": {
+            "submenu": [
+              "panel-1-col-1-link-1",
+              "panel-1-col-1-link-2",
+              "panel-1-col-1-link-3"
+            ]
+          }
+        },
+        "panel-1-col-1-link-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Components",
+            "link": "/components"
+          }
+        },
+        "panel-1-col-1-link-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Themes",
+            "link": "/themes"
+          }
+        },
+        "panel-1-col-1-link-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Templates",
+            "link": "/templates"
+          }
+        },
+        "panel-1-col-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Integrate",
+            "isTitle": true
+          },
+          "slots": {
+            "submenu": [
+              "panel-1-col-2-link-1",
+              "panel-1-col-2-link-2",
+              "panel-1-col-2-link-3"
+            ]
+          }
+        },
+        "panel-1-col-2-link-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Tailwind CSS",
+            "link": "/tailwind-css"
+          }
+        },
+        "panel-1-col-2-link-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "React",
+            "link": "/react"
+          }
+        },
+        "panel-1-col-2-link-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Drupal Canvas",
+            "link": "/drupal-canvas"
+          }
+        },
+        "panel-1-col-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Learn",
+            "isTitle": true
+          },
+          "slots": {
+            "submenu": [
+              "panel-1-col-3-link-1",
+              "panel-1-col-3-link-2",
+              "panel-1-col-3-link-3"
+            ]
+          }
+        },
+        "panel-1-col-3-link-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Docs",
+            "link": "/docs"
+          }
+        },
+        "panel-1-col-3-link-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Examples",
+            "link": "/examples"
+          }
+        },
+        "panel-1-col-3-link-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Changelog",
+            "link": "/changelog"
+          }
+        },
+        "megamenu-item-1": {
+          "type": "megamenu-item",
+          "props": {
+            "label": "Products"
+          },
+          "slots": {
+            "content": [
+              "panel-1-menu"
+            ]
+          }
+        },
+        "panel-2-menu": {
+          "type": "menu",
+          "props": {
+            "direction": "responsive"
+          },
+          "slots": {
+            "items": [
+              "panel-2-col-1",
+              "panel-2-col-2",
+              "panel-2-col-3"
+            ]
+          }
+        },
+        "panel-2-col-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "By team",
+            "isTitle": true
+          },
+          "slots": {
+            "submenu": [
+              "panel-2-col-1-link-1",
+              "panel-2-col-1-link-2",
+              "panel-2-col-1-link-3"
+            ]
+          }
+        },
+        "panel-2-col-1-link-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Design",
+            "link": "/design"
+          }
+        },
+        "panel-2-col-1-link-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Engineering",
+            "link": "/engineering"
+          }
+        },
+        "panel-2-col-1-link-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Marketing",
+            "link": "/marketing"
+          }
+        },
+        "panel-2-col-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "By size",
+            "isTitle": true
+          },
+          "slots": {
+            "submenu": [
+              "panel-2-col-2-link-1",
+              "panel-2-col-2-link-2",
+              "panel-2-col-2-link-3"
+            ]
+          }
+        },
+        "panel-2-col-2-link-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Startups",
+            "link": "/startups"
+          }
+        },
+        "panel-2-col-2-link-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Agencies",
+            "link": "/agencies"
+          }
+        },
+        "panel-2-col-2-link-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Enterprise",
+            "link": "/enterprise"
+          }
+        },
+        "panel-2-col-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "By use",
+            "isTitle": true
+          },
+          "slots": {
+            "submenu": [
+              "panel-2-col-3-link-1",
+              "panel-2-col-3-link-2",
+              "panel-2-col-3-link-3"
+            ]
+          }
+        },
+        "panel-2-col-3-link-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Websites",
+            "link": "/websites"
+          }
+        },
+        "panel-2-col-3-link-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Dashboards",
+            "link": "/dashboards"
+          }
+        },
+        "panel-2-col-3-link-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Landing pages",
+            "link": "/landing-pages"
+          }
+        },
+        "megamenu-item-2": {
+          "type": "megamenu-item",
+          "props": {
+            "label": "Solutions"
+          },
+          "slots": {
+            "content": [
+              "panel-2-menu"
+            ]
+          }
+        },
+        "panel-3-menu": {
+          "type": "menu",
+          "props": {
+            "direction": "responsive"
+          },
+          "slots": {
+            "items": [
+              "panel-3-col-1",
+              "panel-3-col-2",
+              "panel-3-col-3"
+            ]
+          }
+        },
+        "panel-3-col-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Support",
+            "isTitle": true
+          },
+          "slots": {
+            "submenu": [
+              "panel-3-col-1-link-1",
+              "panel-3-col-1-link-2",
+              "panel-3-col-1-link-3"
+            ]
+          }
+        },
+        "panel-3-col-1-link-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Help centre",
+            "link": "/help-centre"
+          }
+        },
+        "panel-3-col-1-link-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Community",
+            "link": "/community"
+          }
+        },
+        "panel-3-col-1-link-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Contact",
+            "link": "/contact"
+          }
+        },
+        "panel-3-col-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Company",
+            "isTitle": true
+          },
+          "slots": {
+            "submenu": [
+              "panel-3-col-2-link-1",
+              "panel-3-col-2-link-2",
+              "panel-3-col-2-link-3"
+            ]
+          }
+        },
+        "panel-3-col-2-link-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "About",
+            "link": "/about"
+          }
+        },
+        "panel-3-col-2-link-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Blog",
+            "link": "/blog"
+          }
+        },
+        "panel-3-col-2-link-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Careers",
+            "link": "/careers"
+          }
+        },
+        "panel-3-col-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Legal",
+            "isTitle": true
+          },
+          "slots": {
+            "submenu": [
+              "panel-3-col-3-link-1",
+              "panel-3-col-3-link-2",
+              "panel-3-col-3-link-3"
+            ]
+          }
+        },
+        "panel-3-col-3-link-1": {
+          "type": "menu-item",
+          "props": {
+            "label": "Terms",
+            "link": "/terms"
+          }
+        },
+        "panel-3-col-3-link-2": {
+          "type": "menu-item",
+          "props": {
+            "label": "Privacy",
+            "link": "/privacy"
+          }
+        },
+        "panel-3-col-3-link-3": {
+          "type": "menu-item",
+          "props": {
+            "label": "Licences",
+            "link": "/licences"
+          }
+        },
+        "megamenu-item-3": {
+          "type": "megamenu-item",
+          "props": {
+            "label": "Resources"
+          },
+          "slots": {
+            "content": [
+              "panel-3-menu"
+            ]
+          }
+        },
+        "megamenu-1": {
+          "type": "megamenu",
+          "slots": {
+            "items": [
+              "megamenu-item-1",
+              "megamenu-item-2",
+              "megamenu-item-3"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1180 @@
+{
+  "title": "Components: Data display",
+  "path": "/components/data-display",
+  "description": "Components that present content and data.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "section-2",
+          "section-3",
+          "grid-1",
+          "section-12",
+          "section-13",
+          "grid-2",
+          "section-18",
+          "section-19",
+          "section-20",
+          "section-21"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Data display",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Components that present content and data.</p>"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-2",
+          "accordion-1"
+        ]
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Accordion",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "accordion-1": {
+      "type": "js.accordion",
+      "slots": {
+        "items": [
+          "accordion-item-1",
+          "accordion-item-2",
+          "accordion-item-3"
+        ]
+      }
+    },
+    "accordion-item-1": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "What is daisyUI?",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-2"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>A component library for Tailwind CSS.</p>"
+      }
+    },
+    "accordion-item-2": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Does this need JavaScript?"
+      },
+      "slots": {
+        "content": [
+          "text-3"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Most of it is plain CSS and native HTML.</p>"
+      }
+    },
+    "accordion-item-3": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Can every item close?"
+      },
+      "slots": {
+        "content": [
+          "text-4"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Yes. Items use the native details element.</p>"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-3",
+          "collapse-1"
+        ]
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Collapse",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "collapse-1": {
+      "type": "js.collapse",
+      "props": {
+        "title": "Show more",
+        "bordered": true
+      },
+      "slots": {
+        "content": [
+          "text-5"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-4",
+          "section-5",
+          "section-6",
+          "section-7",
+          "section-8",
+          "section-9",
+          "section-10",
+          "section-11"
+        ]
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-4",
+          "avatar-1"
+        ]
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Avatar",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "avatar-1": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/portrait/200/200",
+          "alt": "Portrait",
+          "width": 200,
+          "height": 200
+        },
+        "status": "online"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-5",
+          "avatar-group-1"
+        ]
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Avatar group",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "avatar-group-1": {
+      "type": "js.avatar-group",
+      "slots": {
+        "avatars": [
+          "avatar-2",
+          "avatar-3",
+          "avatar-4"
+        ]
+      }
+    },
+    "avatar-2": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/person-1/200/200",
+          "alt": "Person 1",
+          "width": 200,
+          "height": 200
+        }
+      }
+    },
+    "avatar-3": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/person-2/200/200",
+          "alt": "Person 2",
+          "width": 200,
+          "height": 200
+        }
+      }
+    },
+    "avatar-4": {
+      "type": "js.avatar",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/person-3/200/200",
+          "alt": "Person 3",
+          "width": 200,
+          "height": 200
+        }
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-6",
+          "badge-1"
+        ]
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Badge",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "badge-1": {
+      "type": "js.badge",
+      "props": {
+        "text": "Badge",
+        "color": "primary"
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-7",
+          "kbd-1"
+        ]
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Kbd",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "kbd-1": {
+      "type": "js.kbd",
+      "props": {
+        "text": "K"
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-8",
+          "status-1"
+        ]
+      }
+    },
+    "heading-8": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Status",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "status-1": {
+      "type": "js.status",
+      "props": {
+        "color": "success",
+        "label": "Online"
+      }
+    },
+    "section-9": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-9",
+          "countdown-1"
+        ]
+      }
+    },
+    "heading-9": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Countdown",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "countdown-1": {
+      "type": "js.countdown",
+      "props": {
+        "targetDate": "2029-01-01T00:00:00Z"
+      }
+    },
+    "section-10": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-10",
+          "calendar-1"
+        ]
+      }
+    },
+    "heading-10": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Calendar",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "calendar-1": {
+      "type": "js.calendar",
+      "props": {
+        "defaultMonth": "2026-11"
+      }
+    },
+    "section-11": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-11",
+          "card-1"
+        ]
+      }
+    },
+    "heading-11": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Card",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "card-1": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Card title",
+        "text": "<p>Short copy that fills this space in a sentence or two, so the layout has something real to hold.</p>",
+        "image": {
+          "src": "https://picsum.photos/seed/card-image/800/500",
+          "alt": "Card image",
+          "width": 800,
+          "height": 500
+        }
+      },
+      "slots": {
+        "actions": [
+          "button-1"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Buy now",
+        "size": "sm",
+        "color": "primary"
+      }
+    },
+    "section-12": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-12",
+          "carousel-1"
+        ]
+      }
+    },
+    "heading-12": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Carousel",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "carousel-1": {
+      "type": "js.carousel",
+      "slots": {
+        "items": [
+          "carousel-item-1",
+          "carousel-item-2",
+          "carousel-item-3",
+          "carousel-item-4",
+          "carousel-item-5"
+        ]
+      }
+    },
+    "carousel-item-1": {
+      "type": "js.carousel-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/slide-1/320/220",
+          "alt": "Slide 1",
+          "width": 320,
+          "height": 220
+        }
+      }
+    },
+    "carousel-item-2": {
+      "type": "js.carousel-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/slide-2/320/220",
+          "alt": "Slide 2",
+          "width": 320,
+          "height": 220
+        }
+      }
+    },
+    "carousel-item-3": {
+      "type": "js.carousel-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/slide-3/320/220",
+          "alt": "Slide 3",
+          "width": 320,
+          "height": 220
+        }
+      }
+    },
+    "carousel-item-4": {
+      "type": "js.carousel-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/slide-4/320/220",
+          "alt": "Slide 4",
+          "width": 320,
+          "height": 220
+        }
+      }
+    },
+    "carousel-item-5": {
+      "type": "js.carousel-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/slide-5/320/220",
+          "alt": "Slide 5",
+          "width": 320,
+          "height": 220
+        }
+      }
+    },
+    "section-13": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-13",
+          "chat-1",
+          "chat-2"
+        ]
+      }
+    },
+    "heading-13": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Chat",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "chat-1": {
+      "type": "js.chat",
+      "props": {
+        "placement": "start",
+        "author": "Ada",
+        "time": "12:45",
+        "message": "Is this thing on?"
+      }
+    },
+    "chat-2": {
+      "type": "js.chat",
+      "props": {
+        "placement": "end",
+        "author": "Grace",
+        "time": "12:46",
+        "message": "It is now.",
+        "color": "primary"
+      }
+    },
+    "grid-2": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-14",
+          "section-15",
+          "section-16",
+          "section-17"
+        ]
+      }
+    },
+    "section-14": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-14",
+          "diff-1"
+        ]
+      }
+    },
+    "heading-14": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Diff",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "diff-1": {
+      "type": "js.diff",
+      "slots": {
+        "item1": [
+          "image-1"
+        ],
+        "item2": [
+          "image-2"
+        ]
+      }
+    },
+    "image-1": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/before/800/450",
+          "alt": "Before",
+          "width": 800,
+          "height": 450
+        }
+      }
+    },
+    "image-2": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/after/800/450",
+          "alt": "After",
+          "width": 800,
+          "height": 450
+        }
+      }
+    },
+    "section-15": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-15",
+          "hover-3d-1"
+        ]
+      }
+    },
+    "heading-15": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Hover 3D",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "hover-3d-1": {
+      "type": "js.hover-3d",
+      "slots": {
+        "content": [
+          "image-3"
+        ]
+      }
+    },
+    "image-3": {
+      "type": "js.image",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/tilting-card/400/250",
+          "alt": "Tilting card",
+          "width": 400,
+          "height": 250
+        },
+        "shape": "rounded"
+      }
+    },
+    "section-16": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-16",
+          "hover-gallery-1"
+        ]
+      }
+    },
+    "heading-16": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Hover gallery",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "hover-gallery-1": {
+      "type": "js.hover-gallery",
+      "props": {
+        "maxWidth": "xs"
+      },
+      "slots": {
+        "images": [
+          "hover-gallery-item-1",
+          "hover-gallery-item-2",
+          "hover-gallery-item-3"
+        ]
+      }
+    },
+    "hover-gallery-item-1": {
+      "type": "js.hover-gallery-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/gallery-1/400/400",
+          "alt": "Gallery 1",
+          "width": 400,
+          "height": 400
+        }
+      }
+    },
+    "hover-gallery-item-2": {
+      "type": "js.hover-gallery-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/gallery-2/400/400",
+          "alt": "Gallery 2",
+          "width": 400,
+          "height": 400
+        }
+      }
+    },
+    "hover-gallery-item-3": {
+      "type": "js.hover-gallery-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/gallery-3/400/400",
+          "alt": "Gallery 3",
+          "width": 400,
+          "height": 400
+        }
+      }
+    },
+    "section-17": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-17",
+          "list-1"
+        ]
+      }
+    },
+    "heading-17": {
+      "type": "js.heading",
+      "props": {
+        "heading": "List",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "list-1": {
+      "type": "js.list",
+      "slots": {
+        "rows": [
+          "list-row-1",
+          "list-row-2"
+        ]
+      }
+    },
+    "list-row-1": {
+      "type": "js.list-row",
+      "props": {
+        "title": "First song",
+        "description": "An artist",
+        "image": {
+          "src": "https://picsum.photos/seed/cover-1/100/100",
+          "alt": "Cover 1",
+          "width": 100,
+          "height": 100
+        }
+      }
+    },
+    "list-row-2": {
+      "type": "js.list-row",
+      "props": {
+        "title": "Second song",
+        "description": "An artist",
+        "image": {
+          "src": "https://picsum.photos/seed/cover-2/100/100",
+          "alt": "Cover 2",
+          "width": 100,
+          "height": 100
+        }
+      }
+    },
+    "section-18": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-18",
+          "stats-1"
+        ]
+      }
+    },
+    "heading-18": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Stats",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "stats-1": {
+      "type": "js.stats",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "stat-1",
+          "stat-2",
+          "stat-3"
+        ]
+      }
+    },
+    "stat-1": {
+      "type": "js.stat",
+      "props": {
+        "title": "Components",
+        "value": "88",
+        "description": "All built from daisyUI guides",
+        "icon": "sparkles"
+      }
+    },
+    "stat-2": {
+      "type": "js.stat",
+      "props": {
+        "title": "Guides covered",
+        "value": "68",
+        "description": "Every daisyUI guide",
+        "icon": "check"
+      }
+    },
+    "stat-3": {
+      "type": "js.stat",
+      "props": {
+        "title": "Themes",
+        "value": "4",
+        "description": "Switch from the navbar",
+        "icon": "sun"
+      }
+    },
+    "section-19": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-19",
+          "table-1"
+        ]
+      }
+    },
+    "heading-19": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Table",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "table-1": {
+      "type": "js.table",
+      "slots": {
+        "header": [
+          "table-row-1"
+        ],
+        "rows": [
+          "table-row-2",
+          "table-row-3",
+          "table-row-4",
+          "table-row-5"
+        ]
+      }
+    },
+    "table-row-1": {
+      "type": "js.table-row",
+      "slots": {
+        "cells": [
+          "table-cell-1",
+          "table-cell-2",
+          "table-cell-3"
+        ]
+      }
+    },
+    "table-cell-1": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Name",
+        "isHeader": true
+      }
+    },
+    "table-cell-2": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Job",
+        "isHeader": true
+      }
+    },
+    "table-cell-3": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Colour",
+        "isHeader": true
+      }
+    },
+    "table-row-2": {
+      "type": "js.table-row",
+      "slots": {
+        "cells": [
+          "table-cell-4",
+          "table-cell-5",
+          "table-cell-6"
+        ]
+      }
+    },
+    "table-cell-4": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Person 1",
+        "isHeader": true
+      }
+    },
+    "table-cell-5": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Quality engineer"
+      }
+    },
+    "table-cell-6": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Blue"
+      }
+    },
+    "table-row-3": {
+      "type": "js.table-row",
+      "slots": {
+        "cells": [
+          "table-cell-7",
+          "table-cell-8",
+          "table-cell-9"
+        ]
+      }
+    },
+    "table-cell-7": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Person 2",
+        "isHeader": true
+      }
+    },
+    "table-cell-8": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Quality engineer"
+      }
+    },
+    "table-cell-9": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Purple"
+      }
+    },
+    "table-row-4": {
+      "type": "js.table-row",
+      "slots": {
+        "cells": [
+          "table-cell-10",
+          "table-cell-11",
+          "table-cell-12"
+        ]
+      }
+    },
+    "table-cell-10": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Person 3",
+        "isHeader": true
+      }
+    },
+    "table-cell-11": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Quality engineer"
+      }
+    },
+    "table-cell-12": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Red"
+      }
+    },
+    "table-row-5": {
+      "type": "js.table-row",
+      "slots": {
+        "cells": [
+          "table-cell-13",
+          "table-cell-14",
+          "table-cell-15"
+        ]
+      }
+    },
+    "table-cell-13": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Person 4",
+        "isHeader": true
+      }
+    },
+    "table-cell-14": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Quality engineer"
+      }
+    },
+    "table-cell-15": {
+      "type": "js.table-cell",
+      "props": {
+        "text": "Green"
+      }
+    },
+    "section-20": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-20",
+          "text-rotate-1"
+        ]
+      }
+    },
+    "heading-20": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Text rotate",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "text-rotate-1": {
+      "type": "js.text-rotate",
+      "props": {
+        "lines": [
+          "DESIGN",
+          "DEVELOP",
+          "DEPLOY"
+        ],
+        "textSize": "3xl"
+      }
+    },
+    "section-21": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "heading-21",
+          "timeline-1"
+        ]
+      }
+    },
+    "heading-21": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Timeline",
+        "headingElement": "h3",
+        "headingSize": "medium"
+      }
+    },
+    "timeline-1": {
+      "type": "js.timeline",
+      "slots": {
+        "items": [
+          "timeline-item-1",
+          "timeline-item-2",
+          "timeline-item-3"
+        ]
+      }
+    },
+    "timeline-item-1": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2024",
+        "endText": "Project started",
+        "icon": "star"
+      }
+    },
+    "timeline-item-2": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2025",
+        "endText": "First release",
+        "icon": "zap"
+      }
+    },
+    "timeline-item-3": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2026",
+        "endText": "daisyUI version",
+        "icon": "check"
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "mocks": [
+    {
+      "name": "Base 200",
+      "props": {
+        "background": "base_200"
+      },
+      "slots": {
+        "start": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "daisyUI",
+            "variant": "ghost",
+            "size": "lg",
+            "link": "/"
+          }
+        }
+      }
+    },
+    {
+      "name": "Neutral",
+      "props": {
+        "background": "neutral"
+      },
+      "slots": {
+        "start": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "daisyUI",
+            "variant": "ghost",
+            "size": "lg",
+            "link": "/"
+          }
+        }
+      }
+    },
+    {
+      "name": "Sticky",
+      "props": {
+        "sticky": true
+      },
+      "slots": {
+        "start": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "daisyUI",
+            "variant": "ghost",
+            "size": "lg",
+            "link": "/"
+          }
+        }
+      }
+    },
+    {
+      "name": "Custom links",
+      "props": {
+        "links": [
+          {
+            "id": "one",
+            "label": "One",
+            "url": "/one"
+          },
+          {
+            "id": "two",
+            "label": "Two",
+            "url": "/two",
+            "children": [
+              {
+                "id": "two-a",
+                "label": "Two A",
+                "url": "/two/a"
+              }
+            ]
+          }
+        ]
+      },
+      "slots": {
+        "start": [
+          "button-1"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "daisyUI",
+            "variant": "ghost",
+            "size": "lg",
+            "link": "/"
+          }
+        }
+      }
+    },
+    {
+      "name": "With end actions",
+      "slots": {
+        "start": [
+          "button-1"
+        ],
+        "end": [
+          "theme-controller-1",
+          "button-2"
+        ]
+      },
+      "elements": {
+        "button-1": {
+          "type": "button",
+          "props": {
+            "text": "daisyUI",
+            "variant": "ghost",
+            "size": "lg",
+            "link": "/"
+          }
+        },
+        "theme-controller-1": {
+          "type": "theme-controller",
+          "props": {
+            "theme": "dark",
+            "label": "Dark theme"
+          }
+        },
+        "button-2": {
+          "type": "button",
+          "props": {
+            "text": "Sign up",
+            "color": "primary",
+            "size": "sm",
+            "link": "/signup"
+          }
+        }
+      }
+    }
+  ]
+}

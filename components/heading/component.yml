@@ -1,11 +1,7 @@
 name: Heading
 machineName: heading
 status: true
-required:
-  - textColor
-  - headingElement
-  - headingSize
-  - layout
+required: []
 props:
   properties:
     preHeading:
@@ -19,19 +15,23 @@ props:
     textColor:
       title: Text Color
       type: string
-      examples:
-        - dark
       enum:
-        - dark
-        - light
+        - default
+        - muted
+        - primary
+        - secondary
+        - accent
       meta:enum:
-        dark: Dark
-        light: Light
+        default: Default
+        muted: Muted
+        primary: Primary
+        secondary: Secondary
+        accent: Accent
+      examples:
+        - default
     headingElement:
       title: Heading Element
       type: string
-      examples:
-        - h2
       enum:
         - h1
         - h2
@@ -46,11 +46,11 @@ props:
         h4: h4
         h5: h5
         h6: h6
+      examples:
+        - h2
     headingSize:
       title: Heading Size
       type: string
-      examples:
-        - medium
       enum:
         - small
         - medium
@@ -61,11 +61,11 @@ props:
         medium: Medium
         large: Large
         extra_large: Extra Large
+      examples:
+        - large
     layout:
       title: Layout
       type: string
-      examples:
-        - left_aligned
       enum:
         - left_aligned
         - center_aligned
@@ -74,4 +74,6 @@ props:
         left_aligned: Left aligned
         center_aligned: Center aligned
         right_aligned: Right aligned
+      examples:
+        - left_aligned
 slots: {}

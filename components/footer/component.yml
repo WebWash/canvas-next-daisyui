@@ -4,9 +4,35 @@ status: true
 required: []
 props:
   properties:
-    text:
-      title: Text
+    layout:
+      title: Layout
+      type: string
+      enum:
+        - columns
+        - centered
+      meta:enum:
+        columns: Columns
+        centered: Centered
+      examples:
+        - columns
+    background:
+      title: Background
+      type: string
+      enum:
+        - base_200
+        - base_300
+        - neutral
+      meta:enum:
+        base_200: Base 200
+        base_300: Base 300
+        neutral: Neutral
+      examples:
+        - base_200
+    copyrightText:
+      title: Copyright Text
       type: string
       examples:
-        - '© 2025 Company Name. All rights reserved.'
-slots: {}
+        - © 2026 Company Name. All rights reserved.
+slots:
+  brand:
+    title: Brand

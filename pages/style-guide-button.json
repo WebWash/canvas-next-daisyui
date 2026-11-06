@@ -1,0 +1,882 @@
+{
+  "title": "Style guide: Button",
+  "path": "/style-guide/button",
+  "description": "A variant by colour matrix, all sizes and shapes, icons, disabled states and both elements.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "grid-1",
+          "heading-3",
+          "grid-2",
+          "heading-4",
+          "grid-3",
+          "heading-5",
+          "grid-4",
+          "heading-6",
+          "grid-5",
+          "heading-7",
+          "grid-6",
+          "heading-8",
+          "grid-7",
+          "heading-9",
+          "grid-8",
+          "heading-10",
+          "grid-9",
+          "heading-11",
+          "grid-10",
+          "heading-12",
+          "grid-11"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Button",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>A variant by colour matrix, all sizes and shapes, icons, disabled states and both elements.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variant: default",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-1",
+          "button-2",
+          "button-3",
+          "button-4",
+          "button-5",
+          "button-6",
+          "button-7",
+          "button-8",
+          "button-9"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Default",
+        "variant": "default",
+        "color": "default"
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "Neutral",
+        "variant": "default",
+        "color": "neutral"
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "Primary",
+        "variant": "default",
+        "color": "primary"
+      }
+    },
+    "button-4": {
+      "type": "js.button",
+      "props": {
+        "text": "Secondary",
+        "variant": "default",
+        "color": "secondary"
+      }
+    },
+    "button-5": {
+      "type": "js.button",
+      "props": {
+        "text": "Accent",
+        "variant": "default",
+        "color": "accent"
+      }
+    },
+    "button-6": {
+      "type": "js.button",
+      "props": {
+        "text": "Info",
+        "variant": "default",
+        "color": "info"
+      }
+    },
+    "button-7": {
+      "type": "js.button",
+      "props": {
+        "text": "Success",
+        "variant": "default",
+        "color": "success"
+      }
+    },
+    "button-8": {
+      "type": "js.button",
+      "props": {
+        "text": "Warning",
+        "variant": "default",
+        "color": "warning"
+      }
+    },
+    "button-9": {
+      "type": "js.button",
+      "props": {
+        "text": "Error",
+        "variant": "default",
+        "color": "error"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variant: outline",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-2": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-10",
+          "button-11",
+          "button-12",
+          "button-13",
+          "button-14",
+          "button-15",
+          "button-16",
+          "button-17",
+          "button-18"
+        ]
+      }
+    },
+    "button-10": {
+      "type": "js.button",
+      "props": {
+        "text": "Default",
+        "variant": "outline",
+        "color": "default"
+      }
+    },
+    "button-11": {
+      "type": "js.button",
+      "props": {
+        "text": "Neutral",
+        "variant": "outline",
+        "color": "neutral"
+      }
+    },
+    "button-12": {
+      "type": "js.button",
+      "props": {
+        "text": "Primary",
+        "variant": "outline",
+        "color": "primary"
+      }
+    },
+    "button-13": {
+      "type": "js.button",
+      "props": {
+        "text": "Secondary",
+        "variant": "outline",
+        "color": "secondary"
+      }
+    },
+    "button-14": {
+      "type": "js.button",
+      "props": {
+        "text": "Accent",
+        "variant": "outline",
+        "color": "accent"
+      }
+    },
+    "button-15": {
+      "type": "js.button",
+      "props": {
+        "text": "Info",
+        "variant": "outline",
+        "color": "info"
+      }
+    },
+    "button-16": {
+      "type": "js.button",
+      "props": {
+        "text": "Success",
+        "variant": "outline",
+        "color": "success"
+      }
+    },
+    "button-17": {
+      "type": "js.button",
+      "props": {
+        "text": "Warning",
+        "variant": "outline",
+        "color": "warning"
+      }
+    },
+    "button-18": {
+      "type": "js.button",
+      "props": {
+        "text": "Error",
+        "variant": "outline",
+        "color": "error"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variant: dash",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-3": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-19",
+          "button-20",
+          "button-21",
+          "button-22",
+          "button-23",
+          "button-24",
+          "button-25",
+          "button-26",
+          "button-27"
+        ]
+      }
+    },
+    "button-19": {
+      "type": "js.button",
+      "props": {
+        "text": "Default",
+        "variant": "dash",
+        "color": "default"
+      }
+    },
+    "button-20": {
+      "type": "js.button",
+      "props": {
+        "text": "Neutral",
+        "variant": "dash",
+        "color": "neutral"
+      }
+    },
+    "button-21": {
+      "type": "js.button",
+      "props": {
+        "text": "Primary",
+        "variant": "dash",
+        "color": "primary"
+      }
+    },
+    "button-22": {
+      "type": "js.button",
+      "props": {
+        "text": "Secondary",
+        "variant": "dash",
+        "color": "secondary"
+      }
+    },
+    "button-23": {
+      "type": "js.button",
+      "props": {
+        "text": "Accent",
+        "variant": "dash",
+        "color": "accent"
+      }
+    },
+    "button-24": {
+      "type": "js.button",
+      "props": {
+        "text": "Info",
+        "variant": "dash",
+        "color": "info"
+      }
+    },
+    "button-25": {
+      "type": "js.button",
+      "props": {
+        "text": "Success",
+        "variant": "dash",
+        "color": "success"
+      }
+    },
+    "button-26": {
+      "type": "js.button",
+      "props": {
+        "text": "Warning",
+        "variant": "dash",
+        "color": "warning"
+      }
+    },
+    "button-27": {
+      "type": "js.button",
+      "props": {
+        "text": "Error",
+        "variant": "dash",
+        "color": "error"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variant: soft",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-4": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-28",
+          "button-29",
+          "button-30",
+          "button-31",
+          "button-32",
+          "button-33",
+          "button-34",
+          "button-35",
+          "button-36"
+        ]
+      }
+    },
+    "button-28": {
+      "type": "js.button",
+      "props": {
+        "text": "Default",
+        "variant": "soft",
+        "color": "default"
+      }
+    },
+    "button-29": {
+      "type": "js.button",
+      "props": {
+        "text": "Neutral",
+        "variant": "soft",
+        "color": "neutral"
+      }
+    },
+    "button-30": {
+      "type": "js.button",
+      "props": {
+        "text": "Primary",
+        "variant": "soft",
+        "color": "primary"
+      }
+    },
+    "button-31": {
+      "type": "js.button",
+      "props": {
+        "text": "Secondary",
+        "variant": "soft",
+        "color": "secondary"
+      }
+    },
+    "button-32": {
+      "type": "js.button",
+      "props": {
+        "text": "Accent",
+        "variant": "soft",
+        "color": "accent"
+      }
+    },
+    "button-33": {
+      "type": "js.button",
+      "props": {
+        "text": "Info",
+        "variant": "soft",
+        "color": "info"
+      }
+    },
+    "button-34": {
+      "type": "js.button",
+      "props": {
+        "text": "Success",
+        "variant": "soft",
+        "color": "success"
+      }
+    },
+    "button-35": {
+      "type": "js.button",
+      "props": {
+        "text": "Warning",
+        "variant": "soft",
+        "color": "warning"
+      }
+    },
+    "button-36": {
+      "type": "js.button",
+      "props": {
+        "text": "Error",
+        "variant": "soft",
+        "color": "error"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variant: ghost",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-5": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-37",
+          "button-38",
+          "button-39",
+          "button-40",
+          "button-41",
+          "button-42",
+          "button-43",
+          "button-44",
+          "button-45"
+        ]
+      }
+    },
+    "button-37": {
+      "type": "js.button",
+      "props": {
+        "text": "Default",
+        "variant": "ghost",
+        "color": "default"
+      }
+    },
+    "button-38": {
+      "type": "js.button",
+      "props": {
+        "text": "Neutral",
+        "variant": "ghost",
+        "color": "neutral"
+      }
+    },
+    "button-39": {
+      "type": "js.button",
+      "props": {
+        "text": "Primary",
+        "variant": "ghost",
+        "color": "primary"
+      }
+    },
+    "button-40": {
+      "type": "js.button",
+      "props": {
+        "text": "Secondary",
+        "variant": "ghost",
+        "color": "secondary"
+      }
+    },
+    "button-41": {
+      "type": "js.button",
+      "props": {
+        "text": "Accent",
+        "variant": "ghost",
+        "color": "accent"
+      }
+    },
+    "button-42": {
+      "type": "js.button",
+      "props": {
+        "text": "Info",
+        "variant": "ghost",
+        "color": "info"
+      }
+    },
+    "button-43": {
+      "type": "js.button",
+      "props": {
+        "text": "Success",
+        "variant": "ghost",
+        "color": "success"
+      }
+    },
+    "button-44": {
+      "type": "js.button",
+      "props": {
+        "text": "Warning",
+        "variant": "ghost",
+        "color": "warning"
+      }
+    },
+    "button-45": {
+      "type": "js.button",
+      "props": {
+        "text": "Error",
+        "variant": "ghost",
+        "color": "error"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Variant: link",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-6": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-46",
+          "button-47",
+          "button-48",
+          "button-49",
+          "button-50",
+          "button-51",
+          "button-52",
+          "button-53",
+          "button-54"
+        ]
+      }
+    },
+    "button-46": {
+      "type": "js.button",
+      "props": {
+        "text": "Default",
+        "variant": "link",
+        "color": "default"
+      }
+    },
+    "button-47": {
+      "type": "js.button",
+      "props": {
+        "text": "Neutral",
+        "variant": "link",
+        "color": "neutral"
+      }
+    },
+    "button-48": {
+      "type": "js.button",
+      "props": {
+        "text": "Primary",
+        "variant": "link",
+        "color": "primary"
+      }
+    },
+    "button-49": {
+      "type": "js.button",
+      "props": {
+        "text": "Secondary",
+        "variant": "link",
+        "color": "secondary"
+      }
+    },
+    "button-50": {
+      "type": "js.button",
+      "props": {
+        "text": "Accent",
+        "variant": "link",
+        "color": "accent"
+      }
+    },
+    "button-51": {
+      "type": "js.button",
+      "props": {
+        "text": "Info",
+        "variant": "link",
+        "color": "info"
+      }
+    },
+    "button-52": {
+      "type": "js.button",
+      "props": {
+        "text": "Success",
+        "variant": "link",
+        "color": "success"
+      }
+    },
+    "button-53": {
+      "type": "js.button",
+      "props": {
+        "text": "Warning",
+        "variant": "link",
+        "color": "warning"
+      }
+    },
+    "button-54": {
+      "type": "js.button",
+      "props": {
+        "text": "Error",
+        "variant": "link",
+        "color": "error"
+      }
+    },
+    "heading-8": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Sizes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-7": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-55",
+          "button-56",
+          "button-57",
+          "button-58",
+          "button-59"
+        ]
+      }
+    },
+    "button-55": {
+      "type": "js.button",
+      "props": {
+        "text": "Size xs",
+        "size": "xs"
+      }
+    },
+    "button-56": {
+      "type": "js.button",
+      "props": {
+        "text": "Size sm",
+        "size": "sm"
+      }
+    },
+    "button-57": {
+      "type": "js.button",
+      "props": {
+        "text": "Size md",
+        "size": "md"
+      }
+    },
+    "button-58": {
+      "type": "js.button",
+      "props": {
+        "text": "Size lg",
+        "size": "lg"
+      }
+    },
+    "button-59": {
+      "type": "js.button",
+      "props": {
+        "text": "Size xl",
+        "size": "xl"
+      }
+    },
+    "heading-9": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Shapes",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-8": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-60",
+          "button-61",
+          "button-62",
+          "button-63",
+          "button-64"
+        ]
+      }
+    },
+    "button-60": {
+      "type": "js.button",
+      "props": {
+        "text": "Default"
+      }
+    },
+    "button-61": {
+      "type": "js.button",
+      "props": {
+        "text": "Wide",
+        "shape": "wide"
+      }
+    },
+    "button-62": {
+      "type": "js.button",
+      "props": {
+        "text": "Block",
+        "shape": "block"
+      }
+    },
+    "button-63": {
+      "type": "js.button",
+      "props": {
+        "text": "Add",
+        "shape": "square",
+        "icon": "plus"
+      }
+    },
+    "button-64": {
+      "type": "js.button",
+      "props": {
+        "text": "Close",
+        "shape": "circle",
+        "icon": "close"
+      }
+    },
+    "heading-10": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Icons",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-9": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-65",
+          "button-66"
+        ]
+      }
+    },
+    "button-65": {
+      "type": "js.button",
+      "props": {
+        "text": "Icon at start",
+        "icon": "download"
+      }
+    },
+    "button-66": {
+      "type": "js.button",
+      "props": {
+        "text": "Icon at end",
+        "icon": "arrow_right",
+        "iconPosition": "end"
+      }
+    },
+    "heading-11": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Disabled",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-10": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-67",
+          "button-68"
+        ]
+      }
+    },
+    "button-67": {
+      "type": "js.button",
+      "props": {
+        "text": "Disabled button",
+        "disabled": true
+      }
+    },
+    "button-68": {
+      "type": "js.button",
+      "props": {
+        "text": "Disabled link",
+        "disabled": true,
+        "link": "/pricing"
+      }
+    },
+    "heading-12": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Elements",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-11": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "button-69",
+          "button-70"
+        ]
+      }
+    },
+    "button-69": {
+      "type": "js.button",
+      "props": {
+        "text": "A link element",
+        "link": "/pricing"
+      }
+    },
+    "button-70": {
+      "type": "js.button",
+      "props": {
+        "text": "A button element"
+      }
+    }
+  }
+}

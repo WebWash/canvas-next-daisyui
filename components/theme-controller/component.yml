@@ -1,0 +1,42 @@
+name: Theme Controller
+machineName: theme-controller
+status: true
+required:
+  - theme
+  - label
+props:
+  properties:
+    variant:
+      title: Variant
+      type: string
+      enum:
+        - toggle
+        - checkbox
+        - swap
+      meta:enum:
+        toggle: Toggle
+        checkbox: Checkbox
+        swap: Swap
+      examples:
+        - toggle
+    theme:
+      title: Theme
+      type: string
+      enum:
+        - light
+        - dark
+        - corporate
+        - synthwave
+      meta:enum:
+        light: Light
+        dark: Dark
+        corporate: Corporate
+        synthwave: Synthwave
+      examples:
+        - dark
+    label:
+      title: Label
+      type: string
+      examples:
+        - Dark theme
+slots: {}

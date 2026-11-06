@@ -1,0 +1,73 @@
+name: Dropdown
+machineName: dropdown
+status: true
+required:
+  - buttonText
+props:
+  properties:
+    buttonText:
+      title: Button Text
+      type: string
+      examples:
+        - Open menu
+    placement:
+      title: Placement
+      type: string
+      enum:
+        - bottom
+        - top
+        - left
+        - right
+      meta:enum:
+        bottom: Bottom
+        top: Top
+        left: Left
+        right: Right
+      examples:
+        - bottom
+    alignment:
+      title: Alignment
+      type: string
+      enum:
+        - start
+        - center
+        - end
+      meta:enum:
+        start: Start
+        center: Center
+        end: End
+      examples:
+        - start
+    color:
+      title: Color
+      type: string
+      enum:
+        - default
+        - neutral
+        - primary
+        - secondary
+        - accent
+        - info
+        - success
+        - warning
+        - error
+      meta:enum:
+        default: Default
+        neutral: Neutral
+        primary: Primary
+        secondary: Secondary
+        accent: Accent
+        info: Info
+        success: Success
+        warning: Warning
+        error: Error
+      examples:
+        - default
+    openByDefault:
+      title: Open By Default
+      type: boolean
+      examples:
+        - false
+slots:
+  content:
+    title: Content

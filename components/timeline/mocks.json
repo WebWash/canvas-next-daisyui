@@ -1,0 +1,178 @@
+{
+  "mocks": [
+    {
+      "name": "Vertical",
+      "slots": {
+        "items": [
+          "timeline-item-1",
+          "timeline-item-2",
+          "timeline-item-3"
+        ]
+      },
+      "elements": {
+        "timeline-item-1": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "1984",
+            "endText": "First Mac"
+          }
+        },
+        "timeline-item-2": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "1998",
+            "endText": "iMac"
+          }
+        },
+        "timeline-item-3": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "2007",
+            "endText": "iPhone"
+          }
+        }
+      }
+    },
+    {
+      "name": "Horizontal",
+      "props": {
+        "direction": "horizontal"
+      },
+      "slots": {
+        "items": [
+          "timeline-item-1",
+          "timeline-item-2",
+          "timeline-item-3"
+        ]
+      },
+      "elements": {
+        "timeline-item-1": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "1984",
+            "endText": "First Mac"
+          }
+        },
+        "timeline-item-2": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "1998",
+            "endText": "iMac"
+          }
+        },
+        "timeline-item-3": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "2007",
+            "endText": "iPhone"
+          }
+        }
+      }
+    },
+    {
+      "name": "Compact",
+      "props": {
+        "compact": true
+      },
+      "slots": {
+        "items": [
+          "timeline-item-1",
+          "timeline-item-2",
+          "timeline-item-3"
+        ]
+      },
+      "elements": {
+        "timeline-item-1": {
+          "type": "timeline-item",
+          "props": {
+            "endText": "Event 1"
+          }
+        },
+        "timeline-item-2": {
+          "type": "timeline-item",
+          "props": {
+            "endText": "Event 2"
+          }
+        },
+        "timeline-item-3": {
+          "type": "timeline-item",
+          "props": {
+            "endText": "Event 3"
+          }
+        }
+      }
+    },
+    {
+      "name": "Snap icon",
+      "props": {
+        "snapIcon": true
+      },
+      "slots": {
+        "items": [
+          "timeline-item-1",
+          "timeline-item-2",
+          "timeline-item-3"
+        ]
+      },
+      "elements": {
+        "timeline-item-1": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "1984",
+            "endText": "First Mac"
+          }
+        },
+        "timeline-item-2": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "1998",
+            "endText": "iMac"
+          }
+        },
+        "timeline-item-3": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "2007",
+            "endText": "iPhone"
+          }
+        }
+      }
+    },
+    {
+      "name": "Boxed",
+      "slots": {
+        "items": [
+          "timeline-item-1",
+          "timeline-item-2",
+          "timeline-item-3"
+        ]
+      },
+      "elements": {
+        "timeline-item-1": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "1984",
+            "endText": "First Mac",
+            "boxed": true
+          }
+        },
+        "timeline-item-2": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "1998",
+            "endText": "iMac",
+            "boxed": true
+          }
+        },
+        "timeline-item-3": {
+          "type": "timeline-item",
+          "props": {
+            "startText": "2007",
+            "endText": "iPhone",
+            "boxed": true
+          }
+        }
+      }
+    }
+  ]
+}

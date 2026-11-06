@@ -1,0 +1,91 @@
+{
+  "mocks": [
+    {
+      "name": "Ghost",
+      "props": {
+        "variant": "ghost",
+        "label": "Your message"
+      }
+    },
+    {
+      "name": "Floating label",
+      "props": {
+        "label": "Your message",
+        "labelStyle": "floating"
+      }
+    },
+    {
+      "name": "With value",
+      "props": {
+        "label": "Your message",
+        "value": "Hello there."
+      }
+    },
+    {
+      "name": "Validation stacked",
+      "props": {
+        "label": "Your message",
+        "required": true,
+        "validationMessage": "Write a message."
+      }
+    },
+    {
+      "name": "Validation floating",
+      "props": {
+        "label": "Your message",
+        "required": true,
+        "validationMessage": "Write a message.",
+        "labelStyle": "floating"
+      }
+    },
+    {
+      "name": "Description",
+      "props": {
+        "label": "Your message",
+        "description": "A short description of this field that is long enough to show that it wraps onto another line."
+      }
+    },
+    {
+      "name": "Hidden label",
+      "props": {
+        "label": "Your message",
+        "hideLabel": true
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "Your message",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "label": "Your message",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "label": "Your message",
+        "color": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "label": "Your message",
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "label": "Your message",
+        "size": "lg"
+      }
+    }
+  ]
+}

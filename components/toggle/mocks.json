@@ -1,0 +1,60 @@
+{
+  "mocks": [
+    {
+      "name": "Checked",
+      "props": {
+        "label": "Enable alerts",
+        "checked": true
+      }
+    },
+    {
+      "name": "Description",
+      "props": {
+        "label": "Enable alerts",
+        "description": "A short description of this field that is long enough to show that it wraps onto another line."
+      }
+    },
+    {
+      "name": "Hidden label",
+      "props": {
+        "label": "Enable alerts",
+        "hideLabel": true
+      }
+    },
+    {
+      "name": "Disabled",
+      "props": {
+        "label": "Enable alerts",
+        "disabled": true
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "label": "Enable alerts",
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "label": "Enable alerts",
+        "color": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "label": "Enable alerts",
+        "size": "xs"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "label": "Enable alerts",
+        "size": "lg"
+      }
+    }
+  ]
+}

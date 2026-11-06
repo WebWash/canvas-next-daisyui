@@ -1,0 +1,66 @@
+name: Indicator
+machineName: indicator
+status: true
+required:
+  - text
+props:
+  properties:
+    text:
+      title: Text
+      type: string
+      examples:
+        - New
+    horizontal:
+      title: Horizontal
+      type: string
+      enum:
+        - end
+        - center
+        - start
+      meta:enum:
+        end: End
+        center: Center
+        start: Start
+      examples:
+        - end
+    vertical:
+      title: Vertical
+      type: string
+      enum:
+        - top
+        - middle
+        - bottom
+      meta:enum:
+        top: Top
+        middle: Middle
+        bottom: Bottom
+      examples:
+        - top
+    color:
+      title: Color
+      type: string
+      enum:
+        - default
+        - neutral
+        - primary
+        - secondary
+        - accent
+        - info
+        - success
+        - warning
+        - error
+      meta:enum:
+        default: Default
+        neutral: Neutral
+        primary: Primary
+        secondary: Secondary
+        accent: Accent
+        info: Info
+        success: Success
+        warning: Warning
+        error: Error
+      examples:
+        - default
+slots:
+  content:
+    title: Content

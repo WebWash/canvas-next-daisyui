@@ -1,0 +1,1924 @@
+{
+  "title": "Style guide: Layout",
+  "path": "/style-guide/layout",
+  "description": "Every section width, background and padding, every grid layout and gap, and spacers and dividers.",
+  "elements": {
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "text-1",
+          "heading-2",
+          "section-2",
+          "section-3",
+          "section-4",
+          "heading-3",
+          "section-5",
+          "section-6",
+          "section-7",
+          "section-8",
+          "section-9",
+          "section-10",
+          "heading-4",
+          "section-11",
+          "section-12",
+          "section-13",
+          "section-14",
+          "heading-5",
+          "section-15",
+          "section-16",
+          "section-17",
+          "section-18",
+          "heading-6",
+          "section-19",
+          "section-22",
+          "section-26",
+          "section-29",
+          "section-32",
+          "section-35",
+          "section-38",
+          "section-42",
+          "section-46",
+          "heading-7",
+          "section-51",
+          "section-55",
+          "section-59",
+          "section-63",
+          "section-67",
+          "heading-8",
+          "section-71",
+          "section-72",
+          "section-73",
+          "section-74",
+          "heading-9",
+          "divider-1",
+          "divider-2",
+          "divider-3",
+          "divider-4",
+          "divider-5",
+          "divider-6",
+          "divider-7",
+          "divider-8",
+          "divider-9",
+          "divider-10",
+          "divider-11",
+          "divider-12"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Layout",
+        "headingElement": "h1",
+        "headingSize": "extra_large"
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Every section width, background and padding, every grid layout and gap, and spacers and dividers.</p>"
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Section widths",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "normal",
+        "background": "base_200",
+        "paddingY": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-2"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Width normal</p>"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "background": "base_200",
+        "paddingY": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-3"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Width wide</p>"
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "background": "base_200",
+        "paddingY": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-4"
+        ]
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Width full</p>"
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Section backgrounds",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "background": "none",
+        "paddingY": "sm",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-5"
+        ]
+      }
+    },
+    "text-5": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Background None. <a href=\"/pricing\">A link</a>.</p>"
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "background": "base_100",
+        "paddingY": "sm",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-6"
+        ]
+      }
+    },
+    "text-6": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Background Base 100. <a href=\"/pricing\">A link</a>.</p>"
+      }
+    },
+    "section-7": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-7"
+        ]
+      }
+    },
+    "text-7": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Background Base 200. <a href=\"/pricing\">A link</a>.</p>"
+      }
+    },
+    "section-8": {
+      "type": "js.section",
+      "props": {
+        "background": "base_300",
+        "paddingY": "sm",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-8"
+        ]
+      }
+    },
+    "text-8": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Background Base 300. <a href=\"/pricing\">A link</a>.</p>"
+      }
+    },
+    "section-9": {
+      "type": "js.section",
+      "props": {
+        "background": "neutral",
+        "paddingY": "sm",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-9"
+        ]
+      }
+    },
+    "text-9": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Background Neutral. <a href=\"/pricing\">A link</a>.</p>"
+      }
+    },
+    "section-10": {
+      "type": "js.section",
+      "props": {
+        "background": "primary",
+        "paddingY": "sm",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-10"
+        ]
+      }
+    },
+    "text-10": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Background Primary. <a href=\"/pricing\">A link</a>.</p>"
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Section padding",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-11": {
+      "type": "js.section",
+      "props": {
+        "paddingY": "none",
+        "background": "base_200",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-11"
+        ]
+      }
+    },
+    "text-11": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Padding none</p>"
+      }
+    },
+    "section-12": {
+      "type": "js.section",
+      "props": {
+        "paddingY": "sm",
+        "background": "base_200",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-12"
+        ]
+      }
+    },
+    "text-12": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Padding sm</p>"
+      }
+    },
+    "section-13": {
+      "type": "js.section",
+      "props": {
+        "paddingY": "md",
+        "background": "base_200",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-13"
+        ]
+      }
+    },
+    "text-13": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Padding md</p>"
+      }
+    },
+    "section-14": {
+      "type": "js.section",
+      "props": {
+        "paddingY": "lg",
+        "background": "base_200",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-14"
+        ]
+      }
+    },
+    "text-14": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Padding lg</p>"
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Section gap",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-15": {
+      "type": "js.section",
+      "props": {
+        "gap": "none",
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-15",
+          "text-16"
+        ]
+      }
+    },
+    "text-15": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Gap none</p>"
+      }
+    },
+    "text-16": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Gap none</p>"
+      }
+    },
+    "section-16": {
+      "type": "js.section",
+      "props": {
+        "gap": "sm",
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-17",
+          "text-18"
+        ]
+      }
+    },
+    "text-17": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Gap sm</p>"
+      }
+    },
+    "text-18": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Gap sm</p>"
+      }
+    },
+    "section-17": {
+      "type": "js.section",
+      "props": {
+        "gap": "md",
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-19",
+          "text-20"
+        ]
+      }
+    },
+    "text-19": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Gap md</p>"
+      }
+    },
+    "text-20": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Gap md</p>"
+      }
+    },
+    "section-18": {
+      "type": "js.section",
+      "props": {
+        "gap": "lg",
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "wide"
+      },
+      "slots": {
+        "content": [
+          "text-21",
+          "text-22"
+        ]
+      }
+    },
+    "text-21": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Gap lg</p>"
+      }
+    },
+    "text-22": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Gap lg</p>"
+      }
+    },
+    "heading-6": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Grid layouts",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-19": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-23",
+          "grid-1"
+        ]
+      }
+    },
+    "text-23": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Layout 50-50</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-50"
+      },
+      "slots": {
+        "content": [
+          "section-20",
+          "section-21"
+        ]
+      }
+    },
+    "section-20": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-24"
+        ]
+      }
+    },
+    "text-24": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>50%</p>"
+      }
+    },
+    "section-21": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-25"
+        ]
+      }
+    },
+    "text-25": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>50%</p>"
+      }
+    },
+    "section-22": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-26",
+          "grid-2"
+        ]
+      }
+    },
+    "text-26": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Layout 33-33-33</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-2": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33"
+      },
+      "slots": {
+        "content": [
+          "section-23",
+          "section-24",
+          "section-25"
+        ]
+      }
+    },
+    "section-23": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-27"
+        ]
+      }
+    },
+    "text-27": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>33%</p>"
+      }
+    },
+    "section-24": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-28"
+        ]
+      }
+    },
+    "text-28": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>33%</p>"
+      }
+    },
+    "section-25": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-29"
+        ]
+      }
+    },
+    "text-29": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>33%</p>"
+      }
+    },
+    "section-26": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-30",
+          "grid-3"
+        ]
+      }
+    },
+    "text-30": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Layout 75-25</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-3": {
+      "type": "js.grid",
+      "props": {
+        "layout": "75-25"
+      },
+      "slots": {
+        "content": [
+          "section-27",
+          "section-28"
+        ]
+      }
+    },
+    "section-27": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-31"
+        ]
+      }
+    },
+    "text-31": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>75%</p>"
+      }
+    },
+    "section-28": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-32"
+        ]
+      }
+    },
+    "text-32": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>25%</p>"
+      }
+    },
+    "section-29": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-33",
+          "grid-4"
+        ]
+      }
+    },
+    "text-33": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Layout 25-75</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-4": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-75"
+      },
+      "slots": {
+        "content": [
+          "section-30",
+          "section-31"
+        ]
+      }
+    },
+    "section-30": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-34"
+        ]
+      }
+    },
+    "text-34": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>25%</p>"
+      }
+    },
+    "section-31": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-35"
+        ]
+      }
+    },
+    "text-35": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>75%</p>"
+      }
+    },
+    "section-32": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-36",
+          "grid-5"
+        ]
+      }
+    },
+    "text-36": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Layout 67-33</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-5": {
+      "type": "js.grid",
+      "props": {
+        "layout": "67-33"
+      },
+      "slots": {
+        "content": [
+          "section-33",
+          "section-34"
+        ]
+      }
+    },
+    "section-33": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-37"
+        ]
+      }
+    },
+    "text-37": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>67%</p>"
+      }
+    },
+    "section-34": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-38"
+        ]
+      }
+    },
+    "text-38": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>33%</p>"
+      }
+    },
+    "section-35": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-39",
+          "grid-6"
+        ]
+      }
+    },
+    "text-39": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Layout 33-67</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-6": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-67"
+      },
+      "slots": {
+        "content": [
+          "section-36",
+          "section-37"
+        ]
+      }
+    },
+    "section-36": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-40"
+        ]
+      }
+    },
+    "text-40": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>33%</p>"
+      }
+    },
+    "section-37": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-41"
+        ]
+      }
+    },
+    "text-41": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>67%</p>"
+      }
+    },
+    "section-38": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-42",
+          "grid-7"
+        ]
+      }
+    },
+    "text-42": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Layout 50-25-25</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-7": {
+      "type": "js.grid",
+      "props": {
+        "layout": "50-25-25"
+      },
+      "slots": {
+        "content": [
+          "section-39",
+          "section-40",
+          "section-41"
+        ]
+      }
+    },
+    "section-39": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-43"
+        ]
+      }
+    },
+    "text-43": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>50%</p>"
+      }
+    },
+    "section-40": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-44"
+        ]
+      }
+    },
+    "text-44": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>25%</p>"
+      }
+    },
+    "section-41": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-45"
+        ]
+      }
+    },
+    "text-45": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>25%</p>"
+      }
+    },
+    "section-42": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-46",
+          "grid-8"
+        ]
+      }
+    },
+    "text-46": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Layout 25-25-50</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-8": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-50"
+      },
+      "slots": {
+        "content": [
+          "section-43",
+          "section-44",
+          "section-45"
+        ]
+      }
+    },
+    "section-43": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-47"
+        ]
+      }
+    },
+    "text-47": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>25%</p>"
+      }
+    },
+    "section-44": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-48"
+        ]
+      }
+    },
+    "text-48": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>25%</p>"
+      }
+    },
+    "section-45": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-49"
+        ]
+      }
+    },
+    "text-49": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>50%</p>"
+      }
+    },
+    "section-46": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-50",
+          "grid-9"
+        ]
+      }
+    },
+    "text-50": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Layout 25-25-25-25</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-9": {
+      "type": "js.grid",
+      "props": {
+        "layout": "25-25-25-25"
+      },
+      "slots": {
+        "content": [
+          "section-47",
+          "section-48",
+          "section-49",
+          "section-50"
+        ]
+      }
+    },
+    "section-47": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-51"
+        ]
+      }
+    },
+    "text-51": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>25%</p>"
+      }
+    },
+    "section-48": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-52"
+        ]
+      }
+    },
+    "text-52": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>25%</p>"
+      }
+    },
+    "section-49": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-53"
+        ]
+      }
+    },
+    "text-53": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>25%</p>"
+      }
+    },
+    "section-50": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-54"
+        ]
+      }
+    },
+    "text-54": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>25%</p>"
+      }
+    },
+    "heading-7": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Grid gaps",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-51": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-55",
+          "grid-10"
+        ]
+      }
+    },
+    "text-55": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Gap Extra small</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-10": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "extra_small"
+      },
+      "slots": {
+        "content": [
+          "section-52",
+          "section-53",
+          "section-54"
+        ]
+      }
+    },
+    "section-52": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-56"
+        ]
+      }
+    },
+    "text-56": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 1</p>"
+      }
+    },
+    "section-53": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-57"
+        ]
+      }
+    },
+    "text-57": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 2</p>"
+      }
+    },
+    "section-54": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-58"
+        ]
+      }
+    },
+    "text-58": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 3</p>"
+      }
+    },
+    "section-55": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-59",
+          "grid-11"
+        ]
+      }
+    },
+    "text-59": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Gap Small</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-11": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "small"
+      },
+      "slots": {
+        "content": [
+          "section-56",
+          "section-57",
+          "section-58"
+        ]
+      }
+    },
+    "section-56": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-60"
+        ]
+      }
+    },
+    "text-60": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 1</p>"
+      }
+    },
+    "section-57": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-61"
+        ]
+      }
+    },
+    "text-61": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 2</p>"
+      }
+    },
+    "section-58": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-62"
+        ]
+      }
+    },
+    "text-62": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 3</p>"
+      }
+    },
+    "section-59": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-63",
+          "grid-12"
+        ]
+      }
+    },
+    "text-63": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Gap Medium</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-12": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "medium"
+      },
+      "slots": {
+        "content": [
+          "section-60",
+          "section-61",
+          "section-62"
+        ]
+      }
+    },
+    "section-60": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-64"
+        ]
+      }
+    },
+    "text-64": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 1</p>"
+      }
+    },
+    "section-61": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-65"
+        ]
+      }
+    },
+    "text-65": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 2</p>"
+      }
+    },
+    "section-62": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-66"
+        ]
+      }
+    },
+    "text-66": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 3</p>"
+      }
+    },
+    "section-63": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-67",
+          "grid-13"
+        ]
+      }
+    },
+    "text-67": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Gap Large</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-13": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "section-64",
+          "section-65",
+          "section-66"
+        ]
+      }
+    },
+    "section-64": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-68"
+        ]
+      }
+    },
+    "text-68": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 1</p>"
+      }
+    },
+    "section-65": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-69"
+        ]
+      }
+    },
+    "text-69": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 2</p>"
+      }
+    },
+    "section-66": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-70"
+        ]
+      }
+    },
+    "text-70": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 3</p>"
+      }
+    },
+    "section-67": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-71",
+          "grid-14"
+        ]
+      }
+    },
+    "text-71": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Gap Extra large</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "grid-14": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "extra_large"
+      },
+      "slots": {
+        "content": [
+          "section-68",
+          "section-69",
+          "section-70"
+        ]
+      }
+    },
+    "section-68": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-72"
+        ]
+      }
+    },
+    "text-72": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 1</p>"
+      }
+    },
+    "section-69": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-73"
+        ]
+      }
+    },
+    "text-73": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 2</p>"
+      }
+    },
+    "section-70": {
+      "type": "js.section",
+      "props": {
+        "background": "base_200",
+        "paddingY": "sm",
+        "width": "full"
+      },
+      "slots": {
+        "content": [
+          "text-74"
+        ]
+      }
+    },
+    "text-74": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Item 3</p>"
+      }
+    },
+    "heading-8": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Spacers",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "section-71": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-75",
+          "spacer-1",
+          "text-76"
+        ]
+      }
+    },
+    "text-75": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Height Small</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "spacer-1": {
+      "type": "js.spacer",
+      "props": {
+        "height": "small"
+      }
+    },
+    "text-76": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Below the spacer.</p>"
+      }
+    },
+    "section-72": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-77",
+          "spacer-2",
+          "text-78"
+        ]
+      }
+    },
+    "text-77": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Height Medium</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "spacer-2": {
+      "type": "js.spacer",
+      "props": {
+        "height": "medium"
+      }
+    },
+    "text-78": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Below the spacer.</p>"
+      }
+    },
+    "section-73": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-79",
+          "spacer-3",
+          "text-80"
+        ]
+      }
+    },
+    "text-79": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Height Large</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "spacer-3": {
+      "type": "js.spacer",
+      "props": {
+        "height": "large"
+      }
+    },
+    "text-80": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Below the spacer.</p>"
+      }
+    },
+    "section-74": {
+      "type": "js.section",
+      "props": {
+        "width": "full",
+        "paddingY": "none",
+        "gap": "sm"
+      },
+      "slots": {
+        "content": [
+          "text-81",
+          "spacer-4",
+          "text-82"
+        ]
+      }
+    },
+    "text-81": {
+      "type": "js.text",
+      "props": {
+        "text": "<p><strong>Height Extra large</strong></p>",
+        "textSize": "small"
+      }
+    },
+    "spacer-4": {
+      "type": "js.spacer",
+      "props": {
+        "height": "extra_large"
+      }
+    },
+    "text-82": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Below the spacer.</p>"
+      }
+    },
+    "heading-9": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Dividers",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "divider-1": {
+      "type": "js.divider"
+    },
+    "divider-2": {
+      "type": "js.divider",
+      "props": {
+        "text": "Placement center",
+        "placement": "center"
+      }
+    },
+    "divider-3": {
+      "type": "js.divider",
+      "props": {
+        "text": "Placement start",
+        "placement": "start"
+      }
+    },
+    "divider-4": {
+      "type": "js.divider",
+      "props": {
+        "text": "Placement end",
+        "placement": "end"
+      }
+    },
+    "divider-5": {
+      "type": "js.divider",
+      "props": {
+        "text": "neutral",
+        "color": "neutral"
+      }
+    },
+    "divider-6": {
+      "type": "js.divider",
+      "props": {
+        "text": "primary",
+        "color": "primary"
+      }
+    },
+    "divider-7": {
+      "type": "js.divider",
+      "props": {
+        "text": "secondary",
+        "color": "secondary"
+      }
+    },
+    "divider-8": {
+      "type": "js.divider",
+      "props": {
+        "text": "accent",
+        "color": "accent"
+      }
+    },
+    "divider-9": {
+      "type": "js.divider",
+      "props": {
+        "text": "info",
+        "color": "info"
+      }
+    },
+    "divider-10": {
+      "type": "js.divider",
+      "props": {
+        "text": "success",
+        "color": "success"
+      }
+    },
+    "divider-11": {
+      "type": "js.divider",
+      "props": {
+        "text": "warning",
+        "color": "warning"
+      }
+    },
+    "divider-12": {
+      "type": "js.divider",
+      "props": {
+        "text": "error",
+        "color": "error"
+      }
+    }
+  }
+}

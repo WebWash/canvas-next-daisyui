@@ -1,0 +1,39 @@
+name: Stack
+machineName: stack
+status: true
+required: []
+props:
+  properties:
+    alignment:
+      title: Alignment
+      type: string
+      enum:
+        - default
+        - top
+        - bottom
+        - start
+        - end
+      meta:enum:
+        default: Default
+        top: Top
+        bottom: Bottom
+        start: Start
+        end: End
+      examples:
+        - default
+    size:
+      title: Size
+      type: string
+      enum:
+        - sm
+        - md
+        - lg
+      meta:enum:
+        sm: SM
+        md: MD
+        lg: LG
+      examples:
+        - md
+slots:
+  items:
+    title: Items

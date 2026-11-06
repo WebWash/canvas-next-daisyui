@@ -1,0 +1,36 @@
+{
+  "mocks": [
+    {
+      "name": "Checkbox",
+      "props": {
+        "variant": "checkbox",
+        "theme": "dark",
+        "label": "Dark theme"
+      }
+    },
+    {
+      "name": "Swap",
+      "props": {
+        "variant": "swap",
+        "theme": "dark",
+        "label": "Dark theme"
+      }
+    },
+    {
+      "name": "Corporate",
+      "props": {
+        "variant": "checkbox",
+        "theme": "corporate",
+        "label": "Corporate theme"
+      }
+    },
+    {
+      "name": "Synthwave",
+      "props": {
+        "variant": "checkbox",
+        "theme": "synthwave",
+        "label": "Synthwave theme"
+      }
+    }
+  ]
+}

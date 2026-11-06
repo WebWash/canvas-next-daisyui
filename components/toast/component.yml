@@ -1,0 +1,40 @@
+name: Toast
+machineName: toast
+status: true
+required: []
+props:
+  properties:
+    horizontal:
+      title: Horizontal
+      type: string
+      enum:
+        - start
+        - center
+        - end
+      meta:enum:
+        start: Start
+        center: Center
+        end: End
+      examples:
+        - end
+    vertical:
+      title: Vertical
+      type: string
+      enum:
+        - top
+        - middle
+        - bottom
+      meta:enum:
+        top: Top
+        middle: Middle
+        bottom: Bottom
+      examples:
+        - bottom
+    autoHideSeconds:
+      title: Auto Hide Seconds
+      type: integer
+      examples:
+        - 0
+slots:
+  content:
+    title: Content

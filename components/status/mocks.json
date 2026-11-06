@@ -1,0 +1,92 @@
+{
+  "mocks": [
+    {
+      "name": "Colour neutral",
+      "props": {
+        "color": "neutral",
+        "label": "neutral"
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "color": "primary",
+        "label": "primary"
+      }
+    },
+    {
+      "name": "Colour secondary",
+      "props": {
+        "color": "secondary",
+        "label": "secondary"
+      }
+    },
+    {
+      "name": "Colour accent",
+      "props": {
+        "color": "accent",
+        "label": "accent"
+      }
+    },
+    {
+      "name": "Colour info",
+      "props": {
+        "color": "info",
+        "label": "info"
+      }
+    },
+    {
+      "name": "Colour success",
+      "props": {
+        "color": "success",
+        "label": "success"
+      }
+    },
+    {
+      "name": "Colour warning",
+      "props": {
+        "color": "warning",
+        "label": "warning"
+      }
+    },
+    {
+      "name": "Colour error",
+      "props": {
+        "color": "error",
+        "label": "error"
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "size": "xs",
+        "color": "success",
+        "label": "Online"
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "size": "sm",
+        "color": "success",
+        "label": "Online"
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "size": "lg",
+        "color": "success",
+        "label": "Online"
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "size": "xl",
+        "color": "success",
+        "label": "Online"
+      }
+    }
+  ]
+}

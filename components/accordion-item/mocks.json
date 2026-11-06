@@ -1,22 +1,21 @@
 {
   "mocks": [
     {
-      "name": "Open",
+      "name": "Open with content",
       "props": {
-        "title": "Can this item start expanded?",
-        "headingElement": "h3",
-        "defaultOpen": true
+        "title": "What is daisyUI?",
+        "openByDefault": true
       },
       "slots": {
-        "content": ["open-content"]
+        "content": [
+          "text-1"
+        ]
       },
       "elements": {
-        "open-content": {
+        "text-1": {
           "type": "text",
           "props": {
-            "text": "Add any Canvas components into the content slot.",
-            "textSize": "normal",
-            "textColor": "dark"
+            "text": "<p>Answer text that explains this item in a sentence or two.</p>"
           }
         }
       }

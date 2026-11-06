@@ -1,0 +1,50 @@
+{
+  "mocks": [
+    {
+      "name": "Indeterminate",
+      "props": {
+        "max": 100
+      }
+    },
+    {
+      "name": "Colour neutral",
+      "props": {
+        "value": 70,
+        "max": 100,
+        "color": "neutral"
+      }
+    },
+    {
+      "name": "Colour primary",
+      "props": {
+        "value": 70,
+        "max": 100,
+        "color": "primary"
+      }
+    },
+    {
+      "name": "Colour secondary",
+      "props": {
+        "value": 70,
+        "max": 100,
+        "color": "secondary"
+      }
+    },
+    {
+      "name": "Colour accent",
+      "props": {
+        "value": 70,
+        "max": 100,
+        "color": "accent"
+      }
+    },
+    {
+      "name": "Full",
+      "props": {
+        "value": 100,
+        "max": 100,
+        "color": "success"
+      }
+    }
+  ]
+}

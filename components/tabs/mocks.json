@@ -1,0 +1,621 @@
+{
+  "mocks": [
+    {
+      "name": "Variant default",
+      "props": {
+        "variant": "default",
+        "label": "Sections"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      },
+      "elements": {
+        "tab-panel-1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "First",
+            "openByDefault": true
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>First panel.</p>"
+          }
+        },
+        "tab-panel-2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Second"
+          },
+          "slots": {
+            "content": [
+              "text-2"
+            ]
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Second panel.</p>"
+          }
+        },
+        "tab-panel-3": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Third"
+          },
+          "slots": {
+            "content": [
+              "text-3"
+            ]
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Third panel.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Variant box",
+      "props": {
+        "variant": "box",
+        "label": "Sections"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      },
+      "elements": {
+        "tab-panel-1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "First",
+            "openByDefault": true
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>First panel.</p>"
+          }
+        },
+        "tab-panel-2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Second"
+          },
+          "slots": {
+            "content": [
+              "text-2"
+            ]
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Second panel.</p>"
+          }
+        },
+        "tab-panel-3": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Third"
+          },
+          "slots": {
+            "content": [
+              "text-3"
+            ]
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Third panel.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Variant border",
+      "props": {
+        "variant": "border",
+        "label": "Sections"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      },
+      "elements": {
+        "tab-panel-1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "First",
+            "openByDefault": true
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>First panel.</p>"
+          }
+        },
+        "tab-panel-2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Second"
+          },
+          "slots": {
+            "content": [
+              "text-2"
+            ]
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Second panel.</p>"
+          }
+        },
+        "tab-panel-3": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Third"
+          },
+          "slots": {
+            "content": [
+              "text-3"
+            ]
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Third panel.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Variant lift",
+      "props": {
+        "variant": "lift",
+        "label": "Sections"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      },
+      "elements": {
+        "tab-panel-1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "First",
+            "openByDefault": true
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>First panel.</p>"
+          }
+        },
+        "tab-panel-2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Second"
+          },
+          "slots": {
+            "content": [
+              "text-2"
+            ]
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Second panel.</p>"
+          }
+        },
+        "tab-panel-3": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Third"
+          },
+          "slots": {
+            "content": [
+              "text-3"
+            ]
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Third panel.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size xs",
+      "props": {
+        "variant": "lift",
+        "label": "Sections",
+        "size": "xs"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      },
+      "elements": {
+        "tab-panel-1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "First",
+            "openByDefault": true
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>First panel.</p>"
+          }
+        },
+        "tab-panel-2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Second"
+          },
+          "slots": {
+            "content": [
+              "text-2"
+            ]
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Second panel.</p>"
+          }
+        },
+        "tab-panel-3": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Third"
+          },
+          "slots": {
+            "content": [
+              "text-3"
+            ]
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Third panel.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size sm",
+      "props": {
+        "variant": "lift",
+        "label": "Sections",
+        "size": "sm"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      },
+      "elements": {
+        "tab-panel-1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "First",
+            "openByDefault": true
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>First panel.</p>"
+          }
+        },
+        "tab-panel-2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Second"
+          },
+          "slots": {
+            "content": [
+              "text-2"
+            ]
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Second panel.</p>"
+          }
+        },
+        "tab-panel-3": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Third"
+          },
+          "slots": {
+            "content": [
+              "text-3"
+            ]
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Third panel.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size lg",
+      "props": {
+        "variant": "lift",
+        "label": "Sections",
+        "size": "lg"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      },
+      "elements": {
+        "tab-panel-1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "First",
+            "openByDefault": true
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>First panel.</p>"
+          }
+        },
+        "tab-panel-2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Second"
+          },
+          "slots": {
+            "content": [
+              "text-2"
+            ]
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Second panel.</p>"
+          }
+        },
+        "tab-panel-3": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Third"
+          },
+          "slots": {
+            "content": [
+              "text-3"
+            ]
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Third panel.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Size xl",
+      "props": {
+        "variant": "lift",
+        "label": "Sections",
+        "size": "xl"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      },
+      "elements": {
+        "tab-panel-1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "First",
+            "openByDefault": true
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>First panel.</p>"
+          }
+        },
+        "tab-panel-2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Second"
+          },
+          "slots": {
+            "content": [
+              "text-2"
+            ]
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Second panel.</p>"
+          }
+        },
+        "tab-panel-3": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Third"
+          },
+          "slots": {
+            "content": [
+              "text-3"
+            ]
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Third panel.</p>"
+          }
+        }
+      }
+    },
+    {
+      "name": "Bottom",
+      "props": {
+        "variant": "lift",
+        "label": "Sections",
+        "placement": "bottom"
+      },
+      "slots": {
+        "panels": [
+          "tab-panel-1",
+          "tab-panel-2",
+          "tab-panel-3"
+        ]
+      },
+      "elements": {
+        "tab-panel-1": {
+          "type": "tab-panel",
+          "props": {
+            "label": "First",
+            "openByDefault": true
+          },
+          "slots": {
+            "content": [
+              "text-1"
+            ]
+          }
+        },
+        "text-1": {
+          "type": "text",
+          "props": {
+            "text": "<p>First panel.</p>"
+          }
+        },
+        "tab-panel-2": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Second"
+          },
+          "slots": {
+            "content": [
+              "text-2"
+            ]
+          }
+        },
+        "text-2": {
+          "type": "text",
+          "props": {
+            "text": "<p>Second panel.</p>"
+          }
+        },
+        "tab-panel-3": {
+          "type": "tab-panel",
+          "props": {
+            "label": "Third"
+          },
+          "slots": {
+            "content": [
+              "text-3"
+            ]
+          }
+        },
+        "text-3": {
+          "type": "text",
+          "props": {
+            "text": "<p>Third panel.</p>"
+          }
+        }
+      }
+    }
+  ]
+}

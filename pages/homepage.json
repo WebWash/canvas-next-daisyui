@@ -1,0 +1,492 @@
+{
+  "title": "Home",
+  "path": "/",
+  "description": "A daisyUI component library for Drupal Canvas.",
+  "elements": {
+    "hero-1": {
+      "type": "js.hero",
+      "props": {
+        "variant": "image",
+        "heading": "daisyUI on Drupal Canvas",
+        "text": "<p>A full component library, built from every daisyUI guide and ready to place in the Canvas editor.</p>",
+        "backgroundImage": {
+          "src": "https://picsum.photos/seed/mountain-landscape/1600/900",
+          "alt": "Mountain landscape",
+          "width": 1600,
+          "height": 900
+        },
+        "overlay": true,
+        "minHeight": "half"
+      },
+      "slots": {
+        "actions": [
+          "button-1",
+          "button-2"
+        ]
+      }
+    },
+    "button-1": {
+      "type": "js.button",
+      "props": {
+        "text": "Open the style guide",
+        "link": "/style-guide",
+        "color": "primary"
+      }
+    },
+    "button-2": {
+      "type": "js.button",
+      "props": {
+        "text": "See pricing",
+        "link": "/pricing"
+      }
+    },
+    "section-1": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "md",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "stats-1"
+        ]
+      }
+    },
+    "stats-1": {
+      "type": "js.stats",
+      "props": {
+        "direction": "responsive"
+      },
+      "slots": {
+        "items": [
+          "stat-1",
+          "stat-2",
+          "stat-3"
+        ]
+      }
+    },
+    "stat-1": {
+      "type": "js.stat",
+      "props": {
+        "title": "Components",
+        "value": "88",
+        "description": "All built from daisyUI guides",
+        "icon": "sparkles"
+      }
+    },
+    "stat-2": {
+      "type": "js.stat",
+      "props": {
+        "title": "Guides covered",
+        "value": "68",
+        "description": "Every daisyUI guide",
+        "icon": "check"
+      }
+    },
+    "stat-3": {
+      "type": "js.stat",
+      "props": {
+        "title": "Themes",
+        "value": "4",
+        "description": "Switch from the navbar",
+        "icon": "sun"
+      }
+    },
+    "section-2": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg",
+        "background": "base_200"
+      },
+      "slots": {
+        "content": [
+          "heading-1",
+          "grid-1"
+        ]
+      }
+    },
+    "heading-1": {
+      "type": "js.heading",
+      "props": {
+        "heading": "What you get",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "grid-1": {
+      "type": "js.grid",
+      "props": {
+        "layout": "33-33-33",
+        "gap": "large"
+      },
+      "slots": {
+        "content": [
+          "card-1",
+          "card-2",
+          "card-3"
+        ]
+      }
+    },
+    "card-1": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Components",
+        "titleElement": "h3",
+        "image": {
+          "src": "https://picsum.photos/seed/components-illustration/800/500",
+          "alt": "Components illustration",
+          "width": 800,
+          "height": 500
+        },
+        "text": "<p>Every daisyUI guide is available as a Canvas component.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-3"
+        ]
+      }
+    },
+    "button-3": {
+      "type": "js.button",
+      "props": {
+        "text": "Learn more",
+        "link": "/components/actions",
+        "size": "sm"
+      }
+    },
+    "card-2": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Themes",
+        "titleElement": "h3",
+        "image": {
+          "src": "https://picsum.photos/seed/themes-illustration/800/500",
+          "alt": "Themes illustration",
+          "width": 800,
+          "height": 500
+        },
+        "text": "<p>Light, dark, corporate and synthwave, switched with CSS alone.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-4"
+        ]
+      }
+    },
+    "button-4": {
+      "type": "js.button",
+      "props": {
+        "text": "Learn more",
+        "link": "/style-guide/button",
+        "size": "sm"
+      }
+    },
+    "card-3": {
+      "type": "js.card",
+      "props": {
+        "variant": "border",
+        "title": "Pages",
+        "titleElement": "h3",
+        "image": {
+          "src": "https://picsum.photos/seed/pages-illustration/800/500",
+          "alt": "Pages illustration",
+          "width": 800,
+          "height": 500
+        },
+        "text": "<p>Realistic pages, category showcases and a full style guide.</p>"
+      },
+      "slots": {
+        "actions": [
+          "button-5"
+        ]
+      }
+    },
+    "button-5": {
+      "type": "js.button",
+      "props": {
+        "text": "Learn more",
+        "link": "/style-guide",
+        "size": "sm"
+      }
+    },
+    "section-3": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-2",
+          "carousel-1"
+        ]
+      }
+    },
+    "heading-2": {
+      "type": "js.heading",
+      "props": {
+        "heading": "A closer look",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "carousel-1": {
+      "type": "js.carousel",
+      "slots": {
+        "items": [
+          "carousel-item-1",
+          "carousel-item-2",
+          "carousel-item-3",
+          "carousel-item-4",
+          "carousel-item-5"
+        ]
+      }
+    },
+    "carousel-item-1": {
+      "type": "js.carousel-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/slide-1/320/220",
+          "alt": "Slide 1",
+          "width": 320,
+          "height": 220
+        }
+      }
+    },
+    "carousel-item-2": {
+      "type": "js.carousel-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/slide-2/320/220",
+          "alt": "Slide 2",
+          "width": 320,
+          "height": 220
+        }
+      }
+    },
+    "carousel-item-3": {
+      "type": "js.carousel-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/slide-3/320/220",
+          "alt": "Slide 3",
+          "width": 320,
+          "height": 220
+        }
+      }
+    },
+    "carousel-item-4": {
+      "type": "js.carousel-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/slide-4/320/220",
+          "alt": "Slide 4",
+          "width": 320,
+          "height": 220
+        }
+      }
+    },
+    "carousel-item-5": {
+      "type": "js.carousel-item",
+      "props": {
+        "image": {
+          "src": "https://picsum.photos/seed/slide-5/320/220",
+          "alt": "Slide 5",
+          "width": 320,
+          "height": 220
+        }
+      }
+    },
+    "section-4": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg",
+        "background": "base_200"
+      },
+      "slots": {
+        "content": [
+          "heading-3",
+          "timeline-1"
+        ]
+      }
+    },
+    "heading-3": {
+      "type": "js.heading",
+      "props": {
+        "heading": "How we got here",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "timeline-1": {
+      "type": "js.timeline",
+      "slots": {
+        "items": [
+          "timeline-item-1",
+          "timeline-item-2",
+          "timeline-item-3"
+        ]
+      }
+    },
+    "timeline-item-1": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2024",
+        "endText": "Project started",
+        "icon": "star",
+        "boxed": true
+      }
+    },
+    "timeline-item-2": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2025",
+        "endText": "First release",
+        "icon": "zap",
+        "boxed": true
+      }
+    },
+    "timeline-item-3": {
+      "type": "js.timeline-item",
+      "props": {
+        "startText": "2026",
+        "endText": "daisyUI version",
+        "icon": "check",
+        "boxed": true
+      }
+    },
+    "section-5": {
+      "type": "js.section",
+      "props": {
+        "width": "normal",
+        "paddingY": "lg",
+        "gap": "lg"
+      },
+      "slots": {
+        "content": [
+          "heading-4",
+          "accordion-1"
+        ]
+      }
+    },
+    "heading-4": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Frequently asked questions",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "accordion-1": {
+      "type": "js.accordion",
+      "props": {
+        "bordered": true
+      },
+      "slots": {
+        "items": [
+          "accordion-item-1",
+          "accordion-item-2",
+          "accordion-item-3"
+        ]
+      }
+    },
+    "accordion-item-1": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "What is daisyUI?",
+        "openByDefault": true
+      },
+      "slots": {
+        "content": [
+          "text-1"
+        ]
+      }
+    },
+    "text-1": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>A component library for Tailwind CSS.</p>"
+      }
+    },
+    "accordion-item-2": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Does this need JavaScript?"
+      },
+      "slots": {
+        "content": [
+          "text-2"
+        ]
+      }
+    },
+    "text-2": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Most of it is plain CSS and native HTML.</p>"
+      }
+    },
+    "accordion-item-3": {
+      "type": "js.accordion-item",
+      "props": {
+        "title": "Can every item close?"
+      },
+      "slots": {
+        "content": [
+          "text-3"
+        ]
+      }
+    },
+    "text-3": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Yes. Items use the native details element.</p>"
+      }
+    },
+    "section-6": {
+      "type": "js.section",
+      "props": {
+        "width": "wide",
+        "paddingY": "lg",
+        "gap": "lg",
+        "background": "neutral"
+      },
+      "slots": {
+        "content": [
+          "heading-5",
+          "text-4",
+          "button-6"
+        ]
+      }
+    },
+    "heading-5": {
+      "type": "js.heading",
+      "props": {
+        "heading": "Ready to build a page?",
+        "headingElement": "h2",
+        "headingSize": "large"
+      }
+    },
+    "text-4": {
+      "type": "js.text",
+      "props": {
+        "text": "<p>Every component is one drag away in the Canvas editor.</p>"
+      }
+    },
+    "button-6": {
+      "type": "js.button",
+      "props": {
+        "text": "Contact us",
+        "link": "/contact",
+        "color": "secondary"
+      }
+    }
+  }
+}
