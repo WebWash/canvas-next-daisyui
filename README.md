@@ -135,3 +135,7 @@ application SWR caches; the application owns cache invalidation.
 | `npm start`         | Run the production server              |
 | `npm run workbench` | Preview components in Canvas Workbench |
 | `npm run check`     | Run ESLint and TypeScript              |
+
+## License
+
+[MIT](LICENSE)
